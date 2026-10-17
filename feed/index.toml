@@ -273,7 +273,11 @@ hash = "92dd679e4e746cea9be90c77c320f937aa8b6f08106eb4ccec76af11b605faa5"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/item/trophy_wither.json"
-hash = "de9d907d358f30b5c1347e9554845587bef228290679a552a0fed061b3067b89"
+hash = "998c02be54a55579ffe421687a4d25a5b519ed8bd65d5abce32afd343750e872"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/wither_proof.json"
+hash = "998c02be54a55579ffe421687a4d25a5b519ed8bd65d5abce32afd343750e872"
 
 [[files]]
 file = "kubejs/assets/minecraft/models/crossbow.json"
@@ -2633,7 +2637,7 @@ hash = "5726cb3725d7330c5ff7e88cfb4c7415f2e446dc3e8d343c6df6c0cb1ea8af48"
 
 [[files]]
 file = "kubejs/startup_scripts/ashen_items.js"
-hash = "a1dc1ab691f93225bdd53e07c7207ffd9ca234dc8f6d0864a839444706508d97"
+hash = "8f0117202d1ba0e868c7ff9112bfe71ab4b2abd75e2abe5a451cdcf81b85d3f5"
 
 [[files]]
 file = "kubejs/startup_scripts/ashen_subclass_controls.js"
