@@ -60,9 +60,10 @@
       "rewards": [
         {
           "id": "75BF076F0DEEB682",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 4
+          "type": "xp",
+          "xp": 100,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [
@@ -197,9 +198,10 @@
       "rewards": [
         {
           "id": "21B7B9E44EEC1B18",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 4
+          "type": "xp",
+          "xp": 100,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [
@@ -232,9 +234,10 @@
       "rewards": [
         {
           "id": "100BA5E6FC5C4EA2",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 4
+          "type": "xp",
+          "xp": 100,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [
@@ -268,9 +271,10 @@
       "rewards": [
         {
           "id": "1E3357602599EA19",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 8
+          "type": "xp",
+          "xp": 200,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [
@@ -301,9 +305,10 @@
       "rewards": [
         {
           "id": "674CD4A9FC94DC1B",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 4
+          "type": "xp",
+          "xp": 100,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [
@@ -333,9 +338,10 @@
       "rewards": [
         {
           "id": "691509CC54F30D0D",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 4
+          "type": "xp",
+          "xp": 100,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [
@@ -497,9 +503,10 @@
       "rewards": [
         {
           "id": "7881A964614DBE49",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 3
+          "type": "xp",
+          "xp": 75,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [
@@ -531,9 +538,10 @@
       "rewards": [
         {
           "id": "133F1AB221783C92",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 3
+          "type": "xp",
+          "xp": 75,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [
@@ -565,9 +573,10 @@
       "rewards": [
         {
           "id": "23FF13BC96EF4B49",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 3
+          "type": "xp",
+          "xp": 75,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [
@@ -599,9 +608,10 @@
       "rewards": [
         {
           "id": "18D3B1FA0C061FD7",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 3
+          "type": "xp",
+          "xp": 75,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [
@@ -633,9 +643,10 @@
       "rewards": [
         {
           "id": "71F9A6C7EB5E00D6",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 3
+          "type": "xp",
+          "xp": 75,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [
@@ -667,9 +678,10 @@
       "rewards": [
         {
           "id": "5BFF238724801E71",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 3
+          "type": "xp",
+          "xp": 75,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [

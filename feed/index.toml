@@ -25,55 +25,55 @@ hash = "201da035fdfcedaf9f7b8d9a84f170f0fc6a48567a3de9a020a317b444b99eb2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/01_beneath_your_own_grave.snbt"
-hash = "a3608f9802a4813b12e3254a7931ddcc9216d1666217604486dd0857d2701645"
+hash = "3607c415e933b910c8b44a64d79340bc88e373457bcf9340cde1f0ac35edffff"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/02_embers_of_a_changed_world.snbt"
-hash = "c7d456006fd199cdf8d2fef318c215123a8ac4e9c9b9506a92f023e8a388757c"
+hash = "3b34398b4a9eac20058fbe9887b8d1c44ad92abe6cddfa845f70e0a86b860d0f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/03_the_machines_remember.snbt"
-hash = "b5c697450747507d4d046a72d95b8f0c385f498f6b8865d6f54c4fcbf0bd5b16"
+hash = "bc7cddef1f9e6dca072592f440954ebc43d9b88e9e5f7c1147271bb8d6e5b15c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/04_beyond_the_broken_sky.snbt"
-hash = "edd95a20daa9401e0978f28b33b4bffc054d2840b3535414a44fd2ba69f63136"
+hash = "2cc2d10784cd3624f515fe8f5189e817fe9f68e5fabc18caac0dc4c574e0a43b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/05_the_last_oath.snbt"
-hash = "484fc876b9adb2a981ce27e996ed562cb2c9f29bbfc4a4f86c8544f28b65210c"
+hash = "40a8d4c5466b5e962119524271da64deb099940a83b7c5d4751a4e6bf91e723c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/06_gearing.snbt"
-hash = "b5817dca67d04e7a419e2c4903f5ae98e99cf9f4900bc8639ac10eadf31e311c"
+hash = "380c0d9d9989b7b435f6760a39c33a3220875f5a6ea6cac07097cf33a8afd338"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/07_magic.snbt"
-hash = "b60d1939f90d9fd35e8fecc9998080681e8805d4ad9c31b66755c3a9fa9a4315"
+hash = "a42af9a500998b8ba9859a9da68fad44e2946a526faddd56585be30b4b1f4a66"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_workshop.snbt"
-hash = "23f43296baac5be26f0fce67a14ccf0af8683ffb3afea742f7133a7ab6a88906"
+hash = "3f314982f73d1342bbdfa3def023e21159d61b152b4ba680807dc368435a2b11"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/09_storage.snbt"
-hash = "d2181f9f2533d19c0e4fe1acda18feed2db551fe06660cf8bd2880937bd6ee32"
+hash = "8e9e386c62c4c469c7f874133561b0f57206398f2adbc61aee7a073fc1269b7f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/10_base_upgrades.snbt"
-hash = "0060b323e8ee4a20a4ae8b6d484e9b12c5aad29708d0f553dbc96ed6915bec8e"
+hash = "76bbd409e784195643d479dfcd9025b282b2a26c79dee8359e27853727f07c9d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/11_backpacks.snbt"
-hash = "21c0157fc5fd2105f36877fd022eb66b0a6ce1d663fe45516124babdc212bc30"
+hash = "3802d51a71953e4a5bc2cc0f4aa2ae3a51e0d32791ea904414fbb2d546ee586c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/12_field_milestones.snbt"
-hash = "2d4e3978cbe2bc8f3c94653d4c6f887760935b369ccf212edf74ee08c58c1b1e"
+hash = "d7d8f1ac1e227ccb33b803df4bbf5e44f3f267227c17143060b146d6e3fcfd7f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/13_combat_and_classes.snbt"
-hash = "37698dd1ed0ae470de68c005ca65004b276ec4e2151f775b7bd178a2d89f8a0b"
+hash = "073e7196254a133ab7b39f021b732466aa7d725f0d680940c92d651a6af1de8d"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -2637,6 +2637,11 @@ metafile = true
 [[files]]
 file = "mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar.pw.toml"
 hash = "f700459b7ed034e14a21ff5553a718e9fe55e39e78cb9f9959efcc557353760c"
+metafile = true
+
+[[files]]
+file = "mods/NaturesCompass-1.20.1-1.12.0-forge.jar.pw.toml"
+hash = "878a65d9d0de279bc5c0a38bd22b5cd77e7fb653e386dc5b0d10de8e501d4531"
 metafile = true
 
 [[files]]

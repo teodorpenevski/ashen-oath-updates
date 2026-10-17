@@ -32,9 +32,10 @@
       "rewards": [
         {
           "id": "42ED846E7ABE1804",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 3
+          "type": "xp",
+          "xp": 75,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [],
@@ -62,9 +63,10 @@
       "rewards": [
         {
           "id": "6CCE7509E28AEA8D",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 3
+          "type": "xp",
+          "xp": 75,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [
@@ -94,9 +96,10 @@
       "rewards": [
         {
           "id": "6FF074AFC4BF0AF9",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 3
+          "type": "xp",
+          "xp": 75,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [
@@ -126,9 +129,10 @@
       "rewards": [
         {
           "id": "7DD1491B07793911",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 3
+          "type": "xp",
+          "xp": 75,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [
@@ -158,9 +162,10 @@
       "rewards": [
         {
           "id": "31F815E086888965",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 3
+          "type": "xp",
+          "xp": 75,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [
@@ -190,9 +195,10 @@
       "rewards": [
         {
           "id": "71312E0CA71F8060",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 3
+          "type": "xp",
+          "xp": 75,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [
@@ -222,9 +228,10 @@
       "rewards": [
         {
           "id": "3BC669B12487C493",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 3
+          "type": "xp",
+          "xp": 75,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [
@@ -254,9 +261,10 @@
       "rewards": [
         {
           "id": "2F1171D718E9A42C",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 3
+          "type": "xp",
+          "xp": 75,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [
@@ -286,9 +294,10 @@
       "rewards": [
         {
           "id": "5BF34F8598C0BF2B",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 3
+          "type": "xp",
+          "xp": 75,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [
@@ -318,9 +327,10 @@
       "rewards": [
         {
           "id": "7BD769A07C4DA0E2",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 3
+          "type": "xp",
+          "xp": 75,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [

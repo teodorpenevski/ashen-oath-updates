@@ -60,9 +60,10 @@
       "rewards": [
         {
           "id": "52C083A90208C7C2",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 4
+          "type": "xp",
+          "xp": 100,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [
@@ -95,9 +96,10 @@
       "rewards": [
         {
           "id": "643F3ECD5A7ED15C",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 4
+          "type": "xp",
+          "xp": 100,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [
@@ -164,9 +166,10 @@
       "rewards": [
         {
           "id": "5929D7E6A89837E7",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 4
+          "type": "xp",
+          "xp": 100,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [
@@ -202,9 +205,10 @@
       "rewards": [
         {
           "id": "797CC35970FEABCD",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 12
+          "type": "xp",
+          "xp": 300,
+          "auto": "enabled",
+          "team_reward": false
         },
         {
           "id": "4023DB8FABB513BB",
@@ -246,9 +250,10 @@
       "rewards": [
         {
           "id": "7667128A4E35FB99",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 4
+          "type": "xp",
+          "xp": 100,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [
@@ -281,9 +286,10 @@
       "rewards": [
         {
           "id": "346FBAF072BCC946",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 4
+          "type": "xp",
+          "xp": 100,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [
@@ -463,9 +469,10 @@
       "rewards": [
         {
           "id": "5B1DC030D6548B83",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 3
+          "type": "xp",
+          "xp": 75,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [
@@ -497,9 +504,10 @@
       "rewards": [
         {
           "id": "1F936AA7AACB0DF1",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 3
+          "type": "xp",
+          "xp": 75,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [
@@ -531,9 +539,10 @@
       "rewards": [
         {
           "id": "4D3774DD7C1FDAB8",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 3
+          "type": "xp",
+          "xp": 75,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [
@@ -565,9 +574,10 @@
       "rewards": [
         {
           "id": "72BCE9F75E6868BF",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 3
+          "type": "xp",
+          "xp": 75,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [
@@ -599,9 +609,10 @@
       "rewards": [
         {
           "id": "7BF785C92BE1CC75",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 3
+          "type": "xp",
+          "xp": 75,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [
@@ -633,9 +644,10 @@
       "rewards": [
         {
           "id": "687176D18FB537AF",
-          "type": "item",
-          "item": "minecraft:experience_bottle",
-          "count": 3
+          "type": "xp",
+          "xp": 75,
+          "auto": "enabled",
+          "team_reward": false
         }
       ],
       "dependencies": [
