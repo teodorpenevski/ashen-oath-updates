@@ -1,0 +1,53 @@
+{
+  "id": "ashen:warrior_6",
+  "title": "Dawnwarden Memory",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "0ca089d2-c5b1-5f20-8892-e2b3c4ad7e27",
+      "name": "Ashen warrior_6",
+      "amount": 2,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "2a0f0baf-c2a3-5177-bfd3-09e89dba7222",
+      "name": "Ashen warrior_6",
+      "amount": 1,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:warrior_5",
+    "ashen:warrior_4",
+    "ashen:warrior_17",
+    "ashen:warrior_lifesteal_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "warrior"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -237.15,
+  "positionY": 237.15,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

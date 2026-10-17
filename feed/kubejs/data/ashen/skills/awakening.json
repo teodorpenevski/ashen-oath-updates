@@ -1,0 +1,65 @@
+{
+  "id": "ashen:awakening",
+  "title": "The Forgotten Warrior",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "c561a017-e63c-51b4-ab52-c5ee343226ff",
+      "name": "Ashen awakening",
+      "amount": 5,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "ca31e87a-363b-5827-a1fb-0d6880674659",
+      "name": "Ashen awakening",
+      "amount": 2,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "d88e3997-3cf7-5495-86f7-410907b78333",
+      "name": "Ashen awakening",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:path_mage",
+    "ashen:path_ranger",
+    "ashen:path_warrior",
+    "ashen:path_rogue"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/heart_cyan.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 0.0,
+  "positionY": 0.0,
+  "buttonSize": 28,
+  "isStartingPoint": true
+}

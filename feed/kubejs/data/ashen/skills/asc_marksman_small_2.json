@@ -1,0 +1,43 @@
+{
+  "id": "ashen:asc_marksman_small_2",
+  "title": "Patient Draw",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:draw_speed",
+      "id": "5e58b43a-62eb-5f5a-b613-c0f48120baa6",
+      "name": "Ashen asc_marksman_small_2",
+      "amount": 0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_marksman_root"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_marksman_root",
+    "ashen:asc_marksman_big_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "marksman"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/bow_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 190,
+  "positionY": -755,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

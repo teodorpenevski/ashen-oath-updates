@@ -1,0 +1,43 @@
+{
+  "id": "ashen:asc_duelist_small_1",
+  "title": "Measured Tempo",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "id": "3cde2170-2f0f-57f0-b73f-03bb4f058cab",
+      "name": "Ashen asc_duelist_small_1",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_duelist_root"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_duelist_root",
+    "ashen:asc_duelist_big_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "duelist"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_iron.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 691,
+  "positionY": 141,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

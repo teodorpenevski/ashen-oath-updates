@@ -1,0 +1,70 @@
+{
+  "id": "ashen:asc_assassin_big_3",
+  "title": "Lethal Precision",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_chance",
+      "id": "4c4b535b-2163-56e1-9e5c-7e4675391fa8",
+      "name": "Ashen asc_assassin_big_3",
+      "amount": 0.3,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_damage",
+      "id": "3ea89ab6-d2bf-5631-8b1a-666413a912ef",
+      "name": "Ashen asc_assassin_big_3",
+      "amount": 0.75,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "2c5e557f-c597-5f12-8bed-939f87d39844",
+      "name": "Ashen asc_assassin_big_3",
+      "amount": -0.15,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_assassin_small_3"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_assassin_small_3"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "assassin"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/sword_iron.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 137,
+  "positionY": 943,
+  "buttonSize": 38,
+  "isStartingPoint": false
+}

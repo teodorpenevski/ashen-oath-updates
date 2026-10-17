@@ -1,0 +1,8 @@
+name = "Shoulder Surfing Reloaded: Camera Fixes & Additions"
+filename = "ssrcamerafixes-forge-1.20.1-2.1.1.jar"
+side = "client"
+
+[download]
+url = "https://github.com/Seramicx/ssr-camera-fixes/releases/download/forge-v2.1.1/ssrcamerafixes-forge-1.20.1-2.1.1.jar"
+hash-format = "sha512"
+hash = "1090f9d95a8944b2225fd023b1743572112a9f446903b7ea7bce7b20774517cb009114fac5c57f020600b43b27c4d6750a0e0d5f166d7a521857e66f1ec6fe3a"

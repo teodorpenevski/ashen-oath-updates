@@ -1,0 +1,8 @@
+name = "Weapons of miracles"
+filename = "WeaponsOfMiracles-2.0.164-mc1.20.1-forge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/oWx9p4ug/versions/1BY06Q1A/WeaponsOfMiracles-2.0.164-mc1.20.1-forge.jar"
+hash-format = "sha512"
+hash = "36ecdb6a57697947a8fefdcb58e387514c82cd4fc357ebc8c2385d09d842a590a7ee5787662eef0c624ad3d8d48cceba86de795fcdeec70e0959e7a562c6ac55"

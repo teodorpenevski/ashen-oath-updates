@@ -1,0 +1,51 @@
+{
+  "id": "ashen:mage_9",
+  "title": "Arcanist",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "765b5900-2768-585d-95e3-1164c615fbb1",
+      "name": "Ashen mage_9",
+      "amount": 20,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_power",
+      "id": "8802294c-eedf-587f-a7ce-dc43d8901511",
+      "name": "Ashen mage_9",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:mage_8",
+    "ashen:mage_13"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "mage"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_blue.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -378.25,
+  "positionY": -192.1,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

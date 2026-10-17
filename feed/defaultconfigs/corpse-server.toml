@@ -1,0 +1,16 @@
+death_storage_duration = 30
+
+[corpse]
+skeleton_time = 72000
+lie_on_face = false
+show_equipment = true
+fall_into_void = false
+lava_damage = false
+
+[corpse.access]
+only_owner = true
+skeleton = false
+
+[corpse.despawn]
+time = 600
+force_time = -1

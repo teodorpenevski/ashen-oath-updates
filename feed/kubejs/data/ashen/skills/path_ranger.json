@@ -1,0 +1,37 @@
+{
+  "id": "ashen:path_ranger",
+  "title": "Patient Aim",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_damage",
+      "id": "75d833fa-4c77-5b9e-b38c-110f5429c613",
+      "name": "Ashen path_ranger",
+      "amount": 0.03,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:awakening",
+    "ashen:ranger_0"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ranger"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/bow_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 45.05,
+  "positionY": -45.05,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

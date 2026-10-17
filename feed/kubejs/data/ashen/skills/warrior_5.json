@@ -1,0 +1,37 @@
+{
+  "id": "ashen:warrior_5",
+  "title": "Steady Footing",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.knockback_resistance",
+      "id": "7255c5d4-0c23-5fed-afe1-08b11f8e4758",
+      "name": "Ashen warrior_5",
+      "amount": 0.1,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:warrior_3",
+    "ashen:warrior_6"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "warrior"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -183.6,
+  "positionY": 219.29999999999998,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

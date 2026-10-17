@@ -1,0 +1,70 @@
+{
+  "id": "ashen:asc_marksman_big_3",
+  "title": "Critical Horizon",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_chance",
+      "id": "ac004e2d-c7f8-533b-bf3b-f34a0b89dadc",
+      "name": "Ashen asc_marksman_big_3",
+      "amount": 0.4,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_damage",
+      "id": "a50e2134-2bbe-5ef4-87f1-86a1a615d51e",
+      "name": "Ashen asc_marksman_big_3",
+      "amount": 0.75,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "614d1425-eb33-5ef5-9f7f-e6b5a7ecb3de",
+      "name": "Ashen asc_marksman_big_3",
+      "amount": -0.15,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_marksman_small_3"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_marksman_small_3"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "marksman"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/bow_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 303,
+  "positionY": -943,
+  "buttonSize": 38,
+  "isStartingPoint": false
+}

@@ -1,0 +1,8 @@
+name = "Punchy!"
+filename = "punchy-2.8f-forge-1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/8aoMKplv/versions/vbMU3NlS/punchy-2.8f-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "19300feced11edb65d86878f82acc8ed00cb307d7c8a7b5c3e51582faecb7120c8343be26ba88f3224c6c2811106a21f8135ee6d2d5395b1410c70ff63f5db82"

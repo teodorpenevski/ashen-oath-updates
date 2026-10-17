@@ -1,0 +1,27 @@
+{
+  "id": "ashen:asc_vanguard_big_2",
+  "title": "Adamant",
+  "bonuses": [],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_vanguard_small_2"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_vanguard_small_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "vanguard"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -943,
+  "positionY": 303,
+  "buttonSize": 38,
+  "isStartingPoint": false
+}

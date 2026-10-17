@@ -1,0 +1,55 @@
+{
+  "id": "ashen:warrior_20",
+  "title": "Iron Resolve",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "832eb532-12ca-57ea-9126-05f8061e3c79",
+      "name": "Ashen warrior_20",
+      "amount": 4,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "39cfd5c9-1b4a-5f01-9f07-3c38df742bb5",
+      "name": "Ashen warrior_20",
+      "amount": 2,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:warrior_20_preparation_2"
+    }
+  ],
+  "directConnections": [
+    "ashen:warrior_20_preparation_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "warrior"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -348.5,
+  "positionY": 51.0,
+  "buttonSize": 28,
+  "isStartingPoint": false
+}

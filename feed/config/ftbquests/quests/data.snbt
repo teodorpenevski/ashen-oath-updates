@@ -1,0 +1,14 @@
+{
+  "version": 13,
+  "title": "Ashen Oath: The Forgotten Warrior",
+  "default_reward_team": false,
+  "default_consume_items": false,
+  "default_autoclaim_rewards": "disabled",
+  "progression_mode": "linear",
+  "default_quest_shape": "square",
+  "detection_delay": 20,
+  "show_lock_icons": true,
+  "grid_scale": 0.5,
+  "pause_game": false,
+  "drop_book_on_death": false
+}

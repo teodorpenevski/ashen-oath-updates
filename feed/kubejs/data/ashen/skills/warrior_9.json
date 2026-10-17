@@ -1,0 +1,51 @@
+{
+  "id": "ashen:warrior_9",
+  "title": "Vanguard",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "b04e58f6-e6fb-58cc-bcb7-d1380bc0c8a8",
+      "name": "Ashen warrior_9",
+      "amount": 1,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:stun_armor",
+      "id": "8035ba2c-166a-5843-98fe-915678997e65",
+      "name": "Ashen warrior_9",
+      "amount": 1,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:warrior_8",
+    "ashen:warrior_13"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "warrior"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -192.1,
+  "positionY": 378.25,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

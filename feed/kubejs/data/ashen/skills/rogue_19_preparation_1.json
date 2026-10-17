@@ -1,0 +1,28 @@
+{
+  "id": "ashen:rogue_19_preparation_1",
+  "title": "Double Jump \u2014 Preparation 1/1",
+  "bonuses": [],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:rogue_3"
+    }
+  ],
+  "directConnections": [
+    "ashen:rogue_3",
+    "ashen:rogue_19"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "rogue",
+    "major_preparation"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_iron.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 219.725,
+  "positionY": 68.425,
+  "buttonSize": 10,
+  "isStartingPoint": false
+}

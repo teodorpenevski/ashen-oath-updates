@@ -1,0 +1,37 @@
+{
+  "id": "ashen:warrior_1",
+  "title": "Hardened Skin",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "94a2d9f4-0a5c-5d69-ae46-77030d34f083",
+      "name": "Ashen warrior_1",
+      "amount": 1,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:warrior_0",
+    "ashen:warrior_3"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "warrior"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -99.45,
+  "positionY": 153.0,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

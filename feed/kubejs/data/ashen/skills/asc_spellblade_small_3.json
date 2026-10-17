@@ -1,0 +1,43 @@
+{
+  "id": "ashen:asc_spellblade_small_3",
+  "title": "Quick Inscription",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "id": "3914794e-4990-589b-93ba-2c82fbd84986",
+      "name": "Ashen asc_spellblade_small_3",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_spellblade_root"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_spellblade_root",
+    "ashen:asc_spellblade_big_3"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "spellblade"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_blue.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -190,
+  "positionY": -755,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

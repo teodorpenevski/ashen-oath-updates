@@ -1,0 +1,51 @@
+{
+  "id": "ashen:warrior_11",
+  "title": "Crushing Force",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:impact",
+      "id": "777cf1b8-b8cf-5c2b-a6f5-8fb3c4ac72be",
+      "name": "Ashen warrior_11",
+      "amount": 0.1,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "0f094e27-c6e3-5e91-b416-62a8e9ba62c8",
+      "name": "Ashen warrior_11",
+      "amount": 0.15,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:warrior_10",
+    "ashen:warrior_12"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "warrior"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -336.59999999999997,
+  "positionY": 156.4,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

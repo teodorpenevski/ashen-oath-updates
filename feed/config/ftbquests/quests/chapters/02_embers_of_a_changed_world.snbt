@@ -1,0 +1,682 @@
+{
+  "id": "3DDB777DC070E5C5",
+  "filename": "02_embers_of_a_changed_world",
+  "group": "",
+  "title": "2 · Embers of a Changed World",
+  "icon": "minecraft:blaze_powder",
+  "order_index": 1,
+  "default_quest_shape": "square",
+  "default_quest_size": 1.0,
+  "progression_mode": "linear",
+  "consume_items": false,
+  "quests": [
+    {
+      "id": "4AE2D7F6A78F781C",
+      "title": "Power in the Ashes",
+      "description": [
+        "Magic now lives in weapons and creatures. You may remain a melee warrior, but learning support spells can save your life."
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "7629194C1089118A"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7BDBFFAACB042FF6",
+          "type": "item",
+          "item": "irons_spellbooks:common_ink",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "43A1234FCF25952F"
+      ],
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "361C92660F02DC67",
+      "title": "Gold for the Crossing",
+      "description": [
+        "Collect eight gold ingots for Nether travel and supplies."
+      ],
+      "tasks": [
+        {
+          "id": "53FE39876A06DB89",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 8,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "75BF076F0DEEB682",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "4AE2D7F6A78F781C"
+      ],
+      "optional": false,
+      "x": 2.0,
+      "y": 0.0,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "29C7ABD3AF1901B3",
+      "title": "The First Inscription",
+      "description": [
+        "Build an Inscription Table. The Magic tutorial shows how to put found or crafted scrolls in a spellbook. The table is this chapter's only mandatory magic craft."
+      ],
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "irons_spellbooks:inscription_table",
+          "count": 1,
+          "consume_items": false,
+          "id": "6910FE511612EFBB"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "159782485DEA8D96",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 16
+        }
+      ],
+      "dependencies": [
+        "361C92660F02DC67"
+      ],
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "7341EE27326510E8",
+      "title": "Shape Your Weapon",
+      "description": [
+        "Build a Simple Reforging Table. Read its costs in JEI and use rarity materials, gem dust and XP to improve a weapon."
+      ],
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "apotheosis:simple_reforging_table",
+          "count": 1,
+          "consume_items": false,
+          "id": "49D2AE62EBBC0718"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "143435925DD55973",
+          "type": "item",
+          "item": "apotheosis:rare_material",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "29C7ABD3AF1901B3"
+      ],
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "59A47D6018B7E3D9",
+      "title": "A Door into Fire",
+      "description": [
+        "Gather ten obsidian for a Nether portal. Bring food, gold armor, blocks and a fire-resistance potion when possible."
+      ],
+      "x": 8.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "minecraft:obsidian",
+          "count": 10,
+          "consume_items": false,
+          "id": "5A3EED640CC9B2D2"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B9D18C66D17AAF2",
+          "type": "item",
+          "item": "minecraft:gold_ingot",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "7341EE27326510E8"
+      ],
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "537F38E1C45C20AF",
+      "title": "White Stone in the Ash",
+      "description": [
+        "Collect 16 Nether quartz as a first Nether resource milestone."
+      ],
+      "tasks": [
+        {
+          "id": "19ED2A09B389AA59",
+          "type": "item",
+          "item": "minecraft:quartz",
+          "count": 16,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "21B7B9E44EEC1B18",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "59A47D6018B7E3D9"
+      ],
+      "optional": false,
+      "x": 10.0,
+      "y": 0.0,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "1989B02458810B2E",
+      "title": "A Light in the Nether",
+      "description": [
+        "Collect 16 glowstone dust for brewing and future crafting."
+      ],
+      "tasks": [
+        {
+          "id": "17077E407B68388C",
+          "type": "item",
+          "item": "minecraft:glowstone_dust",
+          "count": 16,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "100BA5E6FC5C4EA2",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "537F38E1C45C20AF"
+      ],
+      "optional": false,
+      "x": 12.0,
+      "y": 0.0,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "5157388E66ED22AC",
+      "title": "Heat and Hunger",
+      "description": [
+        "Obtain six blaze rods in the Nether. Save some for Eyes of Ender and brewing."
+      ],
+      "x": 0.0,
+      "y": 3.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "minecraft:blaze_rod",
+          "count": 6,
+          "consume_items": false,
+          "id": "3A6580CFCB962FAE"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E3357602599EA19",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "1989B02458810B2E"
+      ],
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "5F95AC4FBCD264B3",
+      "title": "Eyes in the Dark",
+      "description": [
+        "Collect four Ender Pearls and keep them for the road ahead."
+      ],
+      "tasks": [
+        {
+          "id": "2346125AE6B74042",
+          "type": "item",
+          "item": "minecraft:ender_pearl",
+          "count": 4,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "674CD4A9FC94DC1B",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "5157388E66ED22AC"
+      ],
+      "optional": false,
+      "x": 2.0,
+      "y": 3.0,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "3C6F4D2A3B0DE515",
+      "title": "Learn the Firestorm",
+      "description": [
+        "Defeat three blazes. Learn when to take cover and when to rush them."
+      ],
+      "tasks": [
+        {
+          "id": "5522E11F8F5328B1",
+          "type": "kill",
+          "entity": "minecraft:blaze",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "691509CC54F30D0D",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "5F95AC4FBCD264B3"
+      ],
+      "optional": false,
+      "x": 4.0,
+      "y": 3.0,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "7787362D6B082AD4",
+      "title": "The Soul Forge",
+      "description": [
+        "Use the Explorer's Compass and search for Cataclysm's Soul Forge (structure ID is shown by the compass). Rare/epic affixes, armor, healing and fire protection are recommended. Other story bosses remain sealed until their chapter."
+      ],
+      "x": 6.0,
+      "y": 3.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "explorerscompass:explorerscompass",
+          "count": 1,
+          "consume_items": false,
+          "id": "4A7CE49E7990C67F"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3D60F9B664564FE8",
+          "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "3C6F4D2A3B0DE515"
+      ],
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "1286A42DA00B801B",
+      "title": "The Weapon That Broke the World",
+      "description": [
+        "Defeat the Netherite Monstrosity and submit its Furnace Heart for Memory II. Your order turned a new power into a weapon, and the world paid the price.",
+        "This boss guarantees one Monstrosity Furnace Heart on a valid defeat. Pick it up, open this quest and click its item task to submit it. The trophy is consumed. It has no crafting recipe and the archive cannot produce it."
+      ],
+      "x": 8.0,
+      "y": 3.0,
+      "tasks": [
+        {
+          "id": "2536871419E98EEA",
+          "type": "item",
+          "item": "kubejs:trophy_monstrosity",
+          "count": 1,
+          "consume_items": true,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "640975A602273CDD",
+          "type": "item",
+          "item": "apotheosis:epic_material",
+          "count": 3
+        },
+        {
+          "id": "054F8C649D108637",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 4
+        },
+        {
+          "id": "49D42B20449D79CC",
+          "type": "item",
+          "item": "kubejs:memory_2",
+          "count": 1,
+          "autoclaim": "enabled"
+        }
+      ],
+      "dependencies": [
+        "7787362D6B082AD4"
+      ],
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "782EA91FB8F2309E",
+      "title": "Chapter 2 Complete",
+      "description": [
+        "You have completed every required Chapter 2 milestone. Close this part of your story to unlock Chapter 3. Optional branches do not block this step."
+      ],
+      "tasks": [
+        {
+          "id": "685B7D820E41D719",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "69787BE0EAB76572",
+          "type": "command",
+          "command": "function ashen:chapter/complete_2",
+          "elevate_perms": true,
+          "silent": true,
+          "autoclaim": "enabled",
+          "team_reward": true,
+          "title": "Chapter 2 completed",
+          "icon": "minecraft:book"
+        }
+      ],
+      "dependencies": [
+        "4AE2D7F6A78F781C",
+        "361C92660F02DC67",
+        "29C7ABD3AF1901B3",
+        "7341EE27326510E8",
+        "59A47D6018B7E3D9",
+        "537F38E1C45C20AF",
+        "1989B02458810B2E",
+        "5157388E66ED22AC",
+        "5F95AC4FBCD264B3",
+        "3C6F4D2A3B0DE515",
+        "7787362D6B082AD4",
+        "1286A42DA00B801B"
+      ],
+      "optional": false,
+      "progression_mode": "linear",
+      "x": 14.0,
+      "y": 3.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "105316E8497B88D1",
+      "title": "Optional: Gold Furnace",
+      "description": [
+        "Craft gold furnace when useful for your build. This is optional and does not unlock the next chapter. The task detects the crafted result and keeps the equipment, including backpack contents."
+      ],
+      "tasks": [
+        {
+          "id": "42024DE8B4FE268B",
+          "type": "item",
+          "item": "ironfurnaces:gold_furnace",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7881A964614DBE49",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "4AE2D7F6A78F781C"
+      ],
+      "optional": true,
+      "x": 0.0,
+      "y": -3.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "4D0ADE025E72A858",
+      "title": "Optional: An Enchanting Station",
+      "description": [
+        "Craft an enchanting station when useful for your build. This is optional and does not unlock the next chapter. The task detects the crafted result and keeps the equipment, including backpack contents."
+      ],
+      "tasks": [
+        {
+          "id": "5797179A6A9F8CBB",
+          "type": "item",
+          "item": "minecraft:enchanting_table",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "133F1AB221783C92",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "7341EE27326510E8"
+      ],
+      "optional": true,
+      "x": 3.0,
+      "y": -3.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "13131A297E991E34",
+      "title": "Optional: Brew Your Support",
+      "description": [
+        "Craft brew your support when useful for your build. This is optional and does not unlock the next chapter. The task detects the crafted result and keeps the equipment, including backpack contents."
+      ],
+      "tasks": [
+        {
+          "id": "31BB8EB016EDE574",
+          "type": "item",
+          "item": "minecraft:brewing_stand",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "23FF13BC96EF4B49",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "5157388E66ED22AC"
+      ],
+      "optional": true,
+      "x": 6.0,
+      "y": -3.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "0C2EB509B04576B3",
+      "title": "Optional: Gold Boots",
+      "description": [
+        "Craft gold boots when useful for your build. This is optional and does not unlock the next chapter. The task detects the crafted result and keeps the equipment, including backpack contents."
+      ],
+      "tasks": [
+        {
+          "id": "08C283F4FEFBE1F9",
+          "type": "item",
+          "item": "minecraft:golden_boots",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18D3B1FA0C061FD7",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "4AE2D7F6A78F781C"
+      ],
+      "optional": true,
+      "x": 0.0,
+      "y": -5.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "366541BCCE3606F8",
+      "title": "Optional: A Gold Backpack",
+      "description": [
+        "Craft a gold backpack when useful for your build. This is optional and does not unlock the next chapter. The task detects the crafted result and keeps the equipment, including backpack contents."
+      ],
+      "tasks": [
+        {
+          "id": "0AC44EBFB3770EBA",
+          "type": "item",
+          "item": "sophisticatedbackpacks:gold_backpack",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "71F9A6C7EB5E00D6",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "4AE2D7F6A78F781C"
+      ],
+      "optional": true,
+      "x": 3.0,
+      "y": -5.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "0CC621FA2F88705A",
+      "title": "Optional: A Diamond Chest",
+      "description": [
+        "Craft a diamond chest when useful for your build. This is optional and does not unlock the next chapter. The task detects the crafted result and keeps the equipment, including backpack contents."
+      ],
+      "tasks": [
+        {
+          "id": "6D9E195EFCF96C16",
+          "type": "item",
+          "item": "sophisticatedstorage:diamond_chest",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5BFF238724801E71",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "4AE2D7F6A78F781C"
+      ],
+      "optional": true,
+      "x": 6.0,
+      "y": -5.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    }
+  ],
+  "hide_quest_until_deps_visible": true,
+  "hide_quest_details_until_startable": true
+}

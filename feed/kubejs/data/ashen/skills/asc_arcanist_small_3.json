@@ -1,0 +1,43 @@
+{
+  "id": "ashen:asc_arcanist_small_3",
+  "title": "Essence Flow",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:mana_regen",
+      "id": "63031ec9-e203-563a-81cb-9234d20ae44e",
+      "name": "Ashen asc_arcanist_small_3",
+      "amount": 0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_arcanist_root"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_arcanist_root",
+    "ashen:asc_arcanist_big_3"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "arcanist"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_blue.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -755,
+  "positionY": -250,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

@@ -1,0 +1,51 @@
+{
+  "id": "ashen:mage_18",
+  "title": "Master of the Veil",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_power",
+      "id": "3dfd7a3e-25fd-5501-8753-bf356e5db752",
+      "name": "Ashen mage_18",
+      "amount": 0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:mana_regen",
+      "id": "494ac64c-1ca2-5a2e-9602-4a49dda4fdd3",
+      "name": "Ashen mage_18",
+      "amount": 0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:mage_17",
+    "ashen:keystone_mage"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "mage"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_blue.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -321.3,
+  "positionY": -321.3,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

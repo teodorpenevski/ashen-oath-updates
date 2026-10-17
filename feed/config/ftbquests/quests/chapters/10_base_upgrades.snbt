@@ -1,0 +1,206 @@
+{
+  "id": "25D0655840BBFC2E",
+  "filename": "10_base_upgrades",
+  "group": "225FE9BE4793200B",
+  "title": "Base · Chests and Furnaces",
+  "icon": "ironfurnaces:diamond_furnace",
+  "order_index": 4,
+  "default_quest_shape": "square",
+  "default_quest_size": 1.0,
+  "progression_mode": "flexible",
+  "consume_items": false,
+  "quests": [
+    {
+      "id": "7F1636339F55DCD6",
+      "title": "Iron Chest",
+      "description": [
+        "Use the tier-upgrade recipe shown in JEI. Back up important inventories before reorganizing storage."
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "sophisticatedstorage:iron_chest",
+          "count": 1,
+          "consume_items": false,
+          "id": "3D8DA473320F6950"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11B74BF9C1CEC629",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "76EDDDE10961CF34",
+      "title": "Gold Chest",
+      "description": [
+        "Upgrade capacity when expeditions start filling your base."
+      ],
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "sophisticatedstorage:gold_chest",
+          "count": 1,
+          "consume_items": false,
+          "id": "6F12F2259B921A06"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5802E2B54496D550",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "7F1636339F55DCD6"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "061078B17A1CB108",
+      "title": "Diamond Chest",
+      "description": [
+        "Diamond storage is a practical long-term target. Netherite is optional."
+      ],
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "sophisticatedstorage:diamond_chest",
+          "count": 1,
+          "consume_items": false,
+          "id": "5012D4BC246F9E90"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7B86DDD771B0A67D",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "76EDDDE10961CF34"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "47262A0D868A44D8",
+      "title": "Iron Furnace",
+      "description": [
+        "Iron Furnaces provides a direct smelting progression alongside your optional Thermal workshop."
+      ],
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "ironfurnaces:iron_furnace",
+          "count": 1,
+          "consume_items": false,
+          "id": "7BA8755FAF7EE563"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "27D78BDF435A70FB",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "061078B17A1CB108"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "5AA0C88D0D306D59",
+      "title": "Diamond Furnace",
+      "description": [
+        "Upgrade through the recipes shown in JEI; intermediate tiers remain available."
+      ],
+      "x": 8.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "ironfurnaces:diamond_furnace",
+          "count": 1,
+          "consume_items": false,
+          "id": "64E5E7A67E6C3A31"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "534C49C725F76FD6",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "47262A0D868A44D8"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "585680ABBBBA99FF",
+      "title": "Netherite Furnace",
+      "description": [
+        "Use this as the final optional smelting upgrade. It is never a story gate."
+      ],
+      "x": 10.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "ironfurnaces:netherite_furnace",
+          "count": 1,
+          "consume_items": false,
+          "id": "1F2B43B44805188B"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3EFCB43264420619",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "5AA0C88D0D306D59"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    }
+  ],
+  "hide_quest_until_deps_visible": false,
+  "hide_quest_until_deps_complete": false
+}

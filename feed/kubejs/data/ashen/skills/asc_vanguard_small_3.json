@@ -1,0 +1,43 @@
+{
+  "id": "ashen:asc_vanguard_small_3",
+  "title": "Firm Resolve",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "8ed82cd7-b815-5b2e-9d37-17b5311f8111",
+      "name": "Ashen asc_vanguard_small_3",
+      "amount": 2,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_vanguard_root"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_vanguard_root",
+    "ashen:asc_vanguard_big_3"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "vanguard"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -755,
+  "positionY": 190,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

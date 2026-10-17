@@ -1,0 +1,37 @@
+{
+  "id": "ashen:rogue_17",
+  "title": "Sense the Opening",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_chance",
+      "id": "5c751281-0173-543f-9d70-bf1d92233541",
+      "name": "Ashen rogue_17",
+      "amount": 0.01,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:rogue_6",
+    "ashen:rogue_18"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "rogue"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_iron.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 279.65,
+  "positionY": 279.65,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

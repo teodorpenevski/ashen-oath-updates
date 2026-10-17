@@ -1,0 +1,37 @@
+{
+  "id": "ashen:rogue_11",
+  "title": "Measured Footwork",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "8b1d6bac-cf3f-57e3-9175-740166cde611",
+      "name": "Ashen rogue_11",
+      "amount": 0.02,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:rogue_10",
+    "ashen:rogue_12"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "rogue"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_iron.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 156.4,
+  "positionY": 336.59999999999997,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

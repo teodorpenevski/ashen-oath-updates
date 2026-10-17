@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:husk",
+          "nbt": "{Tags:[\"ashen_oathless\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ashen:boss/oathless"
+  }
+}

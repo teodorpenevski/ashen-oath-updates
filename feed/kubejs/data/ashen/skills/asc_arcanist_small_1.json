@@ -1,0 +1,43 @@
+{
+  "id": "ashen:asc_arcanist_small_1",
+  "title": "Focused Study",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_power",
+      "id": "5a8c671a-8741-5c7b-b703-d215652c7a0d",
+      "name": "Ashen asc_arcanist_small_1",
+      "amount": 0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_arcanist_root"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_arcanist_root",
+    "ashen:asc_arcanist_big_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "arcanist"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_blue.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -691,
+  "positionY": -141,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

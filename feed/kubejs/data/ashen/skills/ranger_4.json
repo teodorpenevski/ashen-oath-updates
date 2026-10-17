@@ -1,0 +1,38 @@
+{
+  "id": "ashen:ranger_4",
+  "title": "Patient Hunter",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_damage",
+      "id": "3989a32c-4d9f-5ba0-8120-c0245278c455",
+      "name": "Ashen ranger_4",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:ranger_2",
+    "ashen:ranger_6",
+    "ashen:ranger_10"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ranger"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/bow_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 209.95,
+  "positionY": -119.85,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

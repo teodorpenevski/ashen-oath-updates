@@ -1,0 +1,43 @@
+{
+  "id": "ashen:asc_marksman_small_3",
+  "title": "Measured Aim",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_chance",
+      "id": "274fff07-b7e2-5c6e-8b11-2435d9c1c68b",
+      "name": "Ashen asc_marksman_small_3",
+      "amount": 0.05,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_marksman_root"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_marksman_root",
+    "ashen:asc_marksman_big_3"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "marksman"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/bow_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 250,
+  "positionY": -755,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

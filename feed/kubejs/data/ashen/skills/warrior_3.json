@@ -1,0 +1,39 @@
+{
+  "id": "ashen:warrior_3",
+  "title": "Hold the Line",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "b896469e-e0ce-524b-80e7-25929dacbf1d",
+      "name": "Ashen warrior_3",
+      "amount": 2,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:warrior_1",
+    "ashen:warrior_5",
+    "ashen:warrior_7",
+    "ashen:warrior_19_preparation_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "warrior"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -119.85,
+  "positionY": 209.95,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

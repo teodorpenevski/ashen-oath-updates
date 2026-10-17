@@ -1,0 +1,3030 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/appleskin-client.toml"
+hash = "089f7383a1a3adf2ae3c418cd37ef9149e2ebd6f48b4a16a75f933b3c48c2c5e"
+preserve = true
+
+[[files]]
+file = "config/efpunchycompat-client.toml"
+hash = "19ff22ea75a924e77d4649700981da9f745282465cd7ebfad7f689e6e3dbbea5"
+preserve = true
+
+[[files]]
+file = "config/epicfight-common.toml"
+hash = "709b4bd3b7c5c22cf269e145ca2fcd25155cde818dea54ad0ccb40df5c015b04"
+
+[[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "201da035fdfcedaf9f7b8d9a84f170f0fc6a48567a3de9a020a317b444b99eb2"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/01_beneath_your_own_grave.snbt"
+hash = "10c1e3f2ac651990fc91ecaef3f2bd398cf6e75b66c20c55ab53a61e79defdce"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/02_embers_of_a_changed_world.snbt"
+hash = "a5a35a339d5f3b5621a3702acada62fc11c2e28be18a5d3b1a1a3f7a3a4dbb8f"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/03_the_machines_remember.snbt"
+hash = "288740e738b61cee6e5a0a119f48cf9a64de1ff19ea910ad280f8a0dc95edf78"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/04_beyond_the_broken_sky.snbt"
+hash = "e49efa929e66ba57d2de578802ee7e86c4965ec2d5f129d4a744be99a6829b4b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/05_the_last_oath.snbt"
+hash = "936660a239d51ab331270ddad17296057478548ab41276f61414058199cf6b0e"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/06_gearing.snbt"
+hash = "27fca74b8771ed4abb0c581cde2abc9d632fef11ac036b2eaa2ab2ed581adb69"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/07_magic.snbt"
+hash = "b60d1939f90d9fd35e8fecc9998080681e8805d4ad9c31b66755c3a9fa9a4315"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/08_workshop.snbt"
+hash = "ee2387a38f1a0079cc410a18265d789ed8bef91d11838bbcca88b89cd4e815d5"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/09_storage.snbt"
+hash = "abaa7fb1fe19cb8d0373a2fbebab2e3999dd1d8b7cf736597b0d0164e27aebac"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/10_base_upgrades.snbt"
+hash = "0dbd1134d8adfe8953ec098611c1bb4f4e9e16173a08539c5e9fc657e192cbe3"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/11_backpacks.snbt"
+hash = "107af90cc407560fcdacbad7a8dec8346aa3b7a71ef96011683beb554a675cbe"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/12_field_milestones.snbt"
+hash = "2d4e3978cbe2bc8f3c94653d4c6f887760935b369ccf212edf74ee08c58c1b1e"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/13_combat_and_classes.snbt"
+hash = "b2e8b9ec0d9286a42f01770575214ea8edafa52f42f463c75a3855926e9df994"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "ce6cbb883091a622716be56a89b73d13bccb0d8cfffcbedbc3568ff4a33822de"
+
+[[files]]
+file = "config/inventoryprofilesnext/inventoryprofiles.json"
+hash = "74858a77f153df4cbe939e026e8a8ed430237c5e01c9c0714d4217727425d8d2"
+preserve = true
+
+[[files]]
+file = "config/irons_spellbooks-client.toml"
+hash = "2fde6f4dbc42c5e58e01416c3ade320be32e449f2c4593f5ef01e22d9e29692a"
+preserve = true
+
+[[files]]
+file = "config/punchy/mix_profiles/.active_mix_profile"
+hash = "021679c64c3487007d245a897a6b1f5500c93f69731a8b0dbf29be635eba5447"
+preserve = true
+
+[[files]]
+file = "config/punchy/mix_profiles/mix_profile.json"
+hash = "155235bd306357529826510aee07b7f2bebbd5554069d574da080d2128d83aca"
+preserve = true
+
+[[files]]
+file = "config/punchy/profiles/.active_profile"
+hash = "8c90b9780686e1f870c99ce4a16ddf3d4ba87b45ff787ad6fa9dc9036c2af756"
+preserve = true
+
+[[files]]
+file = "config/punchy/profiles/tuning_off_global.json"
+hash = "3f9c84c527fdc62b688314e27e1334186d09682e6f8fdaf78effd3689e2624c8"
+preserve = true
+
+[[files]]
+file = "config/punchy/punchy_config.json"
+hash = "65c2343d169c15a9ff6ab2c5b98d3521ceba682eb3b049d62c2bbfcaf7f2facf"
+preserve = true
+
+[[files]]
+file = "config/simple_combat_indicators-client.toml"
+hash = "6102e554b23eaec54a23adcc3f134ca014cf7c0d2a4b89f6f64fb0d9b937c6e8"
+preserve = true
+
+[[files]]
+file = "config/starting_classes-common.toml"
+hash = "a91dbc7736280d1b1cc5c5026ff34ca711ad932b5d53756c12f772f3b2f184d9"
+
+[[files]]
+file = "defaultconfigs/corpse-server.toml"
+hash = "09fbf4a2a9e81b317fc2f81ad87285778947ec8245ed1024cf68b5d0df4f2016"
+
+[[files]]
+file = "defaultconfigs/skilltree-server.toml"
+hash = "c3fa1bf1927b10174fd2fc71094b99345efe0b68cb8cd4d1b640712a53d4e4e1"
+
+[[files]]
+file = "kubejs/assets/ashen/lang/en_us.json"
+hash = "083195db4b25e6aaa1dcd35fcd31ffcb41cca9f17b26af01d85072cc2fc4b19a"
+
+[[files]]
+file = "kubejs/assets/ashen/textures/gui/lock_on.png"
+hash = "8af31798acf217e05ba104e5f1f1fa5a556b50539181c2d6a8c656fc8d80af10"
+
+[[files]]
+file = "kubejs/assets/ashen/textures/icons/skill_tree/asc_arcanist.png"
+hash = "683da4bd9e1cfa9202328ad97749ffe0b6d7f5bdd633a18eed70b34c60b51845"
+
+[[files]]
+file = "kubejs/assets/ashen/textures/icons/skill_tree/asc_assassin.png"
+hash = "f91d69d9f4b8b30c1fe6418c12923f61b48c5d2935b6437c7db4084e23ba26b1"
+
+[[files]]
+file = "kubejs/assets/ashen/textures/icons/skill_tree/asc_berserker.png"
+hash = "f91d69d9f4b8b30c1fe6418c12923f61b48c5d2935b6437c7db4084e23ba26b1"
+
+[[files]]
+file = "kubejs/assets/ashen/textures/icons/skill_tree/asc_duelist.png"
+hash = "f91d69d9f4b8b30c1fe6418c12923f61b48c5d2935b6437c7db4084e23ba26b1"
+
+[[files]]
+file = "kubejs/assets/ashen/textures/icons/skill_tree/asc_marksman.png"
+hash = "c089f5951bfcc2662a3178ec60870be30e184bf5ce7c8426723993af91ef0336"
+
+[[files]]
+file = "kubejs/assets/ashen/textures/icons/skill_tree/asc_scout.png"
+hash = "c089f5951bfcc2662a3178ec60870be30e184bf5ce7c8426723993af91ef0336"
+
+[[files]]
+file = "kubejs/assets/ashen/textures/icons/skill_tree/asc_spellblade.png"
+hash = "683da4bd9e1cfa9202328ad97749ffe0b6d7f5bdd633a18eed70b34c60b51845"
+
+[[files]]
+file = "kubejs/assets/ashen/textures/icons/skill_tree/asc_vanguard.png"
+hash = "f91d69d9f4b8b30c1fe6418c12923f61b48c5d2935b6437c7db4084e23ba26b1"
+
+[[files]]
+file = "kubejs/assets/ashen/textures/icons/skill_tree/classes.png"
+hash = "f91d69d9f4b8b30c1fe6418c12923f61b48c5d2935b6437c7db4084e23ba26b1"
+
+[[files]]
+file = "kubejs/assets/ashen/textures/icons/skill_tree/mage.png"
+hash = "683da4bd9e1cfa9202328ad97749ffe0b6d7f5bdd633a18eed70b34c60b51845"
+
+[[files]]
+file = "kubejs/assets/ashen/textures/icons/skill_tree/ranger.png"
+hash = "c089f5951bfcc2662a3178ec60870be30e184bf5ce7c8426723993af91ef0336"
+
+[[files]]
+file = "kubejs/assets/ashen/textures/icons/skill_tree/rogue.png"
+hash = "f91d69d9f4b8b30c1fe6418c12923f61b48c5d2935b6437c7db4084e23ba26b1"
+
+[[files]]
+file = "kubejs/assets/ashen/textures/icons/skill_tree/warrior.png"
+hash = "f91d69d9f4b8b30c1fe6418c12923f61b48c5d2935b6437c7db4084e23ba26b1"
+
+[[files]]
+file = "kubejs/assets/ashen_skill_bridge/textures/mob_effect/rogue_venom.png"
+hash = "9645e52d3ba82d4aea34eb57e6852a0c1d54478b3ef2c28e9670408f55c268e4"
+
+[[files]]
+file = "kubejs/assets/ashen_skill_bridge/textures/mob_effect/shadow_mark.png"
+hash = "7455687b36162839ed96867d631dd5a85e267e13b585de7bebe2be0948248f64"
+
+[[files]]
+file = "kubejs/assets/ashen_skill_bridge/textures/mob_effect/virulent_poison.png"
+hash = "9645e52d3ba82d4aea34eb57e6852a0c1d54478b3ef2c28e9670408f55c268e4"
+
+[[files]]
+file = "kubejs/assets/epicfight/models/item/spear.json"
+hash = "7c0b9b76408445ca5c43bf6b34129fe789beb2d017346baf87e7bb3d4791df32"
+
+[[files]]
+file = "kubejs/assets/epicfight/sounds.json"
+hash = "13418145f2d96b5369cf588d47c869de19eb4523046dda19899d5646c4cfd41f"
+
+[[files]]
+file = "kubejs/assets/kubejs/lang/en_us.json"
+hash = "016038891f2a568474b059567c25b8538619e7d33be640adb17f3a514cb3e77a"
+
+[[files]]
+file = "kubejs/assets/minecraft/models/crossbow.json"
+hash = "c23d5c4032b55d24a3b886b400bfb75f1a4808fd9f354b246a9f506642865d75"
+
+[[files]]
+file = "kubejs/client_scripts/ashen_ability_keybinds.js"
+hash = "34908899d1832c3a3cdc0beeff938c3bdb791004042f34ccac8a300486c40457"
+
+[[files]]
+file = "kubejs/client_scripts/ashen_class_picker.js"
+hash = "c36d86b1a6f8ac73ee2e421e085453e8a498f0da8ec1d578470a4a36bb0382d8"
+
+[[files]]
+file = "kubejs/client_scripts/ashen_subclasses.js"
+hash = "6f1716327ca4a5ac885a59ff72b668248313875bc25a09d8747759fda55bd5c6"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/overworld/bow.json"
+hash = "9ee992b83606ce2e09b4da108fd4f58a4ccc43353461e8ce46b8f34c1698ac5d"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/overworld/chainmail_boots.json"
+hash = "6d077db9110b8a1d744b55440916fcae16f6c6e69748a8e85fdb8a9b2d1f5e64"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/overworld/chainmail_chestplate.json"
+hash = "7d5118dbdecb8f010920934d4e3ff7d9c2ba4e2f2c14b2ba194bb40f408e8155"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/overworld/chainmail_helmet.json"
+hash = "a06fab13c74ca034097c8370d29a30cbd816f9fdbf874999c8acc0b42e0d4591"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/overworld/chainmail_leggings.json"
+hash = "3a13b18ea3fde163cb180d40fff361f9c09fdebf5157bf5b454c4ceb33485c54"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/overworld/crossbow.json"
+hash = "ebc2094d5512bd943a0ce43259c37a289f01fc632ad733cbacef27521fdab3c2"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/overworld/iron_axe.json"
+hash = "4f8c78b179a9a83c32db78e6b593ca25a078727663d3175c089d78b181f5ecc2"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/overworld/iron_boots.json"
+hash = "2b9f82334bb06805d11ee04257d0621515b42111ec121a4de7c148aa3d242d14"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/overworld/iron_chestplate.json"
+hash = "b67867228750915a32f8ff299c506993a6574f87b0b30f729eb521980945d5ef"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/overworld/iron_helmet.json"
+hash = "b2f9fa95f7f7c97e47d23672b8231a85a61d1fcd5cc2b3ef35d94eaa3e4be386"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/overworld/iron_leggings.json"
+hash = "97256c37b64791d8e9567ef9fa5be64dd5ae511cadf1f5a9c1a0356e4fedac59"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/overworld/iron_pickaxe.json"
+hash = "a757050223ec16ebbd36bca3ace36aee93b0be9526265a94189b11d884756237"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/overworld/iron_shovel.json"
+hash = "e2438f8118d42d01c5fe8764a59fa55c392aa656bd7c27a2a873185d8451fcd1"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/overworld/iron_sword.json"
+hash = "efe2444992577ac181f8ad5c4089cdd3b720e28a1a1235cc91a8e0284bb09aab"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/overworld/shield.json"
+hash = "7f95fb2fcf397ec0871b5377398ec21b594e53d5f8b9f4ae68c188606b723a1e"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/overworld/trident.json"
+hash = "77688bb9f9653cdba18150cb4eaba42a3c8c9f70a913539b8c581122751d1a5a"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/overworld/turtle_helmet.json"
+hash = "be16c0971f5ee5b5a56a9708b99ce1a783a0ebd0f427cb0159073ea08b9e5d1e"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/the_nether/bow.json"
+hash = "e37d2ffe61a6267510ce0e6f6590e7d5a9f868b5f97ea12dafa23fd8a9594668"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/the_nether/crossbow.json"
+hash = "39c9541027b99b2396dcc521eccd07ca32cec0805a58017d5ae8356cc0d23fc8"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/the_nether/diamond_axe.json"
+hash = "22770641ffeaa250a861034f258f736cb59cc348efff22e75290e0aa7d12acab"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/the_nether/diamond_boots.json"
+hash = "367de738bbb158af3331c37b3a7338b8ab94f3b4774cae809c6d6ffda252913f"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/the_nether/diamond_chestplate.json"
+hash = "6fe1ce56b34daf9103f2c6350edf536ca5fdf66eb8da4c385c6db301c55bd66f"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/the_nether/diamond_helmet.json"
+hash = "fb389e277cf60ea7cdcb08c0e5a3622b3019440bcf1977a0563f75ed1f52b789"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/the_nether/diamond_leggings.json"
+hash = "5b466fbee87b74576534485d15789a4ada588049f2abaa3219d74a34b34932ad"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/the_nether/diamond_pickaxe.json"
+hash = "3454c127ab7224b73dc627909b25961d1ceb66bdeadb70b44d55511212ebf557"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/the_nether/diamond_shovel.json"
+hash = "8f63e986b503e330a8cac97b542651ae062e0da7731491c74ab5e914d3534b8b"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/the_nether/diamond_sword.json"
+hash = "39108dc0115fef18bc6c8a22f9e66e7f4bef9e9c7afb718c018ec3ff63653cc7"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/the_nether/golden_axe.json"
+hash = "4fd0f01f08e121754f5b651d688e8709831af09427bab63615e4216726864b43"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/the_nether/golden_boots.json"
+hash = "a99159e9ad711f85c15942585cfc414bb64cfc5e7fbff9682c85013f18fda884"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/the_nether/golden_chestplate.json"
+hash = "8f43cfbfbc9024a8272836451167ce59d4341e9b9f4d3e59bc762e5748841885"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/the_nether/golden_helmet.json"
+hash = "b5c0600a5568cc66ba48f4c48abc2d7603c2c7ac5c422ab39689bd006bf6978e"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/the_nether/golden_leggings.json"
+hash = "bf6bdb0307d0d4b0ed1dddcd6c84739d6383fa64bea0419f5d015d58150c1090"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/the_nether/golden_pickaxe.json"
+hash = "6d198ef71dbabe01fc64cdd1efe88d47405c3450abf866f14e27f8b279066af2"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/the_nether/golden_shovel.json"
+hash = "5e90a1518c2dc00584dfeb1737be869dfc1eab73124c1282092f7e9c9604017d"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/the_nether/golden_sword.json"
+hash = "564d93367ab08c87cdfd52bd891b9e5c1daf380a938e3043c6b9d8dd6246faa4"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/the_nether/iron_axe.json"
+hash = "4839d6219d3ae73b7daf6246409cece8e05b14dc5c8d99916aebbf6df362d0d8"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/the_nether/iron_boots.json"
+hash = "4e88a0605f26cfe4190968010480aaf18952cbbf0943436ad3fba4f7e1d0d278"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/the_nether/iron_chestplate.json"
+hash = "c88921cfbe828a1e5b809e1b9a03eafaeefa4adde6d7d1387c6b3db5fd262bbd"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/the_nether/iron_helmet.json"
+hash = "d788d5a5aaeb937861726d316198088aec3ad4f6da03eccdf49c8c8baba10746"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/the_nether/iron_leggings.json"
+hash = "bc2da53861457f3c73b04ac8620d183208ee493f4ce7254fe6eca7091a412e7c"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/the_nether/iron_pickaxe.json"
+hash = "80f6c4a782ccb3bbbe12529ee7a3567702377efd909bb2f2ea070a4d5c919a9b"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/the_nether/iron_shovel.json"
+hash = "8424091d2e08061fdd00575e3662dfc127847c6f72fc263871c9e890a3c38a2f"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/the_nether/iron_sword.json"
+hash = "d173cd65afd92d42aac72a0f1769b09064b57e5394460a6c3ed55f9a2f089774"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/the_nether/shield.json"
+hash = "fa71dc213531cd7481b0588178d6e03c7a94ba74cd8d5c7d627e9f9c5a7c1657"
+
+[[files]]
+file = "kubejs/data/apotheosis/affix_loot_entries/the_nether/trident.json"
+hash = "32def15bddbce666721b4fd338266825b1dbb7dae84fe97a74ac59656940b0ca"
+
+[[files]]
+file = "kubejs/data/apotheosis/bosses/overworld/husk.json"
+hash = "1638fdd704e89cb71447dd1c6ac44dbdd19fd99b1fa53c6a6d196b3a8f0f65ed"
+
+[[files]]
+file = "kubejs/data/apotheosis/bosses/overworld/skeleton.json"
+hash = "63e5ca3a403f0256c72412abc8f45560f16e1a72453abc900da71f2719716467"
+
+[[files]]
+file = "kubejs/data/apotheosis/bosses/overworld/stray.json"
+hash = "cb153461e385a4023afddaa52e0593c3741aaba80bc36c158da51e19b29ac150"
+
+[[files]]
+file = "kubejs/data/apotheosis/bosses/overworld/vindicator.json"
+hash = "38fa64b06cfcf19d2795b3506650bad52d5e3387dbd3e6120f7c547ecb64a350"
+
+[[files]]
+file = "kubejs/data/apotheosis/bosses/overworld/witch.json"
+hash = "9cd960fb0e509b06746a43d4e0aee8f377bc6a44df3de30732c555b54a432ede"
+
+[[files]]
+file = "kubejs/data/apotheosis/bosses/overworld/zombie.json"
+hash = "3412741def445ac030a0adb858a0d7dbd1e72696339f55bb17d2bbc3f38b61e9"
+
+[[files]]
+file = "kubejs/data/apotheosis/bosses/the_nether/blaze.json"
+hash = "9b66b030b7848d5664a48d36eeb6b8d38a7b778a21b9a29c745f297fa1fbafd7"
+
+[[files]]
+file = "kubejs/data/apotheosis/bosses/the_nether/piglin.json"
+hash = "95f49c2f6a675741afdbf01357f584a3e21202b315e90514de6e4cee3dd1d5ee"
+
+[[files]]
+file = "kubejs/data/apotheosis/bosses/the_nether/piglin_brute.json"
+hash = "f03ad780a6a060264b5fd9d969780aadbf0e186e9140e7be92368ef6cf1541ff"
+
+[[files]]
+file = "kubejs/data/apotheosis/bosses/the_nether/wither_skeleton.json"
+hash = "db1007b0a7f77e3e9a6b1bacfefc91c63117db46c03c60f461759210029663d8"
+
+[[files]]
+file = "kubejs/data/apotheosis/bosses/the_nether/zoglin.json"
+hash = "5afe10649a64a8544afb137e7660c2bab115c218c336c45d2c611e38dccff719"
+
+[[files]]
+file = "kubejs/data/apotheosis/bosses/the_nether/zombified_piglin.json"
+hash = "bef672a6513902c1b087d75dcd9a0f65616f97d587b20e8f9ecde957adcc8957"
+
+[[files]]
+file = "kubejs/data/ashen/advancements/story/dragon.json"
+hash = "0a23cdcd4f09d6eacfc66c21b029fb1fdf8cc7341ac4058bb128e8a6f1a0fd81"
+
+[[files]]
+file = "kubejs/data/ashen/advancements/story/guardian.json"
+hash = "af90f2a059fcab530545603a4ba0de32668221f4a330d3153c92bd75d26d74cb"
+
+[[files]]
+file = "kubejs/data/ashen/advancements/story/harbinger.json"
+hash = "69f56b748207a53ffeb2ad97562651d5ba69a8f6e14dcfc46a6e1572e64e6be9"
+
+[[files]]
+file = "kubejs/data/ashen/advancements/story/ignis.json"
+hash = "08df345648cb00e32b450e27f8add417d3ed70e9668bf7596589bd968e491145"
+
+[[files]]
+file = "kubejs/data/ashen/advancements/story/monstrosity.json"
+hash = "303ad64c874ec4f99a3f1428d36c541aec9f135430639b0c08215ee48e4e0f72"
+
+[[files]]
+file = "kubejs/data/ashen/advancements/story/oathless.json"
+hash = "fec2748409a48d679fa1c708f834ed78ac85ca649b394dffbd8aa458e58f85af"
+
+[[files]]
+file = "kubejs/data/ashen/advancements/story/wither.json"
+hash = "3508be476f709dfac99aa127f2e7bbf528faf092be98443b187034f121d8a8e3"
+
+[[files]]
+file = "kubejs/data/ashen/classes/mage.json"
+hash = "3f549e6de7c6ebef42d4b71e44afa3d08806e2337794b3bdaac87b5b814f6c38"
+
+[[files]]
+file = "kubejs/data/ashen/classes/ranger.json"
+hash = "e179fcd030049c140c28d241045472cc2e6316ee3f779c9b82fa41497ea070f1"
+
+[[files]]
+file = "kubejs/data/ashen/classes/rogue.json"
+hash = "6af3cc8af30be91aaab143439b4ee8bead8079cce32a1311773a3a75d4c12e1c"
+
+[[files]]
+file = "kubejs/data/ashen/classes/warrior.json"
+hash = "58814e1b5bf225f83c128879f9e59aea6ffb22dcfaa2ce7d278e3cb3ce9e77ab"
+
+[[files]]
+file = "kubejs/data/ashen/functions/boss/dragon.mcfunction"
+hash = "f3bcb094781dbd2d5e0691edf8bb99cf1490951e9df995e53fa8f55c43d8ed1a"
+
+[[files]]
+file = "kubejs/data/ashen/functions/boss/guardian.mcfunction"
+hash = "98d20c0eccab616a030ed5a70653c197b72e69ae0ee36fce5d821f84f4341ec0"
+
+[[files]]
+file = "kubejs/data/ashen/functions/boss/harbinger.mcfunction"
+hash = "f0974c04f6a529f08228e4435724580e442d2f12f5b1d36a3d9bcb935db9eff8"
+
+[[files]]
+file = "kubejs/data/ashen/functions/boss/ignis.mcfunction"
+hash = "34770af66c48b8e7cea96f2709ee7d3206943b417fe0e01762aea6ff31caf864"
+
+[[files]]
+file = "kubejs/data/ashen/functions/boss/monstrosity.mcfunction"
+hash = "2ba1b3efe8c336e889eeb9d2067752b680420f23f35c2d239a33b134fc906e47"
+
+[[files]]
+file = "kubejs/data/ashen/functions/boss/oathless.mcfunction"
+hash = "5458264bac3ee36fbb87aec2d223d4e3794b32c37dc6ddea506c158f67b2c306"
+
+[[files]]
+file = "kubejs/data/ashen/functions/boss/wither.mcfunction"
+hash = "5b807323b82de8758052c6d24c9380a807d045006ed5e9fe4d582a2912f236fb"
+
+[[files]]
+file = "kubejs/data/ashen/functions/chapter/complete_1.mcfunction"
+hash = "438a2c52a4d0b0f7abef71548c680bbe413ee3b5c2703127290ab4fd2ed404d9"
+
+[[files]]
+file = "kubejs/data/ashen/functions/chapter/complete_2.mcfunction"
+hash = "8d2101fb6291c595ccc839a3fc771f2251e22aa82ba26df96087dc7324630fa0"
+
+[[files]]
+file = "kubejs/data/ashen/functions/chapter/complete_3.mcfunction"
+hash = "9057b6fbcccfb514ae116cc8570a2a96f111ac5ee0f51c1377a2788b37b2d2ea"
+
+[[files]]
+file = "kubejs/data/ashen/functions/chapter/complete_4.mcfunction"
+hash = "a687be59298c0c9bafa510eaa9f068b6719e374525592522ea51aa12f79c600e"
+
+[[files]]
+file = "kubejs/data/ashen/functions/chapter/complete_5.mcfunction"
+hash = "deef9daaec7cd4d44fff872b72afb5fa618d04b5a4a33f8882403edc31f19083"
+
+[[files]]
+file = "kubejs/data/ashen/functions/class/accept_mage.mcfunction"
+hash = "864d985af26ed5aff5400b280530a583fe06c631b99eb50e52488a2dbfd31d6c"
+
+[[files]]
+file = "kubejs/data/ashen/functions/class/accept_ranger.mcfunction"
+hash = "41e7ef5799c55c5d77b34d7f7974dc06676636c08876d6c840eb56f169a7f726"
+
+[[files]]
+file = "kubejs/data/ashen/functions/class/accept_rogue.mcfunction"
+hash = "791fd6fe142b7366dd2e5d4dc89e4b2cf8c0f986584d99c90e1781c35b6b991a"
+
+[[files]]
+file = "kubejs/data/ashen/functions/class/accept_warrior.mcfunction"
+hash = "28871234627c7d5ca36c2074bbc71f0b628bad625fb16106aa0c84ec99358d44"
+
+[[files]]
+file = "kubejs/data/ashen/functions/class/menu.mcfunction"
+hash = "22330e83d3ce888af574d02c60acb1e7690337e2a3f138086c594f543346350a"
+
+[[files]]
+file = "kubejs/data/ashen/functions/class/migrate_kit_claims.mcfunction"
+hash = "5311526136e91f1184d03715a957b5ef858c415f06b3f9f8508548709074b47f"
+
+[[files]]
+file = "kubejs/data/ashen/functions/class/select_mage.mcfunction"
+hash = "653c6cf611cd55940cdda53114a3221e769cf5acf9ff18017516b4b2825f7f9d"
+
+[[files]]
+file = "kubejs/data/ashen/functions/class/select_ranger.mcfunction"
+hash = "0f8d1f2bf3745720198fedb0477ad9e3d7ecfe2f8c5d4f554491bbeabed1c216"
+
+[[files]]
+file = "kubejs/data/ashen/functions/class/select_rogue.mcfunction"
+hash = "c418b8b3d2765d0e8db891cb50d3756b33cc2023447c4a86dedd47c968634b0a"
+
+[[files]]
+file = "kubejs/data/ashen/functions/class/select_warrior.mcfunction"
+hash = "8451918fb4eb60ad791efc4b6fa88afd9e313caeb1656409aa8d9ed820bf8523"
+
+[[files]]
+file = "kubejs/data/ashen/functions/class/starter_mage.mcfunction"
+hash = "a1942fd3ba1142efdb2877565d447796f42cc634b49a0559a24645e18d034da0"
+
+[[files]]
+file = "kubejs/data/ashen/functions/class/starter_ranger.mcfunction"
+hash = "1e3b7a72b084cb9d2b31bb2e075652f769ac02e97400203495c241f056f7898f"
+
+[[files]]
+file = "kubejs/data/ashen/functions/class/starter_rogue.mcfunction"
+hash = "e7e3f08593da396e3bdfe319fbd9ca1084bbee84b0790b883a02c9e487564075"
+
+[[files]]
+file = "kubejs/data/ashen/functions/class/starter_warrior.mcfunction"
+hash = "4fca63e96cef9b26ef81ba42cf31852b8ca7b10d6a66dab522bfc3d62ef07504"
+
+[[files]]
+file = "kubejs/data/ashen/functions/class/status.mcfunction"
+hash = "b17409bac96102b58b398185513f0ba7176a8174a63579a755241e37a75959d4"
+
+[[files]]
+file = "kubejs/data/ashen/functions/class/tick.mcfunction"
+hash = "f08063b4f0b9b343cde3808c74b1c12dc2d1a801c8c3ffa96843acbb029b0879"
+
+[[files]]
+file = "kubejs/data/ashen/functions/finish.mcfunction"
+hash = "7c8087981eb16a4557d808087c91a42e75c95df96fb062b1bad9ecffc31d24d6"
+
+[[files]]
+file = "kubejs/data/ashen/functions/finish_valid.mcfunction"
+hash = "9baa9c353a6eadbb1e66df31ac81ad0c1f487f3dc8e20067be94cab16b558254"
+
+[[files]]
+file = "kubejs/data/ashen/functions/load.mcfunction"
+hash = "b65078d88a32bc3065b1572cfae4f0ab51a55ca5f983d352b48308dcf6bf2a34"
+
+[[files]]
+file = "kubejs/data/ashen/functions/quest/defeat_dragon.mcfunction"
+hash = "ca939c2b77d73b4a9236f8ffc1fbadee731640a1201308c2dacef9e52c773b31"
+
+[[files]]
+file = "kubejs/data/ashen/functions/quest/defeat_ignis.mcfunction"
+hash = "f510ab7cc74f975e5498c8c59bb47861e29878ad3af3f247783b05f2a72fbe8c"
+
+[[files]]
+file = "kubejs/data/ashen/functions/quest/defeat_wither.mcfunction"
+hash = "713fd3bf0ca44a5fef0730e01f596ea031c6a14ebf79791202259f4232e62988"
+
+[[files]]
+file = "kubejs/data/ashen/functions/recover.mcfunction"
+hash = "95b1265375bfeef59d6093fb1ab1d0082336a97d944bd8672f45b9fa2fef7d4b"
+
+[[files]]
+file = "kubejs/data/ashen/functions/status.mcfunction"
+hash = "e3f4be457a5cfcb2761caf04a6498c34d073d54537239deb3d736c9e551bb3c7"
+
+[[files]]
+file = "kubejs/data/ashen/functions/trial.mcfunction"
+hash = "701f55571dff20379b6c10e715eecb7c484f07f2e69c9cfd62c3588e16b0a043"
+
+[[files]]
+file = "kubejs/data/ashen/puffish_skills/categories/classes/category.json"
+hash = "5e67318ee8526149ceb0b1c4cf6fda8427608bc0e2db3f54de9cca26fe2e33a7"
+
+[[files]]
+file = "kubejs/data/ashen/puffish_skills/categories/classes/connections.json"
+hash = "c9b91cc01e250c1e318302920b035f02d701905e0ebac90d56299e8d4237c651"
+
+[[files]]
+file = "kubejs/data/ashen/puffish_skills/categories/classes/definitions.json"
+hash = "f39ec72a9c6f0b1b04915d6dd65e2215c4924289357ddd1468528968e7b5ebeb"
+
+[[files]]
+file = "kubejs/data/ashen/puffish_skills/categories/classes/experience.json"
+hash = "db30b20385c140231d9c495d6b3f9bd30e29d0bae1ba177220cf5765ef5f9777"
+
+[[files]]
+file = "kubejs/data/ashen/puffish_skills/categories/classes/skills.json"
+hash = "3e9cfca20df8ce0c2adab0659ad82aa1ac1eac6260f418b49b85ad084344b552"
+
+[[files]]
+file = "kubejs/data/ashen/puffish_skills/config.json"
+hash = "1d5ce3e9d800010d28ea9fcc73f20e476f8fe2a6753567ecbd989b118644c84c"
+
+[[files]]
+file = "kubejs/data/ashen/skill_trees/classes.json"
+hash = "9480c50e47a9629d1af0825849c50dfa702163722a4db9b731bca6e6ce21454f"
+
+[[files]]
+file = "kubejs/data/ashen/skill_trees/rogue.json"
+hash = "9480c50e47a9629d1af0825849c50dfa702163722a4db9b731bca6e6ce21454f"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_arcanist_big_1.json"
+hash = "8ba473872f27fd088f4d07a8626e5d7ab44b8b2387cb79dfffcb0ed28606b1a3"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_arcanist_big_2.json"
+hash = "56848582524f2f85e38ed47a07b74d42a2cb5c0e0e67c59228c74a374abd664a"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_arcanist_big_3.json"
+hash = "1dbcc689b5d163546603034e66b0c7c8c1720649b6fdbfb16b3f5d358225b1bd"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_arcanist_big_4.json"
+hash = "6a24a3c3ee8f06c8342cb9c20a92cb120cf0d77f63e794d9a088a5eac9322bee"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_arcanist_root.json"
+hash = "42eb874fd58ca05d2aee179c17df4c5f553154307987ced71992feb39c9d8d25"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_arcanist_small_1.json"
+hash = "3b7b96eb14fe38d717671e60c579ab379d3c8e079c90bbe44ad441519d42b61a"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_arcanist_small_2.json"
+hash = "8ee820f21944c22cae99d881ff7d396c94b5e6bee0c912e97241a935298857f8"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_arcanist_small_3.json"
+hash = "66f02288a3c895d456b08c9e31a32f4ff860d47686693b12d9b53d0085288a2e"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_arcanist_small_4.json"
+hash = "9efe7a01dc5d780de8bcdfc4d56a576226b739e5c55a9eec3df5675502e5a4fa"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_assassin_big_1.json"
+hash = "57a2933aa1e1e38a125a4f070bc13d448bb12c2d5e6473dc01e132f26a330c0a"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_assassin_big_2.json"
+hash = "354153a683a98b49381d8e14cf041d9a7a6c56f880cc49b438b4e055450a9f54"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_assassin_big_3.json"
+hash = "c9b12732400f946ac61bfd99ae13dc222ec6da86f922ca7f561b79504417e742"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_assassin_big_4.json"
+hash = "7f56bd3eadcd2781df55c56f42c5f383d76a313b710fa06322f354991b98d0a8"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_assassin_root.json"
+hash = "bbe5fdd8d3251404a8ff7c6248ce7e6cdad4e6e08d958362a62097511d155e7a"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_assassin_small_1.json"
+hash = "71736e2760b52cf2640bab621b70d7150329c6333233ae834ee13fcfa55122a0"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_assassin_small_2.json"
+hash = "23b418bde2cf0375bc86fd43742a30b5db866971872d6154ec89f9bc5657005e"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_assassin_small_3.json"
+hash = "add518fd6e2ca04b43d9ffcfa4c039e9c1e70b4491a66a11ed19ea1d82a20d39"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_assassin_small_4.json"
+hash = "3910d870db92ac53bf2e9cc4f853212193780bd00d0b607f4af6abeba46c54fb"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_berserker_big_1.json"
+hash = "e6fa1692e9a66694af669d4ecfeb860526e70a77d9fb50a3b351ab64b94b889f"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_berserker_big_2.json"
+hash = "4920d7a4aded5c5329201b660e14801305bf58e404c03468a47d42c42a2bce16"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_berserker_big_3.json"
+hash = "671dfa6dfe477c5f64bf20cc049e77527408654d459b1e49525c0245cb6a24cc"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_berserker_big_4.json"
+hash = "4f8216ce07eecfdd1e7dbd659111d1c71016445fdbcdc46ce40b120738ac9434"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_berserker_root.json"
+hash = "ee51b44d7ba31fc1461abb3eb9795a615e8972b0bd6d36e149fa8f04071bf262"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_berserker_small_1.json"
+hash = "05ff9a183c3ce609f4dbae36a526ebead0f37d59bbf92f1508a975a0e8da79f5"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_berserker_small_2.json"
+hash = "918ee864030b54a7c804866cbdc41a740e5f2629b62440fa8f9b3f47ee0a33f1"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_berserker_small_3.json"
+hash = "bb101bd4fef4792d980c52a2e4b1569389fbdc0be5b8ffdc3817ef82fb17a2b3"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_berserker_small_4.json"
+hash = "c9ea4a914890d7c6e1e0ee4a1e5ad5dd932c43a7f002cc807fef7e03e5cbe540"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_duelist_big_1.json"
+hash = "98b32b29ddb9452e2a233f867df3443f8772b270d8a7d9c6223aecac9b850439"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_duelist_big_2.json"
+hash = "c0055fab0906d20d403e698563725f51d27f1127e289053454d90e6de4fb8dfa"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_duelist_big_3.json"
+hash = "c9c1a7e4a7d6dfd7d572946efb383bb525705723fad4edfe2066e1d0f98dfc0a"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_duelist_big_4.json"
+hash = "953b5f8580488c49ecb287a63a39853fe8de49d64de223d68380b2450e71684d"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_duelist_root.json"
+hash = "187e6983c92cfab46a7a9f8c8ab008a1aba9ae2f56d6f5bdd401f8f5519204eb"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_duelist_small_1.json"
+hash = "e2762d0ac824291535e4f7a7a5ad7935a19a8da59302015f3292646dc1701ec0"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_duelist_small_2.json"
+hash = "a3a953a26fae93b9bb8af83e683a6f2bf3e49db9e2daa4ae9bfb2be35ed6d2f4"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_duelist_small_3.json"
+hash = "ee365ed5027c932204ea0db9484cf46b5ee40c1d859211bb1839f92f1e626ad5"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_duelist_small_4.json"
+hash = "ac9720d0616308b5fa88e8bcbfa80f85b316e7f20d4748e77e360d446b855821"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_marksman_big_1.json"
+hash = "fbc1940f1c08e66d78c09ecf83e1334a9daeba1555a20f6ec318f83f3f67cd91"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_marksman_big_2.json"
+hash = "d1589d4d0e384813d021d817df4cba9ef7989bb4c914d6f26bc116fd627497fd"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_marksman_big_3.json"
+hash = "6e4769914701148fa746a45554656c5aee0c1b724d64a168848067ef0f675074"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_marksman_big_4.json"
+hash = "36129123437562106790fc00b19994efae87252b8fdcb05fdd0dd97402386754"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_marksman_root.json"
+hash = "feee588c528e627a99c92486a94079e4c86e4f620b480205ba0a3296d71fdd04"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_marksman_small_1.json"
+hash = "aa749f83ba4ffaa6a4c94252987c8fcb88eeda93385b6a754d6f1966b219a9c4"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_marksman_small_2.json"
+hash = "61c7cf4a4c75dcfd2a0fec4588ce29d185b4a752d954cf21044c75856e7592a4"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_marksman_small_3.json"
+hash = "a639207b6931a57d2792092c49675bb6647a737534b91e8eafcfc35ff2ff6352"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_marksman_small_4.json"
+hash = "027e1bf32841605ef8b9f551cd972ef6b45b195e3032fe3b606536c60a793c89"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_scout_big_1.json"
+hash = "a45fe51a63b3259752e376ccc33f277a7aa7e09c5ea891007ebe98c9a16c3ccf"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_scout_big_2.json"
+hash = "13cb57cec7ea0191a02ecc033ba0e74e3ce2a86de8d8fc7040380d84da75606a"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_scout_big_3.json"
+hash = "8ecc4e998188341875bfabb8b0486ad55467c4d806379f0f245cba193aed0d42"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_scout_big_4.json"
+hash = "28d16701b990c31fc49582f5b579465176af313ee70eb7750b8bbf57843a6daf"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_scout_root.json"
+hash = "b440103c321d9a8a2f65f04b938f722960ac2ea0a028b424436374720eb71d6b"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_scout_small_1.json"
+hash = "ddfa3d137ce57d02c5057b556a7b168d6149f19199a053d4308cfb1e6ef3dcef"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_scout_small_2.json"
+hash = "5649efaeb4cde939c4e1d2fce8794af3bc076c184e3dae1a740bcfee12c4cd4e"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_scout_small_3.json"
+hash = "17c721b6a25ac0f8a9eb37636719636fdfbdf662286614787df5a67dde7b2ec9"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_scout_small_4.json"
+hash = "1730063f1659a6ebbc0faad336c47e8d2d6ce52540df58489f22ed4f392c1d14"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_spellblade_big_1.json"
+hash = "81ac32613b797d67f40ec747df8a699b6bfda52be3909e758989d7a2bbf2d8d4"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_spellblade_big_2.json"
+hash = "3a3c2240082b0497a0a7c88f572ebfaf2c5d201c01171e7b6e8acbef55adbc6d"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_spellblade_big_3.json"
+hash = "a2361b140e84c8d2073d4befe420fc49c718df5e9778aaebca6a5633a50bea79"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_spellblade_big_4.json"
+hash = "74de659e8faf8aa950b69acfcb961f88889d024ee3faeab2919a2cefd4450fc2"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_spellblade_root.json"
+hash = "f075d5e22d8c74a45a0572385f6240a17a0c8b86d729dc5fb384e0ba4b0d6e7c"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_spellblade_small_1.json"
+hash = "50a199fd33de8674f6926d316a0f4b89bc7cbdfb36b6f0beb333a334177e8c36"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_spellblade_small_2.json"
+hash = "1366cc12223f0bfee310dbb100e8c36cfbed8f37b50d6a90def4ef2353b5dcf7"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_spellblade_small_3.json"
+hash = "b35c0791a20b842df00f9ac21b240a4b7a5c5fff71b72e190d6dc364fbc4b00c"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_spellblade_small_4.json"
+hash = "db00d10664f88f2c4a8dd5e8d143350427dbb54ac33818ed7d36c42317fb95ad"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_vanguard_big_1.json"
+hash = "b2550d54c4ee642e7dea3784dfb36dc826eb65ff4aab17acffd31d13580fde24"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_vanguard_big_2.json"
+hash = "1b1b1f2b393c89ff19206566c908871208c029bca269f2fb31bddd7e3cc13e3c"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_vanguard_big_3.json"
+hash = "5daa7bf6b82482ec15476330aeb28af6b14378c04cdcce13ebcb63f1cfd2da6e"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_vanguard_big_4.json"
+hash = "7ba70ad853b9f3de19fa10c02289c4e59f4567e65e1735c8a1b0476bbf0d4aa6"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_vanguard_root.json"
+hash = "a70d03d6a377ce86a1f36442122eb260f4c557792e3d20e653a4c4ca3ffa27d2"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_vanguard_small_1.json"
+hash = "83225263636fe1abee189c3c13d7f446bf6b0debee1dbff05cc925ef9fc78907"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_vanguard_small_2.json"
+hash = "91f760a47b6bd0e1898ca8d47c0fffe711a4419b1526adb79bdb6d4d2e7c6b99"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_vanguard_small_3.json"
+hash = "c0f52756b507f43f997d126313c46686cdf91e81da47cfc8dd47729f98409f65"
+
+[[files]]
+file = "kubejs/data/ashen/skills/asc_vanguard_small_4.json"
+hash = "bf7543b1b00e2453b0a11f2f076fec394300c9885a8e68b0404993cf77056bbc"
+
+[[files]]
+file = "kubejs/data/ashen/skills/awakening.json"
+hash = "7dbd7a8a0d913571fda317cd8ce54ccef0a78fe0799f1c0056a694de1e25fbc6"
+
+[[files]]
+file = "kubejs/data/ashen/skills/keystone_mage.json"
+hash = "bf981f558413428073e094e58f70063c32da7c885404f3d3d9941d486d7e503b"
+
+[[files]]
+file = "kubejs/data/ashen/skills/keystone_ranger.json"
+hash = "e49473330deec3deeed8b452dbb04536bab744590d67df0446f9e3dfc57280f4"
+
+[[files]]
+file = "kubejs/data/ashen/skills/keystone_rogue.json"
+hash = "3765199fd5241b5811d40232a4b865024bfdfc78fed9a7703fa548d8c850f69a"
+
+[[files]]
+file = "kubejs/data/ashen/skills/keystone_warrior.json"
+hash = "b5a9cbc687da2d42e9b8cace1731d449ef89221f4e0ad46a04ccef6be83a00bf"
+
+[[files]]
+file = "kubejs/data/ashen/skills/mage_0.json"
+hash = "574d2f15fa966932e54e2d75e7919cc4a0b1450b1d24a4cb7fd44a691fcd7271"
+
+[[files]]
+file = "kubejs/data/ashen/skills/mage_1.json"
+hash = "31a17e39c41f960ed0e6bcb53f64d1bf9b9616b619b3175160df1171ce9bb039"
+
+[[files]]
+file = "kubejs/data/ashen/skills/mage_10.json"
+hash = "02c029673c2794e351fe35c9400e0c0f83fdb62960ede9b355d1ab5ed3ca2b82"
+
+[[files]]
+file = "kubejs/data/ashen/skills/mage_11.json"
+hash = "7200ef4a62e21ff5be68b716c2d1e253176f317ca412c8fa628bd9165b4bc1ad"
+
+[[files]]
+file = "kubejs/data/ashen/skills/mage_12.json"
+hash = "8ef6d24d25cfba7b3fb209f35f450e60eaee90d23b11f1503b1610d8a8210beb"
+
+[[files]]
+file = "kubejs/data/ashen/skills/mage_13.json"
+hash = "03529ff68ea57f3b883113cd14a69380cd843a5aef62c18fd787cba85a06dff5"
+
+[[files]]
+file = "kubejs/data/ashen/skills/mage_14.json"
+hash = "94a86a697fac26ab1a7594623c423740b839c8d26384105009d914426ec64c76"
+
+[[files]]
+file = "kubejs/data/ashen/skills/mage_15.json"
+hash = "15157ebf5443be7bc686a610742d03c3b8255b67b9baad0aaed80575903ba26f"
+
+[[files]]
+file = "kubejs/data/ashen/skills/mage_16.json"
+hash = "612e260a5e5e4da57715b354641415e290039a01166a89634e7b56ae3c912bc2"
+
+[[files]]
+file = "kubejs/data/ashen/skills/mage_17.json"
+hash = "75e4a85b01f25f32f98992f3996d829922215261b6c182df975a02c856bf83e1"
+
+[[files]]
+file = "kubejs/data/ashen/skills/mage_18.json"
+hash = "4273a96a6f911fb29e67bc01cc49674acfc6e20ddcab6c3dfe7e9255c87c17a0"
+
+[[files]]
+file = "kubejs/data/ashen/skills/mage_19.json"
+hash = "911c227a6317bd1139055f593fcd3a6aa136c0c0b30de7eed772143bdf5a866d"
+
+[[files]]
+file = "kubejs/data/ashen/skills/mage_19_preparation_1.json"
+hash = "11974e25749536e9781a97dea2dfe26a117affaabe192d74d0b82a321193e8f6"
+
+[[files]]
+file = "kubejs/data/ashen/skills/mage_19_preparation_2.json"
+hash = "3cec96a45f8d700de25067540374b573ed672ff7fe5977480c71d9d03c086a3b"
+
+[[files]]
+file = "kubejs/data/ashen/skills/mage_2.json"
+hash = "e70bb037fe110feb2f83a98e68c6e266984bb8b858484b8f5b52d97a4f058651"
+
+[[files]]
+file = "kubejs/data/ashen/skills/mage_20.json"
+hash = "aaf8bf15a2b2d6113e910ab59185e610c5690380fe77403bb2398cddd3b56f7a"
+
+[[files]]
+file = "kubejs/data/ashen/skills/mage_20_preparation_1.json"
+hash = "c12326556de352a1caccda2ff3761e4f48eb066bb0f0f134e570a9be3bcdd998"
+
+[[files]]
+file = "kubejs/data/ashen/skills/mage_20_preparation_2.json"
+hash = "42d5bd0b6317942cdac2e193adc4f89b8b7f4be2ddb32662f9aee7ca71b5d8e4"
+
+[[files]]
+file = "kubejs/data/ashen/skills/mage_21.json"
+hash = "4040e8e1860c366de9dd1087858bb18840bf785629eadb9586cdaaf153000d21"
+
+[[files]]
+file = "kubejs/data/ashen/skills/mage_21_preparation_1.json"
+hash = "6dafbd707ee7903487aebaa29ccb6421c4b9b1fbcb76445174d0e36415d4463a"
+
+[[files]]
+file = "kubejs/data/ashen/skills/mage_3.json"
+hash = "5e01628ea3887a551b222bf1a5c8e8c38d5fec26935345145c40c278cc78646a"
+
+[[files]]
+file = "kubejs/data/ashen/skills/mage_4.json"
+hash = "009f1878e8e7fa261fd4cad72387148e812fe54503dad6272b7b7d8f9e460a0b"
+
+[[files]]
+file = "kubejs/data/ashen/skills/mage_5.json"
+hash = "8dcee0b566a4897ad40c466be7704ac831ee3564712587d83f002a6a1ea1a870"
+
+[[files]]
+file = "kubejs/data/ashen/skills/mage_6.json"
+hash = "5f7a9e3594b7b800ea16c0f2d80c9955cfd56d8e4a3a3454c4c618267feacc5c"
+
+[[files]]
+file = "kubejs/data/ashen/skills/mage_7.json"
+hash = "75b9f00cfb484eed37f2d615efb90650d799c9375b37d53c83f1ccec11643e32"
+
+[[files]]
+file = "kubejs/data/ashen/skills/mage_8.json"
+hash = "8d9e90af25345ca5d953b5ff74bf114070e30cefc41c601816082dfe81919c18"
+
+[[files]]
+file = "kubejs/data/ashen/skills/mage_9.json"
+hash = "098adfb99930456638db989d2ef45102a2b96cf4f0cfe4cead1c2ef77e44f5a1"
+
+[[files]]
+file = "kubejs/data/ashen/skills/path_mage.json"
+hash = "be7fb748e29377e65a1cf6c41e49e529f913db4d8441ab6832ba84081771114d"
+
+[[files]]
+file = "kubejs/data/ashen/skills/path_ranger.json"
+hash = "c99ed3704778f941b62c02d159342addba5865e1e85b16d25397cb78d181f58f"
+
+[[files]]
+file = "kubejs/data/ashen/skills/path_rogue.json"
+hash = "754dc649253a750d9b345261c80b5324f0e2b6b7008fca5ac159ff8d71764871"
+
+[[files]]
+file = "kubejs/data/ashen/skills/path_warrior.json"
+hash = "505c15a6b1cd59688b0b0b4572479e418ce1dd400841b9745245b0ccef5e3131"
+
+[[files]]
+file = "kubejs/data/ashen/skills/ranger_0.json"
+hash = "bd921df8f22568ba916bbad5e3525fde45b98e5cad0f83b369ad5ca045f52797"
+
+[[files]]
+file = "kubejs/data/ashen/skills/ranger_1.json"
+hash = "3d7b886288af57f240540eb2444ab3bc4ef5ccf737fcb83f97c131b1ef0732b8"
+
+[[files]]
+file = "kubejs/data/ashen/skills/ranger_10.json"
+hash = "13f0a4aa8e0bf509c06b54fb224f49196836e12bd2c8b7df4ba2f13126ce8021"
+
+[[files]]
+file = "kubejs/data/ashen/skills/ranger_11.json"
+hash = "64cb8950b0e8d0bc0cf75fb8935d9d2221da14d1deac9b9e625ed54d364bbcee"
+
+[[files]]
+file = "kubejs/data/ashen/skills/ranger_12.json"
+hash = "d9166be892f4aab2f3c1ec9966fd4b2e8fe54dca230849b8622b216e1d0086a8"
+
+[[files]]
+file = "kubejs/data/ashen/skills/ranger_13.json"
+hash = "48b86d677575b961c9683e2923e87c811517439c43c5f8b5f9b0ac173bcd277e"
+
+[[files]]
+file = "kubejs/data/ashen/skills/ranger_14.json"
+hash = "010ee07d858cbfdd98fb105dc0fe3f9a7802c60eceed58cdd565f8bc78024ae8"
+
+[[files]]
+file = "kubejs/data/ashen/skills/ranger_15.json"
+hash = "bbf5fb7f07574eb32bf7605bfa5c2b4450bdb97ac4ebf12208b1ca8ca2b501eb"
+
+[[files]]
+file = "kubejs/data/ashen/skills/ranger_16.json"
+hash = "e9a90c7f7f37f728cee53b5e502936ff7dfd56eeabb011543d071d872de50292"
+
+[[files]]
+file = "kubejs/data/ashen/skills/ranger_17.json"
+hash = "7453e4ad66ab3357ba69f504919df7c76273a31ed8a6a7fa41a8ab4a2f7e4957"
+
+[[files]]
+file = "kubejs/data/ashen/skills/ranger_18.json"
+hash = "aadb03cc0f19fe154d354d4f08e85aa206e6b9682accecc24a2312184e0a1760"
+
+[[files]]
+file = "kubejs/data/ashen/skills/ranger_19.json"
+hash = "c507ff137c2aa738fff4aa3fcb26178118505f361391fda1b68677de022b70ec"
+
+[[files]]
+file = "kubejs/data/ashen/skills/ranger_19_preparation_1.json"
+hash = "eea401b2ece790e98f2187e32bbba6ab3ae81f5b26c2d8e66ec0334bbdb9b9a2"
+
+[[files]]
+file = "kubejs/data/ashen/skills/ranger_2.json"
+hash = "cf60aef4e1783d55b6ca6d2d5c4697ebb679366571e44f4c969a99d53b66f165"
+
+[[files]]
+file = "kubejs/data/ashen/skills/ranger_20.json"
+hash = "789b74f4613ae99554a0cb2483a0c31c54034d0ec278ff0c64050528678db3d5"
+
+[[files]]
+file = "kubejs/data/ashen/skills/ranger_20_preparation_1.json"
+hash = "4641936c8a85861b25bbd558eae85e575d5254509d7cea427da57deea2bd178a"
+
+[[files]]
+file = "kubejs/data/ashen/skills/ranger_20_preparation_2.json"
+hash = "ae0dcd7b269835ccaf1cc3785adc620dd297c60db142dc056810087535d1d6d7"
+
+[[files]]
+file = "kubejs/data/ashen/skills/ranger_21.json"
+hash = "e0b4fae46f4e7cb2dd31f4d8de4f50147da7538947eedfcedb0a525d1b954ffb"
+
+[[files]]
+file = "kubejs/data/ashen/skills/ranger_21_preparation_1.json"
+hash = "8cab2f20e57579cff8db4d05471771dc1c51ecca4159021dbb757f3a1faafe39"
+
+[[files]]
+file = "kubejs/data/ashen/skills/ranger_3.json"
+hash = "08fd0fd010f7f1017e6aa81a36611a8d8c09fb6b22e4886bb99adf5083928344"
+
+[[files]]
+file = "kubejs/data/ashen/skills/ranger_4.json"
+hash = "7f0125287e67c8c2a99be03daf9ce7cc258939071f00490cfacf8e5f57a7fffb"
+
+[[files]]
+file = "kubejs/data/ashen/skills/ranger_5.json"
+hash = "a09da8645681694c04c628a454845c4cc0e9f4f88b6c3b2bee83bb3cb263f35e"
+
+[[files]]
+file = "kubejs/data/ashen/skills/ranger_6.json"
+hash = "2ca73a7e102f6259232b616d80051378efe1b164f6e42b6d14d62eb7d7522780"
+
+[[files]]
+file = "kubejs/data/ashen/skills/ranger_7.json"
+hash = "886054b05944a37689d1f921807a362a819520abb5539c2c51919e8d45770e33"
+
+[[files]]
+file = "kubejs/data/ashen/skills/ranger_8.json"
+hash = "0ad35da9695ac868f7b503314422c99083111c22e5536a771e7b9c3d85326422"
+
+[[files]]
+file = "kubejs/data/ashen/skills/ranger_9.json"
+hash = "900a3bd4a59074f25da362b6255bded0ede6e95d439feb37572872fd26641460"
+
+[[files]]
+file = "kubejs/data/ashen/skills/rogue_0.json"
+hash = "86747abf36cc60d051789849af649068cf9225d5a1a94ca318d295b331f4ac5e"
+
+[[files]]
+file = "kubejs/data/ashen/skills/rogue_1.json"
+hash = "fc441287e497b1f43e45946272803ac88e4b22a44ad0792b681f2a3156df4f84"
+
+[[files]]
+file = "kubejs/data/ashen/skills/rogue_10.json"
+hash = "730f5e5d06d57d508d821790ba64009a0d4960639179ad5ce7d602c2798e19f3"
+
+[[files]]
+file = "kubejs/data/ashen/skills/rogue_11.json"
+hash = "e301ca2bef39612238383221c6c3657a6c5aec8419e1db891b02e217d2fa438b"
+
+[[files]]
+file = "kubejs/data/ashen/skills/rogue_12.json"
+hash = "915e276204d84c4d360cf491009ecc719b168766d928a38644810a34e7ee36b6"
+
+[[files]]
+file = "kubejs/data/ashen/skills/rogue_13.json"
+hash = "b43cc036ce71061420441627cb2a62c93cba18e8ed45ad0fe451217ad8aed2d0"
+
+[[files]]
+file = "kubejs/data/ashen/skills/rogue_14.json"
+hash = "bb3b2a9dde701850ad18a04f689aa03daff5de31c0b945471b34247813a87c7a"
+
+[[files]]
+file = "kubejs/data/ashen/skills/rogue_15.json"
+hash = "cb343ea798bc1c6c4f963d8fc9054a28a798b3dc096e882c780942aaf5a1c118"
+
+[[files]]
+file = "kubejs/data/ashen/skills/rogue_16.json"
+hash = "f4627a0fbc1f755aadd13798a2c80aa7fbd7c8523ed0b97452560c90614211b8"
+
+[[files]]
+file = "kubejs/data/ashen/skills/rogue_17.json"
+hash = "02f1554f87ab99ff7e899a3bd8e5ee05ff31d09b41e3e86781892c609de32b63"
+
+[[files]]
+file = "kubejs/data/ashen/skills/rogue_18.json"
+hash = "d91e6ce23a18db5226e0cf4dd271a4905fb031a617949fa9e1801ebc61958f07"
+
+[[files]]
+file = "kubejs/data/ashen/skills/rogue_19.json"
+hash = "f41c9eb60c9df0d043f84de68d48fd85a13a2b0375f2759cc20e38d83be02671"
+
+[[files]]
+file = "kubejs/data/ashen/skills/rogue_19_preparation_1.json"
+hash = "d4c35109b20e803f772baae1c2c859124c578418127f3aa0cb614542231c15b2"
+
+[[files]]
+file = "kubejs/data/ashen/skills/rogue_2.json"
+hash = "5d1be84248504adf158c89db6a6c20c6f4159bf2129890efcd2afa351d6a3d45"
+
+[[files]]
+file = "kubejs/data/ashen/skills/rogue_20.json"
+hash = "a83b15408e01ba933f4da1abd77bd9a9cd15a45798a17c8a3348ba2602aac0ad"
+
+[[files]]
+file = "kubejs/data/ashen/skills/rogue_20_preparation_1.json"
+hash = "f68f2c0156af374a8a1f76369e908c71983de3f7284d1da3f5760e54539eb987"
+
+[[files]]
+file = "kubejs/data/ashen/skills/rogue_20_preparation_2.json"
+hash = "79c0366fb6e3cdbba918303947b8a2ce8d873cc46beb71ad5cda808ee5bab61d"
+
+[[files]]
+file = "kubejs/data/ashen/skills/rogue_21.json"
+hash = "3e8d0269989813edb2abfa3e810d7e13884877e43bb4d15b8ea553d42c65be94"
+
+[[files]]
+file = "kubejs/data/ashen/skills/rogue_21_preparation_1.json"
+hash = "a61e29952d902d26280240f0ddcd7bf9c2d64ce661d9ede37ec9be1a1a68aa7b"
+
+[[files]]
+file = "kubejs/data/ashen/skills/rogue_3.json"
+hash = "a24cef3cd4e0c3bc2523a9af206d247c9cb0b5ce41119ca6611daa67ce21a64b"
+
+[[files]]
+file = "kubejs/data/ashen/skills/rogue_4.json"
+hash = "1c32a0dfed56024c3af2a44153d4971ce611fc9cff88c288cfb450cf2ed817ee"
+
+[[files]]
+file = "kubejs/data/ashen/skills/rogue_5.json"
+hash = "2009391a319a5a01c31c579191cb7bfbf54e4c510573aa124eb75d41f6e89497"
+
+[[files]]
+file = "kubejs/data/ashen/skills/rogue_6.json"
+hash = "11552662bebf81a28587cc14acaec8e5f831d14ee49e9cea8c88fd78f7e77d1a"
+
+[[files]]
+file = "kubejs/data/ashen/skills/rogue_7.json"
+hash = "c68b41a7e344205135d32d8a746420b924ec02e591f8e2bb52370d2e622efc43"
+
+[[files]]
+file = "kubejs/data/ashen/skills/rogue_8.json"
+hash = "5241e1a71000dd48291e0d9aee8966cbcbf5e9994b8a858706f362e95f6163c4"
+
+[[files]]
+file = "kubejs/data/ashen/skills/rogue_9.json"
+hash = "f6ca1eee800dfa09c846ac676c8f5c041fb256c810947f839d2c7032927115b3"
+
+[[files]]
+file = "kubejs/data/ashen/skills/rogue_lifesteal_1.json"
+hash = "b7d9ab9d193ad80b5c069ec3b420c496a2a16341a3e037df74187c0b9284dc9c"
+
+[[files]]
+file = "kubejs/data/ashen/skills/rogue_lifesteal_2.json"
+hash = "d585fd8b1798a7a2e9a661632c11eabe4dba2fbfe6fda37576a4543a3183ca3b"
+
+[[files]]
+file = "kubejs/data/ashen/skills/warrior_0.json"
+hash = "54d334a9e8731f3a784591e48e75cd4623c88f96c7eca80b62dce4edf6344a63"
+
+[[files]]
+file = "kubejs/data/ashen/skills/warrior_1.json"
+hash = "e4a11e43c53042ddeac789981e5f8532b480dc2b45fe351f555995ea622d1b92"
+
+[[files]]
+file = "kubejs/data/ashen/skills/warrior_10.json"
+hash = "02dc7f0e75e5520d3fa985033259cd3cd7abee8541c9e3636efe5bbb37a2e66a"
+
+[[files]]
+file = "kubejs/data/ashen/skills/warrior_11.json"
+hash = "4a384be94524c0536804db278ea9b922c9e185edfcd7128f897a56201dc5ba16"
+
+[[files]]
+file = "kubejs/data/ashen/skills/warrior_12.json"
+hash = "1256b28b4f3fe8c561a8dba5ad24f531f85e49d31d752a458b84547abac5da31"
+
+[[files]]
+file = "kubejs/data/ashen/skills/warrior_13.json"
+hash = "02e68878cc01a3b2e2420eea7873c0d7dfdcd437bff41fdd84cd57372a3de7f7"
+
+[[files]]
+file = "kubejs/data/ashen/skills/warrior_14.json"
+hash = "cc2f5a50777f96a7bfb74dce4ada32f92c1058b17dc2c902db3f83d932fba69c"
+
+[[files]]
+file = "kubejs/data/ashen/skills/warrior_15.json"
+hash = "33d1e7649236a6b2aaef635f49bee6a95755e843d52e8a0ce450ef7f7cd284dc"
+
+[[files]]
+file = "kubejs/data/ashen/skills/warrior_16.json"
+hash = "1e849e2257bd4ea0fe637473905e51e913462d1bc23435cbeb07a8d443cc4f8e"
+
+[[files]]
+file = "kubejs/data/ashen/skills/warrior_17.json"
+hash = "7371b4b2bc81efc56c8a97385e204c094e1a459cd0779dd292fe844623286723"
+
+[[files]]
+file = "kubejs/data/ashen/skills/warrior_18.json"
+hash = "8b37e63ea56d313ae5f654ee6dacf95fb9ba95e4ef40f35f6b97b949ed4931ea"
+
+[[files]]
+file = "kubejs/data/ashen/skills/warrior_19.json"
+hash = "f346522a84236738c9ce82add4ca4bd09237d8c3ced409a893c0acf78eeb9d88"
+
+[[files]]
+file = "kubejs/data/ashen/skills/warrior_19_preparation_1.json"
+hash = "9f39a77095ae581973c02a3faa5c577bb69bfb009a6f258abae6d4885fc369d0"
+
+[[files]]
+file = "kubejs/data/ashen/skills/warrior_19_preparation_2.json"
+hash = "a2e6eab17db35f100a8793bdb36932b5a191a92b0ff39acb08c3637321a8fc30"
+
+[[files]]
+file = "kubejs/data/ashen/skills/warrior_2.json"
+hash = "e4a62e8b7dbecba54e71f99fd0e33bb729137f3909f73affef93f86940c7c667"
+
+[[files]]
+file = "kubejs/data/ashen/skills/warrior_20.json"
+hash = "4c3ab383a701081dcb6b06c76ec294d8e4a69890c53da29c0d3b8f0da08eb13c"
+
+[[files]]
+file = "kubejs/data/ashen/skills/warrior_20_preparation_1.json"
+hash = "ba46182acb1e4837ce5cb449ee1ab19d96d20204cb30f6106cbd5f6d178df94b"
+
+[[files]]
+file = "kubejs/data/ashen/skills/warrior_20_preparation_2.json"
+hash = "a25aae19d1c7d83179678cebb667af2982c3c916595957cccf8c734aca236d17"
+
+[[files]]
+file = "kubejs/data/ashen/skills/warrior_21.json"
+hash = "cb27b938a647bef36853ca55cf5e641246a621bc617f6acae958488f16135dcf"
+
+[[files]]
+file = "kubejs/data/ashen/skills/warrior_21_preparation_1.json"
+hash = "ec128456c69d794860b7559416de7d841fafacc95948cc38cb0844eb51bbdea6"
+
+[[files]]
+file = "kubejs/data/ashen/skills/warrior_3.json"
+hash = "015cdf3dd717b2a20b114266b6386eda994c683cd3cb725edc1cb21de59d82b8"
+
+[[files]]
+file = "kubejs/data/ashen/skills/warrior_4.json"
+hash = "833088e21c9552aa1e7af05b8c4882334c9c88480b4c50a5261311e7d9b95fdd"
+
+[[files]]
+file = "kubejs/data/ashen/skills/warrior_5.json"
+hash = "5bf2256200ded9df95efda897758e2565163d597ad9a75d93e04e692d797a910"
+
+[[files]]
+file = "kubejs/data/ashen/skills/warrior_6.json"
+hash = "3702bc0284cee41566674510cc4b42b0a71cec5b2ed2cc21915ca377c47088ec"
+
+[[files]]
+file = "kubejs/data/ashen/skills/warrior_7.json"
+hash = "257f0765e3480c43c120c6312923b45bee56a3addd3a05de70009778f016b8ad"
+
+[[files]]
+file = "kubejs/data/ashen/skills/warrior_8.json"
+hash = "cacd1c970607164e3ec9d3f9e11c9624abaebc65add54893e43cce787910007b"
+
+[[files]]
+file = "kubejs/data/ashen/skills/warrior_9.json"
+hash = "9c454c52d8bd0b46540956b6d55ba4e25fb9a25115450fc69d76dc72da7dcc41"
+
+[[files]]
+file = "kubejs/data/ashen/skills/warrior_lifesteal_1.json"
+hash = "73eb9e51e8d2f225382a43c02a5cc3d196fbf0caf5b807a5668dd715057bf22d"
+
+[[files]]
+file = "kubejs/data/ashen/skills/warrior_lifesteal_2.json"
+hash = "e1270083ed9f402d529d50e855d960c4bc0e528f3b9c9ff90514a6c88d36b491"
+
+[[files]]
+file = "kubejs/data/minecraft/tags/functions/load.json"
+hash = "1540e0bf3981af754954db45454321987656e572a11ccf2d3cf99eb3839dabdc"
+
+[[files]]
+file = "kubejs/data/minecraft/tags/functions/tick.json"
+hash = "88ae6a3ac7dbf4c18e15829f13e98286a83603f02470258af4ccaef723efc1b9"
+
+[[files]]
+file = "kubejs/data/skilltree/skill_trees/alchemist.json"
+hash = "9480c50e47a9629d1af0825849c50dfa702163722a4db9b731bca6e6ce21454f"
+
+[[files]]
+file = "kubejs/data/skilltree/skill_trees/cook.json"
+hash = "9480c50e47a9629d1af0825849c50dfa702163722a4db9b731bca6e6ce21454f"
+
+[[files]]
+file = "kubejs/data/skilltree/skill_trees/hunter.json"
+hash = "9480c50e47a9629d1af0825849c50dfa702163722a4db9b731bca6e6ce21454f"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/aluminum_battle_hammer.json"
+hash = "4fed004df774721bdfc752934fe00460d4d4844605e19af93a32df9a8d2300bd"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/aluminum_battleaxe.json"
+hash = "acad9ed1f940480fd3c05e260bb8ac78833338bccd19dea4439cbd85b497f4f0"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/aluminum_boomerang.json"
+hash = "84dba02a7801e1ee13d3345292c88511d676fb545211bbee290e22c8939ac199"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/aluminum_dagger.json"
+hash = "8b82308e1fb1e6940a0ff92cc07bd09f16b69ac204135220d5331968cb7a87b4"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/aluminum_flanged_mace.json"
+hash = "7c509e3b7e6934a75ec80261eae607691bdd50c9226d998d0dd37d84ea5c0733"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/aluminum_glaive.json"
+hash = "9ac31b87ac701ceb0d0b8e9a99633346b067ddbb4f8b659090387a1a7166320b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/aluminum_greatsword.json"
+hash = "2a6cd065e66463876f31046fd578f9b672d4c0bea8f6cd3040d1817a7957f4f4"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/aluminum_halberd.json"
+hash = "f129b19a399a152d0e5ec1085efad6cac85b9f20ccb532af879de2a6dbb2ccbb"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/aluminum_heavy_crossbow.json"
+hash = "32e49b50fe99443b9dfcbd7a2312aa49b81363fb15cbbc2223fb877f82072cb7"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/aluminum_javelin.json"
+hash = "dfb4d1204f5343d65e11eaf9be79110cc459ce1e86ddcc8e1baae26ddc938bc2"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/aluminum_katana.json"
+hash = "2c4a3df4a0f3a0a101c899e560e5784b28e4e6c86d7c2ae0b1c6864f394c1744"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/aluminum_lance.json"
+hash = "3452802a40394f9338083be1bd683811a77d78c0a4bf26b1a03d43cb2f99b151"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/aluminum_longbow.json"
+hash = "8a4d865f22d6ce8f7db06130abd85a6a1b805921aa94af100c618570d9f59451"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/aluminum_longsword.json"
+hash = "262477180d579de55cedfb134cb77d3ec48af2fafd97356decf8e8276ac54f59"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/aluminum_parrying_dagger.json"
+hash = "d0d017b390719b28d4375ef9de5acd85bcd682ccdaa300117679522e54dc97cc"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/aluminum_pike.json"
+hash = "087d7ef7bc21ba46cbf6cf834fb8a9291de2dc716d6d38cb025b7d62426cb30a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/aluminum_quarterstaff.json"
+hash = "5a44466879e4229dc27815d38d8ffac189b821a3dc83b0ceb7a35ee9fc1c4e59"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/aluminum_rapier.json"
+hash = "c4462d1f197efcb3b8e5da985f966dbacd01fd58311a151565f41507c0a9ad4a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/aluminum_saber.json"
+hash = "d20bbd1bce3a30d7fd30c29d8870b59bf6a9504aac5c86709e39cc79e0d1e318"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/aluminum_scythe.json"
+hash = "044f9ee4c0a6d8176000efce803af5d5effe9c295161afddb055ec9a0b497ade"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/aluminum_spear.json"
+hash = "569293e58bad8bb29d4a951e20c3cdc186445856b05c4946d05b2c66c475744b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/aluminum_throwing_knife.json"
+hash = "84dba02a7801e1ee13d3345292c88511d676fb545211bbee290e22c8939ac199"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/aluminum_tomahawk.json"
+hash = "d0d017b390719b28d4375ef9de5acd85bcd682ccdaa300117679522e54dc97cc"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/aluminum_warhammer.json"
+hash = "686305c4a717608c00c26dc4a51aeaee51d38f1b64116613347bffba461f98b9"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_battle_hammer.json"
+hash = "4fed004df774721bdfc752934fe00460d4d4844605e19af93a32df9a8d2300bd"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_battleaxe.json"
+hash = "acad9ed1f940480fd3c05e260bb8ac78833338bccd19dea4439cbd85b497f4f0"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_boomerang.json"
+hash = "84dba02a7801e1ee13d3345292c88511d676fb545211bbee290e22c8939ac199"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_dagger.json"
+hash = "8b82308e1fb1e6940a0ff92cc07bd09f16b69ac204135220d5331968cb7a87b4"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_flanged_mace.json"
+hash = "7c509e3b7e6934a75ec80261eae607691bdd50c9226d998d0dd37d84ea5c0733"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_glaive.json"
+hash = "9ac31b87ac701ceb0d0b8e9a99633346b067ddbb4f8b659090387a1a7166320b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_greatsword.json"
+hash = "2a6cd065e66463876f31046fd578f9b672d4c0bea8f6cd3040d1817a7957f4f4"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_halberd.json"
+hash = "f129b19a399a152d0e5ec1085efad6cac85b9f20ccb532af879de2a6dbb2ccbb"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_heavy_crossbow.json"
+hash = "32e49b50fe99443b9dfcbd7a2312aa49b81363fb15cbbc2223fb877f82072cb7"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_javelin.json"
+hash = "dfb4d1204f5343d65e11eaf9be79110cc459ce1e86ddcc8e1baae26ddc938bc2"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_katana.json"
+hash = "2c4a3df4a0f3a0a101c899e560e5784b28e4e6c86d7c2ae0b1c6864f394c1744"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_lance.json"
+hash = "3452802a40394f9338083be1bd683811a77d78c0a4bf26b1a03d43cb2f99b151"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_longbow.json"
+hash = "8a4d865f22d6ce8f7db06130abd85a6a1b805921aa94af100c618570d9f59451"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_longsword.json"
+hash = "262477180d579de55cedfb134cb77d3ec48af2fafd97356decf8e8276ac54f59"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_parrying_dagger.json"
+hash = "d0d017b390719b28d4375ef9de5acd85bcd682ccdaa300117679522e54dc97cc"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_pike.json"
+hash = "087d7ef7bc21ba46cbf6cf834fb8a9291de2dc716d6d38cb025b7d62426cb30a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_quarterstaff.json"
+hash = "5a44466879e4229dc27815d38d8ffac189b821a3dc83b0ceb7a35ee9fc1c4e59"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_rapier.json"
+hash = "c4462d1f197efcb3b8e5da985f966dbacd01fd58311a151565f41507c0a9ad4a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_saber.json"
+hash = "d20bbd1bce3a30d7fd30c29d8870b59bf6a9504aac5c86709e39cc79e0d1e318"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_scythe.json"
+hash = "044f9ee4c0a6d8176000efce803af5d5effe9c295161afddb055ec9a0b497ade"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_spear.json"
+hash = "569293e58bad8bb29d4a951e20c3cdc186445856b05c4946d05b2c66c475744b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_throwing_knife.json"
+hash = "84dba02a7801e1ee13d3345292c88511d676fb545211bbee290e22c8939ac199"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_tomahawk.json"
+hash = "d0d017b390719b28d4375ef9de5acd85bcd682ccdaa300117679522e54dc97cc"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/bronze_warhammer.json"
+hash = "686305c4a717608c00c26dc4a51aeaee51d38f1b64116613347bffba461f98b9"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/constantan_battle_hammer.json"
+hash = "4fed004df774721bdfc752934fe00460d4d4844605e19af93a32df9a8d2300bd"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/constantan_battleaxe.json"
+hash = "acad9ed1f940480fd3c05e260bb8ac78833338bccd19dea4439cbd85b497f4f0"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/constantan_boomerang.json"
+hash = "84dba02a7801e1ee13d3345292c88511d676fb545211bbee290e22c8939ac199"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/constantan_dagger.json"
+hash = "8b82308e1fb1e6940a0ff92cc07bd09f16b69ac204135220d5331968cb7a87b4"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/constantan_flanged_mace.json"
+hash = "7c509e3b7e6934a75ec80261eae607691bdd50c9226d998d0dd37d84ea5c0733"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/constantan_glaive.json"
+hash = "9ac31b87ac701ceb0d0b8e9a99633346b067ddbb4f8b659090387a1a7166320b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/constantan_greatsword.json"
+hash = "2a6cd065e66463876f31046fd578f9b672d4c0bea8f6cd3040d1817a7957f4f4"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/constantan_halberd.json"
+hash = "f129b19a399a152d0e5ec1085efad6cac85b9f20ccb532af879de2a6dbb2ccbb"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/constantan_heavy_crossbow.json"
+hash = "32e49b50fe99443b9dfcbd7a2312aa49b81363fb15cbbc2223fb877f82072cb7"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/constantan_javelin.json"
+hash = "dfb4d1204f5343d65e11eaf9be79110cc459ce1e86ddcc8e1baae26ddc938bc2"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/constantan_katana.json"
+hash = "2c4a3df4a0f3a0a101c899e560e5784b28e4e6c86d7c2ae0b1c6864f394c1744"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/constantan_lance.json"
+hash = "3452802a40394f9338083be1bd683811a77d78c0a4bf26b1a03d43cb2f99b151"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/constantan_longbow.json"
+hash = "8a4d865f22d6ce8f7db06130abd85a6a1b805921aa94af100c618570d9f59451"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/constantan_longsword.json"
+hash = "262477180d579de55cedfb134cb77d3ec48af2fafd97356decf8e8276ac54f59"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/constantan_parrying_dagger.json"
+hash = "d0d017b390719b28d4375ef9de5acd85bcd682ccdaa300117679522e54dc97cc"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/constantan_pike.json"
+hash = "087d7ef7bc21ba46cbf6cf834fb8a9291de2dc716d6d38cb025b7d62426cb30a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/constantan_quarterstaff.json"
+hash = "5a44466879e4229dc27815d38d8ffac189b821a3dc83b0ceb7a35ee9fc1c4e59"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/constantan_rapier.json"
+hash = "c4462d1f197efcb3b8e5da985f966dbacd01fd58311a151565f41507c0a9ad4a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/constantan_saber.json"
+hash = "d20bbd1bce3a30d7fd30c29d8870b59bf6a9504aac5c86709e39cc79e0d1e318"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/constantan_scythe.json"
+hash = "044f9ee4c0a6d8176000efce803af5d5effe9c295161afddb055ec9a0b497ade"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/constantan_spear.json"
+hash = "569293e58bad8bb29d4a951e20c3cdc186445856b05c4946d05b2c66c475744b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/constantan_throwing_knife.json"
+hash = "84dba02a7801e1ee13d3345292c88511d676fb545211bbee290e22c8939ac199"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/constantan_tomahawk.json"
+hash = "d0d017b390719b28d4375ef9de5acd85bcd682ccdaa300117679522e54dc97cc"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/constantan_warhammer.json"
+hash = "686305c4a717608c00c26dc4a51aeaee51d38f1b64116613347bffba461f98b9"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/copper_heavy_crossbow.json"
+hash = "32e49b50fe99443b9dfcbd7a2312aa49b81363fb15cbbc2223fb877f82072cb7"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/copper_longbow.json"
+hash = "8a4d865f22d6ce8f7db06130abd85a6a1b805921aa94af100c618570d9f59451"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/diamond_heavy_crossbow.json"
+hash = "32e49b50fe99443b9dfcbd7a2312aa49b81363fb15cbbc2223fb877f82072cb7"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/diamond_longbow.json"
+hash = "8a4d865f22d6ce8f7db06130abd85a6a1b805921aa94af100c618570d9f59451"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/electrum_battle_hammer.json"
+hash = "4fed004df774721bdfc752934fe00460d4d4844605e19af93a32df9a8d2300bd"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/electrum_battleaxe.json"
+hash = "acad9ed1f940480fd3c05e260bb8ac78833338bccd19dea4439cbd85b497f4f0"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/electrum_boomerang.json"
+hash = "84dba02a7801e1ee13d3345292c88511d676fb545211bbee290e22c8939ac199"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/electrum_dagger.json"
+hash = "8b82308e1fb1e6940a0ff92cc07bd09f16b69ac204135220d5331968cb7a87b4"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/electrum_flanged_mace.json"
+hash = "7c509e3b7e6934a75ec80261eae607691bdd50c9226d998d0dd37d84ea5c0733"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/electrum_glaive.json"
+hash = "9ac31b87ac701ceb0d0b8e9a99633346b067ddbb4f8b659090387a1a7166320b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/electrum_greatsword.json"
+hash = "2a6cd065e66463876f31046fd578f9b672d4c0bea8f6cd3040d1817a7957f4f4"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/electrum_halberd.json"
+hash = "f129b19a399a152d0e5ec1085efad6cac85b9f20ccb532af879de2a6dbb2ccbb"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/electrum_heavy_crossbow.json"
+hash = "32e49b50fe99443b9dfcbd7a2312aa49b81363fb15cbbc2223fb877f82072cb7"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/electrum_javelin.json"
+hash = "dfb4d1204f5343d65e11eaf9be79110cc459ce1e86ddcc8e1baae26ddc938bc2"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/electrum_katana.json"
+hash = "2c4a3df4a0f3a0a101c899e560e5784b28e4e6c86d7c2ae0b1c6864f394c1744"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/electrum_lance.json"
+hash = "3452802a40394f9338083be1bd683811a77d78c0a4bf26b1a03d43cb2f99b151"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/electrum_longbow.json"
+hash = "8a4d865f22d6ce8f7db06130abd85a6a1b805921aa94af100c618570d9f59451"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/electrum_longsword.json"
+hash = "262477180d579de55cedfb134cb77d3ec48af2fafd97356decf8e8276ac54f59"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/electrum_parrying_dagger.json"
+hash = "d0d017b390719b28d4375ef9de5acd85bcd682ccdaa300117679522e54dc97cc"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/electrum_pike.json"
+hash = "087d7ef7bc21ba46cbf6cf834fb8a9291de2dc716d6d38cb025b7d62426cb30a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/electrum_quarterstaff.json"
+hash = "5a44466879e4229dc27815d38d8ffac189b821a3dc83b0ceb7a35ee9fc1c4e59"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/electrum_rapier.json"
+hash = "c4462d1f197efcb3b8e5da985f966dbacd01fd58311a151565f41507c0a9ad4a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/electrum_saber.json"
+hash = "d20bbd1bce3a30d7fd30c29d8870b59bf6a9504aac5c86709e39cc79e0d1e318"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/electrum_scythe.json"
+hash = "044f9ee4c0a6d8176000efce803af5d5effe9c295161afddb055ec9a0b497ade"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/electrum_spear.json"
+hash = "569293e58bad8bb29d4a951e20c3cdc186445856b05c4946d05b2c66c475744b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/electrum_throwing_knife.json"
+hash = "84dba02a7801e1ee13d3345292c88511d676fb545211bbee290e22c8939ac199"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/electrum_tomahawk.json"
+hash = "d0d017b390719b28d4375ef9de5acd85bcd682ccdaa300117679522e54dc97cc"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/electrum_warhammer.json"
+hash = "686305c4a717608c00c26dc4a51aeaee51d38f1b64116613347bffba461f98b9"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/golden_heavy_crossbow.json"
+hash = "32e49b50fe99443b9dfcbd7a2312aa49b81363fb15cbbc2223fb877f82072cb7"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/golden_longbow.json"
+hash = "8a4d865f22d6ce8f7db06130abd85a6a1b805921aa94af100c618570d9f59451"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/invar_battle_hammer.json"
+hash = "4fed004df774721bdfc752934fe00460d4d4844605e19af93a32df9a8d2300bd"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/invar_battleaxe.json"
+hash = "acad9ed1f940480fd3c05e260bb8ac78833338bccd19dea4439cbd85b497f4f0"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/invar_boomerang.json"
+hash = "84dba02a7801e1ee13d3345292c88511d676fb545211bbee290e22c8939ac199"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/invar_dagger.json"
+hash = "8b82308e1fb1e6940a0ff92cc07bd09f16b69ac204135220d5331968cb7a87b4"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/invar_flanged_mace.json"
+hash = "7c509e3b7e6934a75ec80261eae607691bdd50c9226d998d0dd37d84ea5c0733"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/invar_glaive.json"
+hash = "9ac31b87ac701ceb0d0b8e9a99633346b067ddbb4f8b659090387a1a7166320b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/invar_greatsword.json"
+hash = "2a6cd065e66463876f31046fd578f9b672d4c0bea8f6cd3040d1817a7957f4f4"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/invar_halberd.json"
+hash = "f129b19a399a152d0e5ec1085efad6cac85b9f20ccb532af879de2a6dbb2ccbb"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/invar_heavy_crossbow.json"
+hash = "32e49b50fe99443b9dfcbd7a2312aa49b81363fb15cbbc2223fb877f82072cb7"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/invar_javelin.json"
+hash = "dfb4d1204f5343d65e11eaf9be79110cc459ce1e86ddcc8e1baae26ddc938bc2"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/invar_katana.json"
+hash = "2c4a3df4a0f3a0a101c899e560e5784b28e4e6c86d7c2ae0b1c6864f394c1744"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/invar_lance.json"
+hash = "3452802a40394f9338083be1bd683811a77d78c0a4bf26b1a03d43cb2f99b151"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/invar_longbow.json"
+hash = "8a4d865f22d6ce8f7db06130abd85a6a1b805921aa94af100c618570d9f59451"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/invar_longsword.json"
+hash = "262477180d579de55cedfb134cb77d3ec48af2fafd97356decf8e8276ac54f59"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/invar_parrying_dagger.json"
+hash = "d0d017b390719b28d4375ef9de5acd85bcd682ccdaa300117679522e54dc97cc"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/invar_pike.json"
+hash = "087d7ef7bc21ba46cbf6cf834fb8a9291de2dc716d6d38cb025b7d62426cb30a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/invar_quarterstaff.json"
+hash = "5a44466879e4229dc27815d38d8ffac189b821a3dc83b0ceb7a35ee9fc1c4e59"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/invar_rapier.json"
+hash = "c4462d1f197efcb3b8e5da985f966dbacd01fd58311a151565f41507c0a9ad4a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/invar_saber.json"
+hash = "d20bbd1bce3a30d7fd30c29d8870b59bf6a9504aac5c86709e39cc79e0d1e318"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/invar_scythe.json"
+hash = "044f9ee4c0a6d8176000efce803af5d5effe9c295161afddb055ec9a0b497ade"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/invar_spear.json"
+hash = "569293e58bad8bb29d4a951e20c3cdc186445856b05c4946d05b2c66c475744b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/invar_throwing_knife.json"
+hash = "84dba02a7801e1ee13d3345292c88511d676fb545211bbee290e22c8939ac199"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/invar_tomahawk.json"
+hash = "d0d017b390719b28d4375ef9de5acd85bcd682ccdaa300117679522e54dc97cc"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/invar_warhammer.json"
+hash = "686305c4a717608c00c26dc4a51aeaee51d38f1b64116613347bffba461f98b9"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/iron_heavy_crossbow.json"
+hash = "32e49b50fe99443b9dfcbd7a2312aa49b81363fb15cbbc2223fb877f82072cb7"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/iron_longbow.json"
+hash = "8a4d865f22d6ce8f7db06130abd85a6a1b805921aa94af100c618570d9f59451"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/lead_battle_hammer.json"
+hash = "4fed004df774721bdfc752934fe00460d4d4844605e19af93a32df9a8d2300bd"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/lead_battleaxe.json"
+hash = "acad9ed1f940480fd3c05e260bb8ac78833338bccd19dea4439cbd85b497f4f0"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/lead_boomerang.json"
+hash = "84dba02a7801e1ee13d3345292c88511d676fb545211bbee290e22c8939ac199"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/lead_dagger.json"
+hash = "8b82308e1fb1e6940a0ff92cc07bd09f16b69ac204135220d5331968cb7a87b4"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/lead_flanged_mace.json"
+hash = "7c509e3b7e6934a75ec80261eae607691bdd50c9226d998d0dd37d84ea5c0733"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/lead_glaive.json"
+hash = "9ac31b87ac701ceb0d0b8e9a99633346b067ddbb4f8b659090387a1a7166320b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/lead_greatsword.json"
+hash = "2a6cd065e66463876f31046fd578f9b672d4c0bea8f6cd3040d1817a7957f4f4"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/lead_halberd.json"
+hash = "f129b19a399a152d0e5ec1085efad6cac85b9f20ccb532af879de2a6dbb2ccbb"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/lead_heavy_crossbow.json"
+hash = "32e49b50fe99443b9dfcbd7a2312aa49b81363fb15cbbc2223fb877f82072cb7"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/lead_javelin.json"
+hash = "dfb4d1204f5343d65e11eaf9be79110cc459ce1e86ddcc8e1baae26ddc938bc2"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/lead_katana.json"
+hash = "2c4a3df4a0f3a0a101c899e560e5784b28e4e6c86d7c2ae0b1c6864f394c1744"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/lead_lance.json"
+hash = "3452802a40394f9338083be1bd683811a77d78c0a4bf26b1a03d43cb2f99b151"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/lead_longbow.json"
+hash = "8a4d865f22d6ce8f7db06130abd85a6a1b805921aa94af100c618570d9f59451"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/lead_longsword.json"
+hash = "262477180d579de55cedfb134cb77d3ec48af2fafd97356decf8e8276ac54f59"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/lead_parrying_dagger.json"
+hash = "d0d017b390719b28d4375ef9de5acd85bcd682ccdaa300117679522e54dc97cc"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/lead_pike.json"
+hash = "087d7ef7bc21ba46cbf6cf834fb8a9291de2dc716d6d38cb025b7d62426cb30a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/lead_quarterstaff.json"
+hash = "5a44466879e4229dc27815d38d8ffac189b821a3dc83b0ceb7a35ee9fc1c4e59"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/lead_rapier.json"
+hash = "c4462d1f197efcb3b8e5da985f966dbacd01fd58311a151565f41507c0a9ad4a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/lead_saber.json"
+hash = "d20bbd1bce3a30d7fd30c29d8870b59bf6a9504aac5c86709e39cc79e0d1e318"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/lead_scythe.json"
+hash = "044f9ee4c0a6d8176000efce803af5d5effe9c295161afddb055ec9a0b497ade"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/lead_spear.json"
+hash = "569293e58bad8bb29d4a951e20c3cdc186445856b05c4946d05b2c66c475744b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/lead_throwing_knife.json"
+hash = "84dba02a7801e1ee13d3345292c88511d676fb545211bbee290e22c8939ac199"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/lead_tomahawk.json"
+hash = "d0d017b390719b28d4375ef9de5acd85bcd682ccdaa300117679522e54dc97cc"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/lead_warhammer.json"
+hash = "686305c4a717608c00c26dc4a51aeaee51d38f1b64116613347bffba461f98b9"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/leather_heavy_crossbow.json"
+hash = "32e49b50fe99443b9dfcbd7a2312aa49b81363fb15cbbc2223fb877f82072cb7"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/leather_longbow.json"
+hash = "8a4d865f22d6ce8f7db06130abd85a6a1b805921aa94af100c618570d9f59451"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/netherite_heavy_crossbow.json"
+hash = "32e49b50fe99443b9dfcbd7a2312aa49b81363fb15cbbc2223fb877f82072cb7"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/netherite_longbow.json"
+hash = "8a4d865f22d6ce8f7db06130abd85a6a1b805921aa94af100c618570d9f59451"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/nickel_battle_hammer.json"
+hash = "4fed004df774721bdfc752934fe00460d4d4844605e19af93a32df9a8d2300bd"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/nickel_battleaxe.json"
+hash = "acad9ed1f940480fd3c05e260bb8ac78833338bccd19dea4439cbd85b497f4f0"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/nickel_boomerang.json"
+hash = "84dba02a7801e1ee13d3345292c88511d676fb545211bbee290e22c8939ac199"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/nickel_dagger.json"
+hash = "8b82308e1fb1e6940a0ff92cc07bd09f16b69ac204135220d5331968cb7a87b4"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/nickel_flanged_mace.json"
+hash = "7c509e3b7e6934a75ec80261eae607691bdd50c9226d998d0dd37d84ea5c0733"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/nickel_glaive.json"
+hash = "9ac31b87ac701ceb0d0b8e9a99633346b067ddbb4f8b659090387a1a7166320b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/nickel_greatsword.json"
+hash = "2a6cd065e66463876f31046fd578f9b672d4c0bea8f6cd3040d1817a7957f4f4"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/nickel_halberd.json"
+hash = "f129b19a399a152d0e5ec1085efad6cac85b9f20ccb532af879de2a6dbb2ccbb"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/nickel_heavy_crossbow.json"
+hash = "32e49b50fe99443b9dfcbd7a2312aa49b81363fb15cbbc2223fb877f82072cb7"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/nickel_javelin.json"
+hash = "dfb4d1204f5343d65e11eaf9be79110cc459ce1e86ddcc8e1baae26ddc938bc2"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/nickel_katana.json"
+hash = "2c4a3df4a0f3a0a101c899e560e5784b28e4e6c86d7c2ae0b1c6864f394c1744"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/nickel_lance.json"
+hash = "3452802a40394f9338083be1bd683811a77d78c0a4bf26b1a03d43cb2f99b151"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/nickel_longbow.json"
+hash = "8a4d865f22d6ce8f7db06130abd85a6a1b805921aa94af100c618570d9f59451"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/nickel_longsword.json"
+hash = "262477180d579de55cedfb134cb77d3ec48af2fafd97356decf8e8276ac54f59"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/nickel_parrying_dagger.json"
+hash = "d0d017b390719b28d4375ef9de5acd85bcd682ccdaa300117679522e54dc97cc"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/nickel_pike.json"
+hash = "087d7ef7bc21ba46cbf6cf834fb8a9291de2dc716d6d38cb025b7d62426cb30a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/nickel_quarterstaff.json"
+hash = "5a44466879e4229dc27815d38d8ffac189b821a3dc83b0ceb7a35ee9fc1c4e59"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/nickel_rapier.json"
+hash = "c4462d1f197efcb3b8e5da985f966dbacd01fd58311a151565f41507c0a9ad4a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/nickel_saber.json"
+hash = "d20bbd1bce3a30d7fd30c29d8870b59bf6a9504aac5c86709e39cc79e0d1e318"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/nickel_scythe.json"
+hash = "044f9ee4c0a6d8176000efce803af5d5effe9c295161afddb055ec9a0b497ade"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/nickel_spear.json"
+hash = "569293e58bad8bb29d4a951e20c3cdc186445856b05c4946d05b2c66c475744b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/nickel_throwing_knife.json"
+hash = "84dba02a7801e1ee13d3345292c88511d676fb545211bbee290e22c8939ac199"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/nickel_tomahawk.json"
+hash = "d0d017b390719b28d4375ef9de5acd85bcd682ccdaa300117679522e54dc97cc"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/nickel_warhammer.json"
+hash = "686305c4a717608c00c26dc4a51aeaee51d38f1b64116613347bffba461f98b9"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/parrying_dagger.json"
+hash = "8b82308e1fb1e6940a0ff92cc07bd09f16b69ac204135220d5331968cb7a87b4"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/platinum_battle_hammer.json"
+hash = "4fed004df774721bdfc752934fe00460d4d4844605e19af93a32df9a8d2300bd"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/platinum_battleaxe.json"
+hash = "acad9ed1f940480fd3c05e260bb8ac78833338bccd19dea4439cbd85b497f4f0"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/platinum_boomerang.json"
+hash = "84dba02a7801e1ee13d3345292c88511d676fb545211bbee290e22c8939ac199"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/platinum_dagger.json"
+hash = "8b82308e1fb1e6940a0ff92cc07bd09f16b69ac204135220d5331968cb7a87b4"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/platinum_flanged_mace.json"
+hash = "7c509e3b7e6934a75ec80261eae607691bdd50c9226d998d0dd37d84ea5c0733"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/platinum_glaive.json"
+hash = "9ac31b87ac701ceb0d0b8e9a99633346b067ddbb4f8b659090387a1a7166320b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/platinum_greatsword.json"
+hash = "2a6cd065e66463876f31046fd578f9b672d4c0bea8f6cd3040d1817a7957f4f4"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/platinum_halberd.json"
+hash = "f129b19a399a152d0e5ec1085efad6cac85b9f20ccb532af879de2a6dbb2ccbb"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/platinum_heavy_crossbow.json"
+hash = "32e49b50fe99443b9dfcbd7a2312aa49b81363fb15cbbc2223fb877f82072cb7"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/platinum_javelin.json"
+hash = "dfb4d1204f5343d65e11eaf9be79110cc459ce1e86ddcc8e1baae26ddc938bc2"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/platinum_katana.json"
+hash = "2c4a3df4a0f3a0a101c899e560e5784b28e4e6c86d7c2ae0b1c6864f394c1744"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/platinum_lance.json"
+hash = "3452802a40394f9338083be1bd683811a77d78c0a4bf26b1a03d43cb2f99b151"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/platinum_longbow.json"
+hash = "8a4d865f22d6ce8f7db06130abd85a6a1b805921aa94af100c618570d9f59451"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/platinum_longsword.json"
+hash = "262477180d579de55cedfb134cb77d3ec48af2fafd97356decf8e8276ac54f59"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/platinum_parrying_dagger.json"
+hash = "d0d017b390719b28d4375ef9de5acd85bcd682ccdaa300117679522e54dc97cc"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/platinum_pike.json"
+hash = "087d7ef7bc21ba46cbf6cf834fb8a9291de2dc716d6d38cb025b7d62426cb30a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/platinum_quarterstaff.json"
+hash = "5a44466879e4229dc27815d38d8ffac189b821a3dc83b0ceb7a35ee9fc1c4e59"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/platinum_rapier.json"
+hash = "c4462d1f197efcb3b8e5da985f966dbacd01fd58311a151565f41507c0a9ad4a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/platinum_saber.json"
+hash = "d20bbd1bce3a30d7fd30c29d8870b59bf6a9504aac5c86709e39cc79e0d1e318"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/platinum_scythe.json"
+hash = "044f9ee4c0a6d8176000efce803af5d5effe9c295161afddb055ec9a0b497ade"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/platinum_spear.json"
+hash = "569293e58bad8bb29d4a951e20c3cdc186445856b05c4946d05b2c66c475744b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/platinum_throwing_knife.json"
+hash = "84dba02a7801e1ee13d3345292c88511d676fb545211bbee290e22c8939ac199"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/platinum_tomahawk.json"
+hash = "d0d017b390719b28d4375ef9de5acd85bcd682ccdaa300117679522e54dc97cc"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/platinum_warhammer.json"
+hash = "686305c4a717608c00c26dc4a51aeaee51d38f1b64116613347bffba461f98b9"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/silver_battle_hammer.json"
+hash = "4fed004df774721bdfc752934fe00460d4d4844605e19af93a32df9a8d2300bd"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/silver_battleaxe.json"
+hash = "acad9ed1f940480fd3c05e260bb8ac78833338bccd19dea4439cbd85b497f4f0"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/silver_boomerang.json"
+hash = "84dba02a7801e1ee13d3345292c88511d676fb545211bbee290e22c8939ac199"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/silver_dagger.json"
+hash = "8b82308e1fb1e6940a0ff92cc07bd09f16b69ac204135220d5331968cb7a87b4"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/silver_flanged_mace.json"
+hash = "7c509e3b7e6934a75ec80261eae607691bdd50c9226d998d0dd37d84ea5c0733"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/silver_glaive.json"
+hash = "9ac31b87ac701ceb0d0b8e9a99633346b067ddbb4f8b659090387a1a7166320b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/silver_greatsword.json"
+hash = "2a6cd065e66463876f31046fd578f9b672d4c0bea8f6cd3040d1817a7957f4f4"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/silver_halberd.json"
+hash = "f129b19a399a152d0e5ec1085efad6cac85b9f20ccb532af879de2a6dbb2ccbb"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/silver_heavy_crossbow.json"
+hash = "32e49b50fe99443b9dfcbd7a2312aa49b81363fb15cbbc2223fb877f82072cb7"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/silver_javelin.json"
+hash = "dfb4d1204f5343d65e11eaf9be79110cc459ce1e86ddcc8e1baae26ddc938bc2"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/silver_katana.json"
+hash = "2c4a3df4a0f3a0a101c899e560e5784b28e4e6c86d7c2ae0b1c6864f394c1744"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/silver_lance.json"
+hash = "3452802a40394f9338083be1bd683811a77d78c0a4bf26b1a03d43cb2f99b151"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/silver_longbow.json"
+hash = "8a4d865f22d6ce8f7db06130abd85a6a1b805921aa94af100c618570d9f59451"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/silver_longsword.json"
+hash = "262477180d579de55cedfb134cb77d3ec48af2fafd97356decf8e8276ac54f59"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/silver_parrying_dagger.json"
+hash = "d0d017b390719b28d4375ef9de5acd85bcd682ccdaa300117679522e54dc97cc"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/silver_pike.json"
+hash = "087d7ef7bc21ba46cbf6cf834fb8a9291de2dc716d6d38cb025b7d62426cb30a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/silver_quarterstaff.json"
+hash = "5a44466879e4229dc27815d38d8ffac189b821a3dc83b0ceb7a35ee9fc1c4e59"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/silver_rapier.json"
+hash = "c4462d1f197efcb3b8e5da985f966dbacd01fd58311a151565f41507c0a9ad4a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/silver_saber.json"
+hash = "d20bbd1bce3a30d7fd30c29d8870b59bf6a9504aac5c86709e39cc79e0d1e318"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/silver_scythe.json"
+hash = "044f9ee4c0a6d8176000efce803af5d5effe9c295161afddb055ec9a0b497ade"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/silver_spear.json"
+hash = "569293e58bad8bb29d4a951e20c3cdc186445856b05c4946d05b2c66c475744b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/silver_throwing_knife.json"
+hash = "84dba02a7801e1ee13d3345292c88511d676fb545211bbee290e22c8939ac199"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/silver_tomahawk.json"
+hash = "d0d017b390719b28d4375ef9de5acd85bcd682ccdaa300117679522e54dc97cc"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/silver_warhammer.json"
+hash = "686305c4a717608c00c26dc4a51aeaee51d38f1b64116613347bffba461f98b9"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_battle_hammer.json"
+hash = "4fed004df774721bdfc752934fe00460d4d4844605e19af93a32df9a8d2300bd"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_battleaxe.json"
+hash = "acad9ed1f940480fd3c05e260bb8ac78833338bccd19dea4439cbd85b497f4f0"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_boomerang.json"
+hash = "84dba02a7801e1ee13d3345292c88511d676fb545211bbee290e22c8939ac199"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_dagger.json"
+hash = "8b82308e1fb1e6940a0ff92cc07bd09f16b69ac204135220d5331968cb7a87b4"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_flanged_mace.json"
+hash = "7c509e3b7e6934a75ec80261eae607691bdd50c9226d998d0dd37d84ea5c0733"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_glaive.json"
+hash = "9ac31b87ac701ceb0d0b8e9a99633346b067ddbb4f8b659090387a1a7166320b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_greatsword.json"
+hash = "2a6cd065e66463876f31046fd578f9b672d4c0bea8f6cd3040d1817a7957f4f4"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_halberd.json"
+hash = "f129b19a399a152d0e5ec1085efad6cac85b9f20ccb532af879de2a6dbb2ccbb"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_heavy_crossbow.json"
+hash = "32e49b50fe99443b9dfcbd7a2312aa49b81363fb15cbbc2223fb877f82072cb7"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_javelin.json"
+hash = "dfb4d1204f5343d65e11eaf9be79110cc459ce1e86ddcc8e1baae26ddc938bc2"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_katana.json"
+hash = "2c4a3df4a0f3a0a101c899e560e5784b28e4e6c86d7c2ae0b1c6864f394c1744"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_lance.json"
+hash = "3452802a40394f9338083be1bd683811a77d78c0a4bf26b1a03d43cb2f99b151"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_longbow.json"
+hash = "8a4d865f22d6ce8f7db06130abd85a6a1b805921aa94af100c618570d9f59451"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_longsword.json"
+hash = "262477180d579de55cedfb134cb77d3ec48af2fafd97356decf8e8276ac54f59"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_parrying_dagger.json"
+hash = "d0d017b390719b28d4375ef9de5acd85bcd682ccdaa300117679522e54dc97cc"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_pike.json"
+hash = "087d7ef7bc21ba46cbf6cf834fb8a9291de2dc716d6d38cb025b7d62426cb30a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_quarterstaff.json"
+hash = "5a44466879e4229dc27815d38d8ffac189b821a3dc83b0ceb7a35ee9fc1c4e59"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_rapier.json"
+hash = "c4462d1f197efcb3b8e5da985f966dbacd01fd58311a151565f41507c0a9ad4a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_saber.json"
+hash = "d20bbd1bce3a30d7fd30c29d8870b59bf6a9504aac5c86709e39cc79e0d1e318"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_scythe.json"
+hash = "044f9ee4c0a6d8176000efce803af5d5effe9c295161afddb055ec9a0b497ade"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_spear.json"
+hash = "569293e58bad8bb29d4a951e20c3cdc186445856b05c4946d05b2c66c475744b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_throwing_knife.json"
+hash = "84dba02a7801e1ee13d3345292c88511d676fb545211bbee290e22c8939ac199"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_tomahawk.json"
+hash = "d0d017b390719b28d4375ef9de5acd85bcd682ccdaa300117679522e54dc97cc"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/steel_warhammer.json"
+hash = "686305c4a717608c00c26dc4a51aeaee51d38f1b64116613347bffba461f98b9"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/tin_battle_hammer.json"
+hash = "4fed004df774721bdfc752934fe00460d4d4844605e19af93a32df9a8d2300bd"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/tin_battleaxe.json"
+hash = "acad9ed1f940480fd3c05e260bb8ac78833338bccd19dea4439cbd85b497f4f0"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/tin_boomerang.json"
+hash = "84dba02a7801e1ee13d3345292c88511d676fb545211bbee290e22c8939ac199"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/tin_dagger.json"
+hash = "8b82308e1fb1e6940a0ff92cc07bd09f16b69ac204135220d5331968cb7a87b4"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/tin_flanged_mace.json"
+hash = "7c509e3b7e6934a75ec80261eae607691bdd50c9226d998d0dd37d84ea5c0733"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/tin_glaive.json"
+hash = "9ac31b87ac701ceb0d0b8e9a99633346b067ddbb4f8b659090387a1a7166320b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/tin_greatsword.json"
+hash = "2a6cd065e66463876f31046fd578f9b672d4c0bea8f6cd3040d1817a7957f4f4"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/tin_halberd.json"
+hash = "f129b19a399a152d0e5ec1085efad6cac85b9f20ccb532af879de2a6dbb2ccbb"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/tin_heavy_crossbow.json"
+hash = "32e49b50fe99443b9dfcbd7a2312aa49b81363fb15cbbc2223fb877f82072cb7"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/tin_javelin.json"
+hash = "dfb4d1204f5343d65e11eaf9be79110cc459ce1e86ddcc8e1baae26ddc938bc2"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/tin_katana.json"
+hash = "2c4a3df4a0f3a0a101c899e560e5784b28e4e6c86d7c2ae0b1c6864f394c1744"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/tin_lance.json"
+hash = "3452802a40394f9338083be1bd683811a77d78c0a4bf26b1a03d43cb2f99b151"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/tin_longbow.json"
+hash = "8a4d865f22d6ce8f7db06130abd85a6a1b805921aa94af100c618570d9f59451"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/tin_longsword.json"
+hash = "262477180d579de55cedfb134cb77d3ec48af2fafd97356decf8e8276ac54f59"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/tin_parrying_dagger.json"
+hash = "d0d017b390719b28d4375ef9de5acd85bcd682ccdaa300117679522e54dc97cc"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/tin_pike.json"
+hash = "087d7ef7bc21ba46cbf6cf834fb8a9291de2dc716d6d38cb025b7d62426cb30a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/tin_quarterstaff.json"
+hash = "5a44466879e4229dc27815d38d8ffac189b821a3dc83b0ceb7a35ee9fc1c4e59"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/tin_rapier.json"
+hash = "c4462d1f197efcb3b8e5da985f966dbacd01fd58311a151565f41507c0a9ad4a"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/tin_saber.json"
+hash = "d20bbd1bce3a30d7fd30c29d8870b59bf6a9504aac5c86709e39cc79e0d1e318"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/tin_scythe.json"
+hash = "044f9ee4c0a6d8176000efce803af5d5effe9c295161afddb055ec9a0b497ade"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/tin_spear.json"
+hash = "569293e58bad8bb29d4a951e20c3cdc186445856b05c4946d05b2c66c475744b"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/tin_throwing_knife.json"
+hash = "84dba02a7801e1ee13d3345292c88511d676fb545211bbee290e22c8939ac199"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/tin_tomahawk.json"
+hash = "d0d017b390719b28d4375ef9de5acd85bcd682ccdaa300117679522e54dc97cc"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/tin_warhammer.json"
+hash = "686305c4a717608c00c26dc4a51aeaee51d38f1b64116613347bffba461f98b9"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/wooden_heavy_crossbow.json"
+hash = "32e49b50fe99443b9dfcbd7a2312aa49b81363fb15cbbc2223fb877f82072cb7"
+
+[[files]]
+file = "kubejs/data/spartanweaponry/capabilities/weapons/wooden_longbow.json"
+hash = "8a4d865f22d6ce8f7db06130abd85a6a1b805921aa94af100c618570d9f59451"
+
+[[files]]
+file = "kubejs/data/starting_classes/disabled_classes.json"
+hash = "68895b24cbb2dd79d4f93571b4fa81c244c50e89d6984e9f624cc155e6056bed"
+
+[[files]]
+file = "kubejs/server_scripts/ashen_abilities.js"
+hash = "0931c846c15a692f7e6e5810fbff2ff3f6fdff71b1656af2656d3d7cd787a12e"
+
+[[files]]
+file = "kubejs/server_scripts/ashen_ascendancy.js"
+hash = "c579f27a23736ad4568ffb99b32c60a13137eb100138c93f78df3960ec48bb56"
+
+[[files]]
+file = "kubejs/server_scripts/ashen_core_spells.js"
+hash = "7264b5012afbc22b9c87d5dfb6103c141c76f6a90dc1b85f5317f441bc7e96d6"
+
+[[files]]
+file = "kubejs/server_scripts/ashen_epic_links.js"
+hash = "e985d47680aa148d602ede812b9f39f8d3f412e967efcb14b0708b5c1f160baa"
+
+[[files]]
+file = "kubejs/server_scripts/ashen_passive_tree.js"
+hash = "6298bbf039841e52e41b7a442c778dffa6743d0c78b3b99e75aaa936cfc54dcf"
+
+[[files]]
+file = "kubejs/server_scripts/ashen_recipes.js"
+hash = "cb893c9a27e1e38840b9b187bc5ccfbdc570e9ae87d16c88b3888cc37eca3677"
+
+[[files]]
+file = "kubejs/server_scripts/ashen_skills.js"
+hash = "39de2661ffeb5ceb2fcfcb7ff0ec26bba1cc63102381bf47f1848c608a6a78ee"
+
+[[files]]
+file = "kubejs/server_scripts/ashen_story.js"
+hash = "9428da396e360b23855d7f5d7886c94af851d50d72c64409beb4833e1327ef34"
+
+[[files]]
+file = "kubejs/server_scripts/ashen_subclass_effects.js"
+hash = "ac1f27e4e231f38eae514437b1cb1990070641b7fa2abd2c2ed3d03a87ae1581"
+
+[[files]]
+file = "kubejs/startup_scripts/00_ashen_combat_data.js"
+hash = "1f4792a1a2f33e2546566974cc588da8fe0788e310e1ab37964589a0b0b46874"
+
+[[files]]
+file = "kubejs/startup_scripts/ashen_ability_keybinds.js"
+hash = "e3a24aa323d369d06112508893cf62471ea99c143fad83ca2c188c5b805bf433"
+
+[[files]]
+file = "kubejs/startup_scripts/ashen_damage_events.js"
+hash = "5726cb3725d7330c5ff7e88cfb4c7415f2e446dc3e8d343c6df6c0cb1ea8af48"
+
+[[files]]
+file = "kubejs/startup_scripts/ashen_items.js"
+hash = "9ecc8202bb83429c0215b94f05c2fcbcbcfacb6c605ea28468d68bce07f1d2a0"
+
+[[files]]
+file = "kubejs/startup_scripts/ashen_subclass_controls.js"
+hash = "9201ab4f4f2b605d9ee1d817be2677b76579f8ddef7e60ddff11d033fce8eb30"
+
+[[files]]
+file = "mods/Apotheosis-1.20.1-7.4.8.jar.pw.toml"
+hash = "70ccb66ff0e2dd1cf307968fd469961af814f9edd78e4f5cafb978be5cf45640"
+metafile = true
+
+[[files]]
+file = "mods/ApothicAttributes-1.20.1-1.3.7.jar.pw.toml"
+hash = "53ffe4d38c144e3c1e74982e158f701fe3098a21f7a9755f9bba0ab01c90aadc"
+metafile = true
+
+[[files]]
+file = "mods/AttributeFix-Forge-1.20.1-21.0.5.jar.pw.toml"
+hash = "642474c4fffb5f2130bfbdaa8428bc5660cdc368982ee1183189d6bfc0138aee"
+metafile = true
+
+[[files]]
+file = "mods/Clumps-forge-1.20.1-12.0.0.4.jar.pw.toml"
+hash = "3d93495f6eb26929ebcb8d06e018dc4f927e5abfd4c81d05be2c199dfc8d3074"
+metafile = true
+
+[[files]]
+file = "mods/Controlling-forge-1.20.1-12.0.2.jar.pw.toml"
+hash = "3410333589ab1753baa1ccb462a9bad89926c6367cc68b89a4747ecd1fd790b8"
+metafile = true
+
+[[files]]
+file = "mods/ExplorersCompass-1.20.1-1.4.0-forge.jar.pw.toml"
+hash = "0f6ad0d0ef9c4fad6becfe617239cd6310860f8f41525b9eab117e1592ee1b1c"
+metafile = true
+
+[[files]]
+file = "mods/InventoryProfilesNext-forge-1.20-1.10.20.jar.pw.toml"
+hash = "48c68c34179b74bf3c79e802829e10e64e654b3e37ccb4166c22fda7f95b0bb3"
+metafile = true
+
+[[files]]
+file = "mods/Jade-1.20.1-Forge-11.13.3.jar.pw.toml"
+hash = "63811cbc72ccb9024f004e8f7d02e189ee65406fd5a1a5b4c81ed494cb5a9d75"
+metafile = true
+
+[[files]]
+file = "mods/KeyBindJS-2001-1.9.jar.pw.toml"
+hash = "282d2b61415ad1ff79acb5869bf540e68d3eee3e770ec07930daf77d9ca75b52"
+metafile = true
+
+[[files]]
+file = "mods/L_Enders_Cataclysm-3.31.jar.pw.toml"
+hash = "740e17b066df8132fe4f20cd4e7d35e3432db164fba2afde0690c275db43f2cb"
+metafile = true
+
+[[files]]
+file = "mods/MaxHealthFix-Forge-1.20.1-12.0.4.jar.pw.toml"
+hash = "05c02306cb26ee5d0e28bff3b95b86762035929c49c0ad475e167bea99257408"
+metafile = true
+
+[[files]]
+file = "mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar.pw.toml"
+hash = "f700459b7ed034e14a21ff5553a718e9fe55e39e78cb9f9959efcc557353760c"
+metafile = true
+
+[[files]]
+file = "mods/PassiveSkillTree-1.20.1-BETA-0.7.6e-all.jar.pw.toml"
+hash = "61f39c812512ba1a786a8460025c59dae767d7cfa0b95d868df1bc6aa7dcfbd5"
+metafile = true
+
+[[files]]
+file = "mods/Patchouli-1.20.1-85-FORGE.jar.pw.toml"
+hash = "b594cdb8e669e2d4683114b54eb1516ef66bb4eb6c693cbd0dffb8309fe3ea40"
+metafile = true
+
+[[files]]
+file = "mods/Placebo-1.20.1-8.6.3.jar.pw.toml"
+hash = "baf28c66315e0ad820b2b387e692df3fbdaef62bc216dcdca83316863ec335cd"
+metafile = true
+
+[[files]]
+file = "mods/Searchables-forge-1.20.1-1.0.3.jar.pw.toml"
+hash = "c5c38489d1bf0e09ec17da22c2b30cb7be1de95b6e8babd0175d7a931309474b"
+metafile = true
+
+[[files]]
+file = "mods/ShoulderSurfing-Forge-1.20.1-5.2.0.jar.pw.toml"
+hash = "d41b2e7feeccaca58f860af05f980d528bcc49a649ca88d0f225bc49a7e8e89f"
+metafile = true
+
+[[files]]
+file = "mods/SpartanWeaponry-1.20.1-forge-3.2.1-all.jar.pw.toml"
+hash = "1823f0976cad66f5f934a4b5356945d946eeb4116cb176f9bd26dd43ca1969bb"
+metafile = true
+
+[[files]]
+file = "mods/WeaponsOfMiracles-2.0.164-mc1.20.1-forge.jar.pw.toml"
+hash = "c61cb5e8e04cb2c34dda10e50dda329eec28f80f2a12c548e4ed203f3785a8f2"
+metafile = true
+
+[[files]]
+file = "mods/XaerosWorldMap_1.39.12_Forge_1.20.jar.pw.toml"
+hash = "c89fe31a41459501e7132e0b0363d93da68987bd86752c88a8ac8864028f287d"
+metafile = true
+
+[[files]]
+file = "mods/Xaeros_Minimap_25.2.10_Forge_1.20.jar.pw.toml"
+hash = "42f6833b8bcc28858173eae112a3484b7a729aa48d5fb29922bf22353d2159d1"
+metafile = true
+
+[[files]]
+file = "mods/appleskin-forge-mc1.20.1-2.5.1.jar.pw.toml"
+hash = "c7c6db7f6f6e84614ad13164c9156327a10ff2b61531c688777910bc91d7e154"
+metafile = true
+
+[[files]]
+file = "mods/architectury-9.2.14-forge.jar.pw.toml"
+hash = "38b7c7aaa07ea32ed79b93b38d0f0d2923b18d7d01b6d4ac30272218da8f59de"
+metafile = true
+
+[[files]]
+file = "mods/ashen-skill-bridge-1.0.0.jar"
+hash = "6f11f68cbaa6cc6f6633085bdfa229b3423a874f235bdc77e3295de4ac0d2d2c"
+
+[[files]]
+file = "mods/cloth-config-11.1.136-forge.jar.pw.toml"
+hash = "7c74c33f68413e22f34dfafb19e0f851a9b8ecf5615ed109900a3fc57e453040"
+metafile = true
+
+[[files]]
+file = "mods/cofh_core-1.20.1-11.0.2.56.jar.pw.toml"
+hash = "537ba738dba922ac24a75ce9d220fbb0ab63e2b53e272be6057c4f5f3a2148f5"
+metafile = true
+
+[[files]]
+file = "mods/corpse-forge-1.20.1-1.0.23.jar.pw.toml"
+hash = "c6f14bea8a02c68bfd7c33083616020d409c6b44ee6167efcd426f9d600a6718"
+metafile = true
+
+[[files]]
+file = "mods/curios-forge-5.14.1+1.20.1.jar.pw.toml"
+hash = "5bc8a3da75e0ed62d2f8bc8d32688b21a9e867baf96329786db32b35f37d32bf"
+metafile = true
+
+[[files]]
+file = "mods/cwb-forge-3.0.0+mc1.20.jar.pw.toml"
+hash = "625cf52f3e86e4c17dfcb7d96b2a74f7f7b8ba440a596b252b43d6998c5d25fe"
+metafile = true
+
+[[files]]
+file = "mods/dummmmmmy-1.20-2.0.12-forge.jar.pw.toml"
+hash = "90bdd14a29a2a5ff4bf60e76d2662bdbbd46f3351d2510e348fa735c6e310f5f"
+metafile = true
+
+[[files]]
+file = "mods/efiscompat-2.6.0.jar.pw.toml"
+hash = "9189edf3f4586911f1019ee33afb0b560c952afb8660602f2d1edb669ff6afbf"
+metafile = true
+
+[[files]]
+file = "mods/efpunchycompat-1.0.3-hotfix.jar.pw.toml"
+hash = "73a37e29fbd68bac0b0ae6a72aea44dd86d0372510d6d232971039b36e2a414b"
+metafile = true
+
+[[files]]
+file = "mods/embeddium-0.3.31+mc1.20.1.jar.pw.toml"
+hash = "1fc1e2c27cc2e6c426ce578f249f5e2d40adf8006fd305aceac2307cc5160604"
+metafile = true
+
+[[files]]
+file = "mods/entityculling-forge-1.11.3-mc1.20.1.jar.pw.toml"
+hash = "596c045c11a89a3a5bc9de12a605c1aad76ecbd1610e6fa0113c86457c7d7448"
+metafile = true
+
+[[files]]
+file = "mods/epic-fight-20.14.17-mc1.20.1-forge.jar.pw.toml"
+hash = "55c59b46cd8053bc1c1c13ad84e351e736831c7f04ba8331d958a98d48204e12"
+metafile = true
+
+[[files]]
+file = "mods/epic-fight-x-spartan-weaponry-1.0.0.jar.pw.toml"
+hash = "0f204d732f10d2ea5f2cdf636a0a8462303a02d0cd2afa54c75cd58ac76bc882"
+metafile = true
+
+[[files]]
+file = "mods/epicfight-skilltree-forge-20.2.9-1.20.1.jar.pw.toml"
+hash = "08af252668d133b53500880a57fd2cb6dadef4658e954a3783b5295d1fab837b"
+metafile = true
+
+[[files]]
+file = "mods/ferritecore-6.0.1-forge.jar.pw.toml"
+hash = "93e1308e1a91a7861bef69b676d26be7f217364733cffb01df68dbf91cacd266"
+metafile = true
+
+[[files]]
+file = "mods/ftb-library-forge-2001.2.13.jar.pw.toml"
+hash = "6791c24035896c055fc3aa4a3e1d6a51a2be3b149d03db921b5ec719b3782c52"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests-forge-2001.4.22.jar.pw.toml"
+hash = "69da9b18559a55e6b12d4e06dbeeb33115c73d38a79db4d6181a93f8295f96da"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams-forge-2001.3.2.jar.pw.toml"
+hash = "2b836d5b73c828a8055f3a29388d35936e1c36ab56c606c79fc8fced4f9ea91f"
+metafile = true
+
+[[files]]
+file = "mods/ftb-ultimine-forge-2001.1.8.jar.pw.toml"
+hash = "1beb374dc297826f3e27784555e34904833f7c6b07439a7e9e644dfadb7d1b65"
+metafile = true
+
+[[files]]
+file = "mods/geckolib-forge-1.20.1-4.8.4.jar.pw.toml"
+hash = "04f1542e9b5d29ca9915a2794d8ca5bd2d82903468e5eea6a0d3a44bf3cf64b7"
+metafile = true
+
+[[files]]
+file = "mods/ironfurnaces-1.20.1-4.1.6.jar.pw.toml"
+hash = "6e6baa88da84a51a7c9317357d4f9e3e5886b51668fceefa69a68dd1cf4d921b"
+metafile = true
+
+[[files]]
+file = "mods/irons-spells-epicfight-casting-compat-1.20.1-1.0.0.jar.pw.toml"
+hash = "8a0e97b801817f7af6a76066f21a5111a121ab1fd78b4751c4bd30bcd789170a"
+metafile = true
+
+[[files]]
+file = "mods/irons_lib-1.20.1-2.2.0.jar.pw.toml"
+hash = "4844489a0d0e0d2faf92f474f3f524a1453d2a1e840002b5998a3e90c9314818"
+metafile = true
+
+[[files]]
+file = "mods/irons_spellbooks-1.20.1-3.16.3.jar.pw.toml"
+hash = "e5f55b536fa6809cdce28a2db03579b16fb70db0b45829a10cecd5ec67994ef3"
+metafile = true
+
+[[files]]
+file = "mods/jei-1.20.1-forge-15.56.0.205.jar.pw.toml"
+hash = "a59f343e505b954953e364ce60fb9fd1cd9f524e8543e844850599a5b5be392f"
+metafile = true
+
+[[files]]
+file = "mods/kotlinforforge-4.12.0-all.jar.pw.toml"
+hash = "c14aa955cd6d5312db04f8b6fa85974341b0904f1a1f738a3a39b00b8d03d344"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-forge-2001.6.5-build.26.jar.pw.toml"
+hash = "4fbfee56bd235d26c825b8c5eab6b82a5bce75493629caae890574599e4b77ab"
+metafile = true
+
+[[files]]
+file = "mods/libIPN-forge-1.20-4.0.2.jar.pw.toml"
+hash = "32ab586ba8409166c5b776dda224964611d8b2d02571fdfada88bb8851772bb3"
+metafile = true
+
+[[files]]
+file = "mods/lionfishapi-3.0.jar.pw.toml"
+hash = "a4b3f263303bdc15e2bdb9c525d075f1e70210003c9a6c018fac305fecd9702f"
+metafile = true
+
+[[files]]
+file = "mods/lockonmovementfix-forge-2.1.6.jar.pw.toml"
+hash = "4045fde09c488f7b6a574b2326f7ff9d383f0c71a16247acf1e60e4289621f7d"
+metafile = true
+
+[[files]]
+file = "mods/modefite-forge-1.0.3+1.20.1.jar.pw.toml"
+hash = "541915c970828cc7f8cda4de838655c1b489fd10c2583ef69290b19743235c37"
+metafile = true
+
+[[files]]
+file = "mods/modernfix-forge-5.27.88+mc1.20.1.jar.pw.toml"
+hash = "05b78e440223ead2f4599793cd91b7909a11ed271cfdcef2c8a7c3e4eae5dfea"
+metafile = true
+
+[[files]]
+file = "mods/moonlight-1.20-2.16.37-forge.jar.pw.toml"
+hash = "cb818363e6faf08c4eae94b8c0d2227032dadfcfd161bb835c612966d09739b1"
+metafile = true
+
+[[files]]
+file = "mods/oculus-mc1.20.1-1.8.0.jar.pw.toml"
+hash = "ba5a7c5a38032c6dbeaa982c39a8ada23a4538fdde900ab00d260c4e98ed77f2"
+metafile = true
+
+[[files]]
+file = "mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar.pw.toml"
+hash = "15772c87126a9076959f5572c7bc7e2da34614fc01d7d49f22de3c9645312d92"
+metafile = true
+
+[[files]]
+file = "mods/punchy-2.8f-forge-1.20.1.jar.pw.toml"
+hash = "bd2b4dd94ba957e31595e37730cdc90e95dc10e7de8126c81de9f09b9184c115"
+metafile = true
+
+[[files]]
+file = "mods/refinedstorage-1.12.4.jar.pw.toml"
+hash = "5ca565ab9f26c9fa6f4cd0c3bdc700d1f707166743a9b78327a67229bcc08209"
+metafile = true
+
+[[files]]
+file = "mods/rhino-forge-2001.2.3-build.10.jar.pw.toml"
+hash = "0095e5e425db7659d3d2a051ae6b46933a492e95aaa0d1a71ca7173ccf7440dd"
+metafile = true
+
+[[files]]
+file = "mods/simple_combat_indicators-1.0-1.20.1.jar.pw.toml"
+hash = "ef356871595cb196e814a65fbcfaf2ce1da2ab0586ec79d6f2a16fcc1609dc6e"
+metafile = true
+
+[[files]]
+file = "mods/sophisticatedbackpacks-1.20.1-3.26.6.2176.jar.pw.toml"
+hash = "6a6a16eb93c1ea4ea8ca60f629c03b49553d5fc36be0840cf546e55b1091acd4"
+metafile = true
+
+[[files]]
+file = "mods/sophisticatedcore-1.20.1-1.5.6.2383.jar.pw.toml"
+hash = "d0f080c85c00d9271b85f1ce6b04f1416f6e6124c7812936b971b3c52050bcb2"
+metafile = true
+
+[[files]]
+file = "mods/sophisticatedstorage-1.20.1-1.5.1.2158.jar.pw.toml"
+hash = "770ec1b0e2339287744e7eabd25319d9af7319ffbb96b45ce0f62a356a2437a3"
+metafile = true
+
+[[files]]
+file = "mods/spark-1.10.53-forge.jar.pw.toml"
+hash = "0dceaf768e5a40972e3e4923fc012405b2699f6d218a7b7bc7038d58133132c6"
+metafile = true
+
+[[files]]
+file = "mods/ssrcamerafixes-forge-1.20.1-2.1.1.jar.pw.toml"
+hash = "fcecf18dde94db7f2811beade43b45a7821ccc5994e3e0ffed43454c44789bc0"
+metafile = true
+
+[[files]]
+file = "mods/thermal_dynamics-1.20.1-11.0.1.23.jar.pw.toml"
+hash = "b9ff1b81e7bbf8b733f82fce227eaa8983586a0960107840201f003ef866a65a"
+metafile = true
+
+[[files]]
+file = "mods/thermal_expansion-1.20.1-11.0.1.29.jar.pw.toml"
+hash = "8ba70ffd1be2d7863e3d6f869f905ccc8c3172a67b07839a1669bcabf8fa80df"
+metafile = true
+
+[[files]]
+file = "mods/thermal_foundation-1.20.1-11.0.6.70.jar.pw.toml"
+hash = "db1bc8f48b11b815604ae166fd75d8e19f69de908f974df786e53154a3d17390"
+metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "8ff9a2911815e9814ad1f68ab4a406b0ee5686e216ee1c9e7c0ae624714d5801"
+preserve = true
+
+[[files]]
+file = "resourcepacks/Ashen-Enhanced-3D-Armors-1.20.1.zip"
+hash = "23a07d9bc3395b093a7d69a7598bd3a5b115c858eb525206cab49e7fa44f7863"
+
+[[files]]
+file = "resourcepacks/Ashen-Enhanced-3D-Food-1.20.1.zip"
+hash = "f32b8ea63004447c46fab8fdca6b4407ab807766f80097eedddd300303ef4d34"
+
+[[files]]
+file = "resourcepacks/Ashen-Silly-Punchies-0.1-1.20.1.zip"
+hash = "ff852d82910d590e4a50e83aed74d78f87491ab6a6bd6629afcbdb853397f3b7"
+
+[[files]]
+file = "resourcepacks/Better+Lanterns+v1.2(mc-1.20.1).zip.pw.toml"
+hash = "4973b95135ac6991763d89f1cc5a0bba9b98cab8e9b3adf53f3751934ec9bef8"
+metafile = true
+
+[[files]]
+file = "resourcepacks/MoveThoseHands!-1.2.3.zip.pw.toml"
+hash = "3643e9b6b85b30ba5edb51a1fcedec9e7e918b2af6a71d74a6df75e68f838bfb"
+metafile = true
+
+[[files]]
+file = "resourcepacks/Punchy refined.zip.pw.toml"
+hash = "932769073b9b3df2bb55cd258e8930d10f61a2c6bb0f12830f19c6447f0f3454"
+metafile = true
+
+[[files]]
+file = "resourcepacks/Refined Buckets 2.4.1.zip.pw.toml"
+hash = "b74667228908ec02611a83f9aa101cc8bd961019ab0ffb401da0ec2bc419f588"
+metafile = true
+
+[[files]]
+file = "resourcepacks/Universal_3D_Archery_1.20-1-6_1.0.zip.pw.toml"
+hash = "42e8584038c4ca805d3d86c1cdd4bdce2a6f675cc3ff879d4c000bb823ace88c"
+metafile = true

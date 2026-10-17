@@ -1,0 +1,16 @@
+{
+  "title": "Ashen Paths",
+  "description": "Begin in the center. Mage northwest, Ranger northeast, Warrior southwest, Rogue southeast. Build a specialist or a hybrid.",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+  "unlocked_by_default": true,
+  "starting_points": 1,
+  "spent_points_limit": 49,
+  "exclusive_root": false,
+  "erase_on_death": false
+}

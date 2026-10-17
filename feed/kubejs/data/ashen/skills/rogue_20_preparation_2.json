@@ -1,0 +1,28 @@
+{
+  "id": "ashen:rogue_20_preparation_2",
+  "title": "Shadowstep \u2014 Preparation 2/2",
+  "bonuses": [],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:rogue_20_preparation_1"
+    }
+  ],
+  "directConnections": [
+    "ashen:rogue_20_preparation_1",
+    "ashen:rogue_20"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "rogue",
+    "major_preparation"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_iron.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 78.2,
+  "positionY": 326.4,
+  "buttonSize": 10,
+  "isStartingPoint": false
+}

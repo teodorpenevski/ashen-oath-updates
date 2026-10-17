@@ -1,0 +1,140 @@
+{
+  "id": "ashen:keystone_mage",
+  "title": "Spellstorm",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_power",
+      "id": "b891c2b3-2540-5ecf-84d0-1416cd3b9c57",
+      "name": "Ashen keystone_mage",
+      "amount": 0.4,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:cooldown_reduction",
+      "id": "5152c104-a2d6-5338-9635-cfac2e2c9d88",
+      "name": "Ashen keystone_mage",
+      "amount": 0.15,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:path_mage"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:mage_0"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:mage_1"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:mage_2"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:mage_3"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:mage_4"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:mage_5"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:mage_6"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:mage_7"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:mage_8"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:mage_9"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:mage_10"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:mage_11"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:mage_12"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:mage_13"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:mage_14"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:mage_15"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:mage_16"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:mage_17"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:mage_18"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:mage_20"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:mage_21"
+    }
+  ],
+  "directConnections": [
+    "ashen:mage_18"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "mage",
+    "free_keystone"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/heart_cyan.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -391.986,
+  "positionY": -391.986,
+  "buttonSize": 34,
+  "isStartingPoint": false
+}

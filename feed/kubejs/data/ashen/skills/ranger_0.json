@@ -1,0 +1,41 @@
+{
+  "id": "ashen:ranger_0",
+  "title": "Ranger",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_damage",
+      "id": "499793ea-6b7b-53f6-973d-822108843fd9",
+      "name": "Ashen ranger_0",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:path_ranger",
+    "ashen:ranger_1",
+    "ashen:ranger_2"
+  ],
+  "longConnections": [
+    "ashen:asc_marksman_root",
+    "ashen:asc_scout_root"
+  ],
+  "oneWayConnections": [],
+  "tags": [
+    "ranger"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/bow_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 87.55,
+  "positionY": -87.55,
+  "buttonSize": 22,
+  "isStartingPoint": false
+}

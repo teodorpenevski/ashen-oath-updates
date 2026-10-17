@@ -1,0 +1,39 @@
+{
+  "id": "ashen:rogue_3",
+  "title": "Light on Your Feet",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "e68d8f49-060b-5c53-a1f2-98fb97bd1205",
+      "name": "Ashen rogue_3",
+      "amount": 2,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:rogue_1",
+    "ashen:rogue_5",
+    "ashen:rogue_7",
+    "ashen:rogue_19_preparation_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "rogue"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_iron.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 209.95,
+  "positionY": 119.85,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

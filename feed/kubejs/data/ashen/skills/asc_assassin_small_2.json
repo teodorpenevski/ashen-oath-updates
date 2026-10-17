@@ -1,0 +1,43 @@
+{
+  "id": "ashen:asc_assassin_small_2",
+  "title": "Venomcraft",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "id": "c6a986ea-1bc1-5629-bb00-15f8b58b898a",
+      "name": "Ashen asc_assassin_small_2",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_assassin_root"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_assassin_root",
+    "ashen:asc_assassin_big_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "assassin"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_iron.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 250,
+  "positionY": 755,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

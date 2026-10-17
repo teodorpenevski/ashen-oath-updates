@@ -1,0 +1,166 @@
+{
+  "id": "ashen:keystone_warrior",
+  "title": "Unstoppable",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "33e000f2-ac31-5b05-9293-017906bad5fd",
+      "name": "Ashen keystone_warrior",
+      "amount": 0.5,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.knockback_resistance",
+      "id": "ebe8c4ee-1f32-5f5c-b897-690c6d44328c",
+      "name": "Ashen keystone_warrior",
+      "amount": 0.25,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "2c187de2-740a-5c0c-9f98-853d23ce1804",
+      "name": "Ashen keystone_warrior",
+      "amount": 3,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:path_warrior"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:warrior_0"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:warrior_1"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:warrior_2"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:warrior_3"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:warrior_4"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:warrior_5"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:warrior_6"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:warrior_7"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:warrior_8"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:warrior_9"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:warrior_10"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:warrior_11"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:warrior_12"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:warrior_13"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:warrior_14"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:warrior_15"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:warrior_16"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:warrior_17"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:warrior_18"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:warrior_19"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:warrior_20"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:warrior_21"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:warrior_lifesteal_1"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:warrior_lifesteal_2"
+    }
+  ],
+  "directConnections": [
+    "ashen:warrior_18"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "warrior",
+    "free_keystone"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/heart_cyan.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -391.986,
+  "positionY": 391.986,
+  "buttonSize": 34,
+  "isStartingPoint": false
+}

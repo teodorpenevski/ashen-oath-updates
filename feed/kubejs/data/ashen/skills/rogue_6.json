@@ -1,0 +1,53 @@
+{
+  "id": "ashen:rogue_6",
+  "title": "Shadow Memory",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "f925a4bc-c88c-5528-902f-e3d4ca62854c",
+      "name": "Ashen rogue_6",
+      "amount": 0.03,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_chance",
+      "id": "b52f3407-4c81-54cf-b8fd-2d6a6f9b7229",
+      "name": "Ashen rogue_6",
+      "amount": 0.02,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:rogue_5",
+    "ashen:rogue_4",
+    "ashen:rogue_17",
+    "ashen:rogue_lifesteal_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "rogue"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_iron.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 237.15,
+  "positionY": 237.15,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

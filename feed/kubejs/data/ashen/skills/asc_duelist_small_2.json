@@ -1,0 +1,43 @@
+{
+  "id": "ashen:asc_duelist_small_2",
+  "title": "Siphoning Edge",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:life_steal",
+      "id": "8ec44011-5bb1-5672-bdd4-b39de98947ab",
+      "name": "Ashen asc_duelist_small_2",
+      "amount": 0.03,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_duelist_root"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_duelist_root",
+    "ashen:asc_duelist_big_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "duelist"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_iron.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 755,
+  "positionY": 190,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

@@ -1,0 +1,43 @@
+{
+  "id": "ashen:asc_berserker_small_2",
+  "title": "Blood Reserve",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "3e10b13e-81b4-5b96-abdf-c5fe5ea3d562",
+      "name": "Ashen asc_berserker_small_2",
+      "amount": 2,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_berserker_root"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_berserker_root",
+    "ashen:asc_berserker_big_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "berserker"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -190,
+  "positionY": 755,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

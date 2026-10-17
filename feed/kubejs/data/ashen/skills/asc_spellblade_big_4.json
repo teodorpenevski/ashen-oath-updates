@@ -1,0 +1,70 @@
+{
+  "id": "ashen:asc_spellblade_big_4",
+  "title": "Ward of Steel",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "46c5664a-3446-5e3e-9998-027bd95f9bb5",
+      "name": "Ashen asc_spellblade_big_4",
+      "amount": 8,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "3b7312be-68ab-5b20-bbf7-593deb9595d0",
+      "name": "Ashen asc_spellblade_big_4",
+      "amount": 4,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "842bdb33-fcf3-544f-bbc1-65da90aa9e50",
+      "name": "Ashen asc_spellblade_big_4",
+      "amount": -0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_spellblade_small_4"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_spellblade_small_4"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "spellblade"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/potion_blue.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -40,
+  "positionY": -845,
+  "buttonSize": 38,
+  "isStartingPoint": false
+}

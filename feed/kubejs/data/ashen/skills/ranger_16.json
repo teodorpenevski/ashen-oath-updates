@@ -1,0 +1,64 @@
+{
+  "id": "ashen:ranger_16",
+  "title": "Wildstride",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "8342eedd-9344-5c9e-ac0a-9a1682a3f10b",
+      "name": "Ashen ranger_16",
+      "amount": 0.03,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:staminar",
+      "id": "63129476-b532-56c8-8952-b7d49a73d41f",
+      "name": "Ashen ranger_16",
+      "amount": 2,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_damage",
+      "id": "0d42950f-f7a1-51ad-b226-4b25aadf7856",
+      "name": "Ashen ranger_16",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:ranger_15"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ranger"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/bow_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 444.55,
+  "positionY": -270.3,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -1,0 +1,8 @@
+name = "Simple Combat Indicators"
+filename = "simple_combat_indicators-1.0-1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/gqexz3Tf/versions/f6VevWtE/simple_combat_indicators-1.0-1.20.1.jar"
+hash-format = "sha512"
+hash = "b63b172f0532894a0022b566e12822d3d1dc440697564055fcea586969f48599fefbfb12e3ae17391eecef97784564882176c63582cd494214b1b888cf9041f1"

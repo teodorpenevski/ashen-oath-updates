@@ -1,0 +1,56 @@
+{
+  "id": "ashen:asc_marksman_big_1",
+  "title": "Siege Archer",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_damage",
+      "id": "5b76cb25-f694-53f7-89a3-e7faae84ed62",
+      "name": "Ashen asc_marksman_big_1",
+      "amount": 0.8,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:draw_speed",
+      "id": "d6cd6174-b29a-546d-999c-c30b91a22888",
+      "name": "Ashen asc_marksman_big_1",
+      "amount": -0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_marksman_small_1"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_marksman_small_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "marksman"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/bow_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 40,
+  "positionY": -845,
+  "buttonSize": 38,
+  "isStartingPoint": false
+}

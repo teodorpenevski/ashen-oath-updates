@@ -1,0 +1,64 @@
+{
+  "id": "ashen:mage_16",
+  "title": "Warden of Runes",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "d3fa6ff7-a6dc-568c-8a29-da3a19b75bb3",
+      "name": "Ashen mage_16",
+      "amount": 2,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "5d5dc910-618d-508f-92eb-8e634a61457f",
+      "name": "Ashen mage_16",
+      "amount": 1,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:staminar",
+      "id": "4bb4119d-1c9a-51fe-91c4-cf7993f634df",
+      "name": "Ashen mage_16",
+      "amount": 2,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:mage_15"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "mage"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_blue.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -270.3,
+  "positionY": -444.55,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

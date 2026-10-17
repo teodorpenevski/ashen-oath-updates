@@ -1,0 +1,56 @@
+{
+  "id": "ashen:asc_scout_big_1",
+  "title": "Fleetfoot",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "d4a60358-3cef-5a67-bde1-04a9cc20c471",
+      "name": "Ashen asc_scout_big_1",
+      "amount": 0.35,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "6004d22a-fe53-51ed-9762-ff4271812711",
+      "name": "Ashen asc_scout_big_1",
+      "amount": -0.15,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_scout_small_1"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_scout_small_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "scout"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/bow_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 845,
+  "positionY": -400,
+  "buttonSize": 38,
+  "isStartingPoint": false
+}

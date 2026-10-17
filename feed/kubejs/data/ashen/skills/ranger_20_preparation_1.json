@@ -1,0 +1,28 @@
+{
+  "id": "ashen:ranger_20_preparation_1",
+  "title": "Eagle Eye \u2014 Preparation 1/2",
+  "bonuses": [],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:ranger_10"
+    }
+  ],
+  "directConnections": [
+    "ashen:ranger_10",
+    "ashen:ranger_20_preparation_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ranger",
+    "major_preparation"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/bow_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 304.3,
+  "positionY": -105.4,
+  "buttonSize": 10,
+  "isStartingPoint": false
+}

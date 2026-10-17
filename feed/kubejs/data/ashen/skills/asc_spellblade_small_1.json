@@ -1,0 +1,43 @@
+{
+  "id": "ashen:asc_spellblade_small_1",
+  "title": "Tempered Rune",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "cb513edb-68d8-58f4-a406-bbef952b0ae4",
+      "name": "Ashen asc_spellblade_small_1",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_spellblade_root"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_spellblade_root",
+    "ashen:asc_spellblade_big_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "spellblade"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_blue.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -299,
+  "positionY": -691,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

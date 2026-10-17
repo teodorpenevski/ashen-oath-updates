@@ -1,0 +1,8 @@
+name = "Punchy refined"
+filename = "Punchy refined.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/v104xIl2/versions/WG9axHLQ/Punchy%20refined.zip"
+hash-format = "sha512"
+hash = "3cad4aec92210303181b4d02d8efedc48ef5549f51903090294a2aa7405c5f5a28764f1022335beecddf12c40d96cb24eefd3cc49788d23259f894952bca9509"

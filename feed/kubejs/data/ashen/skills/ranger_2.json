@@ -1,0 +1,37 @@
+{
+  "id": "ashen:ranger_2",
+  "title": "True Aim",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_damage",
+      "id": "6a8badc7-e868-5623-b819-85ef27ed359e",
+      "name": "Ashen ranger_2",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:ranger_0",
+    "ashen:ranger_4"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ranger"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/bow_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 153.0,
+  "positionY": -99.45,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -1,0 +1,38 @@
+{
+  "id": "ashen:rogue_4",
+  "title": "Exploit Weakness",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_damage",
+      "id": "4a3ac7bd-8916-585f-aff7-5cd381210380",
+      "name": "Ashen rogue_4",
+      "amount": 0.1,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:rogue_2",
+    "ashen:rogue_6",
+    "ashen:rogue_10"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "rogue"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_iron.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 119.85,
+  "positionY": 209.95,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

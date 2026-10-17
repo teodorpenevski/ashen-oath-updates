@@ -1,0 +1,55 @@
+{
+  "id": "ashen:warrior_0",
+  "title": "Warrior",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "50e487c2-6630-557b-8c75-9038a8221043",
+      "name": "Ashen warrior_0",
+      "amount": 2,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "4e5e234c-166d-58f6-b3ee-11bb56d35060",
+      "name": "Ashen warrior_0",
+      "amount": 0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:path_warrior",
+    "ashen:warrior_1",
+    "ashen:warrior_2"
+  ],
+  "longConnections": [
+    "ashen:asc_vanguard_root",
+    "ashen:asc_berserker_root"
+  ],
+  "oneWayConnections": [],
+  "tags": [
+    "warrior"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -87.55,
+  "positionY": 87.55,
+  "buttonSize": 22,
+  "isStartingPoint": false
+}

@@ -1,0 +1,64 @@
+{
+  "id": "ashen:warrior_16",
+  "title": "Warborn",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "cebf019a-9eed-5f5d-88e3-70114116bfeb",
+      "name": "Ashen warrior_16",
+      "amount": 3,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:impact",
+      "id": "52b5054e-ac00-5ce5-a275-dd9dda777cbf",
+      "name": "Ashen warrior_16",
+      "amount": 0.2,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:staminar",
+      "id": "fdbd4d9f-b879-5074-9645-2f07409d1e42",
+      "name": "Ashen warrior_16",
+      "amount": 2,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:warrior_15"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "warrior"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -444.55,
+  "positionY": 270.3,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

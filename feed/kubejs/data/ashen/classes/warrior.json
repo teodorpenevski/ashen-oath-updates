@@ -1,0 +1,16 @@
+{
+  "id": "ashen:warrior",
+  "name": "Warrior",
+  "description": "A remembered blade stance. Starter kit: a stone longsword and a wooden spear. Enter Epic Fight battle mode to practice their movesets. Warrior paths lie southwest. All classes also receive three bread and four torches. Your starter kit is granted once. Hybrid skill builds remain available. At XP level 10, receive a reusable spellbook with Stomp I. Craft other spells at a Scroll Forge.",
+  "source": "Ashen Oath",
+  "icon": {
+    "type": "item",
+    "itemId": "epicfight:stone_longsword"
+  },
+  "equipment": [
+    {
+      "type": "command",
+      "command": "execute as PLAYER run function ashen:class/select_warrior"
+    }
+  ]
+}

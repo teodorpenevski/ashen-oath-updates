@@ -1,0 +1,52 @@
+{
+  "id": "ashen:rogue_12",
+  "title": "Duelist",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:staminar",
+      "id": "339b8c91-2887-595e-b354-795aef09314e",
+      "name": "Ashen rogue_12",
+      "amount": 2,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:stun_armor",
+      "id": "5106c2a0-4f48-5f78-ab69-a4b4ea21356d",
+      "name": "Ashen rogue_12",
+      "amount": 1,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:rogue_11",
+    "ashen:rogue_15",
+    "ashen:rogue_lifesteal_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "rogue"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_iron.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 192.1,
+  "positionY": 378.25,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

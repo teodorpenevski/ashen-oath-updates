@@ -1,0 +1,27 @@
+{
+  "id": "ashen:asc_spellblade_big_1",
+  "title": "Runic Steel",
+  "bonuses": [],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_spellblade_small_1"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_spellblade_small_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "spellblade"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/potion_blue.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -400,
+  "positionY": -845,
+  "buttonSize": 38,
+  "isStartingPoint": false
+}

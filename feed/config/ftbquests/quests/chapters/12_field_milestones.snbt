@@ -1,0 +1,238 @@
+{
+  "id": "5C23E7CC6AC01889",
+  "filename": "12_field_milestones",
+  "title": "Field Milestones · Optional Hunts",
+  "icon": "minecraft:iron_sword",
+  "group": "225FE9BE4793200B",
+  "order_index": 6,
+  "default_quest_shape": "square",
+  "default_quest_size": 1.0,
+  "progression_mode": "flexible",
+  "consume_items": false,
+  "hide_quest_until_deps_complete": false,
+  "hide_quest_until_deps_visible": false,
+  "quests": [
+    {
+      "id": "64A084B24C0E687A",
+      "title": "Optional: The Graveyard Watch",
+      "description": [
+        "An optional combat milestone: defeat 25 zombie enemies. Complete it whenever you reach the right part of the world."
+      ],
+      "tasks": [
+        {
+          "id": "4538EDF6250D76D2",
+          "type": "kill",
+          "entity": "minecraft:zombie",
+          "value": 25
+        }
+      ],
+      "rewards": [
+        {
+          "id": "37F13EB9DD8EFA93",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "id": "3BE2EDF20B21B935",
+      "title": "Optional: Breaking the Volley",
+      "description": [
+        "An optional combat milestone: defeat 25 skeleton enemies. Complete it whenever you reach the right part of the world."
+      ],
+      "tasks": [
+        {
+          "id": "25CBDC404DE6A98C",
+          "type": "kill",
+          "entity": "minecraft:skeleton",
+          "value": 25
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2B1614098F2FD858",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 3.0,
+      "y": 0.0
+    },
+    {
+      "id": "7D616E78BFFCBB33",
+      "title": "Optional: In the Webs",
+      "description": [
+        "An optional combat milestone: defeat 25 spider enemies. Complete it whenever you reach the right part of the world."
+      ],
+      "tasks": [
+        {
+          "id": "485473B087F267C5",
+          "type": "kill",
+          "entity": "minecraft:spider",
+          "value": 25
+        }
+      ],
+      "rewards": [
+        {
+          "id": "34201A2F272A41BA",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 6.0,
+      "y": 0.0
+    },
+    {
+      "id": "026281E694133691",
+      "title": "Optional: Eyes Across the Distance",
+      "description": [
+        "An optional combat milestone: defeat 10 enderman enemies. Complete it whenever you reach the right part of the world."
+      ],
+      "tasks": [
+        {
+          "id": "08FE1985294653C3",
+          "type": "kill",
+          "entity": "minecraft:enderman",
+          "value": 10
+        }
+      ],
+      "rewards": [
+        {
+          "id": "705A138818FF5DE5",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0.0,
+      "y": 3.0
+    },
+    {
+      "id": "32057800F5DFE194",
+      "title": "Optional: Inside the Firestorm",
+      "description": [
+        "An optional combat milestone: defeat 10 blaze enemies. Complete it whenever you reach the right part of the world."
+      ],
+      "tasks": [
+        {
+          "id": "6455461872A7DCDC",
+          "type": "kill",
+          "entity": "minecraft:blaze",
+          "value": 10
+        }
+      ],
+      "rewards": [
+        {
+          "id": "269602C8E387C9E2",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 3.0,
+      "y": 3.0
+    },
+    {
+      "id": "4664A55891797812",
+      "title": "Optional: The Black Bones",
+      "description": [
+        "An optional combat milestone: defeat 10 wither skeleton enemies. Complete it whenever you reach the right part of the world."
+      ],
+      "tasks": [
+        {
+          "id": "46F2DB8775F99EAA",
+          "type": "kill",
+          "entity": "minecraft:wither_skeleton",
+          "value": 10
+        }
+      ],
+      "rewards": [
+        {
+          "id": "40C09CA6FB91C984",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 6.0,
+      "y": 3.0
+    },
+    {
+      "id": "4F53D25F7090F14D",
+      "title": "Optional: A Supply of Diamonds",
+      "description": [
+        "Gather 16 for future expeditions. This optional stockpile task does not consume the items."
+      ],
+      "tasks": [
+        {
+          "id": "4C895F1B39C6A9D6",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 16,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3BA126F9E424F10E",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0.0,
+      "y": 6.0
+    },
+    {
+      "id": "0036CEF652482539",
+      "title": "Optional: Bread for the Company",
+      "description": [
+        "Gather 32 for future expeditions. This optional stockpile task does not consume the items."
+      ],
+      "tasks": [
+        {
+          "id": "6995EEEEF56804B5",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 32,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "29FE91327EE9FC24",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 3.0,
+      "y": 6.0
+    }
+  ]
+}

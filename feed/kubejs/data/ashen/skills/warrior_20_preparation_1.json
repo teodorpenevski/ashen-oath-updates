@@ -1,0 +1,28 @@
+{
+  "id": "ashen:warrior_20_preparation_1",
+  "title": "Iron Resolve \u2014 Preparation 1/2",
+  "bonuses": [],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:warrior_10"
+    }
+  ],
+  "directConnections": [
+    "ashen:warrior_10",
+    "ashen:warrior_20_preparation_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "warrior",
+    "major_preparation"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -304.3,
+  "positionY": 105.4,
+  "buttonSize": 10,
+  "isStartingPoint": false
+}

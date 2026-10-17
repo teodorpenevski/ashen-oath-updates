@@ -1,0 +1,27 @@
+{
+  "id": "ashen:asc_marksman_big_4",
+  "title": "Pinning Shot",
+  "bonuses": [],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_marksman_small_4"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_marksman_small_4"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "marksman"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/bow_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 400,
+  "positionY": -845,
+  "buttonSize": 38,
+  "isStartingPoint": false
+}

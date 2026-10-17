@@ -1,0 +1,16 @@
+{
+  "id": "ashen:mage",
+  "name": "Mage",
+  "description": "A remembered spark of magic. Starter kit: an empty copper spell book and a wooden staff. Equip the book in its spellbook Curios slot. Mage paths lie northwest. All classes also receive three bread and four torches. Your starter kit is granted once. Hybrid skill builds remain available. At XP level 10, receive a reusable spellbook with Magic Missile I. Craft other spells at a Scroll Forge.",
+  "source": "Ashen Oath",
+  "icon": {
+    "type": "item",
+    "itemId": "irons_spellbooks:copper_spell_book"
+  },
+  "equipment": [
+    {
+      "type": "command",
+      "command": "execute as PLAYER run function ashen:class/select_mage"
+    }
+  ]
+}

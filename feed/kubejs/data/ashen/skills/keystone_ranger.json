@@ -1,0 +1,136 @@
+{
+  "id": "ashen:keystone_ranger",
+  "title": "Perfect Shot",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_chance",
+      "id": "1c801606-f53e-5996-b1a7-c3ac713520a3",
+      "name": "Ashen keystone_ranger",
+      "amount": 0.25,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_damage",
+      "id": "c676f7fa-1484-5225-b003-e82856787fd1",
+      "name": "Ashen keystone_ranger",
+      "amount": 0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:path_ranger"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:ranger_0"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:ranger_1"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:ranger_2"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:ranger_3"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:ranger_4"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:ranger_5"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:ranger_6"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:ranger_7"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:ranger_8"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:ranger_9"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:ranger_10"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:ranger_11"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:ranger_12"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:ranger_13"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:ranger_14"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:ranger_15"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:ranger_16"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:ranger_17"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:ranger_18"
+    },
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:ranger_20"
+    }
+  ],
+  "directConnections": [
+    "ashen:ranger_18"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ranger",
+    "free_keystone"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/heart_cyan.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 391.986,
+  "positionY": -391.986,
+  "buttonSize": 34,
+  "isStartingPoint": false
+}

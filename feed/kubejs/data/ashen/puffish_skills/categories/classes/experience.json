@@ -1,0 +1,31 @@
+{
+  "level_limit": 48,
+  "reset_on_death": false,
+  "experience_per_level": {
+    "type": "expression",
+    "data": {
+      "expression": "min(100 + level * 50, 900)"
+    }
+  },
+  "sources": [
+    {
+      "type": "puffish_skills:kill_entity",
+      "data": {
+        "variables": {
+          "dropped_xp": {
+            "operations": [
+              {
+                "type": "get_dropped_experience"
+              }
+            ]
+          }
+        },
+        "experience": "dropped_xp",
+        "anti_farming": {
+          "limit_per_chunk": 240,
+          "reset_after_seconds": 300
+        }
+      }
+    }
+  ]
+}

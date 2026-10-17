@@ -1,0 +1,37 @@
+{
+  "id": "ashen:mage_5",
+  "title": "Ward of the Lost",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "eac0c4a5-e242-526c-99f4-0fc2e7b289ec",
+      "name": "Ashen mage_5",
+      "amount": 2,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:mage_3",
+    "ashen:mage_6"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "mage"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_blue.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -219.29999999999998,
+  "positionY": -183.6,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

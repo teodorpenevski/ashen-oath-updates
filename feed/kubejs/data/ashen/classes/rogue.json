@@ -1,0 +1,16 @@
+{
+  "id": "ashen:rogue",
+  "name": "Rogue",
+  "description": "A remembered opening in the guard. Starter kit: a stone dagger and a wooden dagger for experimenting with a lighter fighting style. Rogue paths lie southeast. All classes also receive three bread and four torches. Your starter kit is granted once. Hybrid skill builds remain available. At XP level 10, receive a reusable spellbook with Poison Splash I. Craft other spells at a Scroll Forge.",
+  "source": "Ashen Oath",
+  "icon": {
+    "type": "item",
+    "itemId": "epicfight:stone_dagger"
+  },
+  "equipment": [
+    {
+      "type": "command",
+      "command": "execute as PLAYER run function ashen:class/select_rogue"
+    }
+  ]
+}

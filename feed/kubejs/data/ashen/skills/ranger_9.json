@@ -1,0 +1,51 @@
+{
+  "id": "ashen:ranger_9",
+  "title": "Marksman",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_damage",
+      "id": "8bfaa296-f5cf-5b68-bd4a-1f7bd2e8d5b1",
+      "name": "Ashen ranger_9",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:draw_speed",
+      "id": "38ed38a5-d15a-5a9e-98ef-5a49130f8b07",
+      "name": "Ashen ranger_9",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:ranger_8",
+    "ashen:ranger_13"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ranger"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/bow_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 192.1,
+  "positionY": -378.25,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

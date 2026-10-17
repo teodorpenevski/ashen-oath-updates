@@ -1,0 +1,8 @@
+name = "Epic Fight X Iron's Spells 'n Spellbooks"
+filename = "irons-spells-epicfight-casting-compat-1.20.1-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://www.cursemaven.com/curse/maven/epic-fight-x-irons-spells-n-spellbooks-1722838/9039579/epic-fight-x-irons-spells-n-spellbooks-1722838-9039579.jar"
+hash-format = "sha512"
+hash = "da5acb027b2f777cd68b32a9326324125b4da2fa194da3783a2351dc6c9c5d68ea615f94859689cf24a2fb458a73eb6d7870577bede3528da6d332438e500414"

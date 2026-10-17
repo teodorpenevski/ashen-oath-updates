@@ -1,0 +1,43 @@
+{
+  "id": "ashen:asc_spellblade_small_4",
+  "title": "Steel Ward",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "de2adf86-c57d-5fde-ac70-1ab88f60f72f",
+      "name": "Ashen asc_spellblade_small_4",
+      "amount": 1,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_spellblade_root"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_spellblade_root",
+    "ashen:asc_spellblade_big_4"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "spellblade"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_blue.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -141,
+  "positionY": -691,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

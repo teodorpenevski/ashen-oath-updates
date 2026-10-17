@@ -1,0 +1,43 @@
+{
+  "id": "ashen:asc_scout_small_2",
+  "title": "Hardy Explorer",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "5b28b76a-61c5-5661-8b54-65d622da290a",
+      "name": "Ashen asc_scout_small_2",
+      "amount": 2,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_scout_root"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_scout_root",
+    "ashen:asc_scout_big_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "scout"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/bow_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 755,
+  "positionY": -250,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

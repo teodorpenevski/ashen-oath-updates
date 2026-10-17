@@ -1,0 +1,37 @@
+{
+  "id": "ashen:path_rogue",
+  "title": "Sure Footing",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "6e6bab33-124b-53a6-829c-9b6a45e974e9",
+      "name": "Ashen path_rogue",
+      "amount": 0.02,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:awakening",
+    "ashen:rogue_0"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "rogue"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_iron.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 45.05,
+  "positionY": 45.05,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

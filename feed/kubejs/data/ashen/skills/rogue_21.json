@@ -1,0 +1,69 @@
+{
+  "id": "ashen:rogue_21",
+  "title": "Evasive Footwork",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "00bbb140-b885-5359-a586-3e1b0307535f",
+      "name": "Ashen rogue_21",
+      "amount": 0.15,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "id": "3c861f90-2e55-5beb-a9a9-55cf6fae4fff",
+      "name": "Ashen rogue_21",
+      "amount": 0.08,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:dodge_chance",
+      "id": "63e0612a-d17f-56ab-be10-16faeb2a4cd7",
+      "name": "Ashen rogue_21",
+      "amount": 0.1,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:rogue_21_preparation_1"
+    }
+  ],
+  "directConnections": [
+    "ashen:rogue_21_preparation_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "rogue"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/sword_iron.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 348.5,
+  "positionY": 51.0,
+  "buttonSize": 28,
+  "isStartingPoint": false
+}

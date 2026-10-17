@@ -1,0 +1,334 @@
+{
+  "id": "6DD8C0610003B0D2",
+  "filename": "11_backpacks",
+  "title": "Backpacks · Sophisticated Backpacks",
+  "icon": "sophisticatedbackpacks:backpack",
+  "group": "225FE9BE4793200B",
+  "order_index": 5,
+  "default_quest_shape": "square",
+  "default_quest_size": 1.0,
+  "progression_mode": "flexible",
+  "consume_items": false,
+  "hide_quest_until_deps_complete": false,
+  "hide_quest_until_deps_visible": false,
+  "quests": [
+    {
+      "id": "2C77575A7A29ECFE",
+      "title": "Optional: Your First Backpack",
+      "description": [
+        "Craft your first portable bag. Open it with its keybind or by placing it. Start with a small, useful supply kit. The crafting task keeps your bag or upgrade; it does not consume a loaded backpack."
+      ],
+      "tasks": [
+        {
+          "id": "529B109409EEB112",
+          "type": "item",
+          "item": "sophisticatedbackpacks:backpack",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "42ED846E7ABE1804",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "id": "4B30DEDE39DEF926",
+      "title": "Optional: Iron Backpack",
+      "description": [
+        "Upgrade the backpack to iron using JEI. Keep the same bag so its contents and upgrades are preserved. The crafting task keeps your bag or upgrade; it does not consume a loaded backpack."
+      ],
+      "tasks": [
+        {
+          "id": "5AFA55944C5CBC3D",
+          "type": "item",
+          "item": "sophisticatedbackpacks:iron_backpack",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6CCE7509E28AEA8D",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "2C77575A7A29ECFE"
+      ],
+      "optional": true,
+      "x": 2.0,
+      "y": 0.0
+    },
+    {
+      "id": "1AE3BB74CF5C46C4",
+      "title": "Optional: Gold Backpack",
+      "description": [
+        "Upgrade the iron backpack to gold for longer expeditions. The crafting task keeps your bag or upgrade; it does not consume a loaded backpack."
+      ],
+      "tasks": [
+        {
+          "id": "522B3064BFE8D65D",
+          "type": "item",
+          "item": "sophisticatedbackpacks:gold_backpack",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6FF074AFC4BF0AF9",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "4B30DEDE39DEF926"
+      ],
+      "optional": true,
+      "x": 4.0,
+      "y": 0.0
+    },
+    {
+      "id": "770770827A6799A7",
+      "title": "Optional: Diamond Backpack",
+      "description": [
+        "Upgrade to diamond when loot starts filling your bag. The crafting task keeps your bag or upgrade; it does not consume a loaded backpack."
+      ],
+      "tasks": [
+        {
+          "id": "3CBE2331E5519E56",
+          "type": "item",
+          "item": "sophisticatedbackpacks:diamond_backpack",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7DD1491B07793911",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "1AE3BB74CF5C46C4"
+      ],
+      "optional": true,
+      "x": 6.0,
+      "y": 0.0
+    },
+    {
+      "id": "33063168DB6FCE93",
+      "title": "Optional: Netherite Backpack",
+      "description": [
+        "Craft the final optional capacity tier. It is never a story requirement. The crafting task keeps your bag or upgrade; it does not consume a loaded backpack."
+      ],
+      "tasks": [
+        {
+          "id": "5C7803E43DF39454",
+          "type": "item",
+          "item": "sophisticatedbackpacks:netherite_backpack",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "31F815E086888965",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "770770827A6799A7"
+      ],
+      "optional": true,
+      "x": 8.0,
+      "y": 0.0
+    },
+    {
+      "id": "120A07C6C529803C",
+      "title": "Optional: Pick Up the Useful Things",
+      "description": [
+        "Craft a Pickup Upgrade and set its filter before an expedition. The crafting task keeps your bag or upgrade; it does not consume a loaded backpack."
+      ],
+      "tasks": [
+        {
+          "id": "26986DEB588707E4",
+          "type": "item",
+          "item": "sophisticatedbackpacks:pickup_upgrade",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "71312E0CA71F8060",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "2C77575A7A29ECFE"
+      ],
+      "optional": true,
+      "x": 0.0,
+      "y": 3.0
+    },
+    {
+      "id": "60A56E383B85EF84",
+      "title": "Optional: Bring the Loot to You",
+      "description": [
+        "Craft a Magnet Upgrade. Check its filter to avoid pulling unwanted items. The crafting task keeps your bag or upgrade; it does not consume a loaded backpack."
+      ],
+      "tasks": [
+        {
+          "id": "1B73F6DF18316B4C",
+          "type": "item",
+          "item": "sophisticatedbackpacks:magnet_upgrade",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3BC669B12487C493",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "2C77575A7A29ECFE"
+      ],
+      "optional": true,
+      "x": 2.0,
+      "y": 3.0
+    },
+    {
+      "id": "0F6580A2303590F9",
+      "title": "Optional: Food on the Road",
+      "description": [
+        "Craft a Feeding Upgrade and configure which food it may use. The crafting task keeps your bag or upgrade; it does not consume a loaded backpack."
+      ],
+      "tasks": [
+        {
+          "id": "05EB6557FB057F5B",
+          "type": "item",
+          "item": "sophisticatedbackpacks:feeding_upgrade",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2F1171D718E9A42C",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "2C77575A7A29ECFE"
+      ],
+      "optional": true,
+      "x": 4.0,
+      "y": 3.0
+    },
+    {
+      "id": "1A3C98726893A20F",
+      "title": "Optional: Craft on an Expedition",
+      "description": [
+        "Craft a Crafting Upgrade to carry a small crafting interface. The crafting task keeps your bag or upgrade; it does not consume a loaded backpack."
+      ],
+      "tasks": [
+        {
+          "id": "1D6746DB511E95F6",
+          "type": "item",
+          "item": "sophisticatedbackpacks:crafting_upgrade",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5BF34F8598C0BF2B",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "2C77575A7A29ECFE"
+      ],
+      "optional": true,
+      "x": 6.0,
+      "y": 3.0
+    },
+    {
+      "id": "3E865FD719DAEA61",
+      "title": "Optional: More Room per Stack",
+      "description": [
+        "Craft a Tier 1 Stack Upgrade. Apply it only when the extra capacity is useful. The crafting task keeps your bag or upgrade; it does not consume a loaded backpack."
+      ],
+      "tasks": [
+        {
+          "id": "0C76B69EFADF7338",
+          "type": "item",
+          "item": "sophisticatedbackpacks:stack_upgrade_tier_1",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7BD769A07C4DA0E2",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "2C77575A7A29ECFE"
+      ],
+      "optional": true,
+      "x": 8.0,
+      "y": 3.0
+    }
+  ]
+}

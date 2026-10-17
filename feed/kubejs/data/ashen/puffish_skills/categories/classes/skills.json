@@ -1,0 +1,560 @@
+{
+  "awakening": {
+    "x": 0,
+    "y": 0,
+    "definition": "awakening",
+    "root": true
+  },
+  "path_mage": {
+    "x": -53,
+    "y": -53,
+    "definition": "path_mage",
+    "root": false
+  },
+  "mage_0": {
+    "x": -103,
+    "y": -103,
+    "definition": "mage_0",
+    "root": false
+  },
+  "mage_1": {
+    "x": -180,
+    "y": -117,
+    "definition": "mage_1",
+    "root": false
+  },
+  "mage_2": {
+    "x": -117,
+    "y": -180,
+    "definition": "mage_2",
+    "root": false
+  },
+  "mage_3": {
+    "x": -247,
+    "y": -141,
+    "definition": "mage_3",
+    "root": false
+  },
+  "mage_4": {
+    "x": -141,
+    "y": -247,
+    "definition": "mage_4",
+    "root": false
+  },
+  "mage_5": {
+    "x": -258,
+    "y": -216,
+    "definition": "mage_5",
+    "root": false
+  },
+  "mage_6": {
+    "x": -279,
+    "y": -279,
+    "definition": "mage_6",
+    "root": false
+  },
+  "mage_7": {
+    "x": -332,
+    "y": -156,
+    "definition": "mage_7",
+    "root": false
+  },
+  "mage_8": {
+    "x": -396,
+    "y": -184,
+    "definition": "mage_8",
+    "root": false
+  },
+  "mage_9": {
+    "x": -445,
+    "y": -226,
+    "definition": "mage_9",
+    "root": false
+  },
+  "mage_10": {
+    "x": -156,
+    "y": -332,
+    "definition": "mage_10",
+    "root": false
+  },
+  "mage_11": {
+    "x": -184,
+    "y": -396,
+    "definition": "mage_11",
+    "root": false
+  },
+  "mage_12": {
+    "x": -226,
+    "y": -445,
+    "definition": "mage_12",
+    "root": false
+  },
+  "mage_13": {
+    "x": -488,
+    "y": -269,
+    "definition": "mage_13",
+    "root": false
+  },
+  "mage_14": {
+    "x": -523,
+    "y": -318,
+    "definition": "mage_14",
+    "root": false
+  },
+  "mage_15": {
+    "x": -269,
+    "y": -488,
+    "definition": "mage_15",
+    "root": false
+  },
+  "mage_16": {
+    "x": -318,
+    "y": -523,
+    "definition": "mage_16",
+    "root": false
+  },
+  "mage_17": {
+    "x": -329,
+    "y": -329,
+    "definition": "mage_17",
+    "root": false
+  },
+  "mage_18": {
+    "x": -378,
+    "y": -378,
+    "definition": "mage_18",
+    "root": false
+  },
+  "path_ranger": {
+    "x": 53,
+    "y": -53,
+    "definition": "path_ranger",
+    "root": false
+  },
+  "ranger_0": {
+    "x": 103,
+    "y": -103,
+    "definition": "ranger_0",
+    "root": false
+  },
+  "ranger_1": {
+    "x": 117,
+    "y": -180,
+    "definition": "ranger_1",
+    "root": false
+  },
+  "ranger_2": {
+    "x": 180,
+    "y": -117,
+    "definition": "ranger_2",
+    "root": false
+  },
+  "ranger_3": {
+    "x": 141,
+    "y": -247,
+    "definition": "ranger_3",
+    "root": false
+  },
+  "ranger_4": {
+    "x": 247,
+    "y": -141,
+    "definition": "ranger_4",
+    "root": false
+  },
+  "ranger_5": {
+    "x": 216,
+    "y": -258,
+    "definition": "ranger_5",
+    "root": false
+  },
+  "ranger_6": {
+    "x": 279,
+    "y": -279,
+    "definition": "ranger_6",
+    "root": false
+  },
+  "ranger_7": {
+    "x": 156,
+    "y": -332,
+    "definition": "ranger_7",
+    "root": false
+  },
+  "ranger_8": {
+    "x": 184,
+    "y": -396,
+    "definition": "ranger_8",
+    "root": false
+  },
+  "ranger_9": {
+    "x": 226,
+    "y": -445,
+    "definition": "ranger_9",
+    "root": false
+  },
+  "ranger_10": {
+    "x": 332,
+    "y": -156,
+    "definition": "ranger_10",
+    "root": false
+  },
+  "ranger_11": {
+    "x": 396,
+    "y": -184,
+    "definition": "ranger_11",
+    "root": false
+  },
+  "ranger_12": {
+    "x": 445,
+    "y": -226,
+    "definition": "ranger_12",
+    "root": false
+  },
+  "ranger_13": {
+    "x": 269,
+    "y": -488,
+    "definition": "ranger_13",
+    "root": false
+  },
+  "ranger_14": {
+    "x": 318,
+    "y": -523,
+    "definition": "ranger_14",
+    "root": false
+  },
+  "ranger_15": {
+    "x": 488,
+    "y": -269,
+    "definition": "ranger_15",
+    "root": false
+  },
+  "ranger_16": {
+    "x": 523,
+    "y": -318,
+    "definition": "ranger_16",
+    "root": false
+  },
+  "ranger_17": {
+    "x": 329,
+    "y": -329,
+    "definition": "ranger_17",
+    "root": false
+  },
+  "ranger_18": {
+    "x": 378,
+    "y": -378,
+    "definition": "ranger_18",
+    "root": false
+  },
+  "path_warrior": {
+    "x": -53,
+    "y": 53,
+    "definition": "path_warrior",
+    "root": false
+  },
+  "warrior_0": {
+    "x": -103,
+    "y": 103,
+    "definition": "warrior_0",
+    "root": false
+  },
+  "warrior_1": {
+    "x": -117,
+    "y": 180,
+    "definition": "warrior_1",
+    "root": false
+  },
+  "warrior_2": {
+    "x": -180,
+    "y": 117,
+    "definition": "warrior_2",
+    "root": false
+  },
+  "warrior_3": {
+    "x": -141,
+    "y": 247,
+    "definition": "warrior_3",
+    "root": false
+  },
+  "warrior_4": {
+    "x": -247,
+    "y": 141,
+    "definition": "warrior_4",
+    "root": false
+  },
+  "warrior_5": {
+    "x": -216,
+    "y": 258,
+    "definition": "warrior_5",
+    "root": false
+  },
+  "warrior_6": {
+    "x": -279,
+    "y": 279,
+    "definition": "warrior_6",
+    "root": false
+  },
+  "warrior_7": {
+    "x": -156,
+    "y": 332,
+    "definition": "warrior_7",
+    "root": false
+  },
+  "warrior_8": {
+    "x": -184,
+    "y": 396,
+    "definition": "warrior_8",
+    "root": false
+  },
+  "warrior_9": {
+    "x": -226,
+    "y": 445,
+    "definition": "warrior_9",
+    "root": false
+  },
+  "warrior_10": {
+    "x": -332,
+    "y": 156,
+    "definition": "warrior_10",
+    "root": false
+  },
+  "warrior_11": {
+    "x": -396,
+    "y": 184,
+    "definition": "warrior_11",
+    "root": false
+  },
+  "warrior_12": {
+    "x": -445,
+    "y": 226,
+    "definition": "warrior_12",
+    "root": false
+  },
+  "warrior_13": {
+    "x": -269,
+    "y": 488,
+    "definition": "warrior_13",
+    "root": false
+  },
+  "warrior_14": {
+    "x": -318,
+    "y": 523,
+    "definition": "warrior_14",
+    "root": false
+  },
+  "warrior_15": {
+    "x": -488,
+    "y": 269,
+    "definition": "warrior_15",
+    "root": false
+  },
+  "warrior_16": {
+    "x": -523,
+    "y": 318,
+    "definition": "warrior_16",
+    "root": false
+  },
+  "warrior_17": {
+    "x": -329,
+    "y": 329,
+    "definition": "warrior_17",
+    "root": false
+  },
+  "warrior_18": {
+    "x": -378,
+    "y": 378,
+    "definition": "warrior_18",
+    "root": false
+  },
+  "path_rogue": {
+    "x": 53,
+    "y": 53,
+    "definition": "path_rogue",
+    "root": false
+  },
+  "rogue_0": {
+    "x": 103,
+    "y": 103,
+    "definition": "rogue_0",
+    "root": false
+  },
+  "rogue_1": {
+    "x": 180,
+    "y": 117,
+    "definition": "rogue_1",
+    "root": false
+  },
+  "rogue_2": {
+    "x": 117,
+    "y": 180,
+    "definition": "rogue_2",
+    "root": false
+  },
+  "rogue_3": {
+    "x": 247,
+    "y": 141,
+    "definition": "rogue_3",
+    "root": false
+  },
+  "rogue_4": {
+    "x": 141,
+    "y": 247,
+    "definition": "rogue_4",
+    "root": false
+  },
+  "rogue_5": {
+    "x": 258,
+    "y": 216,
+    "definition": "rogue_5",
+    "root": false
+  },
+  "rogue_6": {
+    "x": 279,
+    "y": 279,
+    "definition": "rogue_6",
+    "root": false
+  },
+  "rogue_7": {
+    "x": 332,
+    "y": 156,
+    "definition": "rogue_7",
+    "root": false
+  },
+  "rogue_8": {
+    "x": 396,
+    "y": 184,
+    "definition": "rogue_8",
+    "root": false
+  },
+  "rogue_9": {
+    "x": 445,
+    "y": 226,
+    "definition": "rogue_9",
+    "root": false
+  },
+  "rogue_10": {
+    "x": 156,
+    "y": 332,
+    "definition": "rogue_10",
+    "root": false
+  },
+  "rogue_11": {
+    "x": 184,
+    "y": 396,
+    "definition": "rogue_11",
+    "root": false
+  },
+  "rogue_12": {
+    "x": 226,
+    "y": 445,
+    "definition": "rogue_12",
+    "root": false
+  },
+  "rogue_13": {
+    "x": 488,
+    "y": 269,
+    "definition": "rogue_13",
+    "root": false
+  },
+  "rogue_14": {
+    "x": 523,
+    "y": 318,
+    "definition": "rogue_14",
+    "root": false
+  },
+  "rogue_15": {
+    "x": 269,
+    "y": 488,
+    "definition": "rogue_15",
+    "root": false
+  },
+  "rogue_16": {
+    "x": 318,
+    "y": 523,
+    "definition": "rogue_16",
+    "root": false
+  },
+  "rogue_17": {
+    "x": 329,
+    "y": 329,
+    "definition": "rogue_17",
+    "root": false
+  },
+  "rogue_18": {
+    "x": 378,
+    "y": 378,
+    "definition": "rogue_18",
+    "root": false
+  },
+  "mage_19": {
+    "x": -270,
+    "y": -20,
+    "definition": "mage_19",
+    "root": false
+  },
+  "mage_20": {
+    "x": -60,
+    "y": -410,
+    "definition": "mage_20",
+    "root": false
+  },
+  "mage_21": {
+    "x": -410,
+    "y": -60,
+    "definition": "mage_21",
+    "root": false
+  },
+  "ranger_19": {
+    "x": 20,
+    "y": -270,
+    "definition": "ranger_19",
+    "root": false
+  },
+  "ranger_20": {
+    "x": 410,
+    "y": -60,
+    "definition": "ranger_20",
+    "root": false
+  },
+  "ranger_21": {
+    "x": 60,
+    "y": -410,
+    "definition": "ranger_21",
+    "root": false
+  },
+  "warrior_19": {
+    "x": -20,
+    "y": 270,
+    "definition": "warrior_19",
+    "root": false
+  },
+  "warrior_20": {
+    "x": -410,
+    "y": 60,
+    "definition": "warrior_20",
+    "root": false
+  },
+  "warrior_21": {
+    "x": -60,
+    "y": 410,
+    "definition": "warrior_21",
+    "root": false
+  },
+  "rogue_19": {
+    "x": 270,
+    "y": 20,
+    "definition": "rogue_19",
+    "root": false
+  },
+  "rogue_20": {
+    "x": 60,
+    "y": 410,
+    "definition": "rogue_20",
+    "root": false
+  },
+  "rogue_21": {
+    "x": 410,
+    "y": 60,
+    "definition": "rogue_21",
+    "root": false
+  }
+}

@@ -1,0 +1,8 @@
+name = "Move Those Hands! - Punchy Animation Addon"
+filename = "MoveThoseHands!-1.2.3.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/c2BWfG76/versions/77pvInEz/MoveThoseHands%21-1.2.3.zip"
+hash-format = "sha512"
+hash = "d282bfb8b5017c6fbe4593dc80a44da5079a2d9400c567bc98b25eec727228c77ca3deaf5d86f3800915c58a2914db2bd4abab4884f8ac2da53a0ce508be44d8"

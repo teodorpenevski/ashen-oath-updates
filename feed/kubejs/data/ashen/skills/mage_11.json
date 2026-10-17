@@ -1,0 +1,37 @@
+{
+  "id": "ashen:mage_11",
+  "title": "Arcane Ward",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "5ee7ce82-5186-5d75-8769-5331da59bd19",
+      "name": "Ashen mage_11",
+      "amount": 1,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:mage_10",
+    "ashen:mage_12"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "mage"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_blue.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -156.4,
+  "positionY": -336.59999999999997,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

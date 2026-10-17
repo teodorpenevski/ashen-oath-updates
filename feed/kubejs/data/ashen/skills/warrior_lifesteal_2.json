@@ -1,0 +1,41 @@
+{
+  "id": "ashen:warrior_lifesteal_2",
+  "title": "Battle Siphon",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:life_steal",
+      "id": "bf50a424-4f91-5cee-8f59-a61a26528804",
+      "name": "Ashen warrior_lifesteal_2",
+      "amount": 0.03,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:warrior_12"
+    }
+  ],
+  "directConnections": [
+    "ashen:warrior_12"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "warrior"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -321.96,
+  "positionY": 224.6,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

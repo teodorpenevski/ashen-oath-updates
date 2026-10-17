@@ -1,0 +1,652 @@
+{
+  "id": "326550F6878FEE98",
+  "filename": "03_the_machines_remember",
+  "group": "",
+  "title": "3 · The Machines Remember",
+  "icon": "minecraft:nether_star",
+  "order_index": 2,
+  "default_quest_shape": "square",
+  "default_quest_size": 1.0,
+  "progression_mode": "linear",
+  "consume_items": false,
+  "quests": [
+    {
+      "id": "4A7B72887691AA5B",
+      "title": "Records Beneath the Ruins",
+      "description": [
+        "The old machines recognize you. Their records contradict the stories told about the Dawnwardens. The Workshop and Storage tutorials are now useful, but optional."
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "7406C486FA999B29"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "012551D8E5A15BE6",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 32
+        }
+      ],
+      "dependencies": [
+        "782EA91FB8F2309E"
+      ],
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "0DD8E2A6DF79E07F",
+      "title": "The Red Signal",
+      "description": [
+        "Collect 32 redstone dust. Technology is available now as optional support."
+      ],
+      "tasks": [
+        {
+          "id": "7B5C2CC84925DDC7",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 32,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "52C083A90208C7C2",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "4A7B72887691AA5B"
+      ],
+      "optional": false,
+      "x": 2.0,
+      "y": 0.0,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "6165C8B0D5968CB5",
+      "title": "Blue Fire in the Stone",
+      "description": [
+        "Collect 32 lapis lazuli for useful enchantments."
+      ],
+      "tasks": [
+        {
+          "id": "514D9028704E9D51",
+          "type": "item",
+          "item": "minecraft:lapis_lazuli",
+          "count": 32,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "643F3ECD5A7ED15C",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "0DD8E2A6DF79E07F"
+      ],
+      "optional": false,
+      "x": 4.0,
+      "y": 0.0,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "507E26F12D5F4767",
+      "title": "A Dangerous Key",
+      "description": [
+        "Gather three wither skeleton skulls. Prepare a proper arena for the Wither, away from your base."
+      ],
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "minecraft:wither_skeleton_skull",
+          "count": 3,
+          "consume_items": false,
+          "id": "2B653A294FD7D854"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "56D7E4F7ABF6F71B",
+          "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "6165C8B0D5968CB5"
+      ],
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "391C1E877E0CBC7C",
+      "title": "The Wither Foundation",
+      "description": [
+        "Collect four soul sand for the Wither ritual. Prepare its arena away from your base."
+      ],
+      "tasks": [
+        {
+          "id": "5323F4F602B6838F",
+          "type": "item",
+          "item": "minecraft:soul_sand",
+          "count": 4,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5929D7E6A89837E7",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "507E26F12D5F4767"
+      ],
+      "optional": false,
+      "x": 8.0,
+      "y": 0.0,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "7845C5F4707B8C2A",
+      "title": "Death Opens the Factory",
+      "description": [
+        "Defeat the Wither and submit its crown. Keep its Nether Star: you need it to awaken the Harbinger. The Harbinger seal opens when the crown is submitted.",
+        "This boss guarantees one Wither Crown on a valid defeat. Pick it up, open this quest and click its item task to submit it. The trophy is consumed. It has no crafting recipe and the archive cannot produce it."
+      ],
+      "x": 10.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "3D85527A6F05A72A",
+          "type": "item",
+          "item": "kubejs:trophy_wither",
+          "count": 1,
+          "consume_items": true,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "797CC35970FEABCD",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 12
+        },
+        {
+          "id": "4023DB8FABB513BB",
+          "type": "command",
+          "command": "function ashen:quest/defeat_wither",
+          "elevate_perms": true,
+          "silent": true,
+          "autoclaim": "enabled",
+          "team_reward": true,
+          "title": "Boss victory recorded",
+          "icon": "minecraft:book"
+        }
+      ],
+      "dependencies": [
+        "391C1E877E0CBC7C"
+      ],
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "781CD8246C7C2C52",
+      "title": "The Key Remains",
+      "description": [
+        "Keep one Nether Star from the defeated Wither. This task detects it without consuming the Harbinger activation key."
+      ],
+      "tasks": [
+        {
+          "id": "7E0B2DF61CADA967",
+          "type": "item",
+          "item": "minecraft:nether_star",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7667128A4E35FB99",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "7845C5F4707B8C2A"
+      ],
+      "optional": false,
+      "x": 12.0,
+      "y": 0.0,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "712C5F2778094C6D",
+      "title": "Resources for the Return",
+      "description": [
+        "Collect eight diamonds for workshop, storage and equipment upgrades."
+      ],
+      "tasks": [
+        {
+          "id": "554491C1C9EA5B81",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 8,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "346FBAF072BCC946",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "781CD8246C7C2C52"
+      ],
+      "optional": false,
+      "x": 0.0,
+      "y": 3.0,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "52B92AA15999CF9B",
+      "title": "The Ancient Factory",
+      "description": [
+        "Locate the Ancient Factory with the Explorer's Compass. Prepare armor, healing, ranged options and enough room to dodge."
+      ],
+      "x": 2.0,
+      "y": 3.0,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "2DD68254C4EB309F"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "759C3544F3306DB0",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 16
+        }
+      ],
+      "dependencies": [
+        "712C5F2778094C6D"
+      ],
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "24793CD25C45D029",
+      "title": "An Engine Without a Soul",
+      "description": [
+        "Use the Nether Star to activate the Harbinger. Learn its attacks and use the arena's EMP mechanic when available. Epic equipment is the intended preparation target."
+      ],
+      "x": 4.0,
+      "y": 3.0,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "53F1CF3AB3765C64"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "52B92AA15999CF9B"
+      ],
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "03D3C1A1D4E8A23A",
+      "title": "The Evacuation Order",
+      "description": [
+        "Defeat the Harbinger and submit its Control Core for Memory III. You ordered an evacuation; your commander refused to abandon the weapon.",
+        "This boss guarantees one Harbinger Control Core on a valid defeat. Pick it up, open this quest and click its item task to submit it. The trophy is consumed. It has no crafting recipe and the archive cannot produce it."
+      ],
+      "x": 6.0,
+      "y": 3.0,
+      "tasks": [
+        {
+          "id": "7816992848316441",
+          "type": "item",
+          "item": "kubejs:trophy_harbinger",
+          "count": 1,
+          "consume_items": true,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "573EDB141D6399DD",
+          "type": "item",
+          "item": "apotheosis:epic_material",
+          "count": 4
+        },
+        {
+          "id": "0AADCE39D31C7203",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 8
+        },
+        {
+          "id": "134E12DF036DAD35",
+          "type": "item",
+          "item": "kubejs:memory_3",
+          "count": 1,
+          "autoclaim": "enabled"
+        }
+      ],
+      "dependencies": [
+        "24793CD25C45D029"
+      ],
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "7613A7476AEB640E",
+      "title": "Chapter 3 Complete",
+      "description": [
+        "You have completed every required Chapter 3 milestone. Close this part of your story to unlock Chapter 4. Optional branches do not block this step."
+      ],
+      "tasks": [
+        {
+          "id": "03F80A768D5FFBE4",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0903EA157C1241F6",
+          "type": "command",
+          "command": "function ashen:chapter/complete_3",
+          "elevate_perms": true,
+          "silent": true,
+          "autoclaim": "enabled",
+          "team_reward": true,
+          "title": "Chapter 3 completed",
+          "icon": "minecraft:book"
+        }
+      ],
+      "dependencies": [
+        "4A7B72887691AA5B",
+        "0DD8E2A6DF79E07F",
+        "6165C8B0D5968CB5",
+        "507E26F12D5F4767",
+        "391C1E877E0CBC7C",
+        "7845C5F4707B8C2A",
+        "781CD8246C7C2C52",
+        "712C5F2778094C6D",
+        "52B92AA15999CF9B",
+        "24793CD25C45D029",
+        "03D3C1A1D4E8A23A"
+      ],
+      "optional": false,
+      "progression_mode": "linear",
+      "x": 14.0,
+      "y": 3.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "651915B829819435",
+      "title": "Optional: One Generator",
+      "description": [
+        "Craft one generator when useful for your build. This is optional and does not unlock the next chapter. The task detects the crafted result and keeps the equipment, including backpack contents."
+      ],
+      "tasks": [
+        {
+          "id": "7048138CFF1F3CDF",
+          "type": "item",
+          "item": "thermal:dynamo_stirling",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5B1DC030D6548B83",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "4A7B72887691AA5B"
+      ],
+      "optional": true,
+      "x": 0.0,
+      "y": -3.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "451C49B60CC7FCE8",
+      "title": "Optional: A Storage Network",
+      "description": [
+        "Craft a storage network when useful for your build. This is optional and does not unlock the next chapter. The task detects the crafted result and keeps the equipment, including backpack contents."
+      ],
+      "tasks": [
+        {
+          "id": "7072F52AC9824FDB",
+          "type": "item",
+          "item": "refinedstorage:controller",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F936AA7AACB0DF1",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "4A7B72887691AA5B"
+      ],
+      "optional": true,
+      "x": 3.0,
+      "y": -3.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "4D0C2129C87C9DC6",
+      "title": "Optional: Diamond Furnace",
+      "description": [
+        "Craft diamond furnace when useful for your build. This is optional and does not unlock the next chapter. The task detects the crafted result and keeps the equipment, including backpack contents."
+      ],
+      "tasks": [
+        {
+          "id": "70AB3AB7562076C2",
+          "type": "item",
+          "item": "ironfurnaces:diamond_furnace",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4D3774DD7C1FDAB8",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "4A7B72887691AA5B"
+      ],
+      "optional": true,
+      "x": 6.0,
+      "y": -3.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "4E100D96F59EB675",
+      "title": "Optional: An Iron Backpack",
+      "description": [
+        "Craft an iron backpack when useful for your build. This is optional and does not unlock the next chapter. The task detects the crafted result and keeps the equipment, including backpack contents."
+      ],
+      "tasks": [
+        {
+          "id": "47C6D9BD46672EBC",
+          "type": "item",
+          "item": "sophisticatedbackpacks:iron_backpack",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "72BCE9F75E6868BF",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "4A7B72887691AA5B"
+      ],
+      "optional": true,
+      "x": 0.0,
+      "y": -5.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "4A91D7CA321CE0AE",
+      "title": "Optional: A Diamond Pickaxe",
+      "description": [
+        "Craft a diamond pickaxe when useful for your build. This is optional and does not unlock the next chapter. The task detects the crafted result and keeps the equipment, including backpack contents."
+      ],
+      "tasks": [
+        {
+          "id": "62A73066FB0008C4",
+          "type": "item",
+          "item": "minecraft:diamond_pickaxe",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7BF785C92BE1CC75",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "4A7B72887691AA5B"
+      ],
+      "optional": true,
+      "x": 3.0,
+      "y": -5.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "378722E2BCB509A4",
+      "title": "Optional: An Energy Buffer",
+      "description": [
+        "Craft an energy buffer when useful for your build. This is optional and does not unlock the next chapter. The task detects the crafted result and keeps the equipment, including backpack contents."
+      ],
+      "tasks": [
+        {
+          "id": "1704DC414490A0F5",
+          "type": "item",
+          "item": "thermal:energy_cell",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "687176D18FB537AF",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "4A7B72887691AA5B"
+      ],
+      "optional": true,
+      "x": 6.0,
+      "y": -5.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    }
+  ],
+  "hide_quest_until_deps_visible": true,
+  "hide_quest_details_until_startable": true
+}

@@ -1,0 +1,8 @@
+name = "Modefite - Item Definition Backport"
+filename = "modefite-forge-1.0.3+1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/qjlkcVfy/versions/gTsuL9Nx/modefite-forge-1.0.3%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "4232b2e159ce33d67ad8471818100dd2b6f3de45669bafdece7231faf27a01939d5e40ec476aa98de42fc9b00edcd87aaaa8b371631f745a046c7194aaa95be4"

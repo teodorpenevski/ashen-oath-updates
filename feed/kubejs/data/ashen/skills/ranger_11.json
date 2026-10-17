@@ -1,0 +1,37 @@
+{
+  "id": "ashen:ranger_11",
+  "title": "Runner Endurance",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:staminar",
+      "id": "602df1de-4da0-558b-afd8-c8f93d1e4331",
+      "name": "Ashen ranger_11",
+      "amount": 2,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:ranger_10",
+    "ashen:ranger_12"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ranger"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/bow_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 336.59999999999997,
+  "positionY": -156.4,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

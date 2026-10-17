@@ -1,0 +1,37 @@
+{
+  "id": "ashen:warrior_17",
+  "title": "Veteran Discipline",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:staminar",
+      "id": "a95a2b14-b375-547e-892d-881929578a6e",
+      "name": "Ashen warrior_17",
+      "amount": 1,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:warrior_6",
+    "ashen:warrior_18"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "warrior"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -279.65,
+  "positionY": 279.65,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

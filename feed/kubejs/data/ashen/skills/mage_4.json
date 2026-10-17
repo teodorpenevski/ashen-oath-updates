@@ -1,0 +1,38 @@
+{
+  "id": "ashen:mage_4",
+  "title": "Arcane Precision",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_power",
+      "id": "d4bfa899-ecf3-5c46-ab4e-725fa17b2b8b",
+      "name": "Ashen mage_4",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:mage_2",
+    "ashen:mage_6",
+    "ashen:mage_10"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "mage"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_blue.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -119.85,
+  "positionY": -209.95,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

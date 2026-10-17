@@ -1,0 +1,37 @@
+{
+  "id": "ashen:ranger_5",
+  "title": "Field Endurance",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "7567d928-20d4-5af3-8a2b-806b69c9aa42",
+      "name": "Ashen ranger_5",
+      "amount": 2,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:ranger_3",
+    "ashen:ranger_6"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ranger"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/bow_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 183.6,
+  "positionY": -219.29999999999998,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

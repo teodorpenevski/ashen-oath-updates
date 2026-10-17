@@ -1,0 +1,28 @@
+{
+  "id": "ashen:ranger_21_preparation_1",
+  "title": "Hunter's Mark \u2014 Preparation 1/1",
+  "bonuses": [],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:ranger_7"
+    }
+  ],
+  "directConnections": [
+    "ashen:ranger_7",
+    "ashen:ranger_21"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ranger",
+    "major_preparation"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/bow_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 91.8,
+  "positionY": -315.35,
+  "buttonSize": 10,
+  "isStartingPoint": false
+}

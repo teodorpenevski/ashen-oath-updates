@@ -1,0 +1,27 @@
+{
+  "disabled_classes": [
+    "aquaculture:mariner",
+    "ars_nouveau:sorcerer",
+    "artificers_armory:artificer",
+    "artificers_armory:eldritch_knight",
+    "enchanted_wands_tomes:magician",
+    "farmersdelight:farmer",
+    "irons_spellbooks:wizard",
+    "starting_classes:alchemist",
+    "starting_classes:alexsmobs:falconer",
+    "starting_classes:botanist",
+    "starting_classes:dreadnought",
+    "starting_classes:engineer",
+    "starting_classes:knight",
+    "starting_classes:mariner",
+    "starting_classes:miner",
+    "starting_classes:occultist",
+    "starting_classes:outrider",
+    "starting_classes:pioneer",
+    "starting_classes:ranger",
+    "starting_classes:scholar",
+    "starting_classes:trader",
+    "starting_classes:wanderer",
+    "starting_classes:witch"
+  ]
+}

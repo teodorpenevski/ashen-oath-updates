@@ -1,0 +1,41 @@
+{
+  "id": "ashen:rogue_lifesteal_2",
+  "title": "Crimson Pursuit",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:life_steal",
+      "id": "0901bdf7-3b48-5fd7-8c2a-2bea146abcf5",
+      "name": "Ashen rogue_lifesteal_2",
+      "amount": 0.03,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:rogue_12"
+    }
+  ],
+  "directConnections": [
+    "ashen:rogue_12"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "rogue"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_iron.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 257.1,
+  "positionY": 378.25,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -1,0 +1,56 @@
+{
+  "id": "ashen:asc_berserker_big_1",
+  "title": "Glass Juggernaut",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "244cf8c1-f74c-5607-8f44-4bbb6c12629f",
+      "name": "Ashen asc_berserker_big_1",
+      "amount": 0.7,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "1c36b008-e76f-5226-95bf-d776d05f3a61",
+      "name": "Ashen asc_berserker_big_1",
+      "amount": -0.2,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_berserker_small_1"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_berserker_small_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "berserker"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -40,
+  "positionY": 845,
+  "buttonSize": 38,
+  "isStartingPoint": false
+}

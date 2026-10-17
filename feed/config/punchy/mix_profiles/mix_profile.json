@@ -1,0 +1,13 @@
+{
+  "animationPackSelections": {
+    "kind:axe": "pack:file/ashen-silly-punchies-0.1-1.20.1.zip",
+    "kind:pickaxe": "pack:punchy:punchy",
+    "kind:shovel": "pack:file/punchy refined.zip",
+    "kind:sword": "pack:file/punchy refined.zip",
+    "kind:bucket": "pack:file/refined buckets 2.4.1.zip",
+    "kind:food": "pack:punchy:punchy",
+    "kind:ingredient": "pack:punchy:punchy"
+  },
+  "animationPackTypeSelections": {},
+  "mixSpecificForceOverride": {}
+}

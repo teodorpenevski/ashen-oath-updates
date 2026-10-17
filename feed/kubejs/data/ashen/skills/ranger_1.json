@@ -1,0 +1,37 @@
+{
+  "id": "ashen:ranger_1",
+  "title": "Swift Draw",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:draw_speed",
+      "id": "f2c9cdcb-e7f3-54cd-b628-f3ddcaeb5b2f",
+      "name": "Ashen ranger_1",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:ranger_0",
+    "ashen:ranger_3"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ranger"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/bow_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 99.45,
+  "positionY": -153.0,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

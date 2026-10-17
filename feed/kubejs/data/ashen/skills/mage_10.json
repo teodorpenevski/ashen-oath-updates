@@ -1,0 +1,38 @@
+{
+  "id": "ashen:mage_10",
+  "title": "Battle Meditation",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:staminar",
+      "id": "c9180fa4-11b0-5bcb-900b-089754e5a573",
+      "name": "Ashen mage_10",
+      "amount": 2,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:mage_4",
+    "ashen:mage_11",
+    "ashen:mage_20_preparation_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "mage"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_blue.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -132.6,
+  "positionY": -282.2,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

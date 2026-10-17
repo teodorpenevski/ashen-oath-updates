@@ -1,0 +1,70 @@
+{
+  "id": "ashen:asc_duelist_big_3",
+  "title": "Perfect Footwork",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "6ccc2c6b-c4b6-5271-b5cb-f8fea5794a27",
+      "name": "Ashen asc_duelist_big_3",
+      "amount": 0.3,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_chance",
+      "id": "a4c97da5-e836-5c44-98a7-4f7499a04fe8",
+      "name": "Ashen asc_duelist_big_3",
+      "amount": 0.1,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "1d7f0e34-261e-51fa-96e4-829544c19ddd",
+      "name": "Ashen asc_duelist_big_3",
+      "amount": -0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_duelist_small_3"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_duelist_small_3"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "duelist"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/sword_iron.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 943,
+  "positionY": 303,
+  "buttonSize": 38,
+  "isStartingPoint": false
+}

@@ -1,0 +1,7 @@
+["Config for Sam's Combat Indicators"]
+enable_damage_numbers = true
+number_duration = 30
+number_base_scale = 3.5
+stack_damage_numbers = false
+spray_damage_numbers = false
+enable_damage_taken_indicator = false

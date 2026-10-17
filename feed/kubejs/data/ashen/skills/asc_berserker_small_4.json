@@ -1,0 +1,43 @@
+{
+  "id": "ashen:asc_berserker_small_4",
+  "title": "Thirst",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:life_steal",
+      "id": "686ae438-ad75-57ee-9bac-8c5ff5d2b002",
+      "name": "Ashen asc_berserker_small_4",
+      "amount": 0.05,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_berserker_root"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_berserker_root",
+    "ashen:asc_berserker_big_4"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "berserker"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -299,
+  "positionY": 691,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

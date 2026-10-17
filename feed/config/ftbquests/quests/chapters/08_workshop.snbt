@@ -1,0 +1,200 @@
+{
+  "id": "6BA40FDB0B9A91FE",
+  "filename": "08_workshop",
+  "group": "225FE9BE4793200B",
+  "title": "Workshop · Thermal",
+  "icon": "thermal:machine_pulverizer",
+  "order_index": 2,
+  "default_quest_shape": "square",
+  "default_quest_size": 1.0,
+  "progression_mode": "flexible",
+  "consume_items": false,
+  "quests": [
+    {
+      "id": "4C1116A2D023F9CD",
+      "title": "A Small Workshop",
+      "description": [
+        "Technology is optional support. The taught path is one generator, ore processing and an energy buffer."
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "65A897ACA236D1A4"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "71C4C3E469F37399",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "3D99DE03F52686DB",
+      "title": "Generate Power",
+      "description": [
+        "The Stirling Dynamo uses fuel. Connect it to machinery with a Thermal energy duct. Follow JEI for exact recipes."
+      ],
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "thermal:dynamo_stirling",
+          "count": 1,
+          "consume_items": false,
+          "id": "2B38CB7C371D5063"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "46B15C0390A59D64",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "4C1116A2D023F9CD"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "2E341BFF54D8235D",
+      "title": "Process Ore",
+      "description": [
+        "Pulverize suitable ore inputs and smelt the results. Check JEI yields; not every input gives extra metal."
+      ],
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "thermal:machine_pulverizer",
+          "count": 1,
+          "consume_items": false,
+          "id": "462A5201E5111F26"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "59D8F1522813D33E",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "3D99DE03F52686DB"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "29AD1AF339F228EE",
+      "title": "Alloys",
+      "description": [
+        "The Induction Smelter provides useful alloys and processing. Check required auxiliary inputs in JEI."
+      ],
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "thermal:machine_smelter",
+          "count": 1,
+          "consume_items": false,
+          "id": "0D709A66CAF9B193"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0F8C1A54E552FCF2",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "2E341BFF54D8235D"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "5AA6866DA0BFBA36",
+      "title": "Store Energy",
+      "description": [
+        "Add an energy buffer so machines and storage remain usable between refuelling."
+      ],
+      "x": 8.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "thermal:energy_cell",
+          "count": 1,
+          "consume_items": false,
+          "id": "66980D28164C0306"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12499AA83B629EB7",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "29AD1AF339F228EE"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "091072C6FBC4C3FD",
+      "title": "Stop Here",
+      "description": [
+        "Upgrade this small setup as needed. No reactor, chemical chain or enormous factory is required for the story."
+      ],
+      "x": 10.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "1BC176697AEE5A18"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "585D3B04F3560E9D",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "5AA6866DA0BFBA36"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    }
+  ],
+  "hide_quest_until_deps_visible": false,
+  "hide_quest_until_deps_complete": false
+}

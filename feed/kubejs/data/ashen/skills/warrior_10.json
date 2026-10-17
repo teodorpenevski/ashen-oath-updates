@@ -1,0 +1,38 @@
+{
+  "id": "ashen:warrior_10",
+  "title": "Long Breath",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:staminar",
+      "id": "ab84fc3a-7559-53f2-afb2-5f7ccc51a80f",
+      "name": "Ashen warrior_10",
+      "amount": 2,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:warrior_4",
+    "ashen:warrior_11",
+    "ashen:warrior_20_preparation_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "warrior"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -282.2,
+  "positionY": 132.6,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

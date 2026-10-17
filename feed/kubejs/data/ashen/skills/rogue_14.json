@@ -1,0 +1,50 @@
+{
+  "id": "ashen:rogue_14",
+  "title": "Deathmark",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_chance",
+      "id": "4cf654d8-8eff-5d09-98b3-94bf261b9e37",
+      "name": "Ashen rogue_14",
+      "amount": 0.03,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_damage",
+      "id": "4233d3b0-6edd-5f31-946e-fd8596ddea85",
+      "name": "Ashen rogue_14",
+      "amount": 0.15,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:rogue_13"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "rogue"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_iron.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 444.55,
+  "positionY": 270.3,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

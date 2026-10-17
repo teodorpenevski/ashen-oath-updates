@@ -1,0 +1,8 @@
+name = "Universal 3D Archery - Bow and Crossbow"
+filename = "Universal_3D_Archery_1.20-1-6_1.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/HY6uydtR/versions/clT5GZGJ/Universal_3D_Archery_1.20-1-6_1.0.zip"
+hash-format = "sha512"
+hash = "7f3363ecc499cc56bac45abe836a406af2bc515f92f82dfd207c6940f22dc3e1ea4c34d26427c62bb3678f0e6119d93fc18e29bbead004f54890d60178acea9d"

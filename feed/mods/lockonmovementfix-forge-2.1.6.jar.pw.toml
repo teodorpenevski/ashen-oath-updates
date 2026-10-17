@@ -1,0 +1,8 @@
+name = "Epic Fight x Better Lock On: Movement & Camera Fixes"
+filename = "lockonmovementfix-forge-2.1.6.jar"
+side = "client"
+
+[download]
+url = "https://github.com/Seramicx/epic-fight-better-lockon-movement-camera-fix/releases/download/v2.1.6/lockonmovementfix-forge-2.1.6.jar"
+hash-format = "sha512"
+hash = "075a247d10f55cb810e736b1facfb3c4511c2fb9aa2c58b4d3c0559b74317089db26038d5915b6a0af9ebccff5b009dfacb7121a9ad6079f766ebeb132ed054a"

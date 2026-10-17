@@ -1,0 +1,16 @@
+{
+  "id": "ashen:ranger",
+  "name": "Ranger",
+  "description": "A remembered eye for distance. Starter kit: a bow, 24 arrows and a wooden dagger. Ranger paths lie northeast. All classes also receive three bread and four torches. Your starter kit is granted once. Hybrid skill builds remain available. At XP level 10, receive a reusable spellbook with Magic Arrow I. Craft other spells at a Scroll Forge.",
+  "source": "Ashen Oath",
+  "icon": {
+    "type": "item",
+    "itemId": "minecraft:bow"
+  },
+  "equipment": [
+    {
+      "type": "command",
+      "command": "execute as PLAYER run function ashen:class/select_ranger"
+    }
+  ]
+}

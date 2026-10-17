@@ -1,0 +1,8 @@
+name = "KeyBindJS"
+filename = "KeyBindJS-2001-1.9.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/g3ouhJY7/versions/Vxoia6jS/KeyBindJS-2001-1.9.jar"
+hash-format = "sha512"
+hash = "e598573c09102808ec59abb62ceb2df4b20d3a3f52b95a1a1e0bc448d32295b5c37d3a57b94c7f436ef1f474036bc0a8a6297f1510298b42ac1e5015e9bdd9a7"

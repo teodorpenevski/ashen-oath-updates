@@ -1,0 +1,203 @@
+{
+  "id": "36C5B7117F690EB1",
+  "filename": "06_gearing",
+  "group": "225FE9BE4793200B",
+  "title": "Gearing · Apotheosis",
+  "icon": "apotheosis:reforging_table",
+  "order_index": 0,
+  "default_quest_shape": "square",
+  "default_quest_size": 1.0,
+  "progression_mode": "flexible",
+  "consume_items": false,
+  "quests": [
+    {
+      "id": "6A8ECA2951C8172F",
+      "title": "Read the Gear",
+      "description": [
+        "Compare useful affixes, sockets and enchantments. A good rare weapon can outperform a plain higher-material weapon."
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "450F5B6F25D53451"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "417658B6B48A33FB",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "51714387A8D0440F",
+      "title": "Salvage",
+      "description": [
+        "Break unwanted affix gear down into its rarity material. Do not salvage equipped or irreplaceable gear."
+      ],
+      "x": 2.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "apotheosis:salvaging_table",
+          "count": 1,
+          "consume_items": false,
+          "id": "3BDF1DE07C347D1A"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "364A65018005A06B",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "6A8ECA2951C8172F"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "69A555357EE701CE",
+      "title": "First Reforging",
+      "description": [
+        "Use JEI for materials and recipes. Reforging consumes rarity materials, gem dust and XP."
+      ],
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "apotheosis:simple_reforging_table",
+          "count": 1,
+          "consume_items": false,
+          "id": "6510DD9A35A30A96"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "043F4701D193BC39",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "51714387A8D0440F"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "4BF9F82F2C11A322",
+      "title": "Cut and Socket",
+      "description": [
+        "Improve gems here. Use the mod's displayed socketing procedure to attach gems to equipment with empty sockets."
+      ],
+      "x": 6.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "apotheosis:gem_cutting_table",
+          "count": 1,
+          "consume_items": false,
+          "id": "56C45C049014B1E9"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5DFBC627E78BAC82",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "69A555357EE701CE"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "62F9DD3B1AFEE464",
+      "title": "Advanced Reforging",
+      "description": [
+        "Use higher-rarity material when your build and story progress justify it."
+      ],
+      "x": 8.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "apotheosis:reforging_table",
+          "count": 1,
+          "consume_items": false,
+          "id": "6375CB277466CD3A"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "78E80BB2552EE9FB",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "4BF9F82F2C11A322"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "462BCD9ED058D09D",
+      "title": "Enchant with Purpose",
+      "description": [
+        "Use useful enchantments to support a build. Apotheosis's in-game Chronicle documents shelf statistics and special enchanting mechanics."
+      ],
+      "x": 10.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "minecraft:enchanting_table",
+          "count": 1,
+          "consume_items": false,
+          "id": "3109A5ADE2E8153E"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "33D2164910C9A761",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "62F9DD3B1AFEE464"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    }
+  ],
+  "hide_quest_until_deps_visible": false,
+  "hide_quest_until_deps_complete": false
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ashen:ranger_19",
+  "title": "Windrunner",
+  "bonuses": [],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:ranger_19_preparation_1"
+    }
+  ],
+  "directConnections": [
+    "ashen:ranger_19_preparation_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ranger"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/bow_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 17.0,
+  "positionY": -229.5,
+  "buttonSize": 28,
+  "isStartingPoint": false
+}

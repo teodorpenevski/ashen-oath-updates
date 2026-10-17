@@ -1,0 +1,37 @@
+{
+  "id": "ashen:warrior_13",
+  "title": "Unbroken Line",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.knockback_resistance",
+      "id": "91438522-481b-567b-8521-0547e1d191e7",
+      "name": "Ashen warrior_13",
+      "amount": 0.1,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:warrior_9",
+    "ashen:warrior_14"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "warrior"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -228.65,
+  "positionY": 414.8,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

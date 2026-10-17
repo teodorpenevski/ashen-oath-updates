@@ -1,0 +1,39 @@
+{
+  "id": "ashen:mage_3",
+  "title": "Flow of Mana",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:mana_regen",
+      "id": "ad60e91a-646c-52ce-9d16-18dc9b09d884",
+      "name": "Ashen mage_3",
+      "amount": 0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:mage_1",
+    "ashen:mage_5",
+    "ashen:mage_7",
+    "ashen:mage_19_preparation_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "mage"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_blue.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -209.95,
+  "positionY": -119.85,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

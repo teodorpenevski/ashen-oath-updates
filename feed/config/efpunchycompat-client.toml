@@ -1,0 +1,5 @@
+[client]
+# Keep both Colossal Grip weapons visible in first person.
+only_render_main_hand_with_two_handed_weapon = false
+hide_two_handed_style_item_in_offhand = false
+empty_main_hand_when_sheathed = false

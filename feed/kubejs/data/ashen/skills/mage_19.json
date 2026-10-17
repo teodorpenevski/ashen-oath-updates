@@ -1,0 +1,26 @@
+{
+  "id": "ashen:mage_19",
+  "title": "Blink",
+  "bonuses": [],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:mage_19_preparation_2"
+    }
+  ],
+  "directConnections": [
+    "ashen:mage_19_preparation_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "mage"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/potion_blue.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -229.5,
+  "positionY": -17.0,
+  "buttonSize": 28,
+  "isStartingPoint": false
+}

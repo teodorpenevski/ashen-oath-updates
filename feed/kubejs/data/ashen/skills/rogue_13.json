@@ -1,0 +1,37 @@
+{
+  "id": "ashen:rogue_13",
+  "title": "Keen Edge",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_damage",
+      "id": "9cc6aefd-f99b-5a6c-bf46-b8a445c143d9",
+      "name": "Ashen rogue_13",
+      "amount": 0.1,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:rogue_9",
+    "ashen:rogue_14"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "rogue"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_iron.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 414.8,
+  "positionY": 228.65,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

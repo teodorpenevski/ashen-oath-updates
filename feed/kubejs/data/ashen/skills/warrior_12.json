@@ -1,0 +1,52 @@
+{
+  "id": "ashen:warrior_12",
+  "title": "Berserker",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "310023b1-dccd-5561-8d64-9c67c95bb2eb",
+      "name": "Ashen warrior_12",
+      "amount": 2,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "epicfight:staminar",
+      "id": "1750fdf2-7c35-50a2-8204-cf799667ec11",
+      "name": "Ashen warrior_12",
+      "amount": 2,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:warrior_11",
+    "ashen:warrior_15",
+    "ashen:warrior_lifesteal_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "warrior"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -378.25,
+  "positionY": 192.1,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

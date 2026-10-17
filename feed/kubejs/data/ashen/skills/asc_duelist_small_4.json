@@ -1,0 +1,43 @@
+{
+  "id": "ashen:asc_duelist_small_4",
+  "title": "Steel Rhythm",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "a72c3872-1819-5687-a7b5-4b75f580c840",
+      "name": "Ashen asc_duelist_small_4",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_duelist_root"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_duelist_root",
+    "ashen:asc_duelist_big_4"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "duelist"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_iron.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 691,
+  "positionY": 299,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

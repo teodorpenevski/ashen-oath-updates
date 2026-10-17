@@ -1,0 +1,663 @@
+{
+  "id": "041AF5475AAB480F",
+  "filename": "01_beneath_your_own_grave",
+  "group": "",
+  "title": "1 · Beneath Your Own Grave",
+  "icon": "minecraft:iron_sword",
+  "order_index": 0,
+  "default_quest_shape": "square",
+  "default_quest_size": 1.0,
+  "progression_mode": "linear",
+  "consume_items": false,
+  "quests": [
+    {
+      "id": "2D3DEFD4AE2D2603",
+      "title": "You Were Here Before",
+      "description": [
+        "You wake beneath a memorial. Your name has been scraped away. Your hands remember a blade, but your mind remembers nothing.",
+        "Open this book with its inventory button. Claim the archive below. Right-click the archive into the air to recover lost story tokens and see the world chapter.",
+        "Story boss unlocks are shared across this server. Quest rewards and tutorial progress use FTB teams. Create a party before adventuring together.",
+        "Story chapters unlock only after every required chapter milestone and its closing quest. Boss trophies must be picked up and submitted; optional tutorials remain available from the start."
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "237F09BEF93C2CE2"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "43B7EB6776802491",
+          "type": "item",
+          "item": "kubejs:memory_archive",
+          "count": 1
+        },
+        {
+          "id": "6FD03C06FEAFBF21",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 8
+        }
+      ],
+      "dependencies": [],
+      "optional": false,
+      "progression_mode": "linear"
+    },
+    {
+      "id": "4033D140D1E20002",
+      "title": "Stones for a Refuge",
+      "description": [
+        "Collect 32 cobblestone for your first shelter and tools."
+      ],
+      "tasks": [
+        {
+          "id": "442CFE7D067121D8",
+          "type": "item",
+          "item": "minecraft:cobblestone",
+          "count": 32,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "09626513AC3C6806",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "2D3DEFD4AE2D2603"
+      ],
+      "optional": false,
+      "x": 2.0,
+      "y": 0.0,
+      "progression_mode": "linear"
+    },
+    {
+      "id": "2D523D61AE906EA2",
+      "title": "A Place to Return To",
+      "description": [
+        "Craft and submit a white bed and a crafting table to establish a safe refuge. Both items are consumed when submitted."
+      ],
+      "x": 4.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "minecraft:white_bed",
+          "count": 1,
+          "consume_items": true,
+          "only_from_crafting": false,
+          "id": "7731B8B667BAA908"
+        },
+        {
+          "type": "item",
+          "item": "minecraft:crafting_table",
+          "count": 1,
+          "consume_items": true,
+          "only_from_crafting": false,
+          "id": "46BA97C59F48B233"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "17DC9E4E808F656F",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 16
+        }
+      ],
+      "dependencies": [
+        "4033D140D1E20002"
+      ],
+      "optional": false,
+      "progression_mode": "linear"
+    },
+    {
+      "id": "24B3E7DD13436761",
+      "title": "Fire and Fuel",
+      "description": [
+        "Collect eight coal. Your old skills begin with heat and light."
+      ],
+      "tasks": [
+        {
+          "id": "454EB29F77DFEA19",
+          "type": "item",
+          "item": "minecraft:coal",
+          "count": 8,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7BFE4BD51CFEC4AD",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "2D523D61AE906EA2"
+      ],
+      "optional": false,
+      "x": 6.0,
+      "y": 0.0,
+      "progression_mode": "linear"
+    },
+    {
+      "id": "2EEACB93E709296F",
+      "title": "An Iron Reserve",
+      "description": [
+        "Collect 16 iron ingots before setting out. Save them for tools, armor and repairs."
+      ],
+      "tasks": [
+        {
+          "id": "0CDEAD109118C45B",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 16,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "52D2B900784381AB",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "24B3E7DD13436761"
+      ],
+      "optional": false,
+      "x": 8.0,
+      "y": 0.0,
+      "progression_mode": "linear"
+    },
+    {
+      "id": "305BEA2CC88EBE8D",
+      "title": "The Hands Remember",
+      "description": [
+        "Obtain an iron sword and shield. These are enough to begin; armor is strongly recommended."
+      ],
+      "x": 10.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "minecraft:iron_sword",
+          "count": 1,
+          "consume_items": false,
+          "id": "458C659ECB49069F"
+        },
+        {
+          "type": "item",
+          "item": "minecraft:shield",
+          "count": 1,
+          "consume_items": false,
+          "id": "776027820D73069C"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7F68FC382A988718",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "2EEACB93E709296F"
+      ],
+      "optional": false,
+      "progression_mode": "linear"
+    },
+    {
+      "id": "2B9BC5306D298312",
+      "title": "An Unfamiliar Enemy",
+      "description": [
+        "Defeat five zombies. Learn your swing timing and leave room to retreat."
+      ],
+      "x": 12.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "minecraft:zombie",
+          "value": 5,
+          "id": "0BDCC6960911001D"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16A47E30C272F00D",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "305BEA2CC88EBE8D"
+      ],
+      "optional": false,
+      "progression_mode": "linear"
+    },
+    {
+      "id": "3B9E8A7AED921B95",
+      "title": "Learn to Close the Distance",
+      "description": [
+        "Defeat five skeletons. Practice approaching ranged enemies with cover and your shield."
+      ],
+      "tasks": [
+        {
+          "id": "1304EFB6279CC70A",
+          "type": "kill",
+          "entity": "minecraft:skeleton",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6EC03B13C2E5A959",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "2B9BC5306D298312"
+      ],
+      "optional": false,
+      "x": 0.0,
+      "y": 3.0,
+      "progression_mode": "linear"
+    },
+    {
+      "id": "7F37037B84410175",
+      "title": "Nothing Is Wasted",
+      "description": [
+        "Build the Salvaging Table. Salvage unwanted affix gear; keep useful affixes even when the base material looks modest."
+      ],
+      "x": 2.0,
+      "y": 3.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "apotheosis:salvaging_table",
+          "count": 1,
+          "consume_items": false,
+          "id": "7F124DBB5C2615A5"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "47BCC2783C2BDF86",
+          "type": "item",
+          "item": "apotheosis:uncommon_material",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "3B9E8A7AED921B95"
+      ],
+      "optional": false,
+      "progression_mode": "linear"
+    },
+    {
+      "id": "7B5EAB4F71D67784",
+      "title": "A Shard of the Old World",
+      "description": [
+        "Find an amethyst shard. It belongs in the Oath Shard recipe and your memory archive."
+      ],
+      "tasks": [
+        {
+          "id": "1072687910FE7E10",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "73DBBBDDD1FFB507",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "7F37037B84410175"
+      ],
+      "optional": false,
+      "x": 4.0,
+      "y": 3.0,
+      "progression_mode": "linear"
+    },
+    {
+      "id": "44069B78F99C2129",
+      "title": "The Oathless",
+      "description": [
+        "Craft the reusable Oath Shard from iron, rotten flesh and amethyst (JEI shows its recipe). Stand outdoors, aim into open air and right-click it to summon The Oathless four blocks ahead.",
+        "This is a custom husk champion, not a randomly generated Apotheosis elite. It has 50 health, armor and a sword. It cannot despawn.",
+        "Only one can be summoned nearby at a time. The shard is reusable if you need to try again."
+      ],
+      "x": 6.0,
+      "y": 3.0,
+      "tasks": [
+        {
+          "id": "13F9D1360F15D211",
+          "type": "item",
+          "item": "kubejs:oath_shard",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "7B5EAB4F71D67784"
+      ],
+      "optional": false,
+      "progression_mode": "linear"
+    },
+    {
+      "id": "3D2E11776642B4CF",
+      "title": "The First Name",
+      "description": [
+        "Defeat The Oathless and submit its crest to recover Memory I. You were a Dawnwarden; someone erased your identity.",
+        "This boss guarantees one Oathless Crest on a valid defeat. Pick it up, open this quest and click its item task to submit it. The trophy is consumed. It has no crafting recipe and the archive cannot produce it."
+      ],
+      "x": 8.0,
+      "y": 3.0,
+      "tasks": [
+        {
+          "id": "7D15EF64ECEF6621",
+          "type": "item",
+          "item": "kubejs:trophy_oathless",
+          "count": 1,
+          "consume_items": true,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "169C35BFCDABCCAF",
+          "type": "item",
+          "item": "apotheosis:rare_material",
+          "count": 2
+        },
+        {
+          "id": "3D69B991BDD68408",
+          "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 2
+        },
+        {
+          "id": "7C8F74E050D9C67B",
+          "type": "item",
+          "item": "kubejs:memory_1",
+          "count": 1,
+          "autoclaim": "enabled"
+        }
+      ],
+      "dependencies": [
+        "44069B78F99C2129"
+      ],
+      "optional": false,
+      "progression_mode": "linear"
+    },
+    {
+      "id": "43A1234FCF25952F",
+      "title": "Chapter 1 Complete",
+      "description": [
+        "You have completed every required Chapter 1 milestone. Close this part of your story to unlock Chapter 2. Optional branches do not block this step."
+      ],
+      "tasks": [
+        {
+          "id": "0C1846616B690094",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4ABC728ECDF69C86",
+          "type": "command",
+          "command": "function ashen:chapter/complete_1",
+          "elevate_perms": true,
+          "silent": true,
+          "autoclaim": "enabled",
+          "team_reward": true,
+          "title": "Chapter 1 completed",
+          "icon": "minecraft:book"
+        }
+      ],
+      "dependencies": [
+        "2D3DEFD4AE2D2603",
+        "4033D140D1E20002",
+        "2D523D61AE906EA2",
+        "24B3E7DD13436761",
+        "2EEACB93E709296F",
+        "305BEA2CC88EBE8D",
+        "2B9BC5306D298312",
+        "3B9E8A7AED921B95",
+        "7F37037B84410175",
+        "7B5EAB4F71D67784",
+        "44069B78F99C2129",
+        "3D2E11776642B4CF"
+      ],
+      "optional": false,
+      "progression_mode": "linear",
+      "x": 14.0,
+      "y": 3.0
+    },
+    {
+      "id": "65711CDF8470C259",
+      "title": "Optional: First Furnace",
+      "description": [
+        "Craft first furnace when useful for your build. This is optional and does not unlock the next chapter. The task detects the crafted result and keeps the equipment, including backpack contents."
+      ],
+      "tasks": [
+        {
+          "id": "676A7C255B5C1B7A",
+          "type": "item",
+          "item": "minecraft:furnace",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "141AAAC092F0F48F",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "2D523D61AE906EA2"
+      ],
+      "optional": true,
+      "x": 0.0,
+      "y": -3.0
+    },
+    {
+      "id": "4B2A69A72AB8AF42",
+      "title": "Optional: Iron Furnace",
+      "description": [
+        "Craft iron furnace when useful for your build. This is optional and does not unlock the next chapter. The task detects the crafted result and keeps the equipment, including backpack contents."
+      ],
+      "tasks": [
+        {
+          "id": "27427E668B73703E",
+          "type": "item",
+          "item": "ironfurnaces:iron_furnace",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3A5B036E2468ED9A",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "2D523D61AE906EA2"
+      ],
+      "optional": true,
+      "x": 3.0,
+      "y": -3.0
+    },
+    {
+      "id": "4DFB142F60F2CAA2",
+      "title": "Optional: Iron Helmet",
+      "description": [
+        "Craft iron helmet when useful for your build. This is optional and does not unlock the next chapter. The task detects the crafted result and keeps the equipment, including backpack contents."
+      ],
+      "tasks": [
+        {
+          "id": "72EB32083E4D5311",
+          "type": "item",
+          "item": "minecraft:iron_helmet",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "293ED1C755EB2A04",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "305BEA2CC88EBE8D"
+      ],
+      "optional": true,
+      "x": 6.0,
+      "y": -3.0
+    },
+    {
+      "id": "364F9708F63A113A",
+      "title": "Optional: Iron Chestplate",
+      "description": [
+        "Craft iron chestplate when useful for your build. This is optional and does not unlock the next chapter. The task detects the crafted result and keeps the equipment, including backpack contents."
+      ],
+      "tasks": [
+        {
+          "id": "026F4E510EAAE271",
+          "type": "item",
+          "item": "minecraft:iron_chestplate",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "43752711FD546AD7",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "305BEA2CC88EBE8D"
+      ],
+      "optional": true,
+      "x": 0.0,
+      "y": -5.0
+    },
+    {
+      "id": "133841F466073FB1",
+      "title": "Optional: A Bag for the Road",
+      "description": [
+        "Craft a bag for the road when useful for your build. This is optional and does not unlock the next chapter. The task detects the crafted result and keeps the equipment, including backpack contents."
+      ],
+      "tasks": [
+        {
+          "id": "2D9514917C5A1C85",
+          "type": "item",
+          "item": "sophisticatedbackpacks:backpack",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0C2F2137FEBD20E1",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "2D523D61AE906EA2"
+      ],
+      "optional": true,
+      "x": 3.0,
+      "y": -5.0
+    },
+    {
+      "id": "4B0BDC80D34EE74F",
+      "title": "Optional: A Ranged Backup",
+      "description": [
+        "Craft a ranged backup when useful for your build. This is optional and does not unlock the next chapter. The task detects the crafted result and keeps the equipment, including backpack contents."
+      ],
+      "tasks": [
+        {
+          "id": "46D6132BDF9C993F",
+          "type": "item",
+          "item": "minecraft:bow",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3C6DC668C4E6BF2C",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "305BEA2CC88EBE8D"
+      ],
+      "optional": true,
+      "x": 6.0,
+      "y": -5.0
+    }
+  ],
+  "hide_quest_until_deps_visible": true,
+  "hide_quest_details_until_startable": true
+}

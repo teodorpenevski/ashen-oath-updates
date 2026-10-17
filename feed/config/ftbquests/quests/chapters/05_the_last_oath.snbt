@@ -1,0 +1,636 @@
+{
+  "id": "48A86B067FF7F42E",
+  "filename": "05_the_last_oath",
+  "group": "",
+  "title": "5 · The Last Oath",
+  "icon": "minecraft:netherite_sword",
+  "order_index": 4,
+  "default_quest_shape": "square",
+  "default_quest_size": 1.0,
+  "progression_mode": "linear",
+  "consume_items": false,
+  "quests": [
+    {
+      "id": "41BBBC19CC667EB1",
+      "title": "Choose Who You Will Become",
+      "description": [
+        "Finish a coherent build: melee, spellblade or battlemage. Optimize your weakest slots. Perfect affix rolls are unnecessary."
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "37A7F1D841D903A1"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7DD7FBFF55FFD855",
+          "type": "item",
+          "item": "apotheosis:mythic_material",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "6CE8FFE640C18655"
+      ],
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "783C1D5EE99C70FA",
+      "title": "Prepare Your Recovery",
+      "description": [
+        "Carry four golden apples before the final arena."
+      ],
+      "tasks": [
+        {
+          "id": "740FFE9382DF43C3",
+          "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 4,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "07EFACA7718F8A8C",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "41BBBC19CC667EB1"
+      ],
+      "optional": false,
+      "x": 2.0,
+      "y": 0.0,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "7D99864B95FE56A6",
+      "title": "Fire for the Last Road",
+      "description": [
+        "Collect 16 blaze powder for your final supplies."
+      ],
+      "tasks": [
+        {
+          "id": "07F856706B94280E",
+          "type": "item",
+          "item": "minecraft:blaze_powder",
+          "count": 16,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6158F45761250687",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "783C1D5EE99C70FA"
+      ],
+      "optional": false,
+      "x": 4.0,
+      "y": 0.0,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "2C76467207C693B3",
+      "title": "A Tear in the Ash",
+      "description": [
+        "Collect one ghast tear as a late Nether exploration milestone."
+      ],
+      "tasks": [
+        {
+          "id": "530AAF6DAD9BB4AB",
+          "type": "item",
+          "item": "minecraft:ghast_tear",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A70A3032B9B2E48",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "7D99864B95FE56A6"
+      ],
+      "optional": false,
+      "x": 6.0,
+      "y": 0.0,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "25F94F5AE6D11655",
+      "title": "Return to the Burning Arena",
+      "description": [
+        "Locate the Burning Arena in the Nether. Ignis is now unlocked. Bring healing and fire protection; his attacks still demand careful movement."
+      ],
+      "x": 8.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "68701E14DC1A6004"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "650117A959549047",
+          "type": "item",
+          "item": "minecraft:golden_apple",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "2C76467207C693B3"
+      ],
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "3355E00049EBD411",
+      "title": "The Commander at the Breach",
+      "description": [
+        "Defeat Ignis and submit its Oathbrand for Memory V. Your commander preserved the seal, but became its prisoner. Submission lets you craft and use the final oath.",
+        "This boss guarantees one Ignis Oathbrand on a valid defeat. Pick it up, open this quest and click its item task to submit it. The trophy is consumed. It has no crafting recipe and the archive cannot produce it."
+      ],
+      "x": 10.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "038B48F5C91EAE3F",
+          "type": "item",
+          "item": "kubejs:trophy_ignis",
+          "count": 1,
+          "consume_items": true,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4E7CCEE387840C29",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 8
+        },
+        {
+          "id": "143E257A4F5E5F1D",
+          "type": "command",
+          "command": "function ashen:quest/defeat_ignis",
+          "elevate_perms": true,
+          "silent": true,
+          "autoclaim": "enabled",
+          "team_reward": true,
+          "title": "Boss victory recorded",
+          "icon": "minecraft:book"
+        },
+        {
+          "id": "1C034D8487776A5F",
+          "type": "item",
+          "item": "kubejs:memory_5",
+          "count": 1,
+          "autoclaim": "enabled"
+        }
+      ],
+      "dependencies": [
+        "25F94F5AE6D11655"
+      ],
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "6240DEB6D2B5141C",
+      "title": "Crystals for the Oath",
+      "description": [
+        "Collect four amethyst shards for the archive and restored oath."
+      ],
+      "tasks": [
+        {
+          "id": "02C7CD3B3B878FC7",
+          "type": "item",
+          "item": "minecraft:amethyst_shard",
+          "count": 4,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7CB704D914AECEA5",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "3355E00049EBD411"
+      ],
+      "optional": false,
+      "x": 12.0,
+      "y": 0.0,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "7FD9DF30159C4A2B",
+      "title": "Stone for the Seal",
+      "description": [
+        "Collect four obsidian. The Restored Oath uses one alongside your five recovered memories."
+      ],
+      "tasks": [
+        {
+          "id": "11064A7C93511FEE",
+          "type": "item",
+          "item": "minecraft:obsidian",
+          "count": 4,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "32A782E1B59671E8",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "6240DEB6D2B5141C"
+      ],
+      "optional": false,
+      "x": 0.0,
+      "y": 3.0,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "302C829E15206E1F",
+      "title": "Gather the Five Memories",
+      "description": [
+        "Craft the Restored Oath from all five memories, one amethyst shard, one obsidian and one Eye of Ender. JEI shows the recipe."
+      ],
+      "x": 2.0,
+      "y": 3.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "kubejs:restored_oath",
+          "count": 1,
+          "consume_items": false,
+          "id": "58BD8C72E62E8D05"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "7FD9DF30159C4A2B"
+      ],
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "47F815F7465C41A4",
+      "title": "A New Dawn",
+      "description": [
+        "Right-click the Restored Oath into the air. This seals the breach and awards the Dawnwarden Crest. Your refuge is the beginning of a new order."
+      ],
+      "x": 4.0,
+      "y": 3.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "kubejs:dawnwarden_crest",
+          "count": 1,
+          "consume_items": false,
+          "id": "04042020E2B01DB1"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "465A66FD8D7758D9",
+          "type": "item",
+          "item": "minecraft:netherite_ingot",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "302C829E15206E1F"
+      ],
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "1860B1F1A801D894",
+      "title": "The World Is Still Yours",
+      "description": [
+        "The campaign is complete. Remaining Cataclysm bosses are optional hunts. Expand your workshop, perfect your build or help another warrior."
+      ],
+      "x": 6.0,
+      "y": 3.0,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "3A9ECE9B210BB426"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "47F815F7465C41A4"
+      ],
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "49A4D015F385EECE",
+      "title": "Chapter 5 Complete",
+      "description": [
+        "You have completed every required Chapter 5 milestone. Close this part of your story to unlock the post-campaign world. Optional branches do not block this step."
+      ],
+      "tasks": [
+        {
+          "id": "605740A3181B1340",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "16C217BE67395162",
+          "type": "command",
+          "command": "function ashen:chapter/complete_5",
+          "elevate_perms": true,
+          "silent": true,
+          "autoclaim": "enabled",
+          "team_reward": true,
+          "title": "Chapter 5 completed",
+          "icon": "minecraft:book"
+        }
+      ],
+      "dependencies": [
+        "41BBBC19CC667EB1",
+        "783C1D5EE99C70FA",
+        "7D99864B95FE56A6",
+        "2C76467207C693B3",
+        "25F94F5AE6D11655",
+        "3355E00049EBD411",
+        "6240DEB6D2B5141C",
+        "7FD9DF30159C4A2B",
+        "302C829E15206E1F",
+        "47F815F7465C41A4",
+        "1860B1F1A801D894"
+      ],
+      "optional": false,
+      "progression_mode": "linear",
+      "x": 14.0,
+      "y": 3.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "6C6EFCA66D9236D0",
+      "title": "Optional: Netherite Backpack",
+      "description": [
+        "Craft netherite backpack when useful for your build. This is optional and does not unlock the next chapter. The task detects the crafted result and keeps the equipment, including backpack contents."
+      ],
+      "tasks": [
+        {
+          "id": "2249A445C53C069D",
+          "type": "item",
+          "item": "sophisticatedbackpacks:netherite_backpack",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "56268CCE080D8ECC",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "41BBBC19CC667EB1"
+      ],
+      "optional": true,
+      "x": 0.0,
+      "y": -3.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "1D35909ED4177E95",
+      "title": "Optional: Netherite Furnace",
+      "description": [
+        "Craft netherite furnace when useful for your build. This is optional and does not unlock the next chapter. The task detects the crafted result and keeps the equipment, including backpack contents."
+      ],
+      "tasks": [
+        {
+          "id": "3778B47C078ECB7C",
+          "type": "item",
+          "item": "ironfurnaces:netherite_furnace",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "31503B86FAD9A053",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "41BBBC19CC667EB1"
+      ],
+      "optional": true,
+      "x": 3.0,
+      "y": -3.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "05ACC929400C7189",
+      "title": "Optional: A Netherite Blade",
+      "description": [
+        "Craft a netherite blade when useful for your build. This is optional and does not unlock the next chapter. The task detects the crafted result and keeps the equipment, including backpack contents."
+      ],
+      "tasks": [
+        {
+          "id": "4462DBDBC850C9AF",
+          "type": "item",
+          "item": "minecraft:netherite_sword",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5BC3FD5C1C53D478",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "41BBBC19CC667EB1"
+      ],
+      "optional": true,
+      "x": 6.0,
+      "y": -3.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "32CDBEA3C1ABEDEE",
+      "title": "Optional: Netherite Chestplate",
+      "description": [
+        "Craft netherite chestplate when useful for your build. This is optional and does not unlock the next chapter. The task detects the crafted result and keeps the equipment, including backpack contents."
+      ],
+      "tasks": [
+        {
+          "id": "7DF0CDBC9FCA1576",
+          "type": "item",
+          "item": "minecraft:netherite_chestplate",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D56C78F41DA214E",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "41BBBC19CC667EB1"
+      ],
+      "optional": true,
+      "x": 0.0,
+      "y": -5.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "134E74E2D56DB475",
+      "title": "Optional: A Beacon at Home",
+      "description": [
+        "Craft a beacon at home when useful for your build. This is optional and does not unlock the next chapter. The task detects the crafted result and keeps the equipment, including backpack contents."
+      ],
+      "tasks": [
+        {
+          "id": "69E60B460BF6E573",
+          "type": "item",
+          "item": "minecraft:beacon",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7E62B7ACBDB4DE24",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "41BBBC19CC667EB1"
+      ],
+      "optional": true,
+      "x": 3.0,
+      "y": -5.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "5AB3B80CE006C28C",
+      "title": "Optional: Diamond Boots",
+      "description": [
+        "Craft diamond boots when useful for your build. This is optional and does not unlock the next chapter. The task detects the crafted result and keeps the equipment, including backpack contents."
+      ],
+      "tasks": [
+        {
+          "id": "0B8D712C0D72FCB7",
+          "type": "item",
+          "item": "minecraft:diamond_boots",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "126BBB8E2E7C891D",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "41BBBC19CC667EB1"
+      ],
+      "optional": true,
+      "x": 6.0,
+      "y": -5.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    }
+  ],
+  "hide_quest_until_deps_visible": true,
+  "hide_quest_details_until_startable": true
+}

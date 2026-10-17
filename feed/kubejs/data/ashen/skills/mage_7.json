@@ -1,0 +1,38 @@
+{
+  "id": "ashen:mage_7",
+  "title": "Arcane Reservoir",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "3f62e911-e211-5def-9335-05468bca11d3",
+      "name": "Ashen mage_7",
+      "amount": 15,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:mage_3",
+    "ashen:mage_8",
+    "ashen:mage_21_preparation_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "mage"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_blue.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -282.2,
+  "positionY": -132.6,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

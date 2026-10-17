@@ -1,0 +1,43 @@
+{
+  "id": "ashen:asc_spellblade_small_2",
+  "title": "Battle Theory",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_power",
+      "id": "b21475f1-cb77-5669-bb67-c4e6c41df87c",
+      "name": "Ashen asc_spellblade_small_2",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_spellblade_root"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_spellblade_root",
+    "ashen:asc_spellblade_big_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "spellblade"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_blue.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -250,
+  "positionY": -755,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

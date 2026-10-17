@@ -1,0 +1,37 @@
+{
+  "id": "ashen:rogue_1",
+  "title": "Quickstep",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "68f67241-2a68-5135-8772-34be76fad77a",
+      "name": "Ashen rogue_1",
+      "amount": 0.03,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:rogue_0",
+    "ashen:rogue_3"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "rogue"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_iron.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 153.0,
+  "positionY": 99.45,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

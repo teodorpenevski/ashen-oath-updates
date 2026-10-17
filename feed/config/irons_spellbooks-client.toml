@@ -1,0 +1,7 @@
+[Animations]
+showFirstPersonArms = false
+showFirstPersonItems = false
+
+[UI.ManaBar]
+manaBarDisplay = "Always"
+manaBarTextVisible = true

@@ -1,0 +1,41 @@
+{
+  "id": "ashen:mage_0",
+  "title": "Mage",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "f1650428-5bad-5134-84b8-1c06578fefb8",
+      "name": "Ashen mage_0",
+      "amount": 20,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:path_mage",
+    "ashen:mage_1",
+    "ashen:mage_2"
+  ],
+  "longConnections": [
+    "ashen:asc_arcanist_root",
+    "ashen:asc_spellblade_root"
+  ],
+  "oneWayConnections": [],
+  "tags": [
+    "mage"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_blue.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -87.55,
+  "positionY": -87.55,
+  "buttonSize": 22,
+  "isStartingPoint": false
+}

@@ -1,0 +1,43 @@
+{
+  "id": "ashen:asc_berserker_small_1",
+  "title": "Savage Intent",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "7ad79b17-0f09-540d-82ce-afd8074f9696",
+      "name": "Ashen asc_berserker_small_1",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_berserker_root"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_berserker_root",
+    "ashen:asc_berserker_big_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "berserker"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -141,
+  "positionY": 691,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

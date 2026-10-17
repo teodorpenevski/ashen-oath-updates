@@ -1,0 +1,38 @@
+{
+  "id": "ashen:rogue_7",
+  "title": "Quiet Approach",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "2af9b770-9b1f-53a6-8556-dce859b1ab5f",
+      "name": "Ashen rogue_7",
+      "amount": 0.02,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:rogue_3",
+    "ashen:rogue_8",
+    "ashen:rogue_21_preparation_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "rogue"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_iron.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 282.2,
+  "positionY": 132.6,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

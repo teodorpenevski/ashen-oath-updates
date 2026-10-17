@@ -1,0 +1,38 @@
+{
+  "id": "ashen:warrior_7",
+  "title": "Iron Resolve",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "068297e1-aa11-5230-8457-1d4705ababc2",
+      "name": "Ashen warrior_7",
+      "amount": 2,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:warrior_3",
+    "ashen:warrior_8",
+    "ashen:warrior_21_preparation_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "warrior"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -132.6,
+  "positionY": 282.2,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

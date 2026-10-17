@@ -1,0 +1,28 @@
+{
+  "id": "ashen:mage_21_preparation_1",
+  "title": "Mana Siphon \u2014 Preparation 1/1",
+  "bonuses": [],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:mage_7"
+    }
+  ],
+  "directConnections": [
+    "ashen:mage_7",
+    "ashen:mage_21"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "mage",
+    "major_preparation"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_blue.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -315.35,
+  "positionY": -91.8,
+  "buttonSize": 10,
+  "isStartingPoint": false
+}

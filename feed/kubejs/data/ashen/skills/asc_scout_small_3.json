@@ -1,0 +1,43 @@
+{
+  "id": "ashen:asc_scout_small_3",
+  "title": "Hunting Instinct",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_damage",
+      "id": "77b15712-7bc2-5c7f-8b4b-870232e5b4f8",
+      "name": "Ashen asc_scout_small_3",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_scout_root"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_scout_root",
+    "ashen:asc_scout_big_3"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "scout"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/bow_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 755,
+  "positionY": -190,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

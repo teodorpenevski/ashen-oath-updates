@@ -1,0 +1,423 @@
+{
+  "id": "49E9F9949D613104",
+  "filename": "13_combat_and_classes",
+  "title": "Combat and Classes · Optional",
+  "icon": "epicfight:iron_longsword",
+  "group": "225FE9BE4793200B",
+  "order_index": 7,
+  "default_quest_shape": "square",
+  "default_quest_size": 1.0,
+  "progression_mode": "flexible",
+  "consume_items": false,
+  "hide_quest_until_deps_complete": false,
+  "hide_quest_until_deps_visible": false,
+  "quests": [
+    {
+      "id": "3AAD5C7715C13490",
+      "title": "A Calling in the Ashes",
+      "description": [
+        "On your first server join, Ashen Oath opens a picker in chat for Mage, Warrior, Rogue or Ranger. Choose your starter identity and basic equipment. Returning players keep their class through death and relogging.",
+        "Open Passive Skill Trees with O (default key) and select a class tree. The Ashen Oath starter picker and the mod’s skill tree classes are separate systems.",
+        "Follow the branches: Mage northwest, Ranger northeast, Warrior southwest, Rogue southeast. Each region has two specializations. Mixing regions is allowed.",
+        "Earn skill points through XP and spend them in the selected tree. Skills survive death.",
+        "Craft a Memory of Renewal in JEI. Right-click to reset Passive Skill Tree allocations and reopen the class picker. Pick a new class or the same class for a fresh build. A second starter kit is never granted.",
+        "These tutorials are optional and never block the five story chapters."
+      ],
+      "optional": true,
+      "x": 0.0,
+      "y": -4.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "0818F53E02BDB69E",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D06535F87F01804",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "6DD88FAF41E54CBB",
+      "title": "Return to Your Body",
+      "description": [
+        "Death leaves your dropped equipment inside your body. Return, right-click the corpse and transfer your items back.",
+        "Only the owner can loot it. A full corpse never expires and is protected against lava and the void. keepInventory must be false.",
+        "Test recovery with cheap items first. Tick this tutorial after learning the recovery controls."
+      ],
+      "optional": true,
+      "x": 7.0,
+      "y": -4.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "2F878CE2D5151104",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0DC99BBCA7E03C46",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "52E3741D747907D8",
+      "title": "A Warrior Blade",
+      "description": [
+        "Craft and submit one iron longsword.",
+        "Equip a second one for yourself, switch to Epic Fight battle mode and practice its attack chain. Class skills support durability and melee damage.",
+        "Open the item task to submit it. Submission consumes one item; keep a separate copy for your own equipment."
+      ],
+      "optional": true,
+      "x": -2.0,
+      "y": 0.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "40D9682412D48578",
+          "type": "item",
+          "item": "epicfight:iron_longsword",
+          "count": 1,
+          "consume_items": true,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3DEA2EF32772EA02",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "78E59C05E4D5FBDC",
+      "title": "A Rogue Blade",
+      "description": [
+        "Craft and submit one iron dagger.",
+        "Make another for use. Try its battle-mode attack chain; Rogue skills support movement and critical hits.",
+        "Open the item task to submit it. Submission consumes one item; keep a separate copy for your own equipment."
+      ],
+      "optional": true,
+      "x": 2.0,
+      "y": 0.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "3AAFB432CE5C0F94",
+          "type": "item",
+          "item": "epicfight:iron_dagger",
+          "count": 1,
+          "consume_items": true,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4BDEB283D3625D31",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "661B7CE756B68D45",
+      "title": "A Ranger Kit",
+      "description": [
+        "Craft and submit one bow.",
+        "Bring arrows and keep another bow for use. Ranger skills improve arrow damage and draw speed.",
+        "Open the item task to submit it. Submission consumes one item; keep a separate copy for your own equipment."
+      ],
+      "optional": true,
+      "x": 6.0,
+      "y": 0.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "76DD3AEB228D637F",
+          "type": "item",
+          "item": "minecraft:bow",
+          "count": 1,
+          "consume_items": true,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2DEDEAAD157B0FB6",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "00233D61EF966309",
+      "title": "A Mage Focus",
+      "description": [
+        "Craft and submit one iron spell book.",
+        "Keep another book and learn an offensive spell. Mage skills increase mana and spell power; use Iron's casting controls alongside Epic Fight.",
+        "Open the item task to submit it. Submission consumes one item; keep a separate copy for your own equipment."
+      ],
+      "optional": true,
+      "x": -6.0,
+      "y": 0.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "39932A95B5DDCFEC",
+          "type": "item",
+          "item": "irons_spellbooks:iron_spell_book",
+          "count": 1,
+          "consume_items": true,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5F3EAE1304B69BA5",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "745C3D4F485262AF",
+      "title": "Reach and Spacing",
+      "description": [
+        "Craft and submit an iron spear.",
+        "Use another spear to practice spacing and recovery between attack chains.",
+        "Open the item task to submit it. Submission consumes one item; keep a separate copy for your own equipment."
+      ],
+      "optional": true,
+      "x": -6.0,
+      "y": 6.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "06290A298DBC5DE8",
+          "type": "item",
+          "item": "epicfight:iron_spear",
+          "count": 1,
+          "consume_items": true,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6E7C018BBD2701D0",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "13885E7364D74000",
+      "title": "A Heavy Alternative",
+      "description": [
+        "Craft and submit one iron greataxe.",
+        "Use its JEI recipe, then practice another copy in Epic Fight battle mode.",
+        "Open the item task to submit it. Submission consumes one item; keep a separate copy for your own equipment."
+      ],
+      "optional": true,
+      "x": 6.0,
+      "y": 3.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "68B11658548ED8DD",
+          "type": "item",
+          "item": "wom:iron_greataxe",
+          "count": 1,
+          "consume_items": true,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18228847BB178753",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "5A0D87AAD293F5E2",
+      "title": "Diamond Longsword",
+      "description": [
+        "Craft and submit one diamond longsword after iron equipment feels comfortable..",
+        "Open the item task to submit it. Submission consumes one item; keep a separate copy for your own equipment."
+      ],
+      "optional": true,
+      "x": -2.0,
+      "y": 3.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "dependencies": [
+        "52E3741D747907D8"
+      ],
+      "tasks": [
+        {
+          "id": "63784E0A79F1C34E",
+          "type": "item",
+          "item": "epicfight:diamond_longsword",
+          "count": 1,
+          "consume_items": true,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "37FA509A35465E7E",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "35C7E3525B4CC1EC",
+      "title": "Diamond Dagger",
+      "description": [
+        "Craft and submit one diamond dagger as an optional Rogue weapon milestone..",
+        "Open the item task to submit it. Submission consumes one item; keep a separate copy for your own equipment."
+      ],
+      "optional": true,
+      "x": 2.0,
+      "y": 3.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "dependencies": [
+        "78E59C05E4D5FBDC"
+      ],
+      "tasks": [
+        {
+          "id": "5B7E47C5455D384F",
+          "type": "item",
+          "item": "epicfight:diamond_dagger",
+          "count": 1,
+          "consume_items": true,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "48B9E60EB3504156",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "35654DF6B084CB4E",
+      "title": "Diamond Greataxe",
+      "description": [
+        "Craft and submit one diamond greataxe.",
+        "Apply Apotheosis gearing to your personal weapon when available.",
+        "Open the item task to submit it. Submission consumes one item; keep a separate copy for your own equipment."
+      ],
+      "optional": true,
+      "x": 6.0,
+      "y": 6.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "dependencies": [
+        "13885E7364D74000"
+      ],
+      "tasks": [
+        {
+          "id": "2C35296AC47D568D",
+          "type": "item",
+          "item": "wom:diamond_greataxe",
+          "count": 1,
+          "consume_items": true,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3ABEE4EB85185D65",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "5F26C60E375DE9D2",
+      "title": "An Endgame Blade",
+      "description": [
+        "Upgrade and submit one netherite longsword using JEI.",
+        "This milestone is optional and never consumes your backpack or boss trophy.",
+        "Open the item task to submit it. Submission consumes one item; keep a separate copy for your own equipment."
+      ],
+      "optional": true,
+      "x": -2.0,
+      "y": 6.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "dependencies": [
+        "5A0D87AAD293F5E2"
+      ],
+      "tasks": [
+        {
+          "id": "068841392EAF7737",
+          "type": "item",
+          "item": "epicfight:netherite_longsword",
+          "count": 1,
+          "consume_items": true,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "40AAEF9FDE4774C9",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

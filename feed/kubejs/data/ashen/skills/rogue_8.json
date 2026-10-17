@@ -1,0 +1,37 @@
+{
+  "id": "ashen:rogue_8",
+  "title": "Expose the Flaw",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_chance",
+      "id": "a42f1942-2c31-527c-909b-c3cae434e8f5",
+      "name": "Ashen rogue_8",
+      "amount": 0.02,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:rogue_7",
+    "ashen:rogue_9"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "rogue"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_iron.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 336.59999999999997,
+  "positionY": 156.4,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

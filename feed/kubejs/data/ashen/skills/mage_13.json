@@ -1,0 +1,37 @@
+{
+  "id": "ashen:mage_13",
+  "title": "Boundless Thought",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:mana_regen",
+      "id": "2a22a091-6829-5f11-b958-45b0ec1e1551",
+      "name": "Ashen mage_13",
+      "amount": 0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:mage_9",
+    "ashen:mage_14"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "mage"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_blue.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -414.8,
+  "positionY": -228.65,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

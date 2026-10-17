@@ -1,0 +1,39 @@
+{
+  "id": "ashen:ranger_3",
+  "title": "Wilderness Footwork",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "d4c830e0-01c2-5a2a-a2cd-d59895f6593e",
+      "name": "Ashen ranger_3",
+      "amount": 0.03,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:ranger_1",
+    "ashen:ranger_5",
+    "ashen:ranger_7",
+    "ashen:ranger_19_preparation_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ranger"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/bow_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 119.85,
+  "positionY": -209.95,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

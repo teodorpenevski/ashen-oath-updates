@@ -1,0 +1,38 @@
+{
+  "id": "ashen:ranger_10",
+  "title": "Trail Sense",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "27bd5ed4-ef83-5934-8f96-c61ddecd9a8a",
+      "name": "Ashen ranger_10",
+      "amount": 0.02,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:ranger_4",
+    "ashen:ranger_11",
+    "ashen:ranger_20_preparation_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ranger"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/bow_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 282.2,
+  "positionY": -132.6,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

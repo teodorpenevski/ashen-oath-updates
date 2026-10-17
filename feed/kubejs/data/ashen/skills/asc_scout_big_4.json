@@ -1,0 +1,27 @@
+{
+  "id": "ashen:asc_scout_big_4",
+  "title": "Featherstride",
+  "bonuses": [],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_scout_small_4"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_scout_small_4"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "scout"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/bow_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 845,
+  "positionY": -40,
+  "buttonSize": 38,
+  "isStartingPoint": false
+}

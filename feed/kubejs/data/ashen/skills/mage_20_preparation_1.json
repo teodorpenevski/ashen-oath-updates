@@ -1,0 +1,28 @@
+{
+  "id": "ashen:mage_20_preparation_1",
+  "title": "Arcane Ward \u2014 Preparation 1/2",
+  "bonuses": [],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:mage_10"
+    }
+  ],
+  "directConnections": [
+    "ashen:mage_10",
+    "ashen:mage_20_preparation_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "mage",
+    "major_preparation"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_blue.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -105.4,
+  "positionY": -304.3,
+  "buttonSize": 10,
+  "isStartingPoint": false
+}

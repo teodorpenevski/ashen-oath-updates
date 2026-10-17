@@ -1,0 +1,37 @@
+{
+  "id": "ashen:path_mage",
+  "title": "Clear Mind",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "3fb5b26f-3a41-5ff7-b168-9dcfadc56afb",
+      "name": "Ashen path_mage",
+      "amount": 10,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:awakening",
+    "ashen:mage_0"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "mage"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_blue.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -45.05,
+  "positionY": -45.05,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

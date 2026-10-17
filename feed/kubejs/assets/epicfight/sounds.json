@@ -1,0 +1,5 @@
+{
+  "entity.hit.blunt": {"replace": true, "sounds": [{"name": "minecraft:entity.player.attack.weak", "type": "event", "volume": 0.35, "pitch": 1.15}]},
+  "entity.hit.blunt_hard": {"replace": true, "sounds": [{"name": "minecraft:entity.player.attack.weak", "type": "event", "volume": 0.35, "pitch": 1.0}]},
+  "entity.hit.blade": {"replace": true, "sounds": [{"name": "minecraft:entity.player.attack.weak", "type": "event", "volume": 0.35, "pitch": 1.3}]}
+}

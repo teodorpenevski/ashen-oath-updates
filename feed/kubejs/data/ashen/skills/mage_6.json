@@ -1,0 +1,38 @@
+{
+  "id": "ashen:mage_6",
+  "title": "Archmage Memory",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "cec9b8dd-4a63-5390-83b6-782f00c456f8",
+      "name": "Ashen mage_6",
+      "amount": 30,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:mage_5",
+    "ashen:mage_4",
+    "ashen:mage_17"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "mage"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_blue.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -237.15,
+  "positionY": -237.15,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

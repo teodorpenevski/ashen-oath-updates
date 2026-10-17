@@ -1,0 +1,37 @@
+{
+  "id": "ashen:rogue_2",
+  "title": "Find the Opening",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_chance",
+      "id": "9ee1ce3a-dfa4-501d-83dd-be8b7b77bedd",
+      "name": "Ashen rogue_2",
+      "amount": 0.03,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:rogue_0",
+    "ashen:rogue_4"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "rogue"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_iron.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 99.45,
+  "positionY": 153.0,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

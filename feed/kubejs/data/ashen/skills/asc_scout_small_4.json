@@ -1,0 +1,43 @@
+{
+  "id": "ashen:asc_scout_small_4",
+  "title": "Sure Landing",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.knockback_resistance",
+      "id": "f1004e79-b4b2-554b-aa9b-956efd58b206",
+      "name": "Ashen asc_scout_small_4",
+      "amount": 0.1,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_scout_root"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_scout_root",
+    "ashen:asc_scout_big_4"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "scout"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/bow_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 691,
+  "positionY": -141,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

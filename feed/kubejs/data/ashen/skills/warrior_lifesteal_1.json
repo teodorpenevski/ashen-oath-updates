@@ -1,0 +1,41 @@
+{
+  "id": "ashen:warrior_lifesteal_1",
+  "title": "Bloodied Steel",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:life_steal",
+      "id": "d72b8bee-9a85-59a3-9ec8-779e3d253948",
+      "name": "Ashen warrior_lifesteal_1",
+      "amount": 0.02,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:warrior_6"
+    }
+  ],
+  "directConnections": [
+    "ashen:warrior_6"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "warrior"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -180.86,
+  "positionY": 269.65,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

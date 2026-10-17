@@ -1,0 +1,38 @@
+{
+  "id": "ashen:ranger_7",
+  "title": "Steady Aim",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:arrow_damage",
+      "id": "79909046-19bf-5087-8d17-4e5dc387d654",
+      "name": "Ashen ranger_7",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:ranger_3",
+    "ashen:ranger_8",
+    "ashen:ranger_21_preparation_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ranger"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/bow_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 132.6,
+  "positionY": -282.2,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -1,0 +1,37 @@
+{
+  "id": "ashen:mage_8",
+  "title": "Focused Casting",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_power",
+      "id": "07761917-2e56-58aa-9761-af546ed62a8d",
+      "name": "Ashen mage_8",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:mage_7",
+    "ashen:mage_9"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "mage"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_blue.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -336.59999999999997,
+  "positionY": -156.4,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

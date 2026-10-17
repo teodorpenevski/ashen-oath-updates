@@ -1,0 +1,31 @@
+{
+  "id": "ashen:asc_assassin_root",
+  "title": "Assassin Ascendancy",
+  "bonuses": [],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:rogue_0"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_assassin_small_1",
+    "ashen:asc_assassin_small_2",
+    "ashen:asc_assassin_small_3",
+    "ashen:asc_assassin_small_4"
+  ],
+  "longConnections": [
+    "ashen:rogue_0"
+  ],
+  "oneWayConnections": [],
+  "tags": [
+    "subclass_root"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/heart_cyan.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 220,
+  "positionY": 650,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

@@ -1,0 +1,43 @@
+{
+  "id": "ashen:asc_duelist_small_3",
+  "title": "Light Footwork",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "65ce1fae-0bf5-5d6e-9f22-97a1b2b5477d",
+      "name": "Ashen asc_duelist_small_3",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_duelist_root"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_duelist_root",
+    "ashen:asc_duelist_big_3"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "duelist"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_iron.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 755,
+  "positionY": 250,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

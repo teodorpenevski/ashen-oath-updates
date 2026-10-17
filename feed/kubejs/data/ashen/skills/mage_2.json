@@ -1,0 +1,37 @@
+{
+  "id": "ashen:mage_2",
+  "title": "Spell Focus",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_power",
+      "id": "a6348d07-233b-535a-946d-6b54ff0db30c",
+      "name": "Ashen mage_2",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:mage_0",
+    "ashen:mage_4"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "mage"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_blue.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -99.45,
+  "positionY": -153.0,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

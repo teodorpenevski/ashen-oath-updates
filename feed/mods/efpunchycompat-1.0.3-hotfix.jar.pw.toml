@@ -1,0 +1,8 @@
+name = "Epic Punchy | Epic Fight x Punchy Mod Compat"
+filename = "efpunchycompat-1.0.3-hotfix.jar"
+side = "client"
+
+[download]
+url = "https://edge.forgecdn.net/files/9149/510/efpunchycompat-1.0.3-hotfix.jar"
+hash-format = "sha512"
+hash = "3d240b22b3060086cb7c8f2cac8a58a6c788827e28e5f522e1341820f3401a706b162b937d41522f8c82a04235b1188cfb8cd26740de4d556164289b934bcb8a"

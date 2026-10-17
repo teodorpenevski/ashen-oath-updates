@@ -1,0 +1,70 @@
+{
+  "id": "ashen:asc_vanguard_big_1",
+  "title": "Living Fortress",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "5e3c02fc-8591-55f4-a705-116f3a48a822",
+      "name": "Ashen asc_vanguard_big_1",
+      "amount": 12,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "5e46d330-57ae-5f2c-9667-062a129892cc",
+      "name": "Ashen asc_vanguard_big_1",
+      "amount": 6,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "928bd941-2315-509a-ba5d-32915a82586d",
+      "name": "Ashen asc_vanguard_big_1",
+      "amount": -0.15,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_vanguard_small_1"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_vanguard_small_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "vanguard"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -845,
+  "positionY": 400,
+  "buttonSize": 38,
+  "isStartingPoint": false
+}

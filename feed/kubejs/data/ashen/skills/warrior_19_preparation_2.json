@@ -1,0 +1,28 @@
+{
+  "id": "ashen:warrior_19_preparation_2",
+  "title": "Berserk \u2014 Preparation 2/2",
+  "bonuses": [],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:warrior_19_preparation_1"
+    }
+  ],
+  "directConnections": [
+    "ashen:warrior_19_preparation_1",
+    "ashen:warrior_19"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "warrior",
+    "major_preparation"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -51.28333333333333,
+  "positionY": 222.98333333333332,
+  "buttonSize": 10,
+  "isStartingPoint": false
+}

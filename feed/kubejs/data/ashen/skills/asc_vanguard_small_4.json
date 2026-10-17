@@ -1,0 +1,43 @@
+{
+  "id": "ashen:asc_vanguard_small_4",
+  "title": "Anchored Stance",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.knockback_resistance",
+      "id": "6f379f09-c0fb-5d58-b030-1fdc0c5bc8fe",
+      "name": "Ashen asc_vanguard_small_4",
+      "amount": 0.05,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_vanguard_root"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_vanguard_root",
+    "ashen:asc_vanguard_big_4"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "vanguard"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -691,
+  "positionY": 141,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

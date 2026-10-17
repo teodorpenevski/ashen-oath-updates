@@ -1,0 +1,37 @@
+{
+  "id": "ashen:warrior_15",
+  "title": "Press the Attack",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "262661f8-58e2-5f8f-9f64-53da945c4a35",
+      "name": "Ashen warrior_15",
+      "amount": 2,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:warrior_12",
+    "ashen:warrior_16"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "warrior"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -414.8,
+  "positionY": 228.65,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

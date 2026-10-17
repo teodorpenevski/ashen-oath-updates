@@ -1,0 +1,2508 @@
+{
+  "id": "22B6002D9D01721B",
+  "filename": "07_magic",
+  "group": "225FE9BE4793200B",
+  "title": "Magic · Apprentice to Archmage",
+  "icon": "irons_spellbooks:inscription_table",
+  "order_index": 1,
+  "default_quest_shape": "square",
+  "default_quest_size": 1.0,
+  "progression_mode": "flexible",
+  "consume_items": false,
+  "hide_quest_until_deps_visible": false,
+  "hide_quest_until_deps_complete": false,
+  "quests": [
+    {
+      "id": "2499ED72E62662F9",
+      "title": "I · A First Spark",
+      "description": [
+        "Welcome to Iron's Spells 'n Spellbooks 3.16.3. This chapter teaches the version actually installed in Ashen Oath, from a Flimsy Journal to researched Eldritch magic. All classes can use magic; Mage is the dedicated spell specialist.",
+        "Follow the left lane for early equipment, the middle section for crafting and specialization, and the right section for advanced equipment, bosses and research. Side branches are reference lessons, not a requirement to collect every school.",
+        "At Minecraft XP level 10, Ashen grants a once-per-class core spellbook: Mage gets Magic Missile I. Equip it rather than casting loose scrolls away. Additional spells come from exploration or the Scroll Forge.",
+        "Completion: perform the practice described above, then tick this lesson manually. This is a tutorial acknowledgement, not automatic detection of a cast or upgrade."
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "578E81611C255BF3",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "65F0FD63DB27F787",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:copper_spell_book",
+      "size": 1.4
+    },
+    {
+      "id": "760387861CE76416",
+      "title": "A Book Worth Keeping",
+      "description": [
+        "Obtain a Flimsy Journal. This is the copper spellbook, not a lore-only notebook: its spell container is what stores reusable spells.",
+        "The Mage starter kit supplies this book, a Graybeard Staff, 3 bread and 4 torches. Each class kit is claimable once. Changing class later does not repeatedly generate the same kit.",
+        "Hover the journal and inspect its available slots and any inscribed spell. An empty book is a container waiting for inscription; its name alone does not mean it already contains a spell.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 0.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "7C11464A08603334",
+          "type": "item",
+          "item": "irons_spellbooks:copper_spell_book",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E0325BB2B9280F9",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "2499ED72E62662F9"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:copper_spell_book"
+    },
+    {
+      "id": "38398EF0AF471C80",
+      "title": "The Graybeard's First Staff",
+      "description": [
+        "Obtain the Graybeard Staff from Iron's Spells. It is the intended Mage starter weapon; Weapons of Miracles' Wooden Staff is a different item with a different purpose.",
+        "To replace one yourself, craft a wooden shovel with an iron ingot and Arcane Essence in the diagonal recipe shown by JEI. Holding a staff does not replace the need to equip a spellbook.",
+        "Read its equipped attributes and compare spell power with the staff held and put away. Keep a melee option while mana recovers, and use a safe training target to learn your reach.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 5.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "7FE0EA22CDD75A71",
+          "type": "item",
+          "item": "irons_spellbooks:graybeard_staff",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DF56A3B8D98DB0F",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "760387861CE76416"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:graybeard_staff"
+    },
+    {
+      "id": "79F5B0352DACA10B",
+      "title": "Equip the Spellbook Curio",
+      "description": [
+        "Open your inventory's Curios equipment panel and place the journal in the Spellbook slot. Keeping it in an ordinary inventory slot is not the same as equipping it.",
+        "If you received the level-10 Magic Missile reward, equip that inscribed book. Its spell should appear in the spell wheel. An empty journal needs a scroll and the Inscription Table first.",
+        "This lesson uses Iron's own equip-spellbook advancement. If you already earned it, existing advancement progress can satisfy the task; otherwise equip a book now."
+      ],
+      "x": 0.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "1FA9FF41A69774C0",
+          "type": "advancement",
+          "advancement": "irons_spellbooks:irons_spellbooks/spell_book_equip",
+          "criterion": ""
+        }
+      ],
+      "rewards": [
+        {
+          "id": "60044D806152C65D",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "760387861CE76416"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:copper_spell_book"
+    },
+    {
+      "id": "2F4E678A38FFCD98",
+      "title": "Your Actual Casting Controls",
+      "description": [
+        "Open Options > Controls and search for Iron's Spells. Identify Cast, Spell Selection/Wheel, spell scrolling and any direct spell-slot binds. Use the bindings you configured rather than assuming an internet guide's default keys.",
+        "Select a spell from your equipped book, release the selection screen and cast toward a safe target. Test casting in Epic Fight battle stance too: this pack includes casting compatibility, so you can weave spells into combat.",
+        "Ashen passive abilities have their own binds and cooldown indicators. Blink or Windrunner is not the same system as selecting and casting an Iron's spell, even when the effects look similar.",
+        "Completion: perform the practice described above, then tick this lesson manually. This is a tutorial acknowledgement, not automatic detection of a cast or upgrade."
+      ],
+      "x": 5.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "7598665A6F0A2083",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "56A98CA7F7E04EC3",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "79F5B0352DACA10B"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:scroll"
+    },
+    {
+      "id": "28A098890C8585BF",
+      "title": "Instant, Charged and Recast Spells",
+      "description": [
+        "Read the cast type, mana cost, cast time and cooldown on a spell's tooltip. Instant spells resolve immediately; longer casts commit you to an animation, while continuous spells spend time maintaining an effect.",
+        "Some spells grant recasts: follow-up activations belong to the original spell sequence. Watch their on-screen state and remaining recast opportunities rather than treating every press as an unrelated new cast.",
+        "Practice one low-cost spell first. Move behind cover before a long cast, avoid interrupting yourself with another action, and verify whether the spell targets an entity, a block, a direction or an area.",
+        "Completion: perform the practice described above, then tick this lesson manually. This is a tutorial acknowledgement, not automatic detection of a cast or upgrade."
+      ],
+      "x": 10.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "135B03E274FE847A",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5F04B46CA65AE681",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "2F4E678A38FFCD98"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:scroll"
+    },
+    {
+      "id": "4534E624EDD42AEA",
+      "title": "Loot a Scroll, Read Before Using",
+      "description": [
+        "Find a scroll in dungeon loot or from magical enemies. Dedicated magic structures are useful places to search, but enter with food, an escape route and spare inventory space.",
+        "Inspect its spell name, school, level, mana cost and cooldown. A loose scroll is a consumable casting item; to keep using its spell, take it to an Inscription Table and inscribe a spellbook.",
+        "Keep your only useful scroll for inscription instead of spending it in a test cast. Eldritch scrolls can be unlearned and scrambled; their research requirement is explained in the late-game branch.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 5.0,
+      "y": 12.0,
+      "tasks": [
+        {
+          "id": "75FEE650E7EF01A7",
+          "type": "item",
+          "item": "irons_spellbooks:scroll",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0CBF9750FBACC71C",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "760387861CE76416"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:scroll"
+    },
+    {
+      "id": "4BDE7B3D26E7AF9D",
+      "title": "Build an Inscription Table",
+      "description": [
+        "Craft and place an Inscription Table. Its inexpensive recipe uses a book, wooden slabs and a fence; JEI shows the arrangement for this pack.",
+        "Open the table with your spellbook available. Use its spellbook/scroll slots to move a spell from a scroll into an unlocked book slot, then take the book back and equip it in Curios.",
+        "Do not confuse this workstation with the Scroll Forge. Inscription manages the spells you already possess; forging creates new scrolls from materials.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 0.0,
+      "y": 12.0,
+      "tasks": [
+        {
+          "id": "5AEBDB6C854A63F2",
+          "type": "item",
+          "item": "irons_spellbooks:inscription_table",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6757BD793B354A34",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "79F5B0352DACA10B"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:inscription_table"
+    },
+    {
+      "id": "77B05289852320F8",
+      "title": "Inscribe, Remove and Rearrange",
+      "description": [
+        "Inscribe one useful offensive spell. Equip the book, select the spell and cast it. Then return to the table and practice removing or moving an unlocked spell without throwing away its scroll.",
+        "Build a small library chest for spare scrolls. Keep school and spell level organized so you can retrieve a healing or mobility tool before a dangerous trip.",
+        "Locked spells in unique books are different: they are part of the item and cannot simply be removed like an ordinary unlocked slot. Their dedicated upgrade path appears later in this chapter.",
+        "Completion: perform the practice described above, then tick this lesson manually. This is a tutorial acknowledgement, not automatic detection of a cast or upgrade."
+      ],
+      "x": 10.0,
+      "y": 12.0,
+      "tasks": [
+        {
+          "id": "58375BBBB29F4BA8",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6B5A8A779D229ECB",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "4BDE7B3D26E7AF9D",
+        "4534E624EDD42AEA"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:scroll"
+    },
+    {
+      "id": "3FE6CAC54C85CA00",
+      "title": "Mana Is Your Combat Rhythm",
+      "description": [
+        "Cast your inexpensive spell until you understand its cost, then stop and watch mana refill. Ashen keeps the mana bar visible even at full mana, so compare both current and maximum values.",
+        "Maximum mana determines your reserve. Mana regeneration determines how long you can sustain a rotation. Spell power strengthens supported spell effects, while cast-time reduction and cooldown reduction solve different delays.",
+        "Practice alternating a spell, movement or a melee attack, then another spell. Enter a difficult fight with enough mana for your escape or defensive spell; spending everything on an opener leaves no recovery tool.",
+        "Completion: perform the practice described above, then tick this lesson manually. This is a tutorial acknowledgement, not automatic detection of a cast or upgrade."
+      ],
+      "x": 0.0,
+      "y": 16.0,
+      "tasks": [
+        {
+          "id": "131533A7DFC249F8",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "285C3B41C01ED340",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "4BDE7B3D26E7AF9D",
+        "2F4E678A38FFCD98"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:mana_ring"
+    },
+    {
+      "id": "7F0E8CA5023FA045",
+      "title": "Start an Arcane Material Reserve",
+      "description": [
+        "Collect 8 Arcane Essence from exploration or magic-related loot. Save a reserve rather than spending every piece on the first recipe you unlock.",
+        "Essence is used throughout the mod: staff crafting, Arcane Cloth, Arcane Ingots and many later recipes. Use JEI's Uses view on the item to see which upgrades compete for the same stock.",
+        "Separate supplies into essence, inks, school focuses, runestones and equipment. This makes your next crafting step clear and prevents accidentally recycling a valuable scroll.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 5.0,
+      "y": 16.0,
+      "tasks": [
+        {
+          "id": "1A6439181EBB291E",
+          "type": "item",
+          "item": "irons_spellbooks:arcane_essence",
+          "count": 8,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "098A080592A9B60F",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "2499ED72E62662F9"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:arcane_essence"
+    },
+    {
+      "id": "1CC00F8769EA2BD2",
+      "title": "A Wandering Magician's Robe",
+      "description": [
+        "Obtain a Wandering Magician Robe and compare its mana attributes with your current chestplate. Magic equipment trades some benefits against conventional armor, so read the whole tooltip before equipping it.",
+        "Keep enough physical protection to survive ordinary enemies. A larger mana pool does not prevent melee hits, and spellcasters still benefit from positioning, Guard and an emergency escape.",
+        "Try the robe in an easy encounter and compare how many casts your equipment supports. The later school-armor branch will help specialize those general casting bonuses.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 10.0,
+      "y": 16.0,
+      "tasks": [
+        {
+          "id": "54B1CA61515C13FE",
+          "type": "item",
+          "item": "irons_spellbooks:wandering_magician_chestplate",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2D8C6553E800A822",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "7F0E8CA5023FA045"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:wandering_magician_chestplate"
+    },
+    {
+      "id": "2A17B195856FA837",
+      "title": "Common Ink, First Rarity",
+      "description": [
+        "Collect Common Ink. Scroll crafting uses ink rarity to select a spell's available rarity bracket; rarity and numerical spell level are related, but they are not interchangeable names.",
+        "Common, Uncommon, Rare, Epic and Legendary are the five ink tiers. A spell whose minimum rarity is higher cannot be forged with lower ink just because you own its school focus.",
+        "Store bottles by tier. You will soon convert lower tiers upward, but it takes multiple bottles of lower ink to obtain one bottle of the next tier.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 0.0,
+      "y": 20.0,
+      "tasks": [
+        {
+          "id": "5C3A8EB8B30FC487",
+          "type": "item",
+          "item": "irons_spellbooks:common_ink",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7C4199F01A72D56B",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "7F0E8CA5023FA045"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:common_ink"
+    },
+    {
+      "id": "1F1DC232CE947F75",
+      "title": "Build the Alchemist Cauldron",
+      "description": [
+        "Craft an Alchemist Cauldron, place it in your workshop and inspect its JEI recipe categories. This is Iron's workstation, not a normal vanilla cauldron.",
+        "The cauldron handles fluid inputs and outputs, ink conversion, scroll recycling and alchemy. Insert the required fluid and ingredient, then use the appropriate container to withdraw the result.",
+        "Keep glass bottles beside it. Check the exact recipe before adding ingredients: different recipes require different starting fluids, amounts and item catalysts.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 5.0,
+      "y": 20.0,
+      "tasks": [
+        {
+          "id": "3446545880932560",
+          "type": "item",
+          "item": "irons_spellbooks:alchemist_cauldron",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "61190DA6D96AC1EA",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "2A17B195856FA837"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:alchemist_cauldron"
+    },
+    {
+      "id": "23820CB3E3C3D0DA",
+      "title": "Recycle Duplicate Scrolls",
+      "description": [
+        "Set aside a duplicate or unwanted scroll and inspect its Alchemist Cauldron use in JEI. Recycle that expendable scroll into ink rather than destroying your only copy of a spell you still need.",
+        "Read the recipe's fluid requirements and resulting rarity. Collect the output with bottles and place it with your existing ink supply.",
+        "Keep one useful copy of each spell and only recycle deliberate surplus. Unique items, unlearned Eldritch research and the Scroll Forge's available spells are separate systems; recycling does not automatically research anything.",
+        "Completion: perform the practice described above, then tick this lesson manually. This is a tutorial acknowledgement, not automatic detection of a cast or upgrade."
+      ],
+      "x": 10.0,
+      "y": 20.0,
+      "tasks": [
+        {
+          "id": "1321F35EFD4FC710",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4DE9A9C51C96711A",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "1F1DC232CE947F75",
+        "4534E624EDD42AEA"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:scroll"
+    },
+    {
+      "id": "1F1B85FD327FF630",
+      "title": "Upgrade Ink: Copper",
+      "description": [
+        "Produce or find Uncommon Ink. The installed cauldron recipe converts 1000 mB of Common Ink with a copper ingot into 250 mB of Uncommon Ink.",
+        "That is four 250 mB bottles of the lower ink for one bottle of the higher ink. Read the fluid gauges and collect the output so you do not mistake concentrated ink for lost fluid.",
+        "This is the first repeatable way to turn common exploration loot into a more useful crafting tier. Higher conversions use iron, gold and amethyst in later lessons.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 5.0,
+      "y": 24.0,
+      "tasks": [
+        {
+          "id": "0F0A5BAEC40D1FEB",
+          "type": "item",
+          "item": "irons_spellbooks:uncommon_ink",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "643B4A8E50A17F69",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "1F1DC232CE947F75"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:uncommon_ink"
+    },
+    {
+      "id": "6CB9122BF591A7C4",
+      "title": "Early Game · A Working Caster",
+      "description": [
+        "Prepare an equipped spellbook with a spell you can cast repeatedly, a staff or backup weapon, food and an escape plan. Take that loadout through a small hostile encounter outside your base.",
+        "Practice selecting the spell, spending mana, switching to movement or melee and returning to casting. Retreat before you run out of both health and mana.",
+        "You now have a repeatable early-game loop: explore for scrolls and essence, inscribe useful spells, recycle surplus and upgrade ink. The next section replaces random spell discovery with deliberate crafting.",
+        "Completion: perform the practice described above, then tick this lesson manually. This is a tutorial acknowledgement, not automatic detection of a cast or upgrade."
+      ],
+      "x": 0.0,
+      "y": 28.0,
+      "tasks": [
+        {
+          "id": "5E6B31068E40C8F1",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A79C8517E82F8B2",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "3FE6CAC54C85CA00",
+        "7F0E8CA5023FA045",
+        "1F1B85FD327FF630",
+        "77B05289852320F8"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:graybeard_staff",
+      "size": 1.4
+    },
+    {
+      "id": "11180DABC0E23FFB",
+      "title": "II · Craft a Scroll Forge",
+      "description": [
+        "Craft and place the Scroll Forge using polished deepslate and crying obsidian. You can collect crying obsidian from exploration or Nether-related trading; this recipe is the actual one in 3.16.3.",
+        "The forge creates spell scrolls using paper, ink and a school focus. The school focus chooses the spell family; the ink rarity controls which spell levels are offered.",
+        "Browse before spending materials. A disabled or unavailable spell is not unlocked by repeatedly pressing craft, and Eldritch spells have an additional research requirement.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 22.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "72338F5394DB95AA",
+          "type": "item",
+          "item": "irons_spellbooks:scroll_forge",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "138AC525DF31CA63",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "6CB9122BF591A7C4"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:scroll_forge",
+      "size": 1.4
+    },
+    {
+      "id": "64629BDF08A3903C",
+      "title": "Forge a Spell You Actually Want",
+      "description": [
+        "Choose a spell whose minimum rarity fits your available ink. Insert paper, the matching focus and ink, select the desired spell in the forge and craft its scroll.",
+        "The forged level starts at the lowest level in that rarity bracket. To raise it further, use the Arcane Anvil lesson below rather than assuming every Legendary scroll is maximum level.",
+        "Take the finished scroll to the Inscription Table, add it to your book, re-equip the book and verify it appears in your wheel. Crafting the scroll is only one part of making the spell usable.",
+        "Completion: perform the practice described above, then tick this lesson manually. This is a tutorial acknowledgement, not automatic detection of a cast or upgrade."
+      ],
+      "x": 22.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "7F21BA23ABC14583",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3395FCC233DCA10E",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "11180DABC0E23FFB"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:scroll"
+    },
+    {
+      "id": "6E4D814DAC21AEF4",
+      "title": "Eight Schools, One Deliberate Build",
+      "description": [
+        "The ordinary schools are Evocation, Fire, Ice, Lightning, Holy, Blood, Ender and Nature. Eldritch is a separate advanced research branch.",
+        "The eight lessons to the right identify each focus and give a practical reason to try that school. You do not have to gather every focus before continuing the central progression.",
+        "Choose a primary damage school, one defensive or healing spell and one movement or utility spell. Compare a spell's actual mana and cooldown against your equipment instead of equipping only expensive attacks.",
+        "Completion: perform the practice described above, then tick this lesson manually. This is a tutorial acknowledgement, not automatic detection of a cast or upgrade."
+      ],
+      "x": 27.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "0CB37AF2F84A0A99",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "312F2FE54FD3328D",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "11180DABC0E23FFB"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:blank_rune"
+    },
+    {
+      "id": "78DA39729338B8F7",
+      "title": "School · Evocation",
+      "description": [
+        "Evocation uses emeralds as its school focus. Start with Magic Missile for a straightforward ranged attack and explore fang spells or summons when you can support their mana cost.",
+        "The Mage level-10 core book already demonstrates Magic Missile. Spell levels and Evocation power can improve it, but allocating a passive ability in Ashen's tree is a separate action from leveling the inscribed spell.",
+        "Use this focus in the Scroll Forge and inspect the offered spells. This focus collection task is a reference milestone, not a demand to use this school permanently.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 37.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "1418F4E31750CEA9",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "72C67A869B3D3A60",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "6E4D814DAC21AEF4"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "minecraft:emerald"
+    },
+    {
+      "id": "1C77D78966795BF2",
+      "title": "School · Fire",
+      "description": [
+        "Fire uses blaze rods as its school focus. Firebolt offers a simple ranged tool; Fireball, persistent flames and other Fire spells serve different area and damage roles.",
+        "Test fire against an ordinary vulnerable enemy before committing to a Fire-only boss loadout. Fire-resistant enemies can change your results dramatically; keep an alternative school available.",
+        "Use this focus in the Scroll Forge and inspect the offered spells. This focus collection task is a reference milestone, not a demand to use this school permanently.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 37.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "30B3AAFB68134CBF",
+          "type": "item",
+          "item": "minecraft:blaze_rod",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "08EB50FA0BAB9686",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "6E4D814DAC21AEF4"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "minecraft:blaze_rod"
+    },
+    {
+      "id": "7F6209A297C756A3",
+      "title": "School · Ice",
+      "description": [
+        "Ice uses Frozen Bones, which can drop from strays. Prepare for cold biomes and ranged enemies while collecting your first focus.",
+        "Compare a projectile such as Icicle with slowing or area-control spells. Crowd control helps you create space for long casts, but a boss may respond differently from an ordinary enemy.",
+        "Use this focus in the Scroll Forge and inspect the offered spells. This focus collection task is a reference milestone, not a demand to use this school permanently.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 37.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "7366F7607D10DCA9",
+          "type": "item",
+          "item": "irons_spellbooks:frozen_bone",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "75778423A8BCF8BF",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "6E4D814DAC21AEF4"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:frozen_bone"
+    },
+    {
+      "id": "6134522CADC358C0",
+      "title": "School · Lightning",
+      "description": [
+        "Lightning uses Bottle o' Lightning. Use an empty glass bottle on a charged creeper; charging and approaching the creeper is dangerous, so arrange cover and an escape route first.",
+        "Lightning Lance, Chain Lightning and persistent Lightning effects have different targeting and timing. Compare damage against the same target and include cast time and cooldown in your judgement.",
+        "Use this focus in the Scroll Forge and inspect the offered spells. This focus collection task is a reference milestone, not a demand to use this school permanently.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 37.0,
+      "y": 12.0,
+      "tasks": [
+        {
+          "id": "75D73CA4BA9E241C",
+          "type": "item",
+          "item": "irons_spellbooks:lightning_bottle",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "52496B11F1A3D622",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "6E4D814DAC21AEF4"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:lightning_bottle"
+    },
+    {
+      "id": "1057862EF46DA271",
+      "title": "School · Holy",
+      "description": [
+        "Holy uses Divine Pearls. Craft them using the gold and amethyst recipe shown in JEI rather than waiting for a particular random chest.",
+        "Try a healing option as well as an offensive spell such as Guiding Bolt or Sunbeam. Healing, channelled or persistent damage and support all compete for the same mana reserve.",
+        "Use this focus in the Scroll Forge and inspect the offered spells. This focus collection task is a reference milestone, not a demand to use this school permanently.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 37.0,
+      "y": 16.0,
+      "tasks": [
+        {
+          "id": "7F344151C460846B",
+          "type": "item",
+          "item": "irons_spellbooks:divine_pearl",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "53019CC6500DB081",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "6E4D814DAC21AEF4"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:divine_pearl"
+    },
+    {
+      "id": "1F10EE7E444A9D29",
+      "title": "School · Blood",
+      "description": [
+        "Blood uses Blood Vials. Their item guide describes collecting blood from creatures placed into a heated vanilla cauldron or through the Alchemist Cauldron system; follow JEI for the fluid and bottle steps.",
+        "Explore Blood Slash, Blood Needles, Acupuncture or a recovery-oriented spell. Inspect targeting and projectile counts carefully: a listed number may be damage per projectile rather than the total of the whole cast.",
+        "Use this focus in the Scroll Forge and inspect the offered spells. This focus collection task is a reference milestone, not a demand to use this school permanently.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 37.0,
+      "y": 20.0,
+      "tasks": [
+        {
+          "id": "334D6DF4672BBD62",
+          "type": "item",
+          "item": "irons_spellbooks:blood_vial",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2A6CEB25E6D19915",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "6E4D814DAC21AEF4"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:blood_vial"
+    },
+    {
+      "id": "7F0791D342126FE0",
+      "title": "School · Ender",
+      "description": [
+        "Ender uses ender pearls. Save a reserve for travel and crafting instead of spending every pearl on scrolls.",
+        "Teleport, Portal, Black Hole and related spells provide movement, control or damage. Ashen's passive Blink is its own ability; changing an Iron's Teleport scroll does not change the passive's range or cooldown.",
+        "Use this focus in the Scroll Forge and inspect the offered spells. This focus collection task is a reference milestone, not a demand to use this school permanently.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 37.0,
+      "y": 24.0,
+      "tasks": [
+        {
+          "id": "3912BB2F6014D681",
+          "type": "item",
+          "item": "minecraft:ender_pearl",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4F1DEFF6C2095977",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "6E4D814DAC21AEF4"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "minecraft:ender_pearl"
+    },
+    {
+      "id": "55B2800C20768E96",
+      "title": "School · Nature",
+      "description": [
+        "Nature uses poisonous potatoes. Harvest and replant potatoes until you obtain one, or keep any you find while exploring.",
+        "Try poison, roots or defensive Nature magic. Iron's poison spells and Ashen Rogue's custom stackable poison have different implementations; do not assume every Nature cast creates Rogue poison stacks.",
+        "Use this focus in the Scroll Forge and inspect the offered spells. This focus collection task is a reference milestone, not a demand to use this school permanently.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 37.0,
+      "y": 28.0,
+      "tasks": [
+        {
+          "id": "336A95E02D08DB80",
+          "type": "item",
+          "item": "minecraft:poisonous_potato",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F21CE2AC6FE6ECB",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "6E4D814DAC21AEF4"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "minecraft:poisonous_potato"
+    },
+    {
+      "id": "01326AD1BBDEBAD3",
+      "title": "The Arcane Anvil Workshop",
+      "description": [
+        "Craft the Arcane Anvil from amethyst blocks, a diamond, polished deepslate and a normal anvil. This installed version does not require netherite for the workstation itself.",
+        "It handles scroll leveling, equipment upgrades, compatible imbuements, affinity attunement and some spellbook improvements. Put the item being changed on the left and the appropriate modifier on the right.",
+        "Read the output preview before taking anything. This is not a conventional anvil-enchantment merge: each operation has its own accepted inputs and eligibility checks.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 22.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "17CC849C9DE055AE",
+          "type": "item",
+          "item": "irons_spellbooks:arcane_anvil",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "050BF56D01B29DEA",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "64629BDF08A3903C"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:arcane_anvil"
+    },
+    {
+      "id": "0EFBC5B205BC9EBB",
+      "title": "Level a Scroll with the Correct Ink",
+      "description": [
+        "Place a scroll on the Arcane Anvil's left input and ink on the right. The ink must match the rarity of the scroll's NEXT level; the same rarity can cover several consecutive numerical levels.",
+        "Taking the valid result raises the scroll exactly one level. Repeat with the correct ink until the desired level or the spell's maximum, then inscribe the upgraded scroll back into your spellbook.",
+        "This build upgrades ordinary scrolls with ink. Do not follow older instructions that say to combine two identical scrolls, and do not expect the anvil to directly level every spell already inside an ordinary book.",
+        "Completion: perform the practice described above, then tick this lesson manually. This is a tutorial acknowledgement, not automatic detection of a cast or upgrade."
+      ],
+      "x": 27.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "438E1235002E1FC0",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C23DD037E4A6AD6",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "01326AD1BBDEBAD3"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:scroll"
+    },
+    {
+      "id": "69D8664D74C6073B",
+      "title": "An Ironbound Tome",
+      "description": [
+        "Craft an Ironbound Tome from its chain, leather and paper recipe. Compare its capacity and attributes with the Flimsy Journal before moving your spells.",
+        "Transfer useful unlocked spells at the Inscription Table and equip the new book. Keep the old book until you have confirmed that your intended loadout appears in the spell wheel.",
+        "Spellbook tiers offer different capacities and bonuses. In this installed version, do not assume the book's material imposes an old guide's maximum spell-rarity cap; inspect its real slot information.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 27.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "31807A0C0B458F6E",
+          "type": "item",
+          "item": "irons_spellbooks:iron_spell_book",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3E3AF9FC1E66603A",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "64629BDF08A3903C"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:iron_spell_book"
+    },
+    {
+      "id": "3FDADB7549C630DF",
+      "title": "The Apprentice's Spell Book",
+      "description": [
+        "Craft an Apprentice's Spell Book using gold, Arcane Essence and Hogskin. Hoglins supply Hogskin, so plan a protected Nether trip rather than treating this as a purely Overworld shopping list.",
+        "Use the Inscription Table to transfer your selected spells. Fill the new capacity deliberately: a cheap repeatable attack, survival tool and utility option are more useful than several expensive attacks with the same role.",
+        "Store spare scrolls and record which spells you actually use. Your next upgrade should address a real limit such as mana, slots or survivability.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 32.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "43BEDA470679B646",
+          "type": "item",
+          "item": "irons_spellbooks:gold_spell_book",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1AF1B7F9A403100D",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "69D8664D74C6073B"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:gold_spell_book"
+    },
+    {
+      "id": "57952A14C10A5474",
+      "title": "Upgrade Ink: Iron",
+      "description": [
+        "Produce or find Rare Ink. The cauldron recipe uses 1000 mB of Uncommon Ink and an iron ingot to yield 250 mB of Rare Ink.",
+        "Use this tier for spells or next-level upgrades that call for Rare rarity. A high-level spell from another school still needs that school's matching focus when you forge a fresh scroll.",
+        "Reserve enough ink for the next few scroll upgrades before spending it on experiments. Upgrading into Epic later requires another four-to-one fluid conversion.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 27.0,
+      "y": 12.0,
+      "tasks": [
+        {
+          "id": "7F916CA4B425B356",
+          "type": "item",
+          "item": "irons_spellbooks:rare_ink",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "457F293526D23623",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "1F1B85FD327FF630",
+        "11180DABC0E23FFB"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:rare_ink"
+    },
+    {
+      "id": "42B27B2A00A41717",
+      "title": "Upgrade Ink: Gold",
+      "description": [
+        "Produce or find Epic Ink. Convert 1000 mB of Rare Ink with a gold ingot into 250 mB of Epic Ink at the Alchemist Cauldron.",
+        "Compare the spells unlocked at this tier with the stronger levels of your existing spells. Better rarity can be an opportunity to improve a familiar low-cost rotation rather than replacing your whole build.",
+        "Inspect the next-level requirement at the Arcane Anvil before committing the ink. A scroll already at its maximum level will not gain a valid upgrade result.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 32.0,
+      "y": 12.0,
+      "tasks": [
+        {
+          "id": "6649ECEAC4540274",
+          "type": "item",
+          "item": "irons_spellbooks:epic_ink",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "203AE3D5159BA004",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "57952A14C10A5474"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:epic_ink"
+    },
+    {
+      "id": "1B62B6FCC306701B",
+      "title": "Weave Arcane Cloth",
+      "description": [
+        "Craft Arcane Cloth from the magic-essence and wool recipe shown in JEI. This cloth feeds spellbooks, robes and later equipment recipes, so produce more than the single proof item.",
+        "Use JEI's Uses view to compare a larger spellbook with the armor upgrade you want. Store the rest with your essence reserve.",
+        "Materials progress independently of your class selection. A Warrior can craft magic equipment, while a Mage still needs to obtain the same crafting ingredients as everyone else.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 27.0,
+      "y": 16.0,
+      "tasks": [
+        {
+          "id": "2603EF895EF6B9E7",
+          "type": "item",
+          "item": "irons_spellbooks:magic_cloth",
+          "count": 4,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "767A2CB3E185D42D",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "7F0E8CA5023FA045",
+        "11180DABC0E23FFB"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:magic_cloth"
+    },
+    {
+      "id": "4E3DC5B88F153D94",
+      "title": "Runestones and School Specialization",
+      "description": [
+        "Obtain a Blank Runestone from magical loot or enemies. Inspect its uses: school runes and stat-related runes feed specialized armor and upgrade recipes.",
+        "Choose the rune that matches your intended equipment. A school focus chooses forgeable spells; a rune is a crafting material. They are related to the same school but do not replace one another in recipes.",
+        "Keep one spare runestone while comparing recipes. Do not convert all your blanks before deciding whether you want school power, recovery, protection or a different crafting branch.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 32.0,
+      "y": 16.0,
+      "tasks": [
+        {
+          "id": "510162439FB126A3",
+          "type": "item",
+          "item": "irons_spellbooks:blank_rune",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "05E81C2D620C76A9",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "6E4D814DAC21AEF4",
+        "1B62B6FCC306701B"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:blank_rune"
+    },
+    {
+      "id": "11657A342CBEC882",
+      "title": "Dress for Your Chosen School",
+      "description": [
+        "Choose a school armor line such as Pyromancer, Cryomancer, Electromancer, Archevoker, Priest, Cultist, Shadow-Walker or Plagued. Inspect the individual piece recipes and resulting attributes in JEI.",
+        "Craft and equip at least one piece that supports your chosen school, then compare mana and spell damage with your previous armor. A full set is a goal, not an excuse to ignore physical protection.",
+        "School-specific spell power helps its matching school, whereas general spell power supports a broader loadout. Read each tooltip and compare a real cast on the same target before committing to a full set.",
+        "Completion: perform the practice described above, then tick this lesson manually. This is a tutorial acknowledgement, not automatic detection of a cast or upgrade."
+      ],
+      "x": 22.0,
+      "y": 12.0,
+      "tasks": [
+        {
+          "id": "7837161B7DCD9D03",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "38D1D4773C89A9E0",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "4E3DC5B88F153D94"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:cryomancer_chestplate"
+    },
+    {
+      "id": "276A5E6397B4FB90",
+      "title": "The Enchanted Spell Book",
+      "description": [
+        "Craft the Enchanted Spell Book using diamonds, Arcane Cloth, Hogskin and an enchanted book. Check JEI for the full arrangement and keep your current spellbook safe during crafting.",
+        "Move unlocked spells through the Inscription Table and verify the new book's capacity and attributes. More slots let you carry answers to different encounters rather than forcing one damage school everywhere.",
+        "Build a loadout with damage, defense, recovery and mobility. Keep a spare slot for experimenting with a newly forged scroll.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 22.0,
+      "y": 16.0,
+      "tasks": [
+        {
+          "id": "7FB2395C319D6212",
+          "type": "item",
+          "item": "irons_spellbooks:diamond_spell_book",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0F02DE155E2AF484",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "3FDADB7549C630DF",
+        "1B62B6FCC306701B"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:diamond_spell_book"
+    },
+    {
+      "id": "1175678F96BF15BE",
+      "title": "Add a Spell Slot",
+      "description": [
+        "Craft a Lesser Spell Slot Improvement from Hogskin and Arcane Cloth. Put the spellbook on the Arcane Anvil's left and the improvement on the right.",
+        "Taking a valid result adds one slot only while the book remains below that improvement's stated slot limit. It is not an unlimited expansion item; a book already at or above the cap has no valid result.",
+        "Re-equip the improved book and verify its capacity. Plan upgrades around the number of spells you actually switch between during a fight.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 27.0,
+      "y": 20.0,
+      "tasks": [
+        {
+          "id": "3653D327D02C416E",
+          "type": "item",
+          "item": "irons_spellbooks:lesser_spell_slot_upgrade",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "31375B5637A96FFF",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "01326AD1BBDEBAD3",
+        "1B62B6FCC306701B",
+        "3FDADB7549C630DF"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:lesser_spell_slot_upgrade"
+    },
+    {
+      "id": "3E810453CB4438CE",
+      "title": "Rings: Reserve, Recovery or Speed",
+      "description": [
+        "Inspect Rings of Mana, Recovery and Expediency in JEI and in their tooltips. Obtain and equip a useful magic curio in the correct Curios slot.",
+        "Maximum mana, spell cooldown and cast time are separate constraints. Choose a ring that fixes your rotation's weakness rather than automatically equipping the rarest-looking icon.",
+        "Some protective rings address a specific hazard. Read the actual immunity or effect before entering a dangerous structure, and avoid relying on a bonus from an item that is only sitting in your inventory.",
+        "Completion: perform the practice described above, then tick this lesson manually. This is a tutorial acknowledgement, not automatic detection of a cast or upgrade."
+      ],
+      "x": 32.0,
+      "y": 20.0,
+      "tasks": [
+        {
+          "id": "79686E8ADE023DAB",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5E8A67A5FB63D2CB",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "01326AD1BBDEBAD3"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:mana_ring"
+    },
+    {
+      "id": "06346422D1C5C0F6",
+      "title": "Mithril for Advanced Tools",
+      "description": [
+        "Obtain Mithril Scrap from the sources shown in JEI. In this version, ore processing and blasting Arcane Salvage are relevant routes; four scraps also assemble into one Mithril Ingot.",
+        "Keep a reserve for affinity rings and later equipment instead of converting every piece immediately. Some recipes use scraps and others use the ingot.",
+        "Search JEI's Uses view for both forms and select a next project. You do not have to complete every late-game mining or boss branch before you can evaluate these recipes.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 32.0,
+      "y": 24.0,
+      "tasks": [
+        {
+          "id": "53D9AABA359BA1AB",
+          "type": "item",
+          "item": "irons_spellbooks:mithril_scrap",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E334FA82096EDC7",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "01326AD1BBDEBAD3"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:mithril_scrap"
+    },
+    {
+      "id": "6DBD539051827C12",
+      "title": "Attune a Ring to One Spell",
+      "description": [
+        "Craft an Affinity Ring with the bucket and Mithril Scrap recipe. At the Arcane Anvil, combine the ring on the left with a scroll of the spell you want to favor on the right.",
+        "Inspect the attuned result and equip it in Curios. Affinity targets that chosen spell; it is not a universal spell-power upgrade for your entire book.",
+        "Compare the selected spell's effective tooltip and performance with the ring equipped. Use a cheap copy of the relevant scroll for attunement and keep your primary inscribed spell safe.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 27.0,
+      "y": 24.0,
+      "tasks": [
+        {
+          "id": "722E5147A97F0C62",
+          "type": "item",
+          "item": "irons_spellbooks:affinity_ring",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "575C316E7D8DD3C2",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "06346422D1C5C0F6",
+        "3E810453CB4438CE"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:affinity_ring"
+    },
+    {
+      "id": "50DDA01681427F58",
+      "title": "Imbue Compatible Equipment",
+      "description": [
+        "Find a compatible piece of equipment using JEI's Arcane Anvil recipes, then place it on the left and a spell scroll on the right. Read the output before taking it; not every weapon or armor piece accepts imbuement.",
+        "This version supports more than weapon-only casting, including compatible armor and Curios items. Equip the result and look for its spell in the wheel or configured casting controls.",
+        "The server has mana consumption enabled for imbued weapons. Imbuement does not grant free casts, and older instructions to right-click every imbued sword may not match this version's casting system.",
+        "Completion: perform the practice described above, then tick this lesson manually. This is a tutorial acknowledgement, not automatic detection of a cast or upgrade."
+      ],
+      "x": 22.0,
+      "y": 20.0,
+      "tasks": [
+        {
+          "id": "678FF34D0D1F8167",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "787EAF36B2C49A61",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "0EFBC5B205BC9EBB",
+        "11657A342CBEC882"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:amethyst_rapier"
+    },
+    {
+      "id": "54D4B43F8F693A5F",
+      "title": "Remove an Upgrade Deliberately",
+      "description": [
+        "Craft a Shriving Stone and inspect its uses. In this installed version, use it in the Arcane Anvil with the equipment being cleaned; do not follow an older Smithing Table instruction.",
+        "Read the result and any returned upgrade materials before taking it. Shriving can remove equipment imbuement or upgrades; removing a normal unlocked spell from a book belongs at the Inscription Table instead.",
+        "Try the process with replaceable equipment before touching your best item. The output preview is your check that the intended operation is happening.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 27.0,
+      "y": 28.0,
+      "tasks": [
+        {
+          "id": "6FB25EA9C4C85E5B",
+          "type": "item",
+          "item": "irons_spellbooks:shriving_stone",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5ED10F520C4B88F1",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "50DDA01681427F58"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:shriving_stone"
+    },
+    {
+      "id": "137A8DA128C0C9B2",
+      "title": "Brew an Elixir Loadout",
+      "description": [
+        "Inspect the Alchemist Cauldron recipes for Oakskin, Evasion and Invisibility elixirs, including stronger variants. Some begin from a specific potion fluid rather than plain water or ink.",
+        "Prepare the exact base fluid, catalyst and bottle specified by JEI. Read the bottled result's duration and effect before a dangerous trip.",
+        "Practice using one defensive elixir before combat and keep an emergency option ready. These are consumables, not permanent passive-tree bonuses, and their names do not guarantee the same mechanics as Ashen's custom abilities.",
+        "Completion: perform the practice described above, then tick this lesson manually. This is a tutorial acknowledgement, not automatic detection of a cast or upgrade."
+      ],
+      "x": 32.0,
+      "y": 28.0,
+      "tasks": [
+        {
+          "id": "32C354226FF249AE",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "01765BB7BC390D4B",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "1F1DC232CE947F75",
+        "57952A14C10A5474"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:oakskin_elixir"
+    },
+    {
+      "id": "6BDA0A827E12C9B2",
+      "title": "Mid Game · Your Own Spellcraft",
+      "description": [
+        "Take a deliberately built loadout into a magical structure: a forged and leveled attack, a survival tool, a usable mana reserve and equipment that supports your chosen school.",
+        "Compare sustained damage against burst damage on the training dummy. Include cast time, cooldown and mana recovery rather than comparing only the largest floating number from one hit.",
+        "You should now be able to replace a lost scroll, upgrade its level, move spells between books and choose equipment for a purpose. The final section focuses on high-tier materials, bosses and researched magic.",
+        "Completion: perform the practice described above, then tick this lesson manually. This is a tutorial acknowledgement, not automatic detection of a cast or upgrade."
+      ],
+      "x": 22.0,
+      "y": 28.0,
+      "tasks": [
+        {
+          "id": "72DDAA30596CE8F0",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1ACEB4BBE88E8B33",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "64629BDF08A3903C",
+        "0EFBC5B205BC9EBB",
+        "276A5E6397B4FB90",
+        "11657A342CBEC882",
+        "50DDA01681427F58"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:diamond_spell_book",
+      "size": 1.4
+    },
+    {
+      "id": "1BC56DB6AA526AC4",
+      "title": "III · Legendary Ink",
+      "description": [
+        "Obtain Legendary Ink. The cauldron recipe turns 1000 mB of Epic Ink plus an amethyst shard into 250 mB of Legendary Ink.",
+        "Use it for spells whose next level requires Legendary rarity. Legendary is a rarity bracket, not a promise that every spell made with it is automatically at maximum numerical level.",
+        "Set a budget before upgrading several spells. Keep a reliable cheap rotation available while expensive high-tier spells recover their cooldowns.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 54.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "3B105D8B01B1C9F2",
+          "type": "item",
+          "item": "irons_spellbooks:legendary_ink",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4FF01FBEBB7D7F2F",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "6BDA0A827E12C9B2",
+        "42B27B2A00A41717"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:legendary_ink",
+      "size": 1.4
+    },
+    {
+      "id": "472C671EE8558F68",
+      "title": "Arcane Debris and Arcane Salvage",
+      "description": [
+        "Find Arcane Debris in deep Overworld mining and check its required mining tier before breaking it. Bring a suitable pickaxe and use JEI to inspect the installed processing recipes.",
+        "Process the debris into Arcane Salvage. Salvage can then be blasted into Mithril Scrap in this version, linking deep exploration to your advanced material supply.",
+        "Mark a safe route home and carry only the valuables you need. Keep salvage, Mithril and ordinary Ancient Debris in separate storage so you do not confuse their recipes.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 59.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "5A9CE18E61E10938",
+          "type": "item",
+          "item": "irons_spellbooks:arcane_salvage",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6735F7497A311955",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "6BDA0A827E12C9B2"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:arcane_salvage"
+    },
+    {
+      "id": "36430C7F13679B38",
+      "title": "Ancient Battlegrounds and Cinder",
+      "description": [
+        "Explore an Ancient Battleground and investigate its Armor Piles with suitable mining equipment. Be ready for an Ancient Knight instead of treating the pile as harmless decoration.",
+        "Defeat the threat and obtain Cinder Essence. Cinder feeds advanced recipes and the Soulcaller route, so keep a reserve rather than spending the first pieces immediately.",
+        "Learn the knight's attack openings and use terrain, Guard and a defensive spell. You are gathering an endgame resource, not testing whether a cloth robe can absorb every melee hit.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 64.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "173430F617B0C5AC",
+          "type": "item",
+          "item": "irons_spellbooks:cinder_essence",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0541C0F622C4D79C",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "6BDA0A827E12C9B2"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:cinder_essence"
+    },
+    {
+      "id": "5497361D678F7E1A",
+      "title": "Craft an Empty Upgrade Orb",
+      "description": [
+        "Craft an Empty Upgrade Orb. The installed recipe uses Arcane Ingots, Cinder Essence and Mithril; inspect JEI instead of following an old recipe that directly consumes Arcane Salvage.",
+        "Convert the blank orb into a school-power, mana, recovery or protection orb using its matching recipe. Choose based on the equipment slot and the problem you want to solve.",
+        "Empty orbs are ingredients. The useful attribute is supplied by the completed upgrade type and then applied to eligible equipment at the Arcane Anvil.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 54.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "4D5556A7DB595C1A",
+          "type": "item",
+          "item": "irons_spellbooks:upgrade_orb",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "07AC927720CCA9F7",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "1BC56DB6AA526AC4",
+        "36430C7F13679B38",
+        "06346422D1C5C0F6"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:upgrade_orb"
+    },
+    {
+      "id": "5C2988D69C73124B",
+      "title": "Spend the Three Upgrade Slots Wisely",
+      "description": [
+        "Apply a completed upgrade orb to compatible equipment at the Arcane Anvil. Read its output tooltip and verify that the attribute belongs to the slot where you actually equip the item.",
+        "This server allows three orb upgrades per eligible equipment item. That total is shared across upgrade types; it is not three upgrades of every school and stat on the same piece.",
+        "Decide between more mana, shorter recovery, protection or specialized damage. Test the result and use the Shriving Stone lesson if you later need to revise the item.",
+        "Completion: perform the practice described above, then tick this lesson manually. This is a tutorial acknowledgement, not automatic detection of a cast or upgrade."
+      ],
+      "x": 54.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "60312D1FBF835E7A",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "18672D8E392DEA0E",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "5497361D678F7E1A"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:mana_upgrade_orb"
+    },
+    {
+      "id": "6CCBFA3E9D05FABE",
+      "title": "Craft the Ancient Codex",
+      "description": [
+        "Craft the Ancient Codex, the netherite spellbook. Its installed recipe includes netherite, a Ruined Book, Arcane Cloth, Blood Vials and Bottle o' Lightning.",
+        "Ruined Books lead you toward Ancient City exploration. Plan stealth, wool and an escape route for the Deep Dark rather than trying to solve every danger with a loud damage spell.",
+        "Transfer your chosen unlocked spells at the Inscription Table and equip the new book. Read capacity and attributes before deciding whether a unique school book might fit your build better.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 59.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "24D109AB44133BC6",
+          "type": "item",
+          "item": "irons_spellbooks:netherite_spell_book",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "47EE18655782C2BA",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "1BC56DB6AA526AC4",
+        "276A5E6397B4FB90"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:netherite_spell_book"
+    },
+    {
+      "id": "55C7D3B3D9B0A4D3",
+      "title": "Unique Books, Locked Spells",
+      "description": [
+        "Compare unique books such as the Necronomicon, Grimoire of Evokation, Druidic Tome, Frostbranded Book and Dragonskin Spell Book. Their routes include crafting and specific exploration or loot sources.",
+        "A unique item can have an intrinsic locked spell alongside usable unlocked capacity. Use the Inscription Table for ordinary slots; an intrinsic spell is not removed in the same way.",
+        "To improve a matching locked spell in this version, place the unique item on the Arcane Anvil's left and a higher-level scroll of that same spell on the right. Confirm the output before taking it.",
+        "Completion: perform the practice described above, then tick this lesson manually. This is a tutorial acknowledgement, not automatic detection of a cast or upgrade."
+      ],
+      "x": 59.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "7FF2317787F1CEC7",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "61FAF7538DD4C7A0",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "6CCBFA3E9D05FABE"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:scroll"
+    },
+    {
+      "id": "18C2FD6828DE2B93",
+      "title": "Pyrium and a Specialist Staff",
+      "description": [
+        "Inspect Pyrium sources and crafting uses in JEI, then work toward a specialist staff such as the Pyrium Staff. Its recipe uses Pyrium, netherite and Arcane Cloth.",
+        "Compare its attributes and casting behavior against the Graybeard Staff you began with. A specialist item is an investment in a school or role, not a replacement for the spellbook Curio system.",
+        "Keep a second damage school or defensive tool available. A strong Fire build still needs a plan for Fire-resistant encounters.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 64.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "560C7B1AF11C6902",
+          "type": "item",
+          "item": "irons_spellbooks:pyrium_staff",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "58823FC0C426ADB5",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "36430C7F13679B38",
+        "1B62B6FCC306701B"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:pyrium_staff"
+    },
+    {
+      "id": "20E5EE481DD4508C",
+      "title": "Netherite Battlemage Equipment",
+      "description": [
+        "Inspect the Netherite Battlemage armor recipes and progression in JEI. Obtain or craft suitable advanced pieces and compare their physical and magical attributes with your school set.",
+        "Check imbuement eligibility and available upgrade slots before investing rare materials. Use school armor when specialization wins and a sturdier mixed loadout when the encounter demands survival.",
+        "Enchantment, upgrade orbs, imbuements and Apotheosis affixes are separate systems. Read what each item actually supports; do not assume that every system accepts every armor piece or spellbook.",
+        "Completion: perform the practice described above, then tick this lesson manually. This is a tutorial acknowledgement, not automatic detection of a cast or upgrade."
+      ],
+      "x": 64.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "043B16FCB0821A1D",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6C1445AFB504F788",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "5C2988D69C73124B",
+        "6CCBFA3E9D05FABE"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:netherite_mage_chestplate"
+    },
+    {
+      "id": "790D6A98C9339AD3",
+      "title": "Find the Catacombs",
+      "description": [
+        "Craft a Wayward Compass and activate its search if it has not found a destination. It points toward Catacombs, not the Nether's Lost Citadel.",
+        "Pack replacement food, blocks, lighting and a way to retreat. Clear lesser enemies and learn the layout before approaching the Dead King's encounter.",
+        "This is an Iron's Spells boss route. It does not bypass Ashen Oath's separate Cataclysm story gates or unlock a sealed story boss.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 54.0,
+      "y": 12.0,
+      "tasks": [
+        {
+          "id": "54D20BE3279C852E",
+          "type": "item",
+          "item": "irons_spellbooks:wayward_compass",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3BE9254C748D369D",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "1BC56DB6AA526AC4"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:wayward_compass"
+    },
+    {
+      "id": "7F8C600594FF7A1F",
+      "title": "Defeat the Dead King",
+      "description": [
+        "Enter the Catacombs with a prepared spell rotation and challenge the Dead King. Save mana for movement or defense and learn attack windows instead of maintaining an uninterrupted damage cast at any cost.",
+        "Clear dangerous supporting enemies and keep track of the arena. Use a damage option that works on the target rather than assuming every poison or status effect is equally effective against an undead boss.",
+        "After victory, collect the loot and any personal reward drops. Keep unique equipment, crafting materials and keys; the next lesson explains the related vault rewards.",
+        "Completion: defeat this enemy after the lesson unlocks. This is a real kill task; summoning or seeing the enemy does not complete it."
+      ],
+      "x": 54.0,
+      "y": 16.0,
+      "tasks": [
+        {
+          "id": "4CEDF05D5BCF29DB",
+          "type": "kill",
+          "entity": "irons_spellbooks:dead_king",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "504650A91BC76FFF",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "790D6A98C9339AD3"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:necronomicon_spell_book"
+    },
+    {
+      "id": "177A8D08857F26A7",
+      "title": "Keys and Structure Vaults",
+      "description": [
+        "Inspect the Bone Key obtained through the Dead King route and locate the corresponding Bone Vault in the structure. Use the matching key and check the resulting personal loot.",
+        "The mod also has Cinderous keys and vaults tied to its other advanced encounters. Read the key and vault names instead of trying every key on every block.",
+        "Vault rewards and ordinary chest loot are different reward paths. Do not assume an already-used vault is a freely repeatable chest; learn its eligibility and matching-key behavior from the actual interaction.",
+        "Completion: perform the practice described above, then tick this lesson manually. This is a tutorial acknowledgement, not automatic detection of a cast or upgrade."
+      ],
+      "x": 59.0,
+      "y": 16.0,
+      "tasks": [
+        {
+          "id": "3A60393DFDDF046D",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1EEBAE9C57230771",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "7F8C600594FF7A1F"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:bone_key"
+    },
+    {
+      "id": "3AE756E3946CA519",
+      "title": "Return to the Dead King",
+      "description": [
+        "Collect Dead King Phylactery Shards through the relevant exploration and loot routes shown in JEI. Eight shards surround a Soul Lantern to craft the completed phylactery.",
+        "Use the completed item on the Dead King Soul to bring the encounter back, as its item tooltip instructs. This is a specific resurrection interaction, not a command or an ordinary spawn egg.",
+        "Bring a fresh combat supply before repeating the boss. Farming valuable loot still requires defeating the encounter; the questbook does not hand out its unique drops.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 54.0,
+      "y": 20.0,
+      "tasks": [
+        {
+          "id": "16022267BCB7C50B",
+          "type": "item",
+          "item": "irons_spellbooks:dead_king_phylactery",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1814F7A37AD2D08D",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "7F8C600594FF7A1F"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:dead_king_phylactery"
+    },
+    {
+      "id": "2D2C90FC91128D3B",
+      "title": "The Lost Citadel Expedition",
+      "description": [
+        "Search the Nether for the Lost Citadel. Secure a route to and from the structure before taking your best equipment inside, and investigate its rooms and ritual locations methodically.",
+        "Secure the approach and defeat the Citadel's defenders carefully. Pack an alternate damage school for enemies that resist your main element and an escape tool that works in the environment.",
+        "Do not confuse Iron's Lost Citadel or Echo of Tyros with Cataclysm's Ignis story encounter. Their progression and mechanics are separate even though both are dangerous Nether content.",
+        "Completion: perform the practice described above, then tick this lesson manually. This is a tutorial acknowledgement, not automatic detection of a cast or upgrade."
+      ],
+      "x": 64.0,
+      "y": 12.0,
+      "tasks": [
+        {
+          "id": "066C8505C7CE3C39",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4D9ACF51F7986ED0",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "1BC56DB6AA526AC4",
+        "36430C7F13679B38"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "minecraft:nether_bricks"
+    },
+    {
+      "id": "1AAD21527CC70AC3",
+      "title": "Craft the Cinderous Soulcaller",
+      "description": [
+        "Craft a Cinderous Soulcaller from Cinder Essence, netherite scraps and an echo shard. Keep it for the Citadel ritual rather than treating it as a normal weapon.",
+        "Find the Cinderous Soul Rune and use the Soulcaller at the appropriate ritual location. Its feedback distinguishes an unresponsive location from an encounter that is already in progress.",
+        "Prepare your armor, mana reserve and healing before activating the ritual. Summoning the boss is a commitment to learning the fight, not the completion condition for the next quest.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 64.0,
+      "y": 16.0,
+      "tasks": [
+        {
+          "id": "5F66AFB16EBAA3D6",
+          "type": "item",
+          "item": "irons_spellbooks:cinderous_soulcaller",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4E417CEB50593736",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "2D2C90FC91128D3B",
+        "36430C7F13679B38"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:cinderous_soulcaller"
+    },
+    {
+      "id": "56BFAE8ABB158609",
+      "title": "Defeat the Echo of Tyros",
+      "description": [
+        "Complete the Lost Citadel ritual and defeat the Echo of Tyros. The registered enemy type is Iron's fire_boss; it is not the Elder Guardian or another Cataclysm boss.",
+        "Observe attack tells, use the arena deliberately and avoid relying on one long cast when a dodge is needed. Try an alternate damage school if your usual attacks are ineffective.",
+        "Collect the resulting loot and inspect any keys or unique equipment before leaving. Compare your finished build's damage and survivability with the loadout you used for the Dead King.",
+        "Completion: defeat this enemy after the lesson unlocks. This is a real kill task; summoning or seeing the enemy does not complete it."
+      ],
+      "x": 64.0,
+      "y": 20.0,
+      "tasks": [
+        {
+          "id": "7F4B35F7F13B2D06",
+          "type": "kill",
+          "entity": "irons_spellbooks:fire_boss",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "20EBA43ED5E4C8F3",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "1AAD21527CC70AC3"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:cinderous_soulcaller"
+    },
+    {
+      "id": "282E59B3C869C973",
+      "title": "Recover Ancient Knowledge",
+      "description": [
+        "Collect 8 Ancient Knowledge Fragments. Examine their exploration and loot sources and keep them for research instead of discarding them as ordinary paper.",
+        "You will also need an echo shard. The Ancient City route can overlap with finding a Ruined Book, but plan the trip around survival rather than carrying your whole workshop into the Deep Dark.",
+        "Research is character progression separate from owning a scroll or equipping a school set. An unlearned Eldritch scroll is not fixed by simply upgrading your spellbook.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 74.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "2E18DE298FF599AA",
+          "type": "item",
+          "item": "irons_spellbooks:ancient_knowledge_fragment",
+          "count": 8,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5F93D94BB8343EF7",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "6BDA0A827E12C9B2"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:ancient_knowledge_fragment"
+    },
+    {
+      "id": "6A79D7AFDE04C090",
+      "title": "Make an Eldritch Manuscript",
+      "description": [
+        "Craft an Eldritch Manuscript with eight Ancient Knowledge Fragments around one echo shard. Keep additional fragments if you intend to learn several advanced spells.",
+        "Use the manuscript to open the Eldritch research screen. The screen shows spell nodes, their relationships and whether you have already learned them.",
+        "Owning the manuscript alone does not automatically teach every Eldritch spell. The research action and any prerequisites belong to the selected node.",
+        "Completion: carry the requested item in your normal inventory. Detection keeps your items; nothing is submitted or consumed. JEI shows this pack's exact recipes."
+      ],
+      "x": 74.0,
+      "y": 4.0,
+      "tasks": [
+        {
+          "id": "38E8BD30A15E6C04",
+          "type": "item",
+          "item": "irons_spellbooks:eldritch_manuscript",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2E0BA4479CAEAB56",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "282E59B3C869C973"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:eldritch_manuscript"
+    },
+    {
+      "id": "2B25C46EA232EE69",
+      "title": "Research an Eldritch Spell",
+      "description": [
+        "Open the manuscript research screen, select an available node and read its requirements. Follow the screen's Hold to Learn action; it spends one manuscript for the selected learning action.",
+        "Complete any prerequisite nodes the screen requires before attempting a later spell. Check the node's learned state after the action instead of assuming that briefly clicking it completed research.",
+        "Research makes a spell learnable or usable through the normal spell systems. You still need an appropriate scroll, crafting materials and a place in your actual equipped loadout.",
+        "Completion: perform the practice described above, then tick this lesson manually. This is a tutorial acknowledgement, not automatic detection of a cast or upgrade."
+      ],
+      "x": 74.0,
+      "y": 8.0,
+      "tasks": [
+        {
+          "id": "0F4FB7E6BAC62BC6",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "026D9CCC3DBC6C6D",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "6A79D7AFDE04C090"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:eldritch_manuscript"
+    },
+    {
+      "id": "751240EDAA441161",
+      "title": "Forge and Cast Researched Magic",
+      "description": [
+        "Return to the Scroll Forge with the appropriate ink, paper and an echo shard as the Eldritch focus. Select a spell you have actually researched and whose rarity requirement you can meet.",
+        "Create its scroll, level it if appropriate and inscribe it into an available book slot. Equip the book, select the spell and test it in a safe place before taking it to a boss.",
+        "Read recast, range and targeting information carefully. Eldritch is a school with its own requirements and scaling, not a guarantee that every spell is the best damage option for every encounter.",
+        "Completion: perform the practice described above, then tick this lesson manually. This is a tutorial acknowledgement, not automatic detection of a cast or upgrade."
+      ],
+      "x": 74.0,
+      "y": 12.0,
+      "tasks": [
+        {
+          "id": "39CCA6EF1CE75971",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1226FDDBC39393B9",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "2B25C46EA232EE69",
+        "1BC56DB6AA526AC4",
+        "64629BDF08A3903C"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:scroll"
+    },
+    {
+      "id": "3D7F97F24EE80923",
+      "title": "Travel, Storage and Practical Magic",
+      "description": [
+        "Build a non-combat loadout and test utility spells appropriate to your progression: movement, Recall, Portal, Summon Ender Chest or a practical tool such as Spectral Hammer.",
+        "Read each spell's anchor, targeting, duration and dimension restrictions before relying on it to bring valuables home. Carry a conventional fallback until you have tested the full round trip.",
+        "Some utility features use special blocks or items, such as Portal Frames. Inspect their JEI recipes and tooltips; the questbook is teaching the system rather than automatically placing a working travel network for you.",
+        "Completion: perform the practice described above, then tick this lesson manually. This is a tutorial acknowledgement, not automatic detection of a cast or upgrade."
+      ],
+      "x": 74.0,
+      "y": 16.0,
+      "tasks": [
+        {
+          "id": "49AC1EC1C83B04B8",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "225BFD11C4412A52",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "6BDA0A827E12C9B2",
+        "7F0791D342126FE0"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:portal_frame"
+    },
+    {
+      "id": "28A4A5EAE27042C8",
+      "title": "Late Game · An Archmage's Loadout",
+      "description": [
+        "Assemble your finished loadout: an upgraded primary attack, a useful alternate damage school, a defensive response, recovery and practical mobility. Equip your book, armor, staff and Curios in their real slots.",
+        "On the same training dummy, compare a single burst cast, a full sustained effect and a repeatable rotation over time. Account for mana consumption and cooldown, not just the largest individual number.",
+        "Complete both Iron's major boss routes and one researched Eldritch cast, then identify what you would change for a resistant boss or a dangerous exploration trip. Mastery means adapting the loadout, not collecting every spell at once.",
+        "Completion: perform the practice described above, then tick this lesson manually. This is a tutorial acknowledgement, not automatic detection of a cast or upgrade."
+      ],
+      "x": 54.0,
+      "y": 28.0,
+      "tasks": [
+        {
+          "id": "554B733A8A88939B",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "314276D679DB98A0",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "5C2988D69C73124B",
+        "55C7D3B3D9B0A4D3",
+        "7F8C600594FF7A1F",
+        "56BFAE8ABB158609",
+        "751240EDAA441161"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "icon": "irons_spellbooks:netherite_spell_book",
+      "size": 1.4
+    }
+  ]
+}

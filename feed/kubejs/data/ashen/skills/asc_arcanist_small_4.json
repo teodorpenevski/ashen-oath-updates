@@ -1,0 +1,43 @@
+{
+  "id": "ashen:asc_arcanist_small_4",
+  "title": "Runic Cover",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "b3c8b606-44d6-5b5a-a6f1-2875424ac18c",
+      "name": "Ashen asc_arcanist_small_4",
+      "amount": 2,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_arcanist_root"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_arcanist_root",
+    "ashen:asc_arcanist_big_4"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "arcanist"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_blue.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -691,
+  "positionY": -299,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

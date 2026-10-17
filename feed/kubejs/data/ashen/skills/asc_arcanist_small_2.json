@@ -1,0 +1,43 @@
+{
+  "id": "ashen:asc_arcanist_small_2",
+  "title": "Deep Well",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "49fab6aa-cf31-55a1-9e6c-4c96058f99f5",
+      "name": "Ashen asc_arcanist_small_2",
+      "amount": 30,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_arcanist_root"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_arcanist_root",
+    "ashen:asc_arcanist_big_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "arcanist"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/potion_blue.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -755,
+  "positionY": -190,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

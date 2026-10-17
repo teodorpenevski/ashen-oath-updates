@@ -1,0 +1,43 @@
+{
+  "id": "ashen:asc_vanguard_small_2",
+  "title": "Braced Guard",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "eacfcd60-28da-59d3-9b96-2ffe36d662ba",
+      "name": "Ashen asc_vanguard_small_2",
+      "amount": 1,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_vanguard_root"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_vanguard_root",
+    "ashen:asc_vanguard_big_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "vanguard"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -755,
+  "positionY": 250,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

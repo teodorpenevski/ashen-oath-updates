@@ -1,0 +1,652 @@
+{
+  "id": "0E57992ACE344332",
+  "filename": "04_beyond_the_broken_sky",
+  "group": "",
+  "title": "4 · Beyond the Broken Sky",
+  "icon": "minecraft:ender_eye",
+  "order_index": 3,
+  "default_quest_shape": "square",
+  "default_quest_size": 1.0,
+  "progression_mode": "linear",
+  "consume_items": false,
+  "quests": [
+    {
+      "id": "1454D2AD4A892058",
+      "title": "Follow the Last Record",
+      "description": [
+        "The records point beyond the world. Find a stronghold using Eyes of Ender."
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "item",
+          "item": "minecraft:ender_eye",
+          "count": 12,
+          "consume_items": false,
+          "id": "5715F56FD648F7B3"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "52EBA553CC451529",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 12
+        }
+      ],
+      "dependencies": [
+        "7613A7476AEB640E"
+      ],
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": true,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "410070DFE728E2E7",
+      "title": "A Way Back",
+      "description": [
+        "Collect eight Ender Pearls before entering the End."
+      ],
+      "tasks": [
+        {
+          "id": "6E145041C4D36229",
+          "type": "item",
+          "item": "minecraft:ender_pearl",
+          "count": 8,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "59816168DE987F31",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "1454D2AD4A892058"
+      ],
+      "optional": false,
+      "x": 2.0,
+      "y": 0.0,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "288620C64F026930",
+      "title": "A Dependable Blade",
+      "description": [
+        "Obtain a diamond sword. Keep it as your weapon or a backup for your spell build."
+      ],
+      "tasks": [
+        {
+          "id": "4CA66A206DB066E3",
+          "type": "item",
+          "item": "minecraft:diamond_sword",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "476CAABDF1420910",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "410070DFE728E2E7"
+      ],
+      "optional": false,
+      "x": 4.0,
+      "y": 0.0,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "4F23CF0F9ED3F0FA",
+      "title": "Water Against the Fall",
+      "description": [
+        "Carry a water bucket before the Dragon fight."
+      ],
+      "tasks": [
+        {
+          "id": "6ABDAAA17E759208",
+          "type": "item",
+          "item": "minecraft:water_bucket",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4C728BA83FAEE67C",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "288620C64F026930"
+      ],
+      "optional": false,
+      "x": 6.0,
+      "y": 0.0,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "433D700323A42058",
+      "title": "Preparation for the End",
+      "description": [
+        "Bring blocks, a bow, water, food and slow falling. Set your spawn near the stronghold. The Dragon is now unlocked."
+      ],
+      "x": 8.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "12406FC8E2F4C957"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "769E567776C4A518",
+          "type": "item",
+          "item": "minecraft:arrow",
+          "count": 32
+        }
+      ],
+      "dependencies": [
+        "4F23CF0F9ED3F0FA"
+      ],
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "296D51A670EC4E8F",
+      "title": "Break the Sky",
+      "description": [
+        "Defeat the Ender Dragon and submit its Soul Scale. The Ender Guardian seal opens after submission.",
+        "This boss guarantees one Dragon Soul Scale on a valid defeat. Pick it up, open this quest and click its item task to submit it. The trophy is consumed. It has no crafting recipe and the archive cannot produce it."
+      ],
+      "x": 10.0,
+      "y": 0.0,
+      "tasks": [
+        {
+          "id": "0DDCB23A65FE59EC",
+          "type": "item",
+          "item": "kubejs:trophy_dragon",
+          "count": 1,
+          "consume_items": true,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "65CCFD1FCD01FAC3",
+          "type": "item",
+          "item": "apotheosis:epic_material",
+          "count": 4
+        },
+        {
+          "id": "76ABE089AD500783",
+          "type": "command",
+          "command": "function ashen:quest/defeat_dragon",
+          "elevate_perms": true,
+          "silent": true,
+          "autoclaim": "enabled",
+          "team_reward": true,
+          "title": "Boss victory recorded",
+          "icon": "minecraft:book"
+        }
+      ],
+      "dependencies": [
+        "433D700323A42058"
+      ],
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "60E8251347EF7473",
+      "title": "Footing Beyond the World",
+      "description": [
+        "Collect 32 end stone after the Dragon fight. Keep blocks for safe routes between islands."
+      ],
+      "tasks": [
+        {
+          "id": "38136FFFDAC7CB6F",
+          "type": "item",
+          "item": "minecraft:end_stone",
+          "count": 32,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "02F1CA71D8A6D9EF",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "296D51A670EC4E8F"
+      ],
+      "optional": false,
+      "x": 12.0,
+      "y": 0.0,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "46E9744420FDAA10",
+      "title": "Food in an Empty Sky",
+      "description": [
+        "Collect eight chorus fruit from the outer End."
+      ],
+      "tasks": [
+        {
+          "id": "055A469F36917396",
+          "type": "item",
+          "item": "minecraft:chorus_fruit",
+          "count": 8,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D2FF3864C6C7892",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "60E8251347EF7473"
+      ],
+      "optional": false,
+      "x": 0.0,
+      "y": 3.0,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "5807A95330D76D3D",
+      "title": "The Ruined Citadel",
+      "description": [
+        "Search the outer End for the Ruined Citadel using the Explorer's Compass. Bring enough resources for a return route."
+      ],
+      "x": 2.0,
+      "y": 3.0,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "7CE3329D8C91536B"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "71CE316E886A4638",
+          "type": "item",
+          "item": "minecraft:ender_pearl",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "46E9744420FDAA10"
+      ],
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "77E135866714EAB0",
+      "title": "The Memory Keeper",
+      "description": [
+        "Prepare a strong epic build. The Guardian uses gravity and powerful close attacks. Learn its openings rather than relying only on armor."
+      ],
+      "x": 4.0,
+      "y": 3.0,
+      "tasks": [
+        {
+          "type": "checkmark",
+          "id": "2E9B1EFC248C1762"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "5807A95330D76D3D"
+      ],
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "4CE7E918102A1FCB",
+      "title": "The Price of the Seal",
+      "description": [
+        "Defeat the Ender Guardian and submit its Void Sigil for Memory IV. You surrendered your memories to seal the invasion; Ignis remained behind.",
+        "This boss guarantees one Guardian Void Sigil on a valid defeat. Pick it up, open this quest and click its item task to submit it. The trophy is consumed. It has no crafting recipe and the archive cannot produce it."
+      ],
+      "x": 6.0,
+      "y": 3.0,
+      "tasks": [
+        {
+          "id": "56E72AF0D7317071",
+          "type": "item",
+          "item": "kubejs:trophy_guardian",
+          "count": 1,
+          "consume_items": true,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7E15C496DF6209A6",
+          "type": "item",
+          "item": "apotheosis:mythic_material",
+          "count": 4
+        },
+        {
+          "id": "38E486A367D64569",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 24
+        },
+        {
+          "id": "29CFCE082226EE2D",
+          "type": "item",
+          "item": "kubejs:memory_4",
+          "count": 1,
+          "autoclaim": "enabled"
+        }
+      ],
+      "dependencies": [
+        "77E135866714EAB0"
+      ],
+      "optional": false,
+      "progression_mode": "linear",
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "6CE8FFE640C18655",
+      "title": "Chapter 4 Complete",
+      "description": [
+        "You have completed every required Chapter 4 milestone. Close this part of your story to unlock Chapter 5. Optional branches do not block this step."
+      ],
+      "tasks": [
+        {
+          "id": "1FA7D4245BA6B07B",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "29BC3DE675DD5A67",
+          "type": "command",
+          "command": "function ashen:chapter/complete_4",
+          "elevate_perms": true,
+          "silent": true,
+          "autoclaim": "enabled",
+          "team_reward": true,
+          "title": "Chapter 4 completed",
+          "icon": "minecraft:book"
+        }
+      ],
+      "dependencies": [
+        "1454D2AD4A892058",
+        "410070DFE728E2E7",
+        "288620C64F026930",
+        "4F23CF0F9ED3F0FA",
+        "433D700323A42058",
+        "296D51A670EC4E8F",
+        "60E8251347EF7473",
+        "46E9744420FDAA10",
+        "5807A95330D76D3D",
+        "77E135866714EAB0",
+        "4CE7E918102A1FCB"
+      ],
+      "optional": false,
+      "progression_mode": "linear",
+      "x": 14.0,
+      "y": 3.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "7B267D4B1CA2681C",
+      "title": "Optional: Diamond Backpack",
+      "description": [
+        "Craft diamond backpack when useful for your build. This is optional and does not unlock the next chapter. The task detects the crafted result and keeps the equipment, including backpack contents."
+      ],
+      "tasks": [
+        {
+          "id": "0DF2915B413519E6",
+          "type": "item",
+          "item": "sophisticatedbackpacks:diamond_backpack",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "76E969378F0ECA34",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "1454D2AD4A892058"
+      ],
+      "optional": true,
+      "x": 0.0,
+      "y": -3.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "5D43EF00ABA11CBA",
+      "title": "Optional: A Shulker Box",
+      "description": [
+        "Craft a shulker box when useful for your build. This is optional and does not unlock the next chapter. The task detects the crafted result and keeps the equipment, including backpack contents."
+      ],
+      "tasks": [
+        {
+          "id": "7CF797333757EF3B",
+          "type": "item",
+          "item": "minecraft:shulker_box",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "57DB6C1C5840F9DD",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "296D51A670EC4E8F"
+      ],
+      "optional": true,
+      "x": 3.0,
+      "y": -3.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "6E91D04BA57299FD",
+      "title": "Optional: Advanced Reforging",
+      "description": [
+        "Craft advanced reforging when useful for your build. This is optional and does not unlock the next chapter. The task detects the crafted result and keeps the equipment, including backpack contents."
+      ],
+      "tasks": [
+        {
+          "id": "1D2CC3CB0E658D0E",
+          "type": "item",
+          "item": "apotheosis:reforging_table",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0C8198504A1B4D09",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "1454D2AD4A892058"
+      ],
+      "optional": true,
+      "x": 6.0,
+      "y": -3.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "447FBD29F778E970",
+      "title": "Optional: Diamond Helmet",
+      "description": [
+        "Craft diamond helmet when useful for your build. This is optional and does not unlock the next chapter. The task detects the crafted result and keeps the equipment, including backpack contents."
+      ],
+      "tasks": [
+        {
+          "id": "0DA1CA1E5EF06927",
+          "type": "item",
+          "item": "minecraft:diamond_helmet",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "479F8CFB3D628DA4",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "1454D2AD4A892058"
+      ],
+      "optional": true,
+      "x": 0.0,
+      "y": -5.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "61B179D5D7020847",
+      "title": "Optional: Diamond Chestplate",
+      "description": [
+        "Craft diamond chestplate when useful for your build. This is optional and does not unlock the next chapter. The task detects the crafted result and keeps the equipment, including backpack contents."
+      ],
+      "tasks": [
+        {
+          "id": "5BB88E98006DDB12",
+          "type": "item",
+          "item": "minecraft:diamond_chestplate",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4CCF462400C726CC",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "1454D2AD4A892058"
+      ],
+      "optional": true,
+      "x": 3.0,
+      "y": -5.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    },
+    {
+      "id": "0956A747C34A18E8",
+      "title": "Optional: An Ender Chest",
+      "description": [
+        "Craft an ender chest when useful for your build. This is optional and does not unlock the next chapter. The task detects the crafted result and keeps the equipment, including backpack contents."
+      ],
+      "tasks": [
+        {
+          "id": "12C4AC4774ACBFDD",
+          "type": "item",
+          "item": "minecraft:ender_chest",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": true,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "32B2684C0AA05E13",
+          "type": "item",
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "1454D2AD4A892058"
+      ],
+      "optional": true,
+      "x": 6.0,
+      "y": -5.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": true
+    }
+  ],
+  "hide_quest_until_deps_visible": true,
+  "hide_quest_details_until_startable": true
+}

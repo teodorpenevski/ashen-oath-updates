@@ -1,0 +1,8 @@
+name = "Passive Skill Trees"
+filename = "PassiveSkillTree-1.20.1-BETA-0.7.6e-all.jar"
+side = "client"
+
+[download]
+url = "https://www.cursemaven.com/curse/maven/passive-skill-tree-850298/8483796/passive-skill-tree-850298-8483796.jar"
+hash-format = "sha512"
+hash = "d50db1dfe882fe2c3defb826ad954e7e59b54542e4b88dd345acf2b7c79f8d04d5b07b3469f866b22ebf2b2b1b49518910c463ed0eba79f6ca3312dd7a36d5d2"

@@ -1,0 +1,6 @@
+[client]
+showFoodValuesInTooltip = true
+showFoodValuesInTooltipAlways = true
+showSaturationHudOverlay = true
+showFoodValuesHudOverlay = true
+showFoodValuesHudOverlayWhenOffhand = true

@@ -1,0 +1,43 @@
+{
+  "id": "ashen:asc_berserker_small_3",
+  "title": "Frenzied Grip",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "id": "b11dacf6-bbf2-5729-a654-a73903a10c07",
+      "name": "Ashen asc_berserker_small_3",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_berserker_root"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_berserker_root",
+    "ashen:asc_berserker_big_3"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "berserker"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -250,
+  "positionY": 755,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

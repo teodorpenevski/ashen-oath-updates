@@ -1,0 +1,8 @@
+name = "Epic Fight x Spartan Weaponry"
+filename = "epic-fight-x-spartan-weaponry-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/I3M6rIMM/versions/V9BoTaFc/epic-fight-x-spartan-weaponry-1.0.0.jar"
+hash-format = "sha512"
+hash = "5c63f8a8c0d50a42f7701be870c3f435687f36565d3abca46737d8d69eb6377283f5b973aca48fbd6a242219f64f81916ac67ecf10174f5d719293975bda09b1"

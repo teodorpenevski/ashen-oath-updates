@@ -1,0 +1,37 @@
+{
+  "id": "ashen:path_warrior",
+  "title": "Steady Breath",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "d3ce4905-adc3-5721-b36f-2f53ad2d26e3",
+      "name": "Ashen path_warrior",
+      "amount": 2,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:awakening",
+    "ashen:warrior_0"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "warrior"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -45.05,
+  "positionY": 45.05,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

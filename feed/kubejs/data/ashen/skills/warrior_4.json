@@ -1,0 +1,38 @@
+{
+  "id": "ashen:warrior_4",
+  "title": "Follow Through",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "efdfb14d-63c8-58be-9652-6a79dd858fd0",
+      "name": "Ashen warrior_4",
+      "amount": 2,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:warrior_2",
+    "ashen:warrior_6",
+    "ashen:warrior_10"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "warrior"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -209.95,
+  "positionY": 119.85,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

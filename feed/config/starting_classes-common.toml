@@ -1,0 +1,5 @@
+"Disable classes after selection:" = false
+"Starting mobs have custom health:" = false
+"Starting mob custom health:" = 40
+"Starting mobs infinite regen:" = false
+"Number of times a class can be chosen before it is disabled:" = 1

@@ -1,0 +1,27 @@
+{
+  "id": "ashen:asc_berserker_big_3",
+  "title": "Relentless",
+  "bonuses": [],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_berserker_small_3"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_berserker_small_3"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "berserker"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -303,
+  "positionY": 943,
+  "buttonSize": 38,
+  "isStartingPoint": false
+}

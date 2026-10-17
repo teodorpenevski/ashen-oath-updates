@@ -1,0 +1,70 @@
+{
+  "id": "ashen:asc_arcanist_big_2",
+  "title": "Mana Ocean",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "03faff84-d769-56d6-a2cb-23393f263b6e",
+      "name": "Ashen asc_arcanist_big_2",
+      "amount": 240,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:mana_regen",
+      "id": "3b3d545f-ad46-5dc6-aac2-016902e0e053",
+      "name": "Ashen asc_arcanist_big_2",
+      "amount": 0.35,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "585433da-118a-5144-b44e-bdc4a46f6cc8",
+      "name": "Ashen asc_arcanist_big_2",
+      "amount": -0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_arcanist_small_2"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_arcanist_small_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "arcanist"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/potion_blue.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -943,
+  "positionY": -137,
+  "buttonSize": 38,
+  "isStartingPoint": false
+}

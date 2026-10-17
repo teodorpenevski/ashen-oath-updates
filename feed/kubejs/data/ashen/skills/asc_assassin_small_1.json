@@ -1,0 +1,43 @@
+{
+  "id": "ashen:asc_assassin_small_1",
+  "title": "Hidden Edge",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "b82216d6-ac28-5fa8-8744-16252d7efe78",
+      "name": "Ashen asc_assassin_small_1",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:learned_skill",
+      "skill_id": "ashen:asc_assassin_root"
+    }
+  ],
+  "directConnections": [
+    "ashen:asc_assassin_root",
+    "ashen:asc_assassin_big_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "ascendancy",
+    "assassin"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_iron.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 299,
+  "positionY": 691,
+  "buttonSize": 14,
+  "isStartingPoint": false
+}

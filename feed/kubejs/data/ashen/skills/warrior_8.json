@@ -1,0 +1,37 @@
+{
+  "id": "ashen:warrior_8",
+  "title": "Layered Defense",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "50f9cbcb-eddf-5c77-93f3-7f23a6fa2c75",
+      "name": "Ashen warrior_8",
+      "amount": 1,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "ashen:warrior_7",
+    "ashen:warrior_9"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [
+    "warrior"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/sword_gold.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -156.4,
+  "positionY": 336.59999999999997,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}
