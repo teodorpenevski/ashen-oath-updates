@@ -5,11 +5,11 @@
   "requirements": [
     {
       "type": "skilltree:learned_skill",
-      "skill_id": "ashen:warrior_19_preparation_2"
+      "skill_id": "ashen:warrior_3"
     }
   ],
   "directConnections": [
-    "ashen:warrior_19_preparation_2"
+    "ashen:warrior_3"
   ],
   "longConnections": [],
   "oneWayConnections": [],

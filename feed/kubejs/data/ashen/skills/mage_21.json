@@ -20,11 +20,11 @@
   "requirements": [
     {
       "type": "skilltree:learned_skill",
-      "skill_id": "ashen:mage_21_preparation_1"
+      "skill_id": "ashen:mage_7"
     }
   ],
   "directConnections": [
-    "ashen:mage_21_preparation_1"
+    "ashen:mage_7"
   ],
   "longConnections": [],
   "oneWayConnections": [],

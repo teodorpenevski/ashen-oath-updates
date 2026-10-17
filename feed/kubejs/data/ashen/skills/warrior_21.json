@@ -34,11 +34,11 @@
   "requirements": [
     {
       "type": "skilltree:learned_skill",
-      "skill_id": "ashen:warrior_21_preparation_1"
+      "skill_id": "ashen:warrior_7"
     }
   ],
   "directConnections": [
-    "ashen:warrior_21_preparation_1"
+    "ashen:warrior_7"
   ],
   "longConnections": [],
   "oneWayConnections": [],

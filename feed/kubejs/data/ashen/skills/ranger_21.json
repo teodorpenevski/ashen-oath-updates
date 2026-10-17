@@ -5,11 +5,11 @@
   "requirements": [
     {
       "type": "skilltree:learned_skill",
-      "skill_id": "ashen:ranger_21_preparation_1"
+      "skill_id": "ashen:ranger_7"
     }
   ],
   "directConnections": [
-    "ashen:ranger_21_preparation_1"
+    "ashen:ranger_7"
   ],
   "longConnections": [],
   "oneWayConnections": [],

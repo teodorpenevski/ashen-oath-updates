@@ -21,7 +21,7 @@
   "directConnections": [
     "ashen:ranger_3",
     "ashen:ranger_8",
-    "ashen:ranger_21_preparation_1"
+    "ashen:ranger_21"
   ],
   "longConnections": [],
   "oneWayConnections": [],

@@ -48,11 +48,11 @@
   "requirements": [
     {
       "type": "skilltree:learned_skill",
-      "skill_id": "ashen:rogue_21_preparation_1"
+      "skill_id": "ashen:rogue_7"
     }
   ],
   "directConnections": [
-    "ashen:rogue_21_preparation_1"
+    "ashen:rogue_7"
   ],
   "longConnections": [],
   "oneWayConnections": [],

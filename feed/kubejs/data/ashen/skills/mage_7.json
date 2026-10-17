@@ -21,7 +21,7 @@
   "directConnections": [
     "ashen:mage_3",
     "ashen:mage_8",
-    "ashen:mage_21_preparation_1"
+    "ashen:mage_21"
   ],
   "longConnections": [],
   "oneWayConnections": [],
