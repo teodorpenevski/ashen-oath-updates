@@ -5,7 +5,7 @@
   "title": "Magic · From First Spark to Dead King",
   "icon": "irons_spellbooks:inscription_table",
   "order_index": 1,
-  "default_quest_shape": "square",
+  "default_quest_shape": "circle",
   "default_quest_size": 1.0,
   "progression_mode": "flexible",
   "consume_items": false,
@@ -18,8 +18,8 @@
       "description": [
         "An apprentice's journal is the beginning of a legend, not its limit. Follow the five stages from gathered essence to the Dead King, with optional school, alchemy, research and exploration branches along the way. Every class can learn magic; Ashen's separate level-10 class spell reward remains available."
       ],
-      "x": 0.0,
-      "y": 0.0,
+      "x": -3.0,
+      "y": 3.0,
       "tasks": [
         {
           "id": "578E81611C255BF3",
@@ -40,7 +40,9 @@
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
       "icon": "irons_spellbooks:copper_spell_book",
-      "size": 1.4
+      "size": 1.3,
+      "shape": "gear",
+      "icon_scale": 1.0
     },
     {
       "id": "7F0E8CA5023FA045",
@@ -48,7 +50,7 @@
       "description": [
         "Gather 8 Arcane Essence by hunting magical enemies and looting structures, then keep a reserve for your workshop. Essence feeds robes, staves, cloth and ingots, so inspect its JEI uses before spending your last pieces."
       ],
-      "x": 7.0,
+      "x": 0.0,
       "y": 0.0,
       "tasks": [
         {
@@ -74,7 +76,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:arcane_essence"
+      "icon": "irons_spellbooks:arcane_essence",
+      "shape": "gear",
+      "size": 1.3,
+      "icon_scale": 1.0
     },
     {
       "id": "760387861CE76416",
@@ -82,7 +87,7 @@
       "description": [
         "Obtain a Flimsy Journal, registered as copper_spell_book, to hold reusable spells. The Mage starter kit already supplies one; all classes can also craft it or earn an inscribed core-spell journal at the pack's level-10 milestone. The Ironbound Tome is an alternative starting route, and either book unlocks the equipment lesson."
       ],
-      "x": 14.0,
+      "x": 4.0,
       "y": 0.0,
       "tasks": [
         {
@@ -110,7 +115,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:copper_spell_book"
+      "icon": "irons_spellbooks:copper_spell_book",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "69D8664D74C6073B",
@@ -118,8 +126,8 @@
       "description": [
         "Craft or find an Ironbound Tome as an alternative to beginning with a Flimsy Journal. Either early book unlocks the equipment lesson, and the Inscription Table lets you transfer ordinary spells if you later change books."
       ],
-      "x": 0.0,
-      "y": 7.0,
+      "x": 4.0,
+      "y": -2.0,
       "tasks": [
         {
           "id": "31807A0C0B458F6E",
@@ -146,7 +154,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:iron_spell_book"
+      "icon": "irons_spellbooks:iron_spell_book",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "38398EF0AF471C80",
@@ -154,8 +165,8 @@
       "description": [
         "Claim or craft a Graybeard Staff and compare its held attributes with your ordinary weapon. A staff supports your spellcasting, while the equipped spellbook supplies the spells themselves; keep both systems in mind when building your loadout."
       ],
-      "x": 7.0,
-      "y": 7.0,
+      "x": -3.0,
+      "y": 0.0,
       "tasks": [
         {
           "id": "7FE0EA22CDD75A71",
@@ -182,7 +193,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:graybeard_staff"
+      "icon": "irons_spellbooks:graybeard_staff",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "4BDE7B3D26E7AF9D",
@@ -190,8 +204,8 @@
       "description": [
         "Build the Inscription Table: this quiet desk is where loose scrolls become a reusable repertoire. Place a spellbook and a scroll in its interface to inspect the spell and the available slot before inscribing."
       ],
-      "x": 14.0,
-      "y": 7.0,
+      "x": 2.0,
+      "y": 0.0,
       "tasks": [
         {
           "id": "5AEBDB6C854A63F2",
@@ -218,7 +232,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:inscription_table"
+      "icon": "irons_spellbooks:inscription_table",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "4534E624EDD42AEA",
@@ -226,8 +243,8 @@
       "description": [
         "Recover a scroll from magical enemies, trading or structure loot, then read its school, level, rarity and mana cost. Save it for inscription instead of spending your only copy as a one-use cast."
       ],
-      "x": 0.0,
-      "y": 14.0,
+      "x": 6.0,
+      "y": 3.0,
       "tasks": [
         {
           "id": "75FEE650E7EF01A7",
@@ -254,7 +271,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:scroll"
+      "icon": "irons_spellbooks:scroll",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "79F5B0352DACA10B",
@@ -262,8 +282,8 @@
       "description": [
         "Place a spellbook in the Spellbook Curios slot rather than leaving it in your ordinary inventory. Iron's equip-spellbook advancement detects the equipment action; an empty book still needs an inscribed spell."
       ],
-      "x": 7.0,
-      "y": 14.0,
+      "x": 6.0,
+      "y": 0.0,
       "tasks": [
         {
           "id": "1FA9FF41A69774C0",
@@ -289,7 +309,10 @@
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
       "icon": "irons_spellbooks:copper_spell_book",
-      "dependency_requirement": "one_completed"
+      "dependency_requirement": "one_completed",
+      "shape": "circle",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "2F4E678A38FFCD98",
@@ -297,8 +320,8 @@
       "description": [
         "Find Cast, Spell Selection and spell-slot bindings in your actual Controls menu, then test them against a safe target. This pack supports casting in Epic Fight stance, while Ashen's passive abilities keep their own keybinds and cooldowns."
       ],
-      "x": 14.0,
-      "y": 14.0,
+      "x": 8.0,
+      "y": 0.0,
       "tasks": [
         {
           "id": "7598665A6F0A2083",
@@ -320,7 +343,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:scroll"
+      "icon": "irons_spellbooks:scroll",
+      "shape": "circle",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "28A098890C8585BF",
@@ -328,8 +354,8 @@
       "description": [
         "Read a spell's cast type, mana cost, cast time and cooldown before committing to an attack. Practice an instant cast, a longer cast or channel, and any recast prompts your chosen spell provides; acknowledge this lesson after testing rather than treating the checkmark as automatic cast detection."
       ],
-      "x": 0.0,
-      "y": 21.0,
+      "x": 10.0,
+      "y": 0.0,
       "tasks": [
         {
           "id": "135B03E274FE847A",
@@ -351,7 +377,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:scroll"
+      "icon": "irons_spellbooks:scroll",
+      "shape": "circle",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "77B05289852320F8",
@@ -359,8 +388,8 @@
       "description": [
         "Use the Inscription Table to add a scroll, remove an unlocked spell and rearrange your book's ordinary slots. Intrinsic locked spells on unique equipment follow different rules, which the later unique-book lesson explains."
       ],
-      "x": 7.0,
-      "y": 21.0,
+      "x": 10.0,
+      "y": 3.0,
       "tasks": [
         {
           "id": "58375BBBB29F4BA8",
@@ -377,14 +406,16 @@
         }
       ],
       "dependencies": [
-        "4BDE7B3D26E7AF9D",
         "4534E624EDD42AEA",
         "79F5B0352DACA10B"
       ],
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:scroll"
+      "icon": "irons_spellbooks:scroll",
+      "shape": "circle",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "3FE6CAC54C85CA00",
@@ -392,8 +423,8 @@
       "description": [
         "Let your mana recover between casts and compare maximum mana, regeneration, cast time and cooldown as separate limits. Ashen keeps the mana bar visible even when full, so use it to plan a repeatable combat rhythm rather than relying only on burst damage."
       ],
-      "x": 14.0,
-      "y": 21.0,
+      "x": 12.0,
+      "y": 0.0,
       "tasks": [
         {
           "id": "131533A7DFC249F8",
@@ -415,7 +446,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:mana_ring"
+      "icon": "irons_spellbooks:mana_ring",
+      "shape": "circle",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "1CC00F8769EA2BD2",
@@ -424,7 +458,7 @@
         "Assemble the full Wandering Magician set: hood, robe, pants and shoes. Compare its mana benefits and physical protection with your previous gear, then keep a defensive spell or escape route ready while learning to fight in robes."
       ],
       "x": 0.0,
-      "y": 28.0,
+      "y": -3.0,
       "tasks": [
         {
           "id": "54B1CA61515C13FE",
@@ -478,7 +512,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:wandering_magician_chestplate"
+      "icon": "irons_spellbooks:wandering_magician_chestplate",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "2A17B195856FA837",
@@ -486,8 +523,8 @@
       "description": [
         "Find Common Ink and inspect a scroll's rarity alongside its numerical level. The five ink rarities control which spell levels you can forge or upgrade toward; a spellbook's material is not a separate rarity gate in this build."
       ],
-      "x": 7.0,
-      "y": 28.0,
+      "x": 6.0,
+      "y": 7.0,
       "tasks": [
         {
           "id": "5C3A8EB8B30FC487",
@@ -514,7 +551,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:common_ink"
+      "icon": "irons_spellbooks:common_ink",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "6CB9122BF591A7C4",
@@ -523,7 +563,7 @@
         "Equip an inscribed book, cast a useful spell and recover enough mana to cast again. This practical checkmark is your acknowledgement that the basic loop works; the optional staff and full robe set do not block the next workshop lesson."
       ],
       "x": 14.0,
-      "y": 28.0,
+      "y": 0.0,
       "tasks": [
         {
           "id": "5E6B31068E40C8F1",
@@ -547,7 +587,9 @@
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
       "icon": "irons_spellbooks:graybeard_staff",
-      "size": 1.4
+      "size": 1.3,
+      "shape": "gear",
+      "icon_scale": 1.0
     },
     {
       "id": "556531154F769E07",
@@ -581,8 +623,11 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "x": 0.0,
-      "y": 35.0
+      "x": -3.0,
+      "y": -3.0,
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "11180DABC0E23FFB",
@@ -590,7 +635,7 @@
       "description": [
         "Build a Scroll Forge once you have its Nether-era materials, using JEI for the installed recipe. Its paper, ink and school-focus inputs let you choose a specific available spell instead of relying entirely on random loot."
       ],
-      "x": 32.0,
+      "x": 16.0,
       "y": 0.0,
       "tasks": [
         {
@@ -619,7 +664,9 @@
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
       "icon": "irons_spellbooks:scroll_forge",
-      "size": 1.4
+      "size": 1.3,
+      "shape": "gear",
+      "icon_scale": 1.0
     },
     {
       "id": "1F1DC232CE947F75",
@@ -627,8 +674,8 @@
       "description": [
         "Build an Alchemist Cauldron to work with fluid ink, scroll recycling and elixirs. Check both the base fluid and catalyst in JEI, and keep bottles nearby to withdraw the finished product."
       ],
-      "x": 39.0,
-      "y": 0.0,
+      "x": 10.0,
+      "y": 7.0,
       "tasks": [
         {
           "id": "3446545880932560",
@@ -655,7 +702,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:alchemist_cauldron"
+      "icon": "irons_spellbooks:alchemist_cauldron",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "1F1B85FD327FF630",
@@ -663,8 +713,8 @@
       "description": [
         "Combine 1000 mB of Common Ink with a copper ingot to produce 250 mB of Uncommon Ink. The four-to-one fluid conversion makes a lower-tier ink reserve useful even after your first upgrades."
       ],
-      "x": 46.0,
-      "y": 0.0,
+      "x": 14.0,
+      "y": 7.0,
       "tasks": [
         {
           "id": "0F0A5BAEC40D1FEB",
@@ -691,7 +741,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:uncommon_ink"
+      "icon": "irons_spellbooks:uncommon_ink",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "57952A14C10A5474",
@@ -699,8 +752,8 @@
       "description": [
         "Combine 1000 mB of Uncommon Ink with an iron ingot to obtain 250 mB of Rare Ink. Keep the Common and Uncommon recipes available rather than treating Rare Ink as a completely separate loot-only resource."
       ],
-      "x": 32.0,
-      "y": 7.0,
+      "x": 18.0,
+      "y": 0.0,
       "tasks": [
         {
           "id": "7F916CA4B425B356",
@@ -728,7 +781,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:rare_ink"
+      "icon": "irons_spellbooks:rare_ink",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "64629BDF08A3903C",
@@ -736,8 +792,8 @@
       "description": [
         "At the Scroll Forge, choose a spell using paper, appropriate ink and a valid school focus, then take the resulting scroll. Inscribe and test that spell before acknowledging this practice lesson; simply carrying a looted scroll does not prove you used the forge."
       ],
-      "x": 39.0,
-      "y": 7.0,
+      "x": 20.0,
+      "y": 0.0,
       "tasks": [
         {
           "id": "7F21BA23ABC14583",
@@ -754,13 +810,15 @@
         }
       ],
       "dependencies": [
-        "11180DABC0E23FFB",
         "57952A14C10A5474"
       ],
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:scroll"
+      "icon": "irons_spellbooks:scroll",
+      "shape": "circle",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "6E4D814DAC21AEF4",
@@ -768,8 +826,8 @@
       "description": [
         "Choose a school to explore through one of the eight independent focus branches. These branches are alternatives and references, not a requirement to collect every focus, and choosing one never permanently locks you out of another school."
       ],
-      "x": 46.0,
-      "y": 7.0,
+      "x": 16.0,
+      "y": -6.0,
       "tasks": [
         {
           "id": "0CB37AF2F84A0A99",
@@ -791,7 +849,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:blank_rune"
+      "icon": "irons_spellbooks:blank_rune",
+      "shape": "circle",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "78DA39729338B8F7",
@@ -799,8 +860,8 @@
       "description": [
         "Bring an emerald as the Evocation focus for the Scroll Forge. Begin with a reliable projectile or summon, then compare its mana cost and targeting with the basic spell you already use."
       ],
-      "x": 32.0,
-      "y": 14.0,
+      "x": 10.0,
+      "y": -8.0,
       "tasks": [
         {
           "id": "1418F4E31750CEA9",
@@ -827,7 +888,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "minecraft:emerald"
+      "icon": "minecraft:emerald",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "1C77D78966795BF2",
@@ -835,8 +899,8 @@
       "description": [
         "Bring a blaze rod as the Fire focus and forge a spell that fits your available ink. Fire-resistant enemies call for another damage school, so retain a backup rather than investing every slot in the same element."
       ],
-      "x": 39.0,
-      "y": 14.0,
+      "x": 12.0,
+      "y": -10.0,
       "tasks": [
         {
           "id": "30B3AAFB68134CBF",
@@ -863,7 +927,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "minecraft:blaze_rod"
+      "icon": "minecraft:blaze_rod",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "7F6209A297C756A3",
@@ -871,8 +938,8 @@
       "description": [
         "Recover a Frozen Bone from a stray and use it as the Ice focus. Test an Ice spell's control effects alongside its damage, especially when a safer casting window matters more than one large hit."
       ],
-      "x": 46.0,
-      "y": 14.0,
+      "x": 14.0,
+      "y": -11.0,
       "tasks": [
         {
           "id": "7366F7607D10DCA9",
@@ -899,7 +966,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:frozen_bone"
+      "icon": "irons_spellbooks:frozen_bone",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "6134522CADC358C0",
@@ -907,8 +977,8 @@
       "description": [
         "Bottle a charged creeper's lightning to obtain Bottle o' Lightning, the actual Lightning focus in this version. A vanilla lightning rod is not the forge ingredient; plan the collection safely before approaching a charged creeper."
       ],
-      "x": 32.0,
-      "y": 21.0,
+      "x": 16.0,
+      "y": -11.5,
       "tasks": [
         {
           "id": "75D73CA4BA9E241C",
@@ -935,7 +1005,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:lightning_bottle"
+      "icon": "irons_spellbooks:lightning_bottle",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "1057862EF46DA271",
@@ -943,8 +1016,8 @@
       "description": [
         "Craft or recover a Divine Pearl and inspect Holy spells at the Scroll Forge. Compare a supportive or healing option with an offensive spell so your loadout gains a new role rather than only another attack."
       ],
-      "x": 39.0,
-      "y": 21.0,
+      "x": 18.0,
+      "y": -11.0,
       "tasks": [
         {
           "id": "7F344151C460846B",
@@ -971,7 +1044,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:divine_pearl"
+      "icon": "irons_spellbooks:divine_pearl",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "1F10EE7E444A9D29",
@@ -979,8 +1055,8 @@
       "description": [
         "Obtain a Blood Vial through the heated-cauldron or Alchemist Cauldron blood system and use it as the Blood focus. Read projectile counts, targeting and recovery effects carefully before deciding how a Blood spell fits your rotation."
       ],
-      "x": 46.0,
-      "y": 21.0,
+      "x": 20.0,
+      "y": -10.0,
       "tasks": [
         {
           "id": "334D6DF4672BBD62",
@@ -1007,7 +1083,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:blood_vial"
+      "icon": "irons_spellbooks:blood_vial",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "7F0791D342126FE0",
@@ -1015,8 +1094,8 @@
       "description": [
         "Reserve an ender pearl as the Ender focus and inspect the school's movement, utility and damage options. Iron's Teleport spell and Ashen's passive Blink are separate abilities, so improving one does not change the other's range or cooldown."
       ],
-      "x": 32.0,
-      "y": 28.0,
+      "x": 22.0,
+      "y": -8.0,
       "tasks": [
         {
           "id": "3912BB2F6014D681",
@@ -1043,7 +1122,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "minecraft:ender_pearl"
+      "icon": "minecraft:ender_pearl",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "55B2800C20768E96",
@@ -1051,8 +1133,8 @@
       "description": [
         "Keep a poisonous potato from farming or exploration as the Nature focus. Test poison, roots or defensive magic while remembering that Iron's spell effects and Ashen Rogue's custom poison stacks are separate systems."
       ],
-      "x": 39.0,
-      "y": 28.0,
+      "x": 22.0,
+      "y": -6.0,
       "tasks": [
         {
           "id": "336A95E02D08DB80",
@@ -1079,7 +1161,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "minecraft:poisonous_potato"
+      "icon": "minecraft:poisonous_potato",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "23820CB3E3C3D0DA",
@@ -1087,8 +1172,8 @@
       "description": [
         "Place a deliberately expendable scroll into the cauldron's recycling process and recover any resulting ink. This server's recovery chance is 50 percent, so use duplicates rather than risking your only useful spell."
       ],
-      "x": 46.0,
-      "y": 28.0,
+      "x": 10.0,
+      "y": 5.0,
       "tasks": [
         {
           "id": "1321F35EFD4FC710",
@@ -1111,7 +1196,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:scroll"
+      "icon": "irons_spellbooks:scroll",
+      "shape": "circle",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "3FDADB7549C630DF",
@@ -1119,8 +1207,8 @@
       "description": [
         "Craft the Apprentice's Spell Book using its gold, essence and Hogskin recipe. Hogskin comes from hoglins, so prepare a safe Nether trip and use the added capacity for distinct combat roles."
       ],
-      "x": 32.0,
-      "y": 35.0,
+      "x": 20.0,
+      "y": -2.0,
       "tasks": [
         {
           "id": "43BEDA470679B646",
@@ -1148,7 +1236,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:gold_spell_book"
+      "icon": "irons_spellbooks:gold_spell_book",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "4164F7E7E2CF01E8",
@@ -1182,8 +1273,11 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "x": 39.0,
-      "y": 35.0
+      "x": 14.0,
+      "y": 3.0,
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "17B02B9DBE223098",
@@ -1210,15 +1304,16 @@
         }
       ],
       "dependencies": [
-        "57952A14C10A5474",
         "64629BDF08A3903C"
       ],
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "x": 64.0,
+      "x": 22.0,
       "y": 0.0,
-      "size": 1.4
+      "size": 1.3,
+      "shape": "gear",
+      "icon_scale": 1.0
     },
     {
       "id": "1B62B6FCC306701B",
@@ -1226,8 +1321,8 @@
       "description": [
         "Weave 4 Arcane Cloth from the installed essence-and-wool recipe. Its registered name is magic_cloth, and it supplies wizard armor, better books and later equipment rather than a material called Ancient Cloth."
       ],
-      "x": 71.0,
-      "y": 0.0,
+      "x": 22.0,
+      "y": -4.0,
       "tasks": [
         {
           "id": "2603EF895EF6B9E7",
@@ -1254,7 +1349,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:magic_cloth"
+      "icon": "irons_spellbooks:magic_cloth",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "4E3DC5B88F153D94",
@@ -1262,8 +1360,8 @@
       "description": [
         "Recover a Blank Runestone from magical enemies or structure treasure, then inspect its school and utility rune recipes. A rune is an equipment ingredient, while a focus chooses the school at the Scroll Forge; they do not substitute for each other."
       ],
-      "x": 78.0,
-      "y": 0.0,
+      "x": 24.0,
+      "y": -4.0,
       "tasks": [
         {
           "id": "510162439FB126A3",
@@ -1285,13 +1383,15 @@
         }
       ],
       "dependencies": [
-        "17B02B9DBE223098",
         "1B62B6FCC306701B"
       ],
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:blank_rune"
+      "icon": "irons_spellbooks:blank_rune",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "11657A342CBEC882",
@@ -1299,8 +1399,8 @@
       "description": [
         "Craft a Wizard armor base and convert a suitable piece into a school set such as Pyromancer, Cryomancer or Electromancer using its matching rune recipe. Equip and compare at least one piece, then acknowledge this choice lesson; you do not need eight complete armor sets."
       ],
-      "x": 64.0,
-      "y": 7.0,
+      "x": 26.0,
+      "y": -4.0,
       "tasks": [
         {
           "id": "7837161B7DCD9D03",
@@ -1322,7 +1422,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:cryomancer_chestplate"
+      "icon": "irons_spellbooks:cryomancer_chestplate",
+      "shape": "circle",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "01326AD1BBDEBAD3",
@@ -1330,8 +1433,8 @@
       "description": [
         "Build the Arcane Anvil, your workstation for scroll levels, compatible imbuements and equipment upgrades. Keep it beside the Inscription Table so spells can move between scroll form and an equipped book without confusion."
       ],
-      "x": 71.0,
-      "y": 7.0,
+      "x": 24.0,
+      "y": 0.0,
       "tasks": [
         {
           "id": "17CC849C9DE055AE",
@@ -1358,7 +1461,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:arcane_anvil"
+      "icon": "irons_spellbooks:arcane_anvil",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "0EFBC5B205BC9EBB",
@@ -1366,8 +1472,8 @@
       "description": [
         "Place a scroll in the Arcane Anvil's left slot and ink matching the rarity of its next level on the right. Take the upgraded scroll, repeat only while a valid result exists, and inscribe it back into your book; this version does not use two identical ordinary scrolls for that operation."
       ],
-      "x": 78.0,
-      "y": 7.0,
+      "x": 26.0,
+      "y": 0.0,
       "tasks": [
         {
           "id": "438E1235002E1FC0",
@@ -1384,13 +1490,15 @@
         }
       ],
       "dependencies": [
-        "01326AD1BBDEBAD3",
-        "57952A14C10A5474"
+        "01326AD1BBDEBAD3"
       ],
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:scroll"
+      "icon": "irons_spellbooks:scroll",
+      "shape": "circle",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "276A5E6397B4FB90",
@@ -1398,8 +1506,8 @@
       "description": [
         "Craft the Enchanted Spell Book with diamonds, Arcane Cloth, Hogskin and an enchanted book. Move your ordinary spells into it, then use the extra capacity for defense, recovery and utility as well as damage."
       ],
-      "x": 64.0,
-      "y": 14.0,
+      "x": 24.0,
+      "y": -2.0,
       "tasks": [
         {
           "id": "7FB2395C319D6212",
@@ -1427,7 +1535,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:diamond_spell_book"
+      "icon": "irons_spellbooks:diamond_spell_book",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "1175678F96BF15BE",
@@ -1435,8 +1546,8 @@
       "description": [
         "Craft a Lesser Spell Slot Improvement and combine it with a spellbook at the Arcane Anvil. It adds a slot only below the improvement's stated capacity limit, so inspect the result instead of assuming it expands every book indefinitely."
       ],
-      "x": 71.0,
-      "y": 14.0,
+      "x": 26.0,
+      "y": -2.0,
       "tasks": [
         {
           "id": "3653D327D02C416E",
@@ -1464,7 +1575,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:lesser_spell_slot_upgrade"
+      "icon": "irons_spellbooks:lesser_spell_slot_upgrade",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "3E810453CB4438CE",
@@ -1472,8 +1586,8 @@
       "description": [
         "Equip a Ring of Mana, Recovery or Expediency in the appropriate Curios slot and compare its effect on your rotation. These address maximum mana, cooldown and cast time respectively; inventory ownership alone does not apply the equipped bonus."
       ],
-      "x": 78.0,
-      "y": 14.0,
+      "x": 26.0,
+      "y": 8.0,
       "tasks": [
         {
           "id": "79686E8ADE023DAB",
@@ -1495,7 +1609,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:mana_ring"
+      "icon": "irons_spellbooks:mana_ring",
+      "shape": "circle",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "50DDA01681427F58",
@@ -1503,8 +1620,8 @@
       "description": [
         "Combine compatible equipment and a spell scroll at the Arcane Anvil, checking the resulting imbued spell before taking the item. This build supports eligible weapons and some other equipment, and the server still requires mana for imbued-weapon casting; acknowledge the lesson after equipping and testing your result."
       ],
-      "x": 64.0,
-      "y": 21.0,
+      "x": 28.0,
+      "y": 0.0,
       "tasks": [
         {
           "id": "678FF34D0D1F8167",
@@ -1521,13 +1638,15 @@
         }
       ],
       "dependencies": [
-        "01326AD1BBDEBAD3",
         "0EFBC5B205BC9EBB"
       ],
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:amethyst_rapier"
+      "icon": "irons_spellbooks:amethyst_rapier",
+      "shape": "circle",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "54D4B43F8F693A5F",
@@ -1535,8 +1654,8 @@
       "description": [
         "Craft a Shriving Stone and use the Arcane Anvil to preview removing an imbuement or equipment upgrade. Test replaceable equipment first, and use the Inscription Table instead when you only want to remove an ordinary unlocked spell from a book."
       ],
-      "x": 71.0,
-      "y": 21.0,
+      "x": 28.0,
+      "y": 3.0,
       "tasks": [
         {
           "id": "6FB25EA9C4C85E5B",
@@ -1563,7 +1682,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:shriving_stone"
+      "icon": "irons_spellbooks:shriving_stone",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "137A8DA128C0C9B2",
@@ -1571,8 +1693,8 @@
       "description": [
         "Use the Alchemist Cauldron to brew a defensive elixir such as Oakskin, Evasion or Invisibility from the exact base fluid and catalyst shown in JEI. Read the duration and effect before a dangerous trip, and keep an emergency potion where you can actually reach it."
       ],
-      "x": 78.0,
-      "y": 21.0,
+      "x": 18.0,
+      "y": 3.0,
       "tasks": [
         {
           "id": "32C354226FF249AE",
@@ -1589,13 +1711,15 @@
         }
       ],
       "dependencies": [
-        "1F1DC232CE947F75",
         "57952A14C10A5474"
       ],
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:oakskin_elixir"
+      "icon": "irons_spellbooks:oakskin_elixir",
+      "shape": "circle",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "6BDA0A827E12C9B2",
@@ -1603,8 +1727,8 @@
       "description": [
         "Enter a magical structure with a deliberately forged and leveled spell, an equipped book and a defensive response. Compare sustained damage, mana recovery and casting windows before acknowledging that the workshop now supports your own chosen build."
       ],
-      "x": 64.0,
-      "y": 28.0,
+      "x": 30.0,
+      "y": 0.0,
       "tasks": [
         {
           "id": "72DDAA30596CE8F0",
@@ -1621,7 +1745,6 @@
         }
       ],
       "dependencies": [
-        "0EFBC5B205BC9EBB",
         "276A5E6397B4FB90",
         "11657A342CBEC882",
         "50DDA01681427F58"
@@ -1630,7 +1753,9 @@
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
       "icon": "irons_spellbooks:diamond_spell_book",
-      "size": 1.4
+      "size": 1.3,
+      "shape": "gear",
+      "icon_scale": 1.0
     },
     {
       "id": "42B27B2A00A41717",
@@ -1638,7 +1763,7 @@
       "description": [
         "Convert 1000 mB of Rare Ink and a gold ingot into 250 mB of Epic Ink. Compare upgrading a trusted spell with forging a new one before spending your reserve."
       ],
-      "x": 96.0,
+      "x": 32.0,
       "y": 0.0,
       "tasks": [
         {
@@ -1661,13 +1786,15 @@
         }
       ],
       "dependencies": [
-        "6BDA0A827E12C9B2",
-        "57952A14C10A5474"
+        "6BDA0A827E12C9B2"
       ],
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:epic_ink"
+      "icon": "irons_spellbooks:epic_ink",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "1BC56DB6AA526AC4",
@@ -1675,7 +1802,7 @@
       "description": [
         "Convert 1000 mB of Epic Ink and an amethyst shard into 250 mB of Legendary Ink. Legendary is a rarity bracket rather than a promise of maximum numerical level, so inspect the next-level requirement at the anvil."
       ],
-      "x": 103.0,
+      "x": 34.0,
       "y": 0.0,
       "tasks": [
         {
@@ -1704,7 +1831,9 @@
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
       "icon": "irons_spellbooks:legendary_ink",
-      "size": 1.4
+      "size": 1.0,
+      "shape": "square",
+      "icon_scale": 1.0
     },
     {
       "id": "472C671EE8558F68",
@@ -1712,8 +1841,8 @@
       "description": [
         "Mine Mithril Ore in deep Overworld terrain and collect Raw Mithril, then blast it into Mithril Scrap. This installed version generates Mithril Ore from Y -63 to -38; Arcane Debris and Arcane Salvage still have legacy processing recipes but are not the current generated ore route."
       ],
-      "x": 110.0,
-      "y": 0.0,
+      "x": 32.0,
+      "y": 10.0,
       "tasks": [
         {
           "id": "5A9CE18E61E10938",
@@ -1740,7 +1869,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:arcane_salvage"
+      "icon": "irons_spellbooks:arcane_salvage",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "06346422D1C5C0F6",
@@ -1748,8 +1880,8 @@
       "description": [
         "Obtain Mithril Scrap and inspect its advanced crafting uses before converting your whole reserve. Four scraps make a Mithril Ingot, while an Affinity Ring uses a scrap directly."
       ],
-      "x": 96.0,
-      "y": 7.0,
+      "x": 40.0,
+      "y": 8.0,
       "tasks": [
         {
           "id": "53D9AABA359BA1AB",
@@ -1776,7 +1908,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:mithril_scrap"
+      "icon": "irons_spellbooks:mithril_scrap",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "36430C7F13679B38",
@@ -1784,8 +1919,8 @@
       "description": [
         "Investigate Armor Piles in an Ancient Battleground and defeat an Ancient Knight for Cinder Essence. Bring suitable mining equipment and a defensive plan, because the pile is part of an encounter rather than an ordinary decorative block."
       ],
-      "x": 103.0,
-      "y": 7.0,
+      "x": 36.0,
+      "y": 8.0,
       "tasks": [
         {
           "id": "173430F617B0C5AC",
@@ -1812,7 +1947,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:cinder_essence"
+      "icon": "irons_spellbooks:cinder_essence",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "6CCBFA3E9D05FABE",
@@ -1820,8 +1958,8 @@
       "description": [
         "Craft the Ancient Codex, registered as netherite_spell_book, with netherite, a Ruined Book, Arcane Cloth, Blood Vials and Bottle o' Lightning. Ruined Books belong to the Ancient City exploration route, so plan a Deep Dark expedition rather than assuming every magical fort supplies them."
       ],
-      "x": 110.0,
-      "y": 7.0,
+      "x": 36.0,
+      "y": 0.0,
       "tasks": [
         {
           "id": "24D109AB44133BC6",
@@ -1843,13 +1981,15 @@
         }
       ],
       "dependencies": [
-        "1BC56DB6AA526AC4",
-        "276A5E6397B4FB90"
+        "1BC56DB6AA526AC4"
       ],
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:netherite_spell_book"
+      "icon": "irons_spellbooks:netherite_spell_book",
+      "shape": "gear",
+      "size": 1.3,
+      "icon_scale": 1.0
     },
     {
       "id": "55C7D3B3D9B0A4D3",
@@ -1857,8 +1997,8 @@
       "description": [
         "Compare a unique book such as the Necronomicon, Frostbranded Book or Dragonskin Spell Book and inspect its intrinsic locked spell. At the Arcane Anvil, a higher-level scroll of that same spell can improve the locked spell, while ordinary removable slots still use the Inscription Table."
       ],
-      "x": 96.0,
-      "y": 14.0,
+      "x": 38.0,
+      "y": -2.0,
       "tasks": [
         {
           "id": "7FF2317787F1CEC7",
@@ -1880,7 +2020,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:scroll"
+      "icon": "irons_spellbooks:scroll",
+      "shape": "circle",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "18C2FD6828DE2B93",
@@ -1888,8 +2031,8 @@
       "description": [
         "Work toward a Pyrium Staff using the installed Pyrium, netherite and Arcane Cloth recipe. Compare its attributes with your first staff and retain an alternate damage school for encounters that resist your specialty."
       ],
-      "x": 103.0,
-      "y": 14.0,
+      "x": 34.0,
+      "y": 8.0,
       "tasks": [
         {
           "id": "560C7B1AF11C6902",
@@ -1911,13 +2054,15 @@
         }
       ],
       "dependencies": [
-        "36430C7F13679B38",
-        "1B62B6FCC306701B"
+        "36430C7F13679B38"
       ],
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:pyrium_staff"
+      "icon": "irons_spellbooks:pyrium_staff",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "20E5EE481DD4508C",
@@ -1925,8 +2070,8 @@
       "description": [
         "Obtain a Netherite Battlemage chestplate through the matching wizard-base Smithing Table recipe with a netherite upgrade template and ingot. Compare its protection, imbuement eligibility and available upgrade slots with your specialized robe rather than treating a material name as an automatic best-in-slot choice."
       ],
-      "x": 110.0,
-      "y": 14.0,
+      "x": 38.0,
+      "y": 2.0,
       "tasks": [
         {
           "id": "043B16FCB0821A1D",
@@ -1948,13 +2093,15 @@
         }
       ],
       "dependencies": [
-        "6CCBFA3E9D05FABE",
-        "01326AD1BBDEBAD3"
+        "6CCBFA3E9D05FABE"
       ],
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:netherite_mage_chestplate"
+      "icon": "irons_spellbooks:netherite_mage_chestplate",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "6DBD539051827C12",
@@ -1962,8 +2109,8 @@
       "description": [
         "Craft an Affinity Ring from a bucket and Mithril Scrap, then attune it at the Arcane Anvil with a scroll of one chosen spell. Equip the result in Curios and compare that spell's effective level; this is a focused benefit rather than universal spell power."
       ],
-      "x": 96.0,
-      "y": 21.0,
+      "x": 34.0,
+      "y": 12.0,
       "tasks": [
         {
           "id": "722E5147A97F0C62",
@@ -1991,7 +2138,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:affinity_ring"
+      "icon": "irons_spellbooks:affinity_ring",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "282E59B3C869C973",
@@ -1999,8 +2149,8 @@
       "description": [
         "Recover 8 Ancient Knowledge Fragments and reserve an echo shard for Eldritch research. Research is personal spell progression, separate from owning a high-rarity scroll or equipping stronger armor."
       ],
-      "x": 103.0,
-      "y": 21.0,
+      "x": 32.0,
+      "y": -6.0,
       "tasks": [
         {
           "id": "2E18DE298FF599AA",
@@ -2027,7 +2177,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:ancient_knowledge_fragment"
+      "icon": "irons_spellbooks:ancient_knowledge_fragment",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "6A79D7AFDE04C090",
@@ -2035,8 +2188,8 @@
       "description": [
         "Craft an Eldritch Manuscript with eight Ancient Knowledge Fragments surrounding an echo shard. Use it to open the research screen, where available nodes and their prerequisites show what you can learn next."
       ],
-      "x": 110.0,
-      "y": 21.0,
+      "x": 34.0,
+      "y": -6.0,
       "tasks": [
         {
           "id": "38E8BD30A15E6C04",
@@ -2063,7 +2216,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:eldritch_manuscript"
+      "icon": "irons_spellbooks:eldritch_manuscript",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "2B25C46EA232EE69",
@@ -2071,8 +2227,8 @@
       "description": [
         "Open the manuscript screen and use Hold to Learn on an available Eldritch spell node after checking its prerequisites. Learning consumes a manuscript for the selected research action; owning the item or briefly clicking a node does not teach every spell."
       ],
-      "x": 96.0,
-      "y": 28.0,
+      "x": 36.0,
+      "y": -6.0,
       "tasks": [
         {
           "id": "0F4FB7E6BAC62BC6",
@@ -2094,7 +2250,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:eldritch_manuscript"
+      "icon": "irons_spellbooks:eldritch_manuscript",
+      "shape": "circle",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "751240EDAA441161",
@@ -2102,8 +2261,8 @@
       "description": [
         "Return to the Scroll Forge with paper, suitable ink and an echo shard as the Eldritch focus, then create a spell you have actually researched. Inscribe and test it safely before acknowledging the lesson, paying attention to its targeting and any recast sequence."
       ],
-      "x": 103.0,
-      "y": 28.0,
+      "x": 38.0,
+      "y": -6.0,
       "tasks": [
         {
           "id": "39CCA6EF1CE75971",
@@ -2121,13 +2280,15 @@
       ],
       "dependencies": [
         "2B25C46EA232EE69",
-        "1BC56DB6AA526AC4",
-        "64629BDF08A3903C"
+        "1BC56DB6AA526AC4"
       ],
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:scroll"
+      "icon": "irons_spellbooks:scroll",
+      "shape": "circle",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "3D7F97F24EE80923",
@@ -2135,8 +2296,8 @@
       "description": [
         "Build a practical loadout around travel, Recall, Portal, Summon Ender Chest or another useful spell rather than only boss damage. Test its targeting, anchors and dimension restrictions with a conventional way home, and inspect the Portal Frame recipe if your chosen spell uses that system."
       ],
-      "x": 110.0,
-      "y": 28.0,
+      "x": 30.0,
+      "y": -9.0,
       "tasks": [
         {
           "id": "49AC1EC1C83B04B8",
@@ -2159,7 +2320,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:portal_frame"
+      "icon": "irons_spellbooks:portal_frame",
+      "shape": "circle",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "790D6A98C9339AD3",
@@ -2167,7 +2331,7 @@
       "description": [
         "Craft a Wayward Compass and follow its search toward the Catacombs, then enter the structure with your prepared loadout. This is the pre-boss locator; the Bone Key belongs to the reward-vault route after the Dead King's defeat."
       ],
-      "x": 128.0,
+      "x": 38.0,
       "y": 0.0,
       "tasks": [
         {
@@ -2196,15 +2360,15 @@
         }
       ],
       "dependencies": [
-        "6CCBFA3E9D05FABE",
-        "1BC56DB6AA526AC4",
-        "50DDA01681427F58"
+        "6CCBFA3E9D05FABE"
       ],
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
       "icon": "irons_spellbooks:wayward_compass",
-      "size": 1.4
+      "size": 1.3,
+      "shape": "gear",
+      "icon_scale": 1.0
     },
     {
       "id": "7F8C600594FF7A1F",
@@ -2212,7 +2376,7 @@
       "description": [
         "Challenge the Dead King in the Catacombs and save mana for defense, movement and safe attack windows. Defeat the actual boss to complete the kill task, then collect its personal drops and Bone Key before leaving."
       ],
-      "x": 135.0,
+      "x": 40.0,
       "y": 0.0,
       "tasks": [
         {
@@ -2237,7 +2401,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:necronomicon_spell_book"
+      "icon": "irons_spellbooks:necronomicon_spell_book",
+      "shape": "gear",
+      "size": 1.3,
+      "icon_scale": 1.0
     },
     {
       "id": "177A8D08857F26A7",
@@ -2245,8 +2412,8 @@
       "description": [
         "Recover a Bone Key from the Dead King route and locate the matching Bone Vault in the Catacombs. Spend the key through the vault's normal interaction to claim its loot; the quest itself only checks ownership and never consumes it."
       ],
-      "x": 142.0,
-      "y": 0.0,
+      "x": 40.0,
+      "y": -3.0,
       "tasks": [
         {
           "id": "3A60393DFDDF046D",
@@ -2268,7 +2435,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:bone_key"
+      "icon": "irons_spellbooks:bone_key",
+      "shape": "circle",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "3AE756E3946CA519",
@@ -2276,8 +2446,8 @@
       "description": [
         "Inspect a Boss Phylactery and its current instructions after conquering the original encounter. Use its repeat-encounter mechanics only when you are ready for another fight, keeping this farming route optional rather than requiring repeated boss kills to finish the chapter."
       ],
-      "x": 128.0,
-      "y": 7.0,
+      "x": 42.0,
+      "y": -3.0,
       "tasks": [
         {
           "id": "16022267BCB7C50B",
@@ -2304,7 +2474,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:dead_king_phylactery"
+      "icon": "irons_spellbooks:dead_king_phylactery",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "5497361D678F7E1A",
@@ -2312,8 +2485,8 @@
       "description": [
         "Craft an Empty Upgrade Orb from 4 Arcane Ingots, 4 Cinder Essence and 1 Mithril Ingot, then inspect its school and stat upgrade recipes. These ingredients are not exclusive Dead King drops, so this capstone lesson follows the boss for quest pacing without adding a boss lock to the actual recipe."
       ],
-      "x": 135.0,
-      "y": 7.0,
+      "x": 40.0,
+      "y": 4.0,
       "tasks": [
         {
           "id": "4D5556A7DB595C1A",
@@ -2342,7 +2515,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:upgrade_orb"
+      "icon": "irons_spellbooks:upgrade_orb",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "5C2988D69C73124B",
@@ -2350,8 +2526,8 @@
       "description": [
         "Convert an empty orb into a chosen school-power, mana, recovery or protection orb and apply it to compatible equipment at the Arcane Anvil. This server allows 3 total orb applications per eligible item across all upgrade types, so inspect each output and acknowledge the lesson after applying your choice."
       ],
-      "x": 142.0,
-      "y": 7.0,
+      "x": 42.0,
+      "y": 4.0,
       "tasks": [
         {
           "id": "60312D1FBF835E7A",
@@ -2373,7 +2549,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:mana_upgrade_orb"
+      "icon": "irons_spellbooks:mana_upgrade_orb",
+      "shape": "circle",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "2D2C90FC91128D3B",
@@ -2381,8 +2560,8 @@
       "description": [
         "Search the Nether for the Lost Citadel and prepare for its defenders before attempting the ritual. This structure belongs to Iron's Spells, while Ashen's Cataclysm boss progression remains a separate system."
       ],
-      "x": 128.0,
-      "y": 14.0,
+      "x": 34.0,
+      "y": 4.0,
       "tasks": [
         {
           "id": "066C8505C7CE3C39",
@@ -2405,7 +2584,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "minecraft:nether_bricks"
+      "icon": "minecraft:nether_bricks",
+      "shape": "circle",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "1AAD21527CC70AC3",
@@ -2413,8 +2595,8 @@
       "description": [
         "Craft a Cinderous Soulcaller and seek the Lost Citadel's Cinderous Soul ritual site. This is a separate Nether boss route, and completing it is optional for finishing the Dead King path."
       ],
-      "x": 135.0,
-      "y": 14.0,
+      "x": 36.0,
+      "y": 4.0,
       "tasks": [
         {
           "id": "5F66AFB16EBAA3D6",
@@ -2442,7 +2624,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:cinderous_soulcaller"
+      "icon": "irons_spellbooks:cinderous_soulcaller",
+      "shape": "square",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "56BFAE8ABB158609",
@@ -2450,8 +2635,8 @@
       "description": [
         "Complete the Lost Citadel ritual and defeat the Echo of Tyros, whose registered entity ID is fire_boss. Learn its attack tells and use an effective alternate damage type instead of assuming your Fire specialization will solve every encounter."
       ],
-      "x": 142.0,
-      "y": 14.0,
+      "x": 38.0,
+      "y": 4.0,
       "tasks": [
         {
           "id": "7F4B35F7F13B2D06",
@@ -2475,7 +2660,10 @@
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "icon": "irons_spellbooks:cinderous_soulcaller"
+      "icon": "irons_spellbooks:cinderous_soulcaller",
+      "shape": "circle",
+      "size": 1.0,
+      "icon_scale": 1.0
     },
     {
       "id": "28A4A5EAE27042C8",
@@ -2483,8 +2671,8 @@
       "description": [
         "Finish with an equipped loadout that combines sustained damage, defense, recovery and practical movement, then compare its rotation on the training dummy. The Dead King and equipment-upgrade path complete this chapter's main lesson; Eldritch research and the Echo of Tyros remain optional challenges to explore afterward."
       ],
-      "x": 128.0,
-      "y": 21.0,
+      "x": 44.0,
+      "y": 4.0,
       "tasks": [
         {
           "id": "554B733A8A88939B",
@@ -2501,14 +2689,15 @@
         }
       ],
       "dependencies": [
-        "7F8C600594FF7A1F",
         "5C2988D69C73124B"
       ],
       "optional": true,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
       "icon": "irons_spellbooks:netherite_spell_book",
-      "size": 1.4
+      "size": 1.3,
+      "shape": "gear",
+      "icon_scale": 1.0
     }
   ]
 }
