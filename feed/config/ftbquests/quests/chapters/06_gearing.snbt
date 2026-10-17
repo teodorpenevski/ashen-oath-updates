@@ -5,7 +5,7 @@
   "title": "Gearing · Apotheosis",
   "icon": "apotheosis:reforging_table",
   "order_index": 0,
-  "default_quest_shape": "square",
+  "default_quest_shape": "circle",
   "default_quest_size": 1.0,
   "progression_mode": "flexible",
   "consume_items": false,
@@ -36,7 +36,10 @@
       "dependencies": [],
       "optional": true,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": false
+      "hide_until_deps_visible": false,
+      "shape": "gear",
+      "size": 1.3,
+      "icon": "minecraft:book"
     },
     {
       "id": "51714387A8D0440F",
@@ -44,7 +47,7 @@
       "description": [
         "Break unwanted affix gear down into its rarity material. Do not salvage equipped or irreplaceable gear."
       ],
-      "x": 2.0,
+      "x": 2.5,
       "y": 0.0,
       "tasks": [
         {
@@ -70,7 +73,9 @@
       ],
       "optional": true,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": false
+      "hide_until_deps_visible": false,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "69A555357EE701CE",
@@ -78,7 +83,7 @@
       "description": [
         "Use JEI for materials and recipes. Reforging consumes rarity materials, gem dust and XP."
       ],
-      "x": 4.0,
+      "x": 5.0,
       "y": 0.0,
       "tasks": [
         {
@@ -104,7 +109,9 @@
       ],
       "optional": true,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": false
+      "hide_until_deps_visible": false,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "4BF9F82F2C11A322",
@@ -112,7 +119,7 @@
       "description": [
         "Improve gems here. Use the mod's displayed socketing procedure to attach gems to equipment with empty sockets."
       ],
-      "x": 6.0,
+      "x": 7.5,
       "y": 0.0,
       "tasks": [
         {
@@ -138,7 +145,9 @@
       ],
       "optional": true,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": false
+      "hide_until_deps_visible": false,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "62F9DD3B1AFEE464",
@@ -146,7 +155,7 @@
       "description": [
         "Use higher-rarity material when your build and story progress justify it."
       ],
-      "x": 8.0,
+      "x": 10.0,
       "y": 0.0,
       "tasks": [
         {
@@ -172,7 +181,9 @@
       ],
       "optional": true,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": false
+      "hide_until_deps_visible": false,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "462BCD9ED058D09D",
@@ -180,8 +191,8 @@
       "description": [
         "Use useful enchantments to support a build. Apotheosis's in-game Chronicle documents shelf statistics and special enchanting mechanics."
       ],
-      "x": 10.0,
-      "y": 0.0,
+      "x": 0.0,
+      "y": 4.0,
       "tasks": [
         {
           "type": "item",
@@ -202,7 +213,522 @@
         }
       ],
       "dependencies": [
+        "6A8ECA2951C8172F"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "shape": "square",
+      "size": 1.0
+    },
+    {
+      "id": "7E8B1DCC3D4C72D6",
+      "title": "Read the Affixes",
+      "description": [
+        "Compare a colored affix item with ordinary equipment and read every modifier. Rarity, sockets, base damage and enchantments are separate systems; acknowledge this lesson after comparing two real items."
+      ],
+      "x": 0.0,
+      "y": -3.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "1CB3F4FBA62A0FC8",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "575F10FF9257AFBF",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "6A8ECA2951C8172F"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "103C5515A161EEF8",
+      "title": "Dust from Spare Gems",
+      "description": [
+        "Inspect Gem Dust in JEI and reserve spare gems for its recipe. Keep your best compatible gem intact until you have compared the socket benefit against the dust cost."
+      ],
+      "x": 2.5,
+      "y": 2.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "apotheosis:gem_dust",
+      "tasks": [
+        {
+          "id": "67D25EBEB4C362F3",
+          "type": "item",
+          "item": "apotheosis:gem_dust",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "384CF052CB6302B8",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "51714387A8D0440F"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "077E90B0F794F5FA",
+      "title": "A Salvager’s Reserve",
+      "description": [
+        "Salvage an unwanted affix item to recover rarity materials. Check the preview before taking the output: salvaging destroys the equipment, although this inventory quest keeps the material it detects."
+      ],
+      "x": 2.5,
+      "y": -3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "apotheosis:common_material",
+      "tasks": [
+        {
+          "id": "1D4A9353B431D934",
+          "type": "item",
+          "item": "apotheosis:common_material",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "133E98AFF73F51D0",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "51714387A8D0440F"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "0396BCB5635341B0",
+      "title": "Better Rarity Materials",
+      "description": [
+        "Recover Rare rarity material from suitable unwanted equipment. Reforging consumes materials and experience, so keep one functional weapon while experimenting with a replacement."
+      ],
+      "x": 5.0,
+      "y": -3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "apotheosis:rare_material",
+      "tasks": [
+        {
+          "id": "4D7BEC191723C6F3",
+          "type": "item",
+          "item": "apotheosis:rare_material",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6BB242FF4594BED3",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "077E90B0F794F5FA"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "76C07C2AD3E6877B",
+      "title": "Put a Gem to Work",
+      "description": [
+        "Read the gem’s equipment category and match it to an available socket before using the supported socketing operation. Equip the result and compare its attributes; acknowledge this practical lesson after applying a compatible gem."
+      ],
+      "x": 7.5,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "6E905A78049DB3A2",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "213348F483C100D0",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "4BF9F82F2C11A322"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "4CD5C51AD82E5CAE",
+      "title": "Recover a Socketed Gem",
+      "description": [
+        "Inspect the Sigil of Withdrawal recipe and its tooltip before using it on valuable equipment. Recovery tools have different effects on the item and its gems, so verify the output instead of assuming every extraction is lossless."
+      ],
+      "x": 7.5,
+      "y": -3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "apotheosis:sigil_of_withdrawal",
+      "tasks": [
+        {
+          "id": "02085BAD2E76B75C",
+          "type": "item",
+          "item": "apotheosis:sigil_of_withdrawal",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "56AFC83C2851A6C6",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "4BF9F82F2C11A322"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "4EC280B9404228D4",
+      "title": "Room for Another Gem",
+      "description": [
+        "Obtain a Sigil of Socketing and read its permitted equipment and socket limit. Preview the operation on your chosen item before consuming the sigil."
+      ],
+      "x": 10.0,
+      "y": -3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "apotheosis:sigil_of_socketing",
+      "tasks": [
+        {
+          "id": "5928F19CA3312A59",
+          "type": "item",
+          "item": "apotheosis:sigil_of_socketing",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "21C962DC4FB53A25",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "4BF9F82F2C11A322"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "482175878937FCE2",
+      "title": "Polish an Affix",
+      "description": [
+        "Build the Augmenting Table after establishing a supply of rarity materials. Inspect the available affix changes and costs; this workstation refines eligible affixes rather than replacing your entire build indiscriminately."
+      ],
+      "x": 12.5,
+      "y": 0.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "apotheosis:augmenting_table",
+      "tasks": [
+        {
+          "id": "61C060A8FDC695C8",
+          "type": "item",
+          "item": "apotheosis:augmenting_table",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "652DC5E6017B53E1",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
         "62F9DD3B1AFEE464"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "52404355500F443B",
+      "title": "A Library of Enchantments",
+      "description": [
+        "Build the Enchantment Library and store spare enchanted books through its interface. Use its capacity and extraction rules to organize enchantments instead of filling ordinary chests with duplicate books."
+      ],
+      "x": 2.5,
+      "y": 4.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "apotheosis:library",
+      "tasks": [
+        {
+          "id": "30ED1BE27CE0B40B",
+          "type": "item",
+          "item": "apotheosis:library",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "160AA94CB513D23F",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "462BCD9ED058D09D"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "696D313B4EE23171",
+      "title": "Three Enchanting Attributes",
+      "description": [
+        "Inspect Eterna, Quanta and Arcana at your enchanting setup and change one shelf arrangement at a time. They affect different parts of the enchanting result; acknowledge this lesson after observing how a real shelf changes the displayed attributes."
+      ],
+      "x": 0.0,
+      "y": 7.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "0E50FA1E1B5E150A",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2DAA0C9876E14425",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "462BCD9ED058D09D"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "43F6A10F05BB0B9B",
+      "title": "Heat in the Bookshelves",
+      "description": [
+        "Craft a Hellshelf using the installed JEI recipe and compare it with an ordinary bookshelf. Place shelves within the table’s effective arrangement and leave the required space clear."
+      ],
+      "x": 2.5,
+      "y": 7.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "apotheosis:hellshelf",
+      "tasks": [
+        {
+          "id": "3FBF1B29EBCC1FCA",
+          "type": "item",
+          "item": "apotheosis:hellshelf",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7AF8B1E7D80A3751",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "696D313B4EE23171"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "36A47C8A492B120C",
+      "title": "Steady the Enchanting Result",
+      "description": [
+        "Craft a Rectifier and read its enchanting-stat contribution. Tune the setup toward the results you want instead of maximizing one number while ignoring the other attributes."
+      ],
+      "x": 2.5,
+      "y": 9.5,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "apotheosis:rectifier",
+      "tasks": [
+        {
+          "id": "5BA9C03809B62826",
+          "type": "item",
+          "item": "apotheosis:rectifier",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "009AA6FA4425B874",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "696D313B4EE23171"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "22788AFDF655A68F",
+      "title": "Transfer with Care",
+      "description": [
+        "Inspect a Scrap Tome and its enchantment extraction rules. Test expendable gear first and read the output carefully, because extraction and library storage solve different problems."
+      ],
+      "x": 5.0,
+      "y": 6.5,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "apotheosis:scrap_tome",
+      "tasks": [
+        {
+          "id": "7C4DDEAF7D99D9BE",
+          "type": "item",
+          "item": "apotheosis:scrap_tome",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "05EFC759B9CA143C",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "52404355500F443B"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "3887883EAE9EF91B",
+      "title": "An Equipped Build",
+      "description": [
+        "Equip an affix weapon, a compatible socketed gem and a deliberate enchantment combination. Compare damage and survivability on the same target, then acknowledge this review after deciding which upgrade gives your next meaningful improvement."
+      ],
+      "x": 15.0,
+      "y": 4.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "17A6093B9E5C929F",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7543D575AA149980",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "482175878937FCE2",
+        "52404355500F443B"
       ],
       "optional": true,
       "hide_until_deps_complete": false,

@@ -5,7 +5,7 @@
   "title": "Base · Chests and Furnaces",
   "icon": "ironfurnaces:diamond_furnace",
   "order_index": 4,
-  "default_quest_shape": "square",
+  "default_quest_shape": "circle",
   "default_quest_size": 1.0,
   "progression_mode": "flexible",
   "consume_items": false,
@@ -40,7 +40,9 @@
       "dependencies": [],
       "optional": true,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": false
+      "hide_until_deps_visible": false,
+      "shape": "gear",
+      "size": 1.3
     },
     {
       "id": "76EDDDE10961CF34",
@@ -48,7 +50,7 @@
       "description": [
         "Upgrade capacity when expeditions start filling your base."
       ],
-      "x": 2.0,
+      "x": 2.5,
       "y": 0.0,
       "tasks": [
         {
@@ -74,7 +76,9 @@
       ],
       "optional": true,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": false
+      "hide_until_deps_visible": false,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "061078B17A1CB108",
@@ -82,7 +86,7 @@
       "description": [
         "Diamond storage is a practical long-term target. Netherite is optional."
       ],
-      "x": 4.0,
+      "x": 5.0,
       "y": 0.0,
       "tasks": [
         {
@@ -108,7 +112,9 @@
       ],
       "optional": true,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": false
+      "hide_until_deps_visible": false,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "47262A0D868A44D8",
@@ -116,7 +122,7 @@
       "description": [
         "Iron Furnaces provides a direct smelting progression alongside your optional Thermal workshop."
       ],
-      "x": 6.0,
+      "x": 10.0,
       "y": 0.0,
       "tasks": [
         {
@@ -137,12 +143,12 @@
           "team_reward": false
         }
       ],
-      "dependencies": [
-        "061078B17A1CB108"
-      ],
+      "dependencies": [],
       "optional": true,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": false
+      "hide_until_deps_visible": false,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "5AA0C88D0D306D59",
@@ -150,7 +156,7 @@
       "description": [
         "Upgrade through the recipes shown in JEI; intermediate tiers remain available."
       ],
-      "x": 8.0,
+      "x": 12.5,
       "y": 0.0,
       "tasks": [
         {
@@ -176,7 +182,9 @@
       ],
       "optional": true,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": false
+      "hide_until_deps_visible": false,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "585680ABBBBA99FF",
@@ -184,7 +192,7 @@
       "description": [
         "Use this as the final optional smelting upgrade. It is never a story gate."
       ],
-      "x": 10.0,
+      "x": 15.0,
       "y": 0.0,
       "tasks": [
         {
@@ -207,6 +215,640 @@
       ],
       "dependencies": [
         "5AA0C88D0D306D59"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "shape": "square",
+      "size": 1.0
+    },
+    {
+      "id": "2C27CA049C5543C0",
+      "title": "A Workbench That Remembers",
+      "description": [
+        "Craft the Crafting Station and leave a small recipe in its grid, then close and reopen it. Its persistent grid makes staged crafting easier, while this item task only checks that you own the station."
+      ],
+      "x": 0.0,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "craftingstation:crafting_station",
+      "tasks": [
+        {
+          "id": "4736FF80E79A9856",
+          "type": "item",
+          "item": "craftingstation:crafting_station",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "41BF75C6542FF025",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "7E1D07214B4D1031",
+      "title": "A Modest Storage Upgrade",
+      "description": [
+        "Inspect the Copper Chest recipe as an optional early storage step. Compare its capacity with ordinary storage and choose a tier that suits your current materials."
+      ],
+      "x": 0.0,
+      "y": -3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "sophisticatedstorage:copper_chest",
+      "tasks": [
+        {
+          "id": "3959C97AB5523140",
+          "type": "item",
+          "item": "sophisticatedstorage:copper_chest",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7C46F2B479B39630",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "79F48C8797C043C3",
+      "title": "One Face for Many Chests",
+      "description": [
+        "Build a Storage Controller and inspect its connection and range rules. Link a small group of compatible storage blocks before trying to turn a whole room into one inventory."
+      ],
+      "x": 5.0,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "sophisticatedstorage:controller",
+      "tasks": [
+        {
+          "id": "1F88853262045C06",
+          "type": "item",
+          "item": "sophisticatedstorage:controller",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "00AEC91A66A34B26",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "76EDDDE10961CF34"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "515093F524DBA7F9",
+      "title": "Link, Lock and Organize",
+      "description": [
+        "Craft the Storage Tool and read its current mode before clicking a chest. Linking, locking and display controls are distinct operations; change one setting at a time and verify the result."
+      ],
+      "x": 7.5,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "sophisticatedstorage:storage_tool",
+      "tasks": [
+        {
+          "id": "329E524E36E74CAB",
+          "type": "item",
+          "item": "sophisticatedstorage:storage_tool",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7734CF37B983FFBF",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "79F48C8797C043C3"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "309DB4F991541C4C",
+      "title": "Move a Packed Container",
+      "description": [
+        "Obtain Packing Tape and read the instructions for moving a sophisticated storage block with its contents. Test a cheap container first and check that the packed item retains its data before transporting valuables."
+      ],
+      "x": 2.5,
+      "y": -3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "sophisticatedstorage:packing_tape",
+      "tasks": [
+        {
+          "id": "70E10067536EE11E",
+          "type": "item",
+          "item": "sophisticatedstorage:packing_tape",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3A4B04C5464A5C38",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "7F1636339F55DCD6"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "43A86A516CF8178E",
+      "title": "Storage for the Long Campaign",
+      "description": [
+        "Upgrade toward a Netherite Chest using the installed recipe and preserve its existing contents through the supported upgrade method. High capacity does not replace a useful item layout or a backup of the world."
+      ],
+      "x": 7.5,
+      "y": -3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "sophisticatedstorage:netherite_chest",
+      "tasks": [
+        {
+          "id": "215BB850954A1E17",
+          "type": "item",
+          "item": "sophisticatedstorage:netherite_chest",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "481343F1D079C6D8",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "061078B17A1CB108"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "4E3C0A71DFE69275",
+      "title": "A Chest That Handles Its Inputs",
+      "description": [
+        "Craft a Hopper Upgrade and configure its direction and filter. Start with a small item transfer and ensure that automatic insertion cannot fill a chest with unwanted materials."
+      ],
+      "x": 7.5,
+      "y": 5.5,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "sophisticatedstorage:hopper_upgrade",
+      "tasks": [
+        {
+          "id": "7BDF7182367E33B9",
+          "type": "item",
+          "item": "sophisticatedstorage:hopper_upgrade",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4DE2574B06A93F9D",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "79F48C8797C043C3"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "682C2313035D279C",
+      "title": "More per Storage Slot",
+      "description": [
+        "Craft a Stack Upgrade and insert it into eligible sophisticated storage. Read its multiplier and upgrade-slot requirements instead of assuming that every storage block gains the same capacity."
+      ],
+      "x": 5.0,
+      "y": -3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "sophisticatedstorage:stack_upgrade_tier_1",
+      "tasks": [
+        {
+          "id": "38E40C845C222333",
+          "type": "item",
+          "item": "sophisticatedstorage:stack_upgrade_tier_1",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "07B9FDEE4A9241AB",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "76EDDDE10961CF34"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "36401374ED839818",
+      "title": "The Gold Furnace Step",
+      "description": [
+        "Inspect the Gold Furnace as an intermediate smelting upgrade. Compare speed and material cost with your Iron Furnace before moving to the more expensive tiers."
+      ],
+      "x": 12.5,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "ironfurnaces:gold_furnace",
+      "tasks": [
+        {
+          "id": "314AB7C6553C50FB",
+          "type": "item",
+          "item": "ironfurnaces:gold_furnace",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0EFB6C0011AAC03F",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "47262A0D868A44D8"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "05EAFE1B18D00556",
+      "title": "Another Furnace Route",
+      "description": [
+        "Inspect the Emerald Furnace and its installed upgrade route in JEI. It is an optional capacity and speed choice, not an extra requirement for completing the story."
+      ],
+      "x": 15.0,
+      "y": -3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "ironfurnaces:emerald_furnace",
+      "tasks": [
+        {
+          "id": "0911A31B39973AE6",
+          "type": "item",
+          "item": "ironfurnaces:emerald_furnace",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "774924E3442BBE10",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "5AA0C88D0D306D59"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "149465AA99D0EE37",
+      "title": "Heat Behind Dark Stone",
+      "description": [
+        "Build an Obsidian Furnace if its recipe suits your resources. Check its supported upgrades and behavior before replacing your established smelting setup."
+      ],
+      "x": 15.0,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "ironfurnaces:obsidian_furnace",
+      "tasks": [
+        {
+          "id": "2AFF54BD0FA82529",
+          "type": "item",
+          "item": "ironfurnaces:obsidian_furnace",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0410BF4737A44101",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "5AA0C88D0D306D59"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "7E695D1E96C7775E",
+      "title": "Tune the Fuel Budget",
+      "description": [
+        "Craft a Fuel Efficiency Augment and read its furnace compatibility. Compare fuel consumed for the same small batch before deciding whether efficiency or throughput matters more."
+      ],
+      "x": 10.0,
+      "y": -3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "ironfurnaces:augment_fuel",
+      "tasks": [
+        {
+          "id": "35874D7A95FF1E39",
+          "type": "item",
+          "item": "ironfurnaces:augment_fuel",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4294797598AD3FD4",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "47262A0D868A44D8"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "1275036CF2A93857",
+      "title": "Tune the Smelting Speed",
+      "description": [
+        "Craft a Speed Augment and inspect its listed tradeoff. Increase throughput only after checking that fuel and automatic item handling can sustain the new rate."
+      ],
+      "x": 17.5,
+      "y": -3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "ironfurnaces:augment_speed",
+      "tasks": [
+        {
+          "id": "5778F209C6FA50DA",
+          "type": "item",
+          "item": "ironfurnaces:augment_speed",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6074D2C37A888A21",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "5AA0C88D0D306D59"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "685C31ED2795882B",
+      "title": "A Dedicated Food Furnace",
+      "description": [
+        "Inspect the Smoking Augment for compatible furnaces. A specialized cooking station keeps food production separate from metal processing and makes blocked recipes easier to diagnose."
+      ],
+      "x": 10.0,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "ironfurnaces:augment_smoking",
+      "tasks": [
+        {
+          "id": "6EC567FFB78FB7BE",
+          "type": "item",
+          "item": "ironfurnaces:augment_smoking",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "40B544CD566295A4",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "47262A0D868A44D8"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "4F666620ECAC57F6",
+      "title": "Build with a Preview",
+      "description": [
+        "Find Effortless Building in your actual Controls menu and preview a small line, wall or repeated shape. Test placement limits and resource use on a cheap block before applying it to a finished build."
+      ],
+      "x": 0.0,
+      "y": 6.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "41EC30803B5BCD00",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "638675F49972213E",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "2C27CA049C5543C0"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "372341BBC0D91B70",
+      "title": "Protect Your Shared Home",
+      "description": [
+        "Use Open Parties and Claims through Xaero’s map to inspect party membership, claims and available force-load allowance. Acknowledge this lesson after testing permissions with your teammate; a claim protects an area but does not automatically grant every visitor access."
+      ],
+      "x": 2.5,
+      "y": 6.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "32CBDCB86AFC00D7",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "03615B744C85E3F9",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "2C27CA049C5543C0"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "404E5524AD5C984E",
+      "title": "A Welcoming Entrance",
+      "description": [
+        "Place two matching adjacent doors and test the installed Double Doors behavior. Keep the doorway clear and confirm that both doors open and close together before decorating the entrance."
+      ],
+      "x": -2.5,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "minecraft:oak_door",
+      "tasks": [
+        {
+          "id": "42D724F6C8DD0734",
+          "type": "item",
+          "item": "minecraft:oak_door",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "33BE2F6637BFAE84",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "2C27CA049C5543C0"
       ],
       "optional": true,
       "hide_until_deps_complete": false,

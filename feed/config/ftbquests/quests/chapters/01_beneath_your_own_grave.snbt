@@ -5,7 +5,7 @@
   "title": "1 · Beneath Your Own Grave",
   "icon": "minecraft:iron_sword",
   "order_index": 0,
-  "default_quest_shape": "square",
+  "default_quest_shape": "circle",
   "default_quest_size": 1.0,
   "progression_mode": "linear",
   "consume_items": false,
@@ -43,7 +43,10 @@
       ],
       "dependencies": [],
       "optional": false,
-      "progression_mode": "linear"
+      "progression_mode": "linear",
+      "shape": "gear",
+      "size": 1.25,
+      "icon": "minecraft:book"
     },
     {
       "id": "4033D140D1E20002",
@@ -75,9 +78,11 @@
         "2D3DEFD4AE2D2603"
       ],
       "optional": false,
-      "x": 2.0,
+      "x": 2.3,
       "y": 0.0,
-      "progression_mode": "linear"
+      "progression_mode": "linear",
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "2D523D61AE906EA2",
@@ -85,7 +90,7 @@
       "description": [
         "Craft and carry a white bed and a crafting table to establish a safe refuge. Both items are detected automatically and remain in your inventory."
       ],
-      "x": 4.0,
+      "x": 4.6,
       "y": 0.0,
       "tasks": [
         {
@@ -117,7 +122,9 @@
         "4033D140D1E20002"
       ],
       "optional": false,
-      "progression_mode": "linear"
+      "progression_mode": "linear",
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "24B3E7DD13436761",
@@ -149,9 +156,11 @@
         "2D523D61AE906EA2"
       ],
       "optional": false,
-      "x": 6.0,
+      "x": 6.8999999999999995,
       "y": 0.0,
-      "progression_mode": "linear"
+      "progression_mode": "linear",
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "2EEACB93E709296F",
@@ -183,9 +192,11 @@
         "24B3E7DD13436761"
       ],
       "optional": false,
-      "x": 8.0,
+      "x": 9.2,
       "y": 0.0,
-      "progression_mode": "linear"
+      "progression_mode": "linear",
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "305BEA2CC88EBE8D",
@@ -193,7 +204,7 @@
       "description": [
         "Obtain an iron sword and shield. These are enough to begin; armor is strongly recommended."
       ],
-      "x": 10.0,
+      "x": 11.5,
       "y": 0.0,
       "tasks": [
         {
@@ -225,7 +236,9 @@
         "2EEACB93E709296F"
       ],
       "optional": false,
-      "progression_mode": "linear"
+      "progression_mode": "linear",
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "2B9BC5306D298312",
@@ -233,7 +246,7 @@
       "description": [
         "Defeat five zombies. Learn your swing timing and leave room to retreat."
       ],
-      "x": 12.0,
+      "x": 13.799999999999999,
       "y": 0.0,
       "tasks": [
         {
@@ -256,7 +269,9 @@
         "305BEA2CC88EBE8D"
       ],
       "optional": false,
-      "progression_mode": "linear"
+      "progression_mode": "linear",
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "3B9E8A7AED921B95",
@@ -285,9 +300,11 @@
         "2B9BC5306D298312"
       ],
       "optional": false,
-      "x": 0.0,
-      "y": 3.0,
-      "progression_mode": "linear"
+      "x": 16.099999999999998,
+      "y": 0.0,
+      "progression_mode": "linear",
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "7F37037B84410175",
@@ -295,8 +312,8 @@
       "description": [
         "Build the Salvaging Table. Salvage unwanted affix gear; keep useful affixes even when the base material looks modest."
       ],
-      "x": 2.0,
-      "y": 3.0,
+      "x": 18.4,
+      "y": 0.0,
       "tasks": [
         {
           "type": "item",
@@ -319,7 +336,9 @@
         "3B9E8A7AED921B95"
       ],
       "optional": false,
-      "progression_mode": "linear"
+      "progression_mode": "linear",
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "7B5EAB4F71D67784",
@@ -351,9 +370,11 @@
         "7F37037B84410175"
       ],
       "optional": false,
-      "x": 4.0,
-      "y": 3.0,
-      "progression_mode": "linear"
+      "x": 20.7,
+      "y": 0.0,
+      "progression_mode": "linear",
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "44069B78F99C2129",
@@ -363,8 +384,8 @@
         "This is a custom husk champion, not a randomly generated Apotheosis elite. It has 50 health, armor and a sword. It cannot despawn.",
         "Only one can be summoned nearby at a time. The shard is reusable if you need to try again."
       ],
-      "x": 6.0,
-      "y": 3.0,
+      "x": 23.0,
+      "y": 0.0,
       "tasks": [
         {
           "id": "13F9D1360F15D211",
@@ -381,7 +402,9 @@
         "7B5EAB4F71D67784"
       ],
       "optional": false,
-      "progression_mode": "linear"
+      "progression_mode": "linear",
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "3D2E11776642B4CF",
@@ -390,8 +413,8 @@
         "Defeat The Oathless and carry its crest to recover Memory I. You were a Dawnwarden; someone erased your identity.",
         "This boss guarantees one Oathless Crest on a valid defeat. Pick it up, open this quest and keep the trophy in your inventory. The task completes automatically and the trophy is not consumed. It has no crafting recipe and the archive cannot produce it."
       ],
-      "x": 8.0,
-      "y": 3.0,
+      "x": 25.299999999999997,
+      "y": 0.0,
       "tasks": [
         {
           "id": "7D15EF64ECEF6621",
@@ -428,7 +451,9 @@
         "44069B78F99C2129"
       ],
       "optional": false,
-      "progression_mode": "linear"
+      "progression_mode": "linear",
+      "shape": "gear",
+      "size": 1.25
     },
     {
       "id": "43A1234FCF25952F",
@@ -456,23 +481,15 @@
         }
       ],
       "dependencies": [
-        "2D3DEFD4AE2D2603",
-        "4033D140D1E20002",
-        "2D523D61AE906EA2",
-        "24B3E7DD13436761",
-        "2EEACB93E709296F",
-        "305BEA2CC88EBE8D",
-        "2B9BC5306D298312",
-        "3B9E8A7AED921B95",
-        "7F37037B84410175",
-        "7B5EAB4F71D67784",
-        "44069B78F99C2129",
         "3D2E11776642B4CF"
       ],
       "optional": false,
       "progression_mode": "linear",
-      "x": 14.0,
-      "y": 3.0
+      "x": 27.599999999999998,
+      "y": 0.0,
+      "shape": "gear",
+      "size": 1.25,
+      "icon": "minecraft:book"
     },
     {
       "id": "65711CDF8470C259",
@@ -504,8 +521,10 @@
         "2D523D61AE906EA2"
       ],
       "optional": true,
-      "x": 0.0,
-      "y": -3.0
+      "x": 2.3,
+      "y": -3.0,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "4B2A69A72AB8AF42",
@@ -537,8 +556,10 @@
         "2D523D61AE906EA2"
       ],
       "optional": true,
-      "x": 3.0,
-      "y": -3.0
+      "x": 4.6,
+      "y": -3.0,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "4DFB142F60F2CAA2",
@@ -570,8 +591,10 @@
         "305BEA2CC88EBE8D"
       ],
       "optional": true,
-      "x": 6.0,
-      "y": -3.0
+      "x": 9.2,
+      "y": -3.0,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "364F9708F63A113A",
@@ -603,8 +626,10 @@
         "305BEA2CC88EBE8D"
       ],
       "optional": true,
-      "x": 0.0,
-      "y": -5.0
+      "x": 11.5,
+      "y": -3.0,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "133841F466073FB1",
@@ -636,8 +661,10 @@
         "2D523D61AE906EA2"
       ],
       "optional": true,
-      "x": 3.0,
-      "y": -5.0
+      "x": 6.8999999999999995,
+      "y": -3.0,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "4B0BDC80D34EE74F",
@@ -669,10 +696,263 @@
         "305BEA2CC88EBE8D"
       ],
       "optional": true,
-      "x": 6.0,
-      "y": -5.0
+      "x": 13.8,
+      "y": -3.0,
+      "shape": "square",
+      "size": 1.0
+    },
+    {
+      "id": "16C2F8CFA388A7EF",
+      "title": "Optional · Remember a Calling",
+      "description": [
+        "Choose a class in the join-time class screen and inspect its starter equipment. Your first class is a starting identity, not a permanent lock; use Memory of Renewal later if you want a different build."
+      ],
+      "x": -2.3,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "618FF654E146B3FA",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2089BB1F27A6512D",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "2D3DEFD4AE2D2603"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "00A4DCF34C9D51A0",
+      "title": "Optional · A Recovery Plan",
+      "description": [
+        "Set a return waypoint near your shelter and inspect how the Corpse mod preserves fallen equipment. Acknowledge this lesson after planning a recovery route, before testing it with your most valuable items."
+      ],
+      "x": 2.3,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "22C51C34F78AAACA",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6A8E13EC6FA01568",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "2D523D61AE906EA2"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "369095BE39F89A4A",
+      "title": "Optional · Supplies before Steel",
+      "description": [
+        "Reserve a stack of useful food before leaving the first refuge. AppleSkin previews hunger and saturation from held food, so compare a meal’s recovery with the empty space in your hunger bar."
+      ],
+      "x": 4.6,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "minecraft:bread",
+      "tasks": [
+        {
+          "id": "3B3292016540D803",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 16,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3E1BCBFA5E14F688",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "2D523D61AE906EA2"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "3EA1F8D2AD17910E",
+      "title": "Optional · Mark the Safe Route",
+      "description": [
+        "Make torches for caves, shelter entrances and a visible route home. Lighting and navigation make early combat safer without asking you to defeat a stronger enemy first."
+      ],
+      "x": 6.9,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "minecraft:torch",
+      "tasks": [
+        {
+          "id": "42521E4EB4BB56F5",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 32,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6731721D2B64FA46",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "24B3E7DD13436761"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "2C5F85B2F6BD885B",
+      "title": "Optional · Leave the Recipe Ready",
+      "description": [
+        "Build a Crafting Station so an unfinished recipe remains in place when you leave its interface. Keep the simple crafting table for familiar recipes and use the persistent station when gathering ingredients in stages."
+      ],
+      "x": 9.2,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "craftingstation:crafting_station",
+      "tasks": [
+        {
+          "id": "063A5674FC1DDE68",
+          "type": "item",
+          "item": "craftingstation:crafting_station",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "044FF2B68047CD47",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "2EEACB93E709296F"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "5C770C161C49AD4F",
+      "title": "Optional · Test before the Trial",
+      "description": [
+        "Build a Target Dummy and test the weapon, defensive skill and active ability you intend to bring to the Oathless. Compare a short controlled rotation rather than spending every resource on a single opening attack."
+      ],
+      "x": 20.7,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "dummmmmmy:target_dummy",
+      "tasks": [
+        {
+          "id": "073E9DEC763D4C9B",
+          "type": "item",
+          "item": "dummmmmmy:target_dummy",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0B74E227DFBD8B06",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "7B5EAB4F71D67784"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "6CC15974DE650C34",
+      "title": "Optional · Read the Oath Shard",
+      "description": [
+        "Use the Oath Shard in a clear area when you are ready to face the named trial. The Memory Archive can recover story memories, but it never creates the Oathless trophy or substitutes for defeating the enemy."
+      ],
+      "x": 23.0,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "2DEC36240A263530",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "66EDA0FC5CBC5FE4",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "44069B78F99C2129"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
     }
   ],
-  "hide_quest_until_deps_visible": true,
+  "hide_quest_until_deps_visible": false,
   "hide_quest_details_until_startable": true
 }

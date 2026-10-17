@@ -25,27 +25,27 @@ hash = "201da035fdfcedaf9f7b8d9a84f170f0fc6a48567a3de9a020a317b444b99eb2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/01_beneath_your_own_grave.snbt"
-hash = "3607c415e933b910c8b44a64d79340bc88e373457bcf9340cde1f0ac35edffff"
+hash = "10d8ed3c55f4d4a57e0485dcde84e0b50a71633642efec62ee1dc6b4aec1c9fe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/02_embers_of_a_changed_world.snbt"
-hash = "3b34398b4a9eac20058fbe9887b8d1c44ad92abe6cddfa845f70e0a86b860d0f"
+hash = "bd9fb33e8ba89ca8c1ffcf56a9dee4b1f657d7270b96d07e3da12a4f38754bd9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/03_the_machines_remember.snbt"
-hash = "bc7cddef1f9e6dca072592f440954ebc43d9b88e9e5f7c1147271bb8d6e5b15c"
+hash = "e1f06496ce5a92f1ec16708df612c728bafcd4f0934b94e93bb19b716bd88b18"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/04_beyond_the_broken_sky.snbt"
-hash = "2cc2d10784cd3624f515fe8f5189e817fe9f68e5fabc18caac0dc4c574e0a43b"
+hash = "373a864cc23002fb45e1edfb0408f6305e16b3ff3402ce0c954f642d93f9ced1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/05_the_last_oath.snbt"
-hash = "40a8d4c5466b5e962119524271da64deb099940a83b7c5d4751a4e6bf91e723c"
+hash = "d43cd1c4504955d6862cffe66bc51764715879a586445137a5a700060f9b14af"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/06_gearing.snbt"
-hash = "380c0d9d9989b7b435f6760a39c33a3220875f5a6ea6cac07097cf33a8afd338"
+hash = "cf7e6f1fc9b651505cd13a3f7446a0269a41fb054a0d91ca3084d563f1291504"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/07_magic.snbt"
@@ -53,27 +53,31 @@ hash = "1bf189bad0ddd4e65783d155c9cdc798aa58aa077eacd0a6b2d99147f338fa65"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_workshop.snbt"
-hash = "3f314982f73d1342bbdfa3def023e21159d61b152b4ba680807dc368435a2b11"
+hash = "96131cf0488ad92a47fcfaa629329b8c727e4806c00105798eff54309c284d40"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/09_storage.snbt"
-hash = "8e9e386c62c4c469c7f874133561b0f57206398f2adbc61aee7a073fc1269b7f"
+hash = "c9d43b0659710e478724d1b09aee253f3a64bc5512ba21bc30322dc2765802e8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/10_base_upgrades.snbt"
-hash = "76bbd409e784195643d479dfcd9025b282b2a26c79dee8359e27853727f07c9d"
+hash = "44bd8200a9949b33fdacd44310b591d837d109e6287fa63908936cfed18fd385"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/11_backpacks.snbt"
-hash = "3802d51a71953e4a5bc2cc0f4aa2ae3a51e0d32791ea904414fbb2d546ee586c"
+hash = "d6ec466e08278048f6405285b2a7e51a12f0dd6e0ba053b1a54c2298421c7706"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/12_field_milestones.snbt"
-hash = "d7d8f1ac1e227ccb33b803df4bbf5e44f3f267227c17143060b146d6e3fcfd7f"
+hash = "268e0c59233a8efb47140f0f229ba53326e0ee834f75d19fc44903a7237aa109"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/13_combat_and_classes.snbt"
-hash = "073e7196254a133ab7b39f021b732466aa7d725f0d680940c92d651a6af1de8d"
+hash = "4f9d9e68f1816f20703dc1978edcce799c82963f4fffab053a1cb253f8375bb8"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/14_bosses.snbt"
+hash = "f14704fcc391b549d99d333f060f7c1cbaeec45331fe95ffc435c46cd93c59fb"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -196,6 +200,30 @@ file = "kubejs/assets/ashen/textures/icons/skill_tree/warrior.png"
 hash = "f91d69d9f4b8b30c1fe6418c12923f61b48c5d2935b6437c7db4084e23ba26b1"
 
 [[files]]
+file = "kubejs/assets/ashen/textures/quests/boss_panel_0.png"
+hash = "a2444461132600cf280c9528d200fd7640ab5cf75dcd874313bd96f977296c4b"
+
+[[files]]
+file = "kubejs/assets/ashen/textures/quests/boss_panel_1.png"
+hash = "5b00a6202ac9c9767ec178372b11a363a54dfea33528cbf52c60f006072e1451"
+
+[[files]]
+file = "kubejs/assets/ashen/textures/quests/boss_panel_2.png"
+hash = "0b8681b5537967cc2bb34db4353346efbc8c543c2768a6840beb6fbfef247c1a"
+
+[[files]]
+file = "kubejs/assets/ashen/textures/quests/boss_panel_3.png"
+hash = "8098ee1d3177a40617cb631cf8358ec0deb7bd35ee6052ec4024584bff705684"
+
+[[files]]
+file = "kubejs/assets/ashen/textures/quests/boss_panel_4.png"
+hash = "879eec7e1843266e5a31071d93db290f03f659465baf928402257e7631a0854d"
+
+[[files]]
+file = "kubejs/assets/ashen/textures/quests/boss_panel_5.png"
+hash = "cad8452ed798140ed4904ccbd93aeae5e2f3bc2c9e35695d89e7f95bb99d1b2b"
+
+[[files]]
 file = "kubejs/assets/ashen_skill_bridge/textures/mob_effect/rogue_venom.png"
 hash = "9645e52d3ba82d4aea34eb57e6852a0c1d54478b3ef2c28e9670408f55c268e4"
 
@@ -218,6 +246,34 @@ hash = "13418145f2d96b5369cf588d47c869de19eb4523046dda19899d5646c4cfd41f"
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
 hash = "016038891f2a568474b059567c25b8538619e7d33be640adb17f3a514cb3e77a"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/trophy_dragon.json"
+hash = "73a2cee0e4ba510109a7a6adef1aac3cfb303bdfc385fcc3719ad9f9cc89cdb0"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/trophy_guardian.json"
+hash = "42c85e88c273153264dce32e72ccc3a4f9b8b43299cbdf512d581f4c28d4744c"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/trophy_harbinger.json"
+hash = "8691ea46a73021ab29683c1cb852f2ac04a53efbfdafb3c1fe2ce0c96165721d"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/trophy_ignis.json"
+hash = "f44c6d90c045c452a96a2052e8e274a748f119f7c4e557ef95adfb1b72a5f215"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/trophy_monstrosity.json"
+hash = "b00e3686f4ffbbc601d94573bb3717fde23c79fba2a0ca4ae87c9c75d031e2a2"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/trophy_oathless.json"
+hash = "92dd679e4e746cea9be90c77c320f937aa8b6f08106eb4ccec76af11b605faa5"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/trophy_wither.json"
+hash = "de9d907d358f30b5c1347e9554845587bef228290679a552a0fed061b3067b89"
 
 [[files]]
 file = "kubejs/assets/minecraft/models/crossbow.json"
@@ -2532,6 +2588,10 @@ file = "kubejs/server_scripts/ashen_ascendancy.js"
 hash = "c579f27a23736ad4568ffb99b32c60a13137eb100138c93f78df3960ec48bb56"
 
 [[files]]
+file = "kubejs/server_scripts/ashen_boss_challenges.js"
+hash = "e805681f00de96987bd751406da76848ce4544d56231aab60315159a216ebbc1"
+
+[[files]]
 file = "kubejs/server_scripts/ashen_core_spells.js"
 hash = "7264b5012afbc22b9c87d5dfb6103c141c76f6a90dc1b85f5317f441bc7e96d6"
 
@@ -2573,7 +2633,7 @@ hash = "5726cb3725d7330c5ff7e88cfb4c7415f2e446dc3e8d343c6df6c0cb1ea8af48"
 
 [[files]]
 file = "kubejs/startup_scripts/ashen_items.js"
-hash = "9ecc8202bb83429c0215b94f05c2fcbcbcfacb6c605ea28468d68bce07f1d2a0"
+hash = "a1dc1ab691f93225bdd53e07c7207ffd9ca234dc8f6d0864a839444706508d97"
 
 [[files]]
 file = "kubejs/startup_scripts/ashen_subclass_controls.js"

@@ -1,0 +1,4440 @@
+{
+  "id": "2D3E67B1DCB18A9C",
+  "filename": "14_bosses",
+  "title": "Bosses · The Hunting Ledger",
+  "icon": "minecraft:dragon_head",
+  "group": "225FE9BE4793200B",
+  "order_index": 9,
+  "progression_mode": "flexible",
+  "default_quest_shape": "circle",
+  "default_quest_size": 1.0,
+  "consume_items": false,
+  "hide_quest_until_deps_complete": false,
+  "hide_quest_until_deps_visible": false,
+  "quests": [
+    {
+      "id": "7B9B8EB1D400229C",
+      "title": "The Hunting Ledger",
+      "description": [
+        "Choose any available encounter and read its preparation notes before fighting. First victories and veteran targets are one-time rewards; the five-kill contracts become repeatable after you claim their item rewards, and story seals still apply."
+      ],
+      "x": -3.0,
+      "y": -3.5,
+      "size": 1.3,
+      "shape": "gear",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "29112ABD95C74312",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0B41834DD594498C",
+          "type": "xp",
+          "xp": 75,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "3C1EC3247EF677FF",
+      "title": "The Oathless",
+      "description": [
+        "Right-click an Oath Shard in a clear area to call the tagged Oathless trial. Ordinary husks never count; the archive recovers memories but cannot award a victory. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 0.0,
+      "y": 22.5,
+      "size": 1.25,
+      "shape": "gear",
+      "icon": "kubejs:trophy_oathless",
+      "tasks": [
+        {
+          "id": "347BE8E0721D9F2E",
+          "type": "custom"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5AA8465DA293DCFB",
+          "type": "xp",
+          "xp": 150,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "31DF81F954640A7F",
+      "title": "Veteran · The Oathless",
+      "description": [
+        "Right-click an Oath Shard in a clear area to call the tagged Oathless trial. Ordinary husks never count; the archive recovers memories but cannot award a victory. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 3.0,
+      "y": 22.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "kubejs:trophy_oathless",
+      "tasks": [
+        {
+          "id": "0686F569C3BE1D2E",
+          "type": "custom"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D0841BB76492976",
+          "type": "xp",
+          "xp": 300,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "5DFC7830FA31E0A0",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 8,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "3C1EC3247EF677FF"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "673C462CFFC08ECB",
+      "title": "Contract · The Oathless",
+      "description": [
+        "Right-click an Oath Shard in a clear area to call the tagged Oathless trial. Ordinary husks never count; the archive recovers memories but cannot award a victory. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 6.0,
+      "y": 22.5,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "kubejs:trophy_oathless",
+      "tasks": [
+        {
+          "id": "0139EF0FFE8AA699",
+          "type": "custom"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "75B1DC9551FDF9C6",
+          "type": "xp",
+          "xp": 450,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "221D34DFD64D1C65",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 8,
+          "team_reward": false
+        },
+        {
+          "id": "14526504E41E36EB",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "31DF81F954640A7F"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "5F07B22B40169C90",
+      "title": "The Wither",
+      "description": [
+        "Prepare three Wither Skeleton Skulls and four Soul Sand or Soul Soil for the vanilla summon. Ashen seals require Chapter 2 to be complete before this boss can take damage. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 24.0,
+      "y": 0.0,
+      "size": 1.25,
+      "shape": "gear",
+      "icon": "minecraft:wither_skeleton_skull",
+      "tasks": [
+        {
+          "id": "31EEC52DC7ED5012",
+          "type": "kill",
+          "entity": "minecraft:wither",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7316EF4AFF05F118",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "13FEB30BDC575522",
+      "title": "Veteran · The Wither",
+      "description": [
+        "Prepare three Wither Skeleton Skulls and four Soul Sand or Soul Soil for the vanilla summon. Ashen seals require Chapter 2 to be complete before this boss can take damage. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 27.0,
+      "y": 0.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:wither_skeleton_skull",
+      "tasks": [
+        {
+          "id": "5AA7A728BE7D5DA4",
+          "type": "kill",
+          "entity": "minecraft:wither",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "686C7D322F79DF2A",
+          "type": "xp",
+          "xp": 1500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "4CC100DFD38A6E72",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 8,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "5F07B22B40169C90"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "753510958DE8C786",
+      "title": "Contract · The Wither",
+      "description": [
+        "Prepare three Wither Skeleton Skulls and four Soul Sand or Soul Soil for the vanilla summon. Ashen seals require Chapter 2 to be complete before this boss can take damage. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 30.0,
+      "y": 0.0,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "minecraft:wither_skeleton_skull",
+      "tasks": [
+        {
+          "id": "72884B4155C26974",
+          "type": "kill",
+          "entity": "minecraft:wither",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D40B8D8E9B7BB1D",
+          "type": "xp",
+          "xp": 2250,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "75B2AC513B793094",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 8,
+          "team_reward": false
+        },
+        {
+          "id": "61454946C48866B9",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "13FEB30BDC575522"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "135F579D4C6A7BEF",
+      "title": "The Ender Dragon",
+      "description": [
+        "Prepare an End portal expedition and a safe plan for the void. Chapter 3 must be complete before damage is allowed; later victories use the vanilla four-End-Crystal respawn ritual. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 24.0,
+      "y": 2.5,
+      "size": 1.25,
+      "shape": "gear",
+      "icon": "minecraft:dragon_head",
+      "tasks": [
+        {
+          "id": "35BAFCCCEAF54257",
+          "type": "kill",
+          "entity": "minecraft:ender_dragon",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2CD6588FF4C35414",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "5B4A28121FBEE8A1",
+      "title": "Veteran · The Ender Dragon",
+      "description": [
+        "Prepare an End portal expedition and a safe plan for the void. Chapter 3 must be complete before damage is allowed; later victories use the vanilla four-End-Crystal respawn ritual. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 27.0,
+      "y": 2.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:dragon_head",
+      "tasks": [
+        {
+          "id": "7E0BFFB91801C4A8",
+          "type": "kill",
+          "entity": "minecraft:ender_dragon",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6305249E9DB357E9",
+          "type": "xp",
+          "xp": 1500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "727EDA53799F6DD2",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 8,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "135F579D4C6A7BEF"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "026EDEC6474ACF47",
+      "title": "Contract · The Ender Dragon",
+      "description": [
+        "Prepare an End portal expedition and a safe plan for the void. Chapter 3 must be complete before damage is allowed; later victories use the vanilla four-End-Crystal respawn ritual. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 30.0,
+      "y": 2.5,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "minecraft:dragon_head",
+      "tasks": [
+        {
+          "id": "7C03A4583CEC9F36",
+          "type": "kill",
+          "entity": "minecraft:ender_dragon",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4F4F054A47E5694B",
+          "type": "xp",
+          "xp": 2250,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "3A9684E94C7C8EE3",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 8,
+          "team_reward": false
+        },
+        {
+          "id": "4A2B8C63BD9868CF",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "5B4A28121FBEE8A1"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "41A1EA03FEEA0A92",
+      "title": "The Warden",
+      "description": [
+        "Seek a naturally generated Deep Dark shrieker encounter and prepare an escape route. This is an optional endurance hunt, not a requirement to loot an Ancient City or finish the story. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 24.0,
+      "y": 5.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:sculk_shrieker",
+      "tasks": [
+        {
+          "id": "6222E8403496143B",
+          "type": "kill",
+          "entity": "minecraft:warden",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "698A2CEA682C31D9",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "70593692200F0A97",
+      "title": "Veteran · The Warden",
+      "description": [
+        "Seek a naturally generated Deep Dark shrieker encounter and prepare an escape route. This is an optional endurance hunt, not a requirement to loot an Ancient City or finish the story. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 27.0,
+      "y": 5.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:sculk_shrieker",
+      "tasks": [
+        {
+          "id": "7C426190B3E0FE24",
+          "type": "kill",
+          "entity": "minecraft:warden",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6A88AA3C501534FF",
+          "type": "xp",
+          "xp": 500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "4184615B166F8D5D",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "41A1EA03FEEA0A92"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "46CFC4EBB6C7329C",
+      "title": "Contract · The Warden",
+      "description": [
+        "Seek a naturally generated Deep Dark shrieker encounter and prepare an escape route. This is an optional endurance hunt, not a requirement to loot an Ancient City or finish the story. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 30.0,
+      "y": 5.0,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "minecraft:sculk_shrieker",
+      "tasks": [
+        {
+          "id": "0EF0BB23D725EC4D",
+          "type": "kill",
+          "entity": "minecraft:warden",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7C91A83A22CE9DEF",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "3C137B496163CDCD",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        },
+        {
+          "id": "4045527AC57B5F47",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "70593692200F0A97"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "708483A9D498688A",
+      "title": "Elder Guardian",
+      "description": [
+        "Search an Ocean Monument with air, movement and a response to Mining Fatigue. This vanilla Elder Guardian is distinct from Cataclysm’s Ender Guardian. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 24.0,
+      "y": 7.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:prismarine_crystals",
+      "tasks": [
+        {
+          "id": "634E42A094E175CC",
+          "type": "kill",
+          "entity": "minecraft:elder_guardian",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "799E11D6BE740056",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "6642154DFB1A5F0D",
+      "title": "Veteran · Elder Guardian",
+      "description": [
+        "Search an Ocean Monument with air, movement and a response to Mining Fatigue. This vanilla Elder Guardian is distinct from Cataclysm’s Ender Guardian. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 27.0,
+      "y": 7.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:prismarine_crystals",
+      "tasks": [
+        {
+          "id": "32CAF467BC7E47AC",
+          "type": "kill",
+          "entity": "minecraft:elder_guardian",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "03666DECEAD1CD46",
+          "type": "xp",
+          "xp": 500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "6337DFC7A9A8BCA9",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "708483A9D498688A"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "501F135D4D463681",
+      "title": "Contract · Elder Guardian",
+      "description": [
+        "Search an Ocean Monument with air, movement and a response to Mining Fatigue. This vanilla Elder Guardian is distinct from Cataclysm’s Ender Guardian. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 30.0,
+      "y": 7.5,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "minecraft:prismarine_crystals",
+      "tasks": [
+        {
+          "id": "51ED87658FDF3340",
+          "type": "kill",
+          "entity": "minecraft:elder_guardian",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7BC3A1F059E8994F",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "6A94BA9D9D75B246",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        },
+        {
+          "id": "5CFD956A27503FE5",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "6642154DFB1A5F0D"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "3748E05C52D786A1",
+      "title": "Evoker",
+      "description": [
+        "Find an Evoker in a suitable structure or raid and prepare for its summoned pressure. Count only the actual Evoker kill, not its Vexes. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 24.0,
+      "y": 10.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:totem_of_undying",
+      "tasks": [
+        {
+          "id": "4F470658170F906E",
+          "type": "kill",
+          "entity": "minecraft:evoker",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7AD98296BC220258",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "1081318F47EB68F0",
+      "title": "Veteran · Evoker",
+      "description": [
+        "Find an Evoker in a suitable structure or raid and prepare for its summoned pressure. Count only the actual Evoker kill, not its Vexes. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 27.0,
+      "y": 10.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:totem_of_undying",
+      "tasks": [
+        {
+          "id": "675F1029D6B6F411",
+          "type": "kill",
+          "entity": "minecraft:evoker",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "20117DD786C8CF2C",
+          "type": "xp",
+          "xp": 500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "686D1701F2CCE115",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "3748E05C52D786A1"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "58AC40FCD63AA073",
+      "title": "Contract · Evoker",
+      "description": [
+        "Find an Evoker in a suitable structure or raid and prepare for its summoned pressure. Count only the actual Evoker kill, not its Vexes. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 30.0,
+      "y": 10.0,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "minecraft:totem_of_undying",
+      "tasks": [
+        {
+          "id": "2BE2E0E558E9EF69",
+          "type": "kill",
+          "entity": "minecraft:evoker",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "106B6B8658D72F39",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "253CE608160DC6D4",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        },
+        {
+          "id": "1571229BA1B737DB",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "1081318F47EB68F0"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "050868BF02936332",
+      "title": "Ravager",
+      "description": [
+        "Prepare a controlled raid encounter and leave room around the Ravager’s charge. Protect nearby villagers while choosing where to fight. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 24.0,
+      "y": 12.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:saddle",
+      "tasks": [
+        {
+          "id": "64264C43365A158C",
+          "type": "kill",
+          "entity": "minecraft:ravager",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "61A9D0B15DBA29AA",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "4027F55B505B50CC",
+      "title": "Veteran · Ravager",
+      "description": [
+        "Prepare a controlled raid encounter and leave room around the Ravager’s charge. Protect nearby villagers while choosing where to fight. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 27.0,
+      "y": 12.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:saddle",
+      "tasks": [
+        {
+          "id": "4F2F30009AFB1F90",
+          "type": "kill",
+          "entity": "minecraft:ravager",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "45A61071DBA66F7B",
+          "type": "xp",
+          "xp": 500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "4876A6051C8A50C9",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "050868BF02936332"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "5F44751B1B01341E",
+      "title": "Contract · Ravager",
+      "description": [
+        "Prepare a controlled raid encounter and leave room around the Ravager’s charge. Protect nearby villagers while choosing where to fight. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 30.0,
+      "y": 12.5,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "minecraft:saddle",
+      "tasks": [
+        {
+          "id": "5972CEF610F59487",
+          "type": "kill",
+          "entity": "minecraft:ravager",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "60A275BB5565185B",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "7B8A96BD17FF1638",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        },
+        {
+          "id": "4CE5758B7B919928",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "4027F55B505B50CC"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "364FDCA14FC6B123",
+      "title": "Ender Guardian",
+      "description": [
+        "Follow the Ruined Citadel route in the End and inspect the arena before committing. Ashen requires Chapter 3 complete and the Chapter 4 Dragon Soul Scale quest reward claimed before this boss can take damage. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "size": 1.25,
+      "shape": "gear",
+      "icon": "cataclysm:void_eye",
+      "tasks": [
+        {
+          "id": "6AF02D3EB75179FE",
+          "type": "kill",
+          "entity": "cataclysm:ender_guardian",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4C662F6FC70382D3",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "3F3679022FD50F19",
+      "title": "Veteran · Ender Guardian",
+      "description": [
+        "Follow the Ruined Citadel route in the End and inspect the arena before committing. Ashen requires Chapter 3 complete and the Chapter 4 Dragon Soul Scale quest reward claimed before this boss can take damage. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 3.0,
+      "y": 0.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "cataclysm:void_eye",
+      "tasks": [
+        {
+          "id": "6B3EF043139DCDBB",
+          "type": "kill",
+          "entity": "cataclysm:ender_guardian",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "636845289CCAF887",
+          "type": "xp",
+          "xp": 1500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "73A0591D845D9302",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 8,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "364FDCA14FC6B123"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "036E2D814685272E",
+      "title": "Contract · Ender Guardian",
+      "description": [
+        "Follow the Ruined Citadel route in the End and inspect the arena before committing. Ashen requires Chapter 3 complete and the Chapter 4 Dragon Soul Scale quest reward claimed before this boss can take damage. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 6.0,
+      "y": 0.0,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "cataclysm:void_eye",
+      "tasks": [
+        {
+          "id": "5FDBBF2DC0E3F4C7",
+          "type": "kill",
+          "entity": "cataclysm:ender_guardian",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "579A6BD8A5AE04CE",
+          "type": "xp",
+          "xp": 2250,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "1CE6F95FDDCC064D",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 8,
+          "team_reward": false
+        },
+        {
+          "id": "63247D6467F4D2EA",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "3F3679022FD50F19"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "1051A69CE9D62CB1",
+      "title": "Netherite Monstrosity",
+      "description": [
+        "Find the Soul Black Smith encounter in the Nether and prepare for fire and heavy attacks. Complete Chapter 1 first; the story seal is not removed by this optional hunting chapter. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 0.0,
+      "y": 2.5,
+      "size": 1.25,
+      "shape": "gear",
+      "icon": "cataclysm:monstrous_eye",
+      "tasks": [
+        {
+          "id": "27E808FCC239F583",
+          "type": "kill",
+          "entity": "cataclysm:netherite_monstrosity",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7A1BB65A960F298A",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "7FB2D0A22C8CDC35",
+      "title": "Veteran · Netherite Monstrosity",
+      "description": [
+        "Find the Soul Black Smith encounter in the Nether and prepare for fire and heavy attacks. Complete Chapter 1 first; the story seal is not removed by this optional hunting chapter. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 3.0,
+      "y": 2.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "cataclysm:monstrous_eye",
+      "tasks": [
+        {
+          "id": "515735F1B824C41A",
+          "type": "kill",
+          "entity": "cataclysm:netherite_monstrosity",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "502F303B24B66634",
+          "type": "xp",
+          "xp": 1500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "500143894F37EEA0",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 8,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "1051A69CE9D62CB1"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "14E6F1229893E6AD",
+      "title": "Contract · Netherite Monstrosity",
+      "description": [
+        "Find the Soul Black Smith encounter in the Nether and prepare for fire and heavy attacks. Complete Chapter 1 first; the story seal is not removed by this optional hunting chapter. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 6.0,
+      "y": 2.5,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "cataclysm:monstrous_eye",
+      "tasks": [
+        {
+          "id": "7CDB253567EBAEFA",
+          "type": "kill",
+          "entity": "cataclysm:netherite_monstrosity",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3A446BBF1DA5FF09",
+          "type": "xp",
+          "xp": 2250,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "3BBFA12843C82FBF",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 8,
+          "team_reward": false
+        },
+        {
+          "id": "686D4974CD78EC0C",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "7FB2D0A22C8CDC35"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "2385EED05346D3AB",
+      "title": "The Harbinger",
+      "description": [
+        "Search an Ancient Factory and inspect the activation requirements at the encounter. Ashen requires Chapter 2 complete and the Chapter 3 Wither Crown quest reward claimed before damage is allowed. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 0.0,
+      "y": 5.0,
+      "size": 1.25,
+      "shape": "gear",
+      "icon": "cataclysm:mech_eye",
+      "tasks": [
+        {
+          "id": "60C6E4EF71EAA4F9",
+          "type": "kill",
+          "entity": "cataclysm:the_harbinger",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "43D20A22C6C80A29",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "38E777191A5A0E4F",
+      "title": "Veteran · The Harbinger",
+      "description": [
+        "Search an Ancient Factory and inspect the activation requirements at the encounter. Ashen requires Chapter 2 complete and the Chapter 3 Wither Crown quest reward claimed before damage is allowed. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 3.0,
+      "y": 5.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "cataclysm:mech_eye",
+      "tasks": [
+        {
+          "id": "6012718D0169C262",
+          "type": "kill",
+          "entity": "cataclysm:the_harbinger",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5B8DFC44023131DC",
+          "type": "xp",
+          "xp": 1500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "2C7999DBBCE9DBC1",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 8,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "2385EED05346D3AB"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "155A37D638A367B9",
+      "title": "Contract · The Harbinger",
+      "description": [
+        "Search an Ancient Factory and inspect the activation requirements at the encounter. Ashen requires Chapter 2 complete and the Chapter 3 Wither Crown quest reward claimed before damage is allowed. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 6.0,
+      "y": 5.0,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "cataclysm:mech_eye",
+      "tasks": [
+        {
+          "id": "69063D542C484C6F",
+          "type": "kill",
+          "entity": "cataclysm:the_harbinger",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2C0E863FD85EE59D",
+          "type": "xp",
+          "xp": 2250,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "48A1F6A9D48EA2CF",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 8,
+          "team_reward": false
+        },
+        {
+          "id": "6D2D9E650E78E3FB",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "38E777191A5A0E4F"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "3F42EED83E1A2CD0",
+      "title": "The Leviathan",
+      "description": [
+        "Follow the Sunken City and Altar of Abyss route with a complete underwater loadout. The installed boss is invulnerable outside water, so moving it onto land does not create a safe damage strategy. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 0.0,
+      "y": 7.5,
+      "size": 1.25,
+      "shape": "gear",
+      "icon": "cataclysm:abyss_eye",
+      "tasks": [
+        {
+          "id": "2662E1E4BAB034B6",
+          "type": "kill",
+          "entity": "cataclysm:the_leviathan",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "526263D008336D49",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "2BB8C7577536391D",
+      "title": "Veteran · The Leviathan",
+      "description": [
+        "Follow the Sunken City and Altar of Abyss route with a complete underwater loadout. The installed boss is invulnerable outside water, so moving it onto land does not create a safe damage strategy. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 3.0,
+      "y": 7.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "cataclysm:abyss_eye",
+      "tasks": [
+        {
+          "id": "532F52A29F66EA1D",
+          "type": "kill",
+          "entity": "cataclysm:the_leviathan",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3F864B1E73621230",
+          "type": "xp",
+          "xp": 1500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "4E6CA26EC6ED3F41",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 8,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "3F42EED83E1A2CD0"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "0D82B7A55408DD70",
+      "title": "Contract · The Leviathan",
+      "description": [
+        "Follow the Sunken City and Altar of Abyss route with a complete underwater loadout. The installed boss is invulnerable outside water, so moving it onto land does not create a safe damage strategy. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 6.0,
+      "y": 7.5,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "cataclysm:abyss_eye",
+      "tasks": [
+        {
+          "id": "696AA01B50A44717",
+          "type": "kill",
+          "entity": "cataclysm:the_leviathan",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "283FAE99F974797F",
+          "type": "xp",
+          "xp": 2250,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "6ADC538FD4D9D0AE",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 8,
+          "team_reward": false
+        },
+        {
+          "id": "2A52CF5AD83DBF38",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "2BB8C7577536391D"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "7A91DE408AA8C0AB",
+      "title": "Ancient Remnant",
+      "description": [
+        "Follow the Cursed Pyramid route and inspect the encounter’s necklace and activation instructions. Clear a retreat route before starting a fight among unfamiliar traps. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 0.0,
+      "y": 10.0,
+      "size": 1.25,
+      "shape": "gear",
+      "icon": "cataclysm:desert_eye",
+      "tasks": [
+        {
+          "id": "6B264363E4C3340A",
+          "type": "kill",
+          "entity": "cataclysm:ancient_remnant",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0A9D1D6E0D7E1F2D",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "6BCE9192555A22E0",
+      "title": "Veteran · Ancient Remnant",
+      "description": [
+        "Follow the Cursed Pyramid route and inspect the encounter’s necklace and activation instructions. Clear a retreat route before starting a fight among unfamiliar traps. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 3.0,
+      "y": 10.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "cataclysm:desert_eye",
+      "tasks": [
+        {
+          "id": "3B9FC1654B8B90F1",
+          "type": "kill",
+          "entity": "cataclysm:ancient_remnant",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "757BCC04ECB4D73A",
+          "type": "xp",
+          "xp": 1500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "1B77D956B23E44EF",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 8,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "7A91DE408AA8C0AB"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "17E4B7833626B393",
+      "title": "Contract · Ancient Remnant",
+      "description": [
+        "Follow the Cursed Pyramid route and inspect the encounter’s necklace and activation instructions. Clear a retreat route before starting a fight among unfamiliar traps. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 6.0,
+      "y": 10.0,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "cataclysm:desert_eye",
+      "tasks": [
+        {
+          "id": "0D3A10477BA9410E",
+          "type": "kill",
+          "entity": "cataclysm:ancient_remnant",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5F29F576DC3DDAC9",
+          "type": "xp",
+          "xp": 2250,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "4D1B310D759BD3BF",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 8,
+          "team_reward": false
+        },
+        {
+          "id": "0294D0E39C40FA6E",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "6BCE9192555A22E0"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "784762EF03F49715",
+      "title": "Ignis",
+      "description": [
+        "Find the Burning Arena and inspect its altar and Burning Ashes interaction. Chapter 4 must be complete before this final story boss can take damage. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 0.0,
+      "y": 12.5,
+      "size": 1.25,
+      "shape": "gear",
+      "icon": "cataclysm:flame_eye",
+      "tasks": [
+        {
+          "id": "3638C159BB8B73F8",
+          "type": "kill",
+          "entity": "cataclysm:ignis",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "05E1D493D5114824",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "0DF9DB38F983C3AD",
+      "title": "Veteran · Ignis",
+      "description": [
+        "Find the Burning Arena and inspect its altar and Burning Ashes interaction. Chapter 4 must be complete before this final story boss can take damage. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 3.0,
+      "y": 12.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "cataclysm:flame_eye",
+      "tasks": [
+        {
+          "id": "23EF886418D01CC6",
+          "type": "kill",
+          "entity": "cataclysm:ignis",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "45E13A229660BE74",
+          "type": "xp",
+          "xp": 1500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "41E68B2765BD5A87",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 8,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "784762EF03F49715"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "05ADB80726D2CF4B",
+      "title": "Contract · Ignis",
+      "description": [
+        "Find the Burning Arena and inspect its altar and Burning Ashes interaction. Chapter 4 must be complete before this final story boss can take damage. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 6.0,
+      "y": 12.5,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "cataclysm:flame_eye",
+      "tasks": [
+        {
+          "id": "1843ED4AD134A494",
+          "type": "kill",
+          "entity": "cataclysm:ignis",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6276AA36E9ED94D0",
+          "type": "xp",
+          "xp": 2250,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "0CE7603250922B1D",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 8,
+          "team_reward": false
+        },
+        {
+          "id": "25CF1A82CD240C0B",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "0DF9DB38F983C3AD"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "6FF277DCA9F0C02A",
+      "title": "Maledictus",
+      "description": [
+        "Follow the Frosted Prison route and prepare for a long mobile encounter. Read its attack tells and keep defensive resources available instead of spending everything on the opening exchange. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 0.0,
+      "y": 15.0,
+      "size": 1.25,
+      "shape": "gear",
+      "icon": "cataclysm:cursed_eye",
+      "tasks": [
+        {
+          "id": "4A85FB67EF20362B",
+          "type": "kill",
+          "entity": "cataclysm:maledictus",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "071F78F8B8CB5358",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "6CE90B9A2F494E5B",
+      "title": "Veteran · Maledictus",
+      "description": [
+        "Follow the Frosted Prison route and prepare for a long mobile encounter. Read its attack tells and keep defensive resources available instead of spending everything on the opening exchange. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 3.0,
+      "y": 15.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "cataclysm:cursed_eye",
+      "tasks": [
+        {
+          "id": "3503DEA2EF29865F",
+          "type": "kill",
+          "entity": "cataclysm:maledictus",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7EE44B40101DA2A4",
+          "type": "xp",
+          "xp": 1500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "27EF810E057387C2",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 8,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "6FF277DCA9F0C02A"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "5CEBF6668837F509",
+      "title": "Contract · Maledictus",
+      "description": [
+        "Follow the Frosted Prison route and prepare for a long mobile encounter. Read its attack tells and keep defensive resources available instead of spending everything on the opening exchange. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 6.0,
+      "y": 15.0,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "cataclysm:cursed_eye",
+      "tasks": [
+        {
+          "id": "3B7557F4DD880E39",
+          "type": "kill",
+          "entity": "cataclysm:maledictus",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "32AE9D97754AADE7",
+          "type": "xp",
+          "xp": 2250,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "7CE07E3B62127DB3",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 8,
+          "team_reward": false
+        },
+        {
+          "id": "77FD41016B0DBA53",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "6CE90B9A2F494E5B"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "03C345B75B8A5FEA",
+      "title": "Scylla",
+      "description": [
+        "Locate the Acropolis with its installed locator route and prepare for the surrounding guardians. This version includes Scylla; the challenge counts the boss rather than its separate attacks or summoned effects. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 0.0,
+      "y": 17.5,
+      "size": 1.25,
+      "shape": "gear",
+      "icon": "cataclysm:storm_eye",
+      "tasks": [
+        {
+          "id": "14774CC2A8B310E3",
+          "type": "kill",
+          "entity": "cataclysm:scylla",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5811399623A86704",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "7B1F2ED71B69FF50",
+      "title": "Veteran · Scylla",
+      "description": [
+        "Locate the Acropolis with its installed locator route and prepare for the surrounding guardians. This version includes Scylla; the challenge counts the boss rather than its separate attacks or summoned effects. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 3.0,
+      "y": 17.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "cataclysm:storm_eye",
+      "tasks": [
+        {
+          "id": "52BC720E368175EA",
+          "type": "kill",
+          "entity": "cataclysm:scylla",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2441F18EBE893860",
+          "type": "xp",
+          "xp": 1500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "1FC0113440E135DC",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 8,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "03C345B75B8A5FEA"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "1C8692BED53257FD",
+      "title": "Contract · Scylla",
+      "description": [
+        "Locate the Acropolis with its installed locator route and prepare for the surrounding guardians. This version includes Scylla; the challenge counts the boss rather than its separate attacks or summoned effects. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 6.0,
+      "y": 17.5,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "cataclysm:storm_eye",
+      "tasks": [
+        {
+          "id": "2CE7A8AA6F9CA1F9",
+          "type": "kill",
+          "entity": "cataclysm:scylla",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7DB9B2C0728A6173",
+          "type": "xp",
+          "xp": 2250,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "5FB7A16B5A4A3CCC",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 8,
+          "team_reward": false
+        },
+        {
+          "id": "0CBF13BE1398A51F",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "7B1F2ED71B69FF50"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "2034A7A26443F9B3",
+      "title": "The Dead King",
+      "description": [
+        "Use a Wayward Compass to find the Catacombs and enter with a flexible spell loadout. The Bone Key is post-boss vault loot, and repeat encounters follow the mod’s native encounter mechanics or another valid location. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 24.0,
+      "y": 17.5,
+      "size": 1.25,
+      "shape": "gear",
+      "icon": "irons_spellbooks:wayward_compass",
+      "tasks": [
+        {
+          "id": "5363C08CF588D064",
+          "type": "kill",
+          "entity": "irons_spellbooks:dead_king",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "70B3B666AFD3EF95",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "16AA15CA68D9C3DC",
+      "title": "Veteran · The Dead King",
+      "description": [
+        "Use a Wayward Compass to find the Catacombs and enter with a flexible spell loadout. The Bone Key is post-boss vault loot, and repeat encounters follow the mod’s native encounter mechanics or another valid location. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 27.0,
+      "y": 17.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "irons_spellbooks:wayward_compass",
+      "tasks": [
+        {
+          "id": "2FC7490DC8796F0C",
+          "type": "kill",
+          "entity": "irons_spellbooks:dead_king",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4B47B6AF7FAF516B",
+          "type": "xp",
+          "xp": 1500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "118359AC19374385",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 8,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "2034A7A26443F9B3"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "13E7B80A4DF4AB1E",
+      "title": "Contract · The Dead King",
+      "description": [
+        "Use a Wayward Compass to find the Catacombs and enter with a flexible spell loadout. The Bone Key is post-boss vault loot, and repeat encounters follow the mod’s native encounter mechanics or another valid location. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 30.0,
+      "y": 17.5,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "irons_spellbooks:wayward_compass",
+      "tasks": [
+        {
+          "id": "0224FC3556F6576B",
+          "type": "kill",
+          "entity": "irons_spellbooks:dead_king",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2375993FA1C714F7",
+          "type": "xp",
+          "xp": 2250,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "62B1F7F594A9DC9E",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 8,
+          "team_reward": false
+        },
+        {
+          "id": "2019D2976CDE3EF6",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "16AA15CA68D9C3DC"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "294DB0FE22FD3768",
+      "title": "Echo of Tyros",
+      "description": [
+        "Find the Lost Citadel and inspect the Cinderous Soulcaller ritual route. Bring another effective damage school and reserve mana or stamina for defensive movement. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 24.0,
+      "y": 20.0,
+      "size": 1.25,
+      "shape": "gear",
+      "icon": "irons_spellbooks:cinderous_soulcaller",
+      "tasks": [
+        {
+          "id": "0BEC7F47F82C5C2F",
+          "type": "kill",
+          "entity": "irons_spellbooks:fire_boss",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2384160515103525",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "0A299DD60254F0E4",
+      "title": "Veteran · Echo of Tyros",
+      "description": [
+        "Find the Lost Citadel and inspect the Cinderous Soulcaller ritual route. Bring another effective damage school and reserve mana or stamina for defensive movement. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 27.0,
+      "y": 20.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "irons_spellbooks:cinderous_soulcaller",
+      "tasks": [
+        {
+          "id": "2C656E7A79604C85",
+          "type": "kill",
+          "entity": "irons_spellbooks:fire_boss",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11CF23E156A0864B",
+          "type": "xp",
+          "xp": 1500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "49CBDBF43B7BD315",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 8,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "294DB0FE22FD3768"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "5C0F415C66B71DBA",
+      "title": "Contract · Echo of Tyros",
+      "description": [
+        "Find the Lost Citadel and inspect the Cinderous Soulcaller ritual route. Bring another effective damage school and reserve mana or stamina for defensive movement. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 30.0,
+      "y": 20.0,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "irons_spellbooks:cinderous_soulcaller",
+      "tasks": [
+        {
+          "id": "5260714A1988B791",
+          "type": "kill",
+          "entity": "irons_spellbooks:fire_boss",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "607C19141419F01F",
+          "type": "xp",
+          "xp": 2250,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "3F2E3D70598931CF",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 8,
+          "team_reward": false
+        },
+        {
+          "id": "0B56E917D2B71557",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 8,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "0A299DD60254F0E4"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "220853F12BE9123B",
+      "title": "Ancient Knight",
+      "description": [
+        "Inspect Armor Piles in an Ancient Battleground and prepare for the Ancient Knight encounter. This elite is the actual citadel_keeper entity; decorative piles and ordinary undead do not count. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 24.0,
+      "y": 22.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "irons_spellbooks:cinder_essence",
+      "tasks": [
+        {
+          "id": "7EE47F211519FA58",
+          "type": "kill",
+          "entity": "irons_spellbooks:citadel_keeper",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "49B24F3D0F549D06",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "6F16A16A8C5D4D7F",
+      "title": "Veteran · Ancient Knight",
+      "description": [
+        "Inspect Armor Piles in an Ancient Battleground and prepare for the Ancient Knight encounter. This elite is the actual citadel_keeper entity; decorative piles and ordinary undead do not count. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 27.0,
+      "y": 22.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "irons_spellbooks:cinder_essence",
+      "tasks": [
+        {
+          "id": "56FFCB4FF7ADE29E",
+          "type": "kill",
+          "entity": "irons_spellbooks:citadel_keeper",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2787F216E4024DF5",
+          "type": "xp",
+          "xp": 500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "73A82A4AE7625240",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "220853F12BE9123B"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "4013C74A93D05BE7",
+      "title": "Contract · Ancient Knight",
+      "description": [
+        "Inspect Armor Piles in an Ancient Battleground and prepare for the Ancient Knight encounter. This elite is the actual citadel_keeper entity; decorative piles and ordinary undead do not count. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 30.0,
+      "y": 22.5,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "irons_spellbooks:cinder_essence",
+      "tasks": [
+        {
+          "id": "6B7E47E466F57DFC",
+          "type": "kill",
+          "entity": "irons_spellbooks:citadel_keeper",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "07540F282C012919",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "5CC69DD097AA3C02",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        },
+        {
+          "id": "14E8B944B6A23DBF",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "6F16A16A8C5D4D7F"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "252718A90991F515",
+      "title": "Archevoker",
+      "description": [
+        "Explore magical enemy encounters such as the Evoker Fort and identify an Archevoker by name. This optional elite hunt counts that caster, not a vanilla Evoker. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 24.0,
+      "y": 25.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "irons_spellbooks:evoker_spell_book",
+      "tasks": [
+        {
+          "id": "1EDB7E2C07E87137",
+          "type": "kill",
+          "entity": "irons_spellbooks:archevoker",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0936F7C2CC53BB1D",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "41D46D94E637CD15",
+      "title": "Veteran · Archevoker",
+      "description": [
+        "Explore magical enemy encounters such as the Evoker Fort and identify an Archevoker by name. This optional elite hunt counts that caster, not a vanilla Evoker. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 27.0,
+      "y": 25.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "irons_spellbooks:evoker_spell_book",
+      "tasks": [
+        {
+          "id": "1E44AE07F4D60183",
+          "type": "kill",
+          "entity": "irons_spellbooks:archevoker",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "33842A58AD1EE4EB",
+          "type": "xp",
+          "xp": 500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "09628D23658F87F7",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "252718A90991F515"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "4A19DF2E05E8B741",
+      "title": "Contract · Archevoker",
+      "description": [
+        "Explore magical enemy encounters such as the Evoker Fort and identify an Archevoker by name. This optional elite hunt counts that caster, not a vanilla Evoker. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 30.0,
+      "y": 25.0,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "irons_spellbooks:evoker_spell_book",
+      "tasks": [
+        {
+          "id": "106E1A9F79AE3947",
+          "type": "kill",
+          "entity": "irons_spellbooks:archevoker",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5061DCAC1CEC47EE",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "09D6C39EB49ACB9E",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        },
+        {
+          "id": "533F9F05D6A4EEF8",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "41D46D94E637CD15"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "4685812851619319",
+      "title": "Necromancer",
+      "description": [
+        "Find a Necromancer during magical exploration and separate it from summoned pressure. Only the caster’s credited death advances this elite objective. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 24.0,
+      "y": 27.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "irons_spellbooks:rotten_spell_book",
+      "tasks": [
+        {
+          "id": "31C6F28ACEAB3515",
+          "type": "kill",
+          "entity": "irons_spellbooks:necromancer",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "06CDE537E5385A92",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "18CAD32B6DFC92ED",
+      "title": "Veteran · Necromancer",
+      "description": [
+        "Find a Necromancer during magical exploration and separate it from summoned pressure. Only the caster’s credited death advances this elite objective. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 27.0,
+      "y": 27.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "irons_spellbooks:rotten_spell_book",
+      "tasks": [
+        {
+          "id": "141EDDE22DB4B8D8",
+          "type": "kill",
+          "entity": "irons_spellbooks:necromancer",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "67C5489A1860AEFC",
+          "type": "xp",
+          "xp": 500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "59D7E9A88B9B775A",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "4685812851619319"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "443056EF9825817C",
+      "title": "Contract · Necromancer",
+      "description": [
+        "Find a Necromancer during magical exploration and separate it from summoned pressure. Only the caster’s credited death advances this elite objective. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 30.0,
+      "y": 27.5,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "irons_spellbooks:rotten_spell_book",
+      "tasks": [
+        {
+          "id": "769352509DA7A09D",
+          "type": "kill",
+          "entity": "irons_spellbooks:necromancer",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "77851ABB49B73D6D",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "05E12F37BF6EDC69",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        },
+        {
+          "id": "2483CFC9A6E0DB73",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "18CAD32B6DFC92ED"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "6459CE0A89A66431",
+      "title": "Ender Golem",
+      "description": [
+        "Search the Ruined Citadel route and prepare for a heavy guardian encounter. An Ender Golem is a miniboss distinct from the story-gated Ender Guardian. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 12.0,
+      "y": 0.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "cataclysm:void_core",
+      "tasks": [
+        {
+          "id": "5D84FC83FCFA5189",
+          "type": "kill",
+          "entity": "cataclysm:ender_golem",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7C7E8D9714C44015",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "4C4ACE9A869FC71C",
+      "title": "Veteran · Ender Golem",
+      "description": [
+        "Search the Ruined Citadel route and prepare for a heavy guardian encounter. An Ender Golem is a miniboss distinct from the story-gated Ender Guardian. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 15.0,
+      "y": 0.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "cataclysm:void_core",
+      "tasks": [
+        {
+          "id": "1E151DCEDE9D16A0",
+          "type": "kill",
+          "entity": "cataclysm:ender_golem",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0ECB5E8D7055C65D",
+          "type": "xp",
+          "xp": 500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "14B3098144E66452",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "6459CE0A89A66431"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "7555ED3B5870B533",
+      "title": "Contract · Ender Golem",
+      "description": [
+        "Search the Ruined Citadel route and prepare for a heavy guardian encounter. An Ender Golem is a miniboss distinct from the story-gated Ender Guardian. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 18.0,
+      "y": 0.0,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "cataclysm:void_core",
+      "tasks": [
+        {
+          "id": "333AF1D76F7D7436",
+          "type": "kill",
+          "entity": "cataclysm:ender_golem",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "62B211278D2B4A3F",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "6BDC565D3B2B3E3F",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        },
+        {
+          "id": "518EF30C7A67C3FE",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "4C4ACE9A869FC71C"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "1FB6008AE0BE426C",
+      "title": "Ignited Revenant",
+      "description": [
+        "Explore the Burning Arena route and respect the Revenant’s defensive openings. This miniboss is separate from Ignis, so defeating it never bypasses the final story seal. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 12.0,
+      "y": 2.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:blaze_powder",
+      "tasks": [
+        {
+          "id": "5E2F9A6DAB3D851D",
+          "type": "kill",
+          "entity": "cataclysm:ignited_revenant",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1244B0ED7C8E2E88",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "5EF2F85EC61FB65C",
+      "title": "Veteran · Ignited Revenant",
+      "description": [
+        "Explore the Burning Arena route and respect the Revenant’s defensive openings. This miniboss is separate from Ignis, so defeating it never bypasses the final story seal. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 15.0,
+      "y": 2.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:blaze_powder",
+      "tasks": [
+        {
+          "id": "58B12669034CD2C5",
+          "type": "kill",
+          "entity": "cataclysm:ignited_revenant",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "11202DE7435DBD47",
+          "type": "xp",
+          "xp": 500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "7D0FAF26ECB0A355",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "1FB6008AE0BE426C"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "33868F0357B2E23C",
+      "title": "Contract · Ignited Revenant",
+      "description": [
+        "Explore the Burning Arena route and respect the Revenant’s defensive openings. This miniboss is separate from Ignis, so defeating it never bypasses the final story seal. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 18.0,
+      "y": 2.5,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "minecraft:blaze_powder",
+      "tasks": [
+        {
+          "id": "5CC02AD4C552E5FF",
+          "type": "kill",
+          "entity": "cataclysm:ignited_revenant",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5EF6B5D77D243006",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "082D4964A3F1B972",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        },
+        {
+          "id": "689BD817A23F31C2",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "5EF2F85EC61FB65C"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "721503728B4F74EF",
+      "title": "Ignited Berserker",
+      "description": [
+        "Look for the installed post-Ignis Nether Fortress enemy encounters. Treat the Berserker as an optional elite and keep space for its close-range pressure. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 12.0,
+      "y": 5.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "cataclysm:berserker_soul_amulet",
+      "tasks": [
+        {
+          "id": "2A340AF182746CC4",
+          "type": "kill",
+          "entity": "cataclysm:ignited_berserker",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5FF211099D4EB06C",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "3F4C7520F737B824",
+      "title": "Veteran · Ignited Berserker",
+      "description": [
+        "Look for the installed post-Ignis Nether Fortress enemy encounters. Treat the Berserker as an optional elite and keep space for its close-range pressure. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 15.0,
+      "y": 5.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "cataclysm:berserker_soul_amulet",
+      "tasks": [
+        {
+          "id": "66A19478EA236318",
+          "type": "kill",
+          "entity": "cataclysm:ignited_berserker",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5F8302E606970198",
+          "type": "xp",
+          "xp": 500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "1A98B1E2ADC68C07",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "721503728B4F74EF"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "3E61412AF70F6A05",
+      "title": "Contract · Ignited Berserker",
+      "description": [
+        "Look for the installed post-Ignis Nether Fortress enemy encounters. Treat the Berserker as an optional elite and keep space for its close-range pressure. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 18.0,
+      "y": 5.0,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "cataclysm:berserker_soul_amulet",
+      "tasks": [
+        {
+          "id": "5BAA56EFB740CCBE",
+          "type": "kill",
+          "entity": "cataclysm:ignited_berserker",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3C5CBB067C3A565B",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "63BBC0339AD64A69",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        },
+        {
+          "id": "36624684F6246178",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "3F4C7520F737B824"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "24A1F09CE82E3995",
+      "title": "Amethyst Crab",
+      "description": [
+        "Search an Amethyst Nest and identify the crab before approaching its attack range. Bring a reliable way to reposition during the encounter. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 12.0,
+      "y": 7.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:amethyst_shard",
+      "tasks": [
+        {
+          "id": "0180CA2353CF4528",
+          "type": "kill",
+          "entity": "cataclysm:amethyst_crab",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1FC6DC43839772AC",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "23696A46C590C1E2",
+      "title": "Veteran · Amethyst Crab",
+      "description": [
+        "Search an Amethyst Nest and identify the crab before approaching its attack range. Bring a reliable way to reposition during the encounter. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 15.0,
+      "y": 7.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:amethyst_shard",
+      "tasks": [
+        {
+          "id": "5F893243A68EF4E0",
+          "type": "kill",
+          "entity": "cataclysm:amethyst_crab",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "44B96826340F161F",
+          "type": "xp",
+          "xp": 500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "6EE7B9AC7B95B68B",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "24A1F09CE82E3995"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "735173A109B92839",
+      "title": "Contract · Amethyst Crab",
+      "description": [
+        "Search an Amethyst Nest and identify the crab before approaching its attack range. Bring a reliable way to reposition during the encounter. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 18.0,
+      "y": 7.5,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "minecraft:amethyst_shard",
+      "tasks": [
+        {
+          "id": "3F88665F8FD095ED",
+          "type": "kill",
+          "entity": "cataclysm:amethyst_crab",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C331AD21C58333E",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "7C045D1D84CEDDF3",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        },
+        {
+          "id": "62FCCFC1CAD6FF1C",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "23696A46C590C1E2"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "4CB90CE93C61F894",
+      "title": "Coral Golem",
+      "description": [
+        "Explore the installed ocean encounters, including the post-Leviathan changes described by the mod. Prepare for underwater combat rather than assuming heavy enemies will be harmless in shallow water. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 12.0,
+      "y": 10.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:brain_coral_block",
+      "tasks": [
+        {
+          "id": "22A8E4761EA6C2B4",
+          "type": "kill",
+          "entity": "cataclysm:coral_golem",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "783B5E030430F78F",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "31DAF529F1578C0E",
+      "title": "Veteran · Coral Golem",
+      "description": [
+        "Explore the installed ocean encounters, including the post-Leviathan changes described by the mod. Prepare for underwater combat rather than assuming heavy enemies will be harmless in shallow water. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 15.0,
+      "y": 10.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:brain_coral_block",
+      "tasks": [
+        {
+          "id": "2B8FA3D0D8E1B623",
+          "type": "kill",
+          "entity": "cataclysm:coral_golem",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3678C538BDD22401",
+          "type": "xp",
+          "xp": 500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "5A45EBC765060767",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "4CB90CE93C61F894"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "556B254687E2A716",
+      "title": "Contract · Coral Golem",
+      "description": [
+        "Explore the installed ocean encounters, including the post-Leviathan changes described by the mod. Prepare for underwater combat rather than assuming heavy enemies will be harmless in shallow water. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 18.0,
+      "y": 10.0,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "minecraft:brain_coral_block",
+      "tasks": [
+        {
+          "id": "70A3C16A8249D819",
+          "type": "kill",
+          "entity": "cataclysm:coral_golem",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "34F57851C5BAFD84",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "5AF479609558A42E",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        },
+        {
+          "id": "7C507FD826AF10E3",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "31DAF529F1578C0E"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "7F4798CB05AF9E69",
+      "title": "Coralssus",
+      "description": [
+        "Seek the Sunken City’s heavy defenders with an underwater combat plan. This elite has its own entity identity and does not count as a Leviathan victory. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 12.0,
+      "y": 12.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:fire_coral_block",
+      "tasks": [
+        {
+          "id": "52081C1C4A099FC6",
+          "type": "kill",
+          "entity": "cataclysm:coralssus",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2D16764CF65EBFF6",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "6E5BB690186BC2B6",
+      "title": "Veteran · Coralssus",
+      "description": [
+        "Seek the Sunken City’s heavy defenders with an underwater combat plan. This elite has its own entity identity and does not count as a Leviathan victory. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 15.0,
+      "y": 12.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:fire_coral_block",
+      "tasks": [
+        {
+          "id": "76494E065823C5B2",
+          "type": "kill",
+          "entity": "cataclysm:coralssus",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "03548E029A060E62",
+          "type": "xp",
+          "xp": 500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "7AED9727D3316B4C",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "7F4798CB05AF9E69"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "7E582ACB05F70731",
+      "title": "Contract · Coralssus",
+      "description": [
+        "Seek the Sunken City’s heavy defenders with an underwater combat plan. This elite has its own entity identity and does not count as a Leviathan victory. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 18.0,
+      "y": 12.5,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "minecraft:fire_coral_block",
+      "tasks": [
+        {
+          "id": "6E0481177E0B08D0",
+          "type": "kill",
+          "entity": "cataclysm:coralssus",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "159FB15A7E8FD5CA",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "457E097CD008A55A",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        },
+        {
+          "id": "295E82337AD22F2F",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "6E5BB690186BC2B6"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "6E7BB830B6A24AA1",
+      "title": "The Prowler",
+      "description": [
+        "Explore Ancient Factory defenses and identify the Prowler before closing distance. Use cover and a controlled approach rather than fighting several mechanical defenders together. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 12.0,
+      "y": 15.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:comparator",
+      "tasks": [
+        {
+          "id": "3EBA90C87E6AC266",
+          "type": "kill",
+          "entity": "cataclysm:the_prowler",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2092BD266DCB8BF0",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "1F25E0D4506ABA85",
+      "title": "Veteran · The Prowler",
+      "description": [
+        "Explore Ancient Factory defenses and identify the Prowler before closing distance. Use cover and a controlled approach rather than fighting several mechanical defenders together. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 15.0,
+      "y": 15.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:comparator",
+      "tasks": [
+        {
+          "id": "2773D94F0D937DA5",
+          "type": "kill",
+          "entity": "cataclysm:the_prowler",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7B0F66D7895316EC",
+          "type": "xp",
+          "xp": 500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "2D56E63211B790FB",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "6E7BB830B6A24AA1"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "2507FA32BE3DF935",
+      "title": "Contract · The Prowler",
+      "description": [
+        "Explore Ancient Factory defenses and identify the Prowler before closing distance. Use cover and a controlled approach rather than fighting several mechanical defenders together. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 18.0,
+      "y": 15.0,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "minecraft:comparator",
+      "tasks": [
+        {
+          "id": "7CFE7F018EF14307",
+          "type": "kill",
+          "entity": "cataclysm:the_prowler",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "35486674892CEFFE",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "16EC46850F9603DE",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        },
+        {
+          "id": "337CB9820C1187B1",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "1F25E0D4506ABA85"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "6E200C4E18D1036E",
+      "title": "Kobolediator",
+      "description": [
+        "Explore the Cursed Pyramid route and prepare for its large melee guardian. Keep an exit clear before trading attacks in a confined room. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 12.0,
+      "y": 17.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:golden_axe",
+      "tasks": [
+        {
+          "id": "470EBFCA65BB3310",
+          "type": "kill",
+          "entity": "cataclysm:kobolediator",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "131F29FD3B14256B",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "762CFD65DBF53C91",
+      "title": "Veteran · Kobolediator",
+      "description": [
+        "Explore the Cursed Pyramid route and prepare for its large melee guardian. Keep an exit clear before trading attacks in a confined room. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 15.0,
+      "y": 17.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:golden_axe",
+      "tasks": [
+        {
+          "id": "68C60570D2874825",
+          "type": "kill",
+          "entity": "cataclysm:kobolediator",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "34E17C5F46277A29",
+          "type": "xp",
+          "xp": 500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "70C40E69EDF18492",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "6E200C4E18D1036E"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "595A9688C74723FE",
+      "title": "Contract · Kobolediator",
+      "description": [
+        "Explore the Cursed Pyramid route and prepare for its large melee guardian. Keep an exit clear before trading attacks in a confined room. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 18.0,
+      "y": 17.5,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "minecraft:golden_axe",
+      "tasks": [
+        {
+          "id": "12B13B45BB0BCC87",
+          "type": "kill",
+          "entity": "cataclysm:kobolediator",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "544CE0B4DB9E159E",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "074C0176D192BEF6",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        },
+        {
+          "id": "2632D57557AD819D",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "762CFD65DBF53C91"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "2AF94ABAE89662AB",
+      "title": "Wadjet",
+      "description": [
+        "Search the Cursed Pyramid route and identify the Wadjet encounter. Compare the timing of its attacks before committing your longest combo. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 12.0,
+      "y": 20.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:golden_sword",
+      "tasks": [
+        {
+          "id": "440EE797682B6679",
+          "type": "kill",
+          "entity": "cataclysm:wadjet",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "26AAADDD6EE77420",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "10F7CFEA6ECF404F",
+      "title": "Veteran · Wadjet",
+      "description": [
+        "Search the Cursed Pyramid route and identify the Wadjet encounter. Compare the timing of its attacks before committing your longest combo. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 15.0,
+      "y": 20.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:golden_sword",
+      "tasks": [
+        {
+          "id": "45FDD4CEB678D24E",
+          "type": "kill",
+          "entity": "cataclysm:wadjet",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "71B52E1CD6571EEE",
+          "type": "xp",
+          "xp": 500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "65BB31F49585D999",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "2AF94ABAE89662AB"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "6FBCD56B7E7ACB1D",
+      "title": "Contract · Wadjet",
+      "description": [
+        "Search the Cursed Pyramid route and identify the Wadjet encounter. Compare the timing of its attacks before committing your longest combo. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 18.0,
+      "y": 20.0,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "minecraft:golden_sword",
+      "tasks": [
+        {
+          "id": "4D603FEC507680F2",
+          "type": "kill",
+          "entity": "cataclysm:wadjet",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2F620D0B3D7FDBC6",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "0512ED6BC25B8E8B",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        },
+        {
+          "id": "35847562B983A37A",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "10F7CFEA6ECF404F"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "6E8E65B07AEAAA39",
+      "title": "Aptrgangr",
+      "description": [
+        "Prepare for the Frosted Prison’s heavy guardians and their melee reach. This optional elite objective counts Aptrgangr rather than ordinary Draugr. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 12.0,
+      "y": 22.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:iron_axe",
+      "tasks": [
+        {
+          "id": "4831456B7DA9C949",
+          "type": "kill",
+          "entity": "cataclysm:aptrgangr",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4BE04E6240164005",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "7AE61AE67AF8E9D4",
+      "title": "Veteran · Aptrgangr",
+      "description": [
+        "Prepare for the Frosted Prison’s heavy guardians and their melee reach. This optional elite objective counts Aptrgangr rather than ordinary Draugr. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 15.0,
+      "y": 22.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:iron_axe",
+      "tasks": [
+        {
+          "id": "5F38B28F766263E1",
+          "type": "kill",
+          "entity": "cataclysm:aptrgangr",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "76B5F99CB5837780",
+          "type": "xp",
+          "xp": 500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "02F2E4521FD9A7AA",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "6E8E65B07AEAAA39"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "0850CB7322638680",
+      "title": "Contract · Aptrgangr",
+      "description": [
+        "Prepare for the Frosted Prison’s heavy guardians and their melee reach. This optional elite objective counts Aptrgangr rather than ordinary Draugr. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 18.0,
+      "y": 22.5,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "minecraft:iron_axe",
+      "tasks": [
+        {
+          "id": "29C1F0A191A588CA",
+          "type": "kill",
+          "entity": "cataclysm:aptrgangr",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3D457D4D59A013E1",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "5A8D25A617F7B9A8",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        },
+        {
+          "id": "704A2980F721C2D0",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "7AE61AE67AF8E9D4"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "1918CE041DF61500",
+      "title": "Clawdian",
+      "description": [
+        "Explore the Acropolis route and inspect the large clawed guardian encounter. Keep room to move before committing to the boss route beyond it. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 12.0,
+      "y": 25.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:nautilus_shell",
+      "tasks": [
+        {
+          "id": "486716AAC39DB210",
+          "type": "kill",
+          "entity": "cataclysm:clawdian",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "361E998B278FCE37",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "199D329E7F543C84",
+      "title": "Veteran · Clawdian",
+      "description": [
+        "Explore the Acropolis route and inspect the large clawed guardian encounter. Keep room to move before committing to the boss route beyond it. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 15.0,
+      "y": 25.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:nautilus_shell",
+      "tasks": [
+        {
+          "id": "3926220E0913D4DD",
+          "type": "kill",
+          "entity": "cataclysm:clawdian",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "70398BEC32191DE0",
+          "type": "xp",
+          "xp": 500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "578F17818BCDD1E4",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "1918CE041DF61500"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "4E60C82E59CC0F7C",
+      "title": "Contract · Clawdian",
+      "description": [
+        "Explore the Acropolis route and inspect the large clawed guardian encounter. Keep room to move before committing to the boss route beyond it. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 18.0,
+      "y": 25.0,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "minecraft:nautilus_shell",
+      "tasks": [
+        {
+          "id": "10C8B57702490D4E",
+          "type": "kill",
+          "entity": "cataclysm:clawdian",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1A7AA496BA569513",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "73CAFEB9A8B2F808",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        },
+        {
+          "id": "0E0AE29565212390",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "199D329E7F543C84"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "4C4842675FAE47EA",
+      "title": "Apotheosis Invader",
+      "description": [
+        "Find an Apotheosis boss invasion or a valid boss-spawner encounter. Only mobs carrying the installed mod’s apoth.boss marker count; ordinary named or enchanted enemies do not. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 0.0,
+      "y": 25.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "apotheosis:boss_summoner",
+      "tasks": [
+        {
+          "id": "6C1B7076BEE1EC6C",
+          "type": "custom"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "53CC8B019A2D3650",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "0AEE93D67370B522",
+      "title": "Veteran · Apotheosis Invader",
+      "description": [
+        "Find an Apotheosis boss invasion or a valid boss-spawner encounter. Only mobs carrying the installed mod’s apoth.boss marker count; ordinary named or enchanted enemies do not. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 3.0,
+      "y": 25.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "apotheosis:boss_summoner",
+      "tasks": [
+        {
+          "id": "60B70CB759FA667F",
+          "type": "custom"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "788F8E46DB48EF9D",
+          "type": "xp",
+          "xp": 500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "2304D98A6ADB4CC7",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "4C4842675FAE47EA"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "109A8D1C3C86D3AA",
+      "title": "Contract · Apotheosis Invader",
+      "description": [
+        "Find an Apotheosis boss invasion or a valid boss-spawner encounter. Only mobs carrying the installed mod’s apoth.boss marker count; ordinary named or enchanted enemies do not. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 6.0,
+      "y": 25.0,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "apotheosis:boss_summoner",
+      "tasks": [
+        {
+          "id": "15DA403A5E286264",
+          "type": "custom"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "598C7C426C877CA7",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "6B13EDA4A494E0B0",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        },
+        {
+          "id": "49D066D832630E32",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "0AEE93D67370B522"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "6EF4ED1ED735A777",
+      "title": "Saulomonk",
+      "description": [
+        "Seek the rare hostile Saulomonk encounters while exploring the Overworld. This is an optional Weapons of Miracles elite hunt, not a new story seal or a requirement to use its weapons. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 0.0,
+      "y": 30.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:iron_axe",
+      "tasks": [
+        {
+          "id": "2809AAC96E49AB7B",
+          "type": "kill",
+          "entity": "wom:saulomonk",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0204CED4D6A64369",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "3FE2EEDEB8279CC3",
+      "title": "Veteran · Saulomonk",
+      "description": [
+        "Seek the rare hostile Saulomonk encounters while exploring the Overworld. This is an optional Weapons of Miracles elite hunt, not a new story seal or a requirement to use its weapons. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 3.0,
+      "y": 30.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:iron_axe",
+      "tasks": [
+        {
+          "id": "2AF041F809748446",
+          "type": "kill",
+          "entity": "wom:saulomonk",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5EAA115406E2DDE3",
+          "type": "xp",
+          "xp": 500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "7619861705588305",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "6EF4ED1ED735A777"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "429B91431BA692B7",
+      "title": "Contract · Saulomonk",
+      "description": [
+        "Seek the rare hostile Saulomonk encounters while exploring the Overworld. This is an optional Weapons of Miracles elite hunt, not a new story seal or a requirement to use its weapons. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 6.0,
+      "y": 30.0,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "minecraft:iron_axe",
+      "tasks": [
+        {
+          "id": "3105FF65A1A5661D",
+          "type": "kill",
+          "entity": "wom:saulomonk",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "46B4DB2F00D9DBA7",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "5C0B6E56F2970A2D",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        },
+        {
+          "id": "6BB8C715651BA809",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "3FE2EEDEB8279CC3"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "6074A046942AF448",
+      "title": "Lycanth",
+      "description": [
+        "Identify the hostile Lycanth and leave room for its dangerous melee pressure. Its registered entity is distinct from Lupus Aureum, the mod’s rideable mount, which never counts for this hunt. Defeat this enemy once for the first-victory reward; earlier kills are not retroactively counted by this new kill objective."
+      ],
+      "x": 0.0,
+      "y": 32.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:iron_sword",
+      "tasks": [
+        {
+          "id": "3AF25EB326C98E5F",
+          "type": "kill",
+          "entity": "wom:lycanth",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2EAB65A8630F28D7",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "37056355F4C86864",
+      "title": "Veteran · Lycanth",
+      "description": [
+        "Identify the hostile Lycanth and leave room for its dangerous melee pressure. Its registered entity is distinct from Lupus Aureum, the mod’s rideable mount, which never counts for this hunt. Defeat this enemy three times while this objective is available to earn the one-time veteran reward."
+      ],
+      "x": 3.0,
+      "y": 32.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:iron_sword",
+      "tasks": [
+        {
+          "id": "3149349E0439A1F7",
+          "type": "kill",
+          "entity": "wom:lycanth",
+          "value": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "126B9AB039468F91",
+          "type": "xp",
+          "xp": 500,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "444E813905E34623",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "6074A046942AF448"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "0BB3BD408F217592",
+      "title": "Contract · Lycanth",
+      "description": [
+        "Identify the hostile Lycanth and leave room for its dangerous melee pressure. Its registered entity is distinct from Lupus Aureum, the mod’s rideable mount, which never counts for this hunt. Defeat this enemy five times per contract, then claim the item rewards to reset the contract for another run; kills made before it unlocks are not banked."
+      ],
+      "x": 6.0,
+      "y": 32.5,
+      "size": 1.0,
+      "shape": "hexagon",
+      "icon": "minecraft:iron_sword",
+      "tasks": [
+        {
+          "id": "12C22E384DF15D8C",
+          "type": "kill",
+          "entity": "wom:lycanth",
+          "value": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5A7E6C5BDE08ADF7",
+          "type": "xp",
+          "xp": 750,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "3509974AC296C483",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 4,
+          "team_reward": false
+        },
+        {
+          "id": "42674E0F1553DEB3",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 4,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "37056355F4C86864"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "can_repeat": true,
+      "repeat_cooldown": 0
+    },
+    {
+      "id": "44FE7EE074DD1479",
+      "title": "Legends of the Whole World",
+      "description": [
+        "Complete the first-victory objectives for every major boss listed in this ledger, including the Oathless, both vanilla bosses, all eight Cataclysm bosses and Iron’s two main bosses. This optional capstone grants experience and supplies, while leaving every original story reward and seal under the campaign’s normal rules."
+      ],
+      "x": 18.0,
+      "y": 29.0,
+      "size": 1.5,
+      "shape": "gear",
+      "icon": "minecraft:nether_star",
+      "tasks": [
+        {
+          "id": "3D73C59DD86F65C8",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "579B16A2024DBBC7",
+          "type": "xp",
+          "xp": 10000,
+          "auto": "enabled",
+          "team_reward": false
+        },
+        {
+          "id": "0EDE8BCDF8839700",
+          "type": "item",
+          "item": "minecraft:diamond",
+          "count": 16,
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "3C1EC3247EF677FF",
+        "5F07B22B40169C90",
+        "135F579D4C6A7BEF",
+        "364FDCA14FC6B123",
+        "1051A69CE9D62CB1",
+        "2385EED05346D3AB",
+        "3F42EED83E1A2CD0",
+        "7A91DE408AA8C0AB",
+        "784762EF03F49715",
+        "6FF277DCA9F0C02A",
+        "03C345B75B8A5FEA",
+        "2034A7A26443F9B3",
+        "294DB0FE22FD3768"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "hide_dependency_lines": true
+    }
+  ],
+  "images": [
+    {
+      "x": 3.0,
+      "y": -2.0,
+      "width": 10.0,
+      "height": 1.0,
+      "image": "ashen:textures/quests/boss_panel_0.png",
+      "hover": [
+        "Cataclysm — First victory → three kills → repeatable five-kill contract"
+      ],
+      "order": 0
+    },
+    {
+      "x": 15.0,
+      "y": -2.0,
+      "width": 10.0,
+      "height": 1.0,
+      "image": "ashen:textures/quests/boss_panel_1.png",
+      "hover": [
+        "Cataclysm Elites — First victory → three kills → repeatable five-kill contract"
+      ],
+      "order": 0
+    },
+    {
+      "x": 27.0,
+      "y": -2.0,
+      "width": 10.0,
+      "height": 1.0,
+      "image": "ashen:textures/quests/boss_panel_2.png",
+      "hover": [
+        "Vanilla — First victory → three kills → repeatable five-kill contract"
+      ],
+      "order": 0
+    },
+    {
+      "x": 27.0,
+      "y": 15.5,
+      "width": 10.0,
+      "height": 1.0,
+      "image": "ashen:textures/quests/boss_panel_3.png",
+      "hover": [
+        "Iron’s Spells — First victory → three kills → repeatable five-kill contract"
+      ],
+      "order": 0
+    },
+    {
+      "x": 3.0,
+      "y": 20.5,
+      "width": 10.0,
+      "height": 1.0,
+      "image": "ashen:textures/quests/boss_panel_4.png",
+      "hover": [
+        "Campaign — First victory → three kills → repeatable five-kill contract"
+      ],
+      "order": 0
+    },
+    {
+      "x": 3.0,
+      "y": 28.0,
+      "width": 10.0,
+      "height": 1.0,
+      "image": "ashen:textures/quests/boss_panel_5.png",
+      "hover": [
+        "Weapons of Miracles — First victory → three kills → repeatable five-kill contract"
+      ],
+      "order": 0
+    }
+  ]
+}

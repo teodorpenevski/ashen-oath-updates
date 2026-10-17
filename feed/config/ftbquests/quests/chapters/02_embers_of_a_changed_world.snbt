@@ -5,7 +5,7 @@
   "title": "2 · Embers of a Changed World",
   "icon": "minecraft:blaze_powder",
   "order_index": 1,
-  "default_quest_shape": "square",
+  "default_quest_shape": "circle",
   "default_quest_size": 1.0,
   "progression_mode": "linear",
   "consume_items": false,
@@ -38,7 +38,10 @@
       "optional": false,
       "progression_mode": "linear",
       "hide_until_deps_complete": true,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "gear",
+      "size": 1.25,
+      "icon": "minecraft:book"
     },
     {
       "id": "361C92660F02DC67",
@@ -70,11 +73,13 @@
         "4AE2D7F6A78F781C"
       ],
       "optional": false,
-      "x": 2.0,
+      "x": 2.3,
       "y": 0.0,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "29C7ABD3AF1901B3",
@@ -82,7 +87,7 @@
       "description": [
         "Build an Inscription Table. The Magic tutorial shows how to put found or crafted scrolls in a spellbook. The table is this chapter's only mandatory magic craft."
       ],
-      "x": 4.0,
+      "x": 4.6,
       "y": 0.0,
       "tasks": [
         {
@@ -108,7 +113,9 @@
       "optional": false,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "7341EE27326510E8",
@@ -116,7 +123,7 @@
       "description": [
         "Build a Simple Reforging Table. Read its costs in JEI and use rarity materials, gem dust and XP to improve a weapon."
       ],
-      "x": 6.0,
+      "x": 6.8999999999999995,
       "y": 0.0,
       "tasks": [
         {
@@ -142,7 +149,9 @@
       "optional": false,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "59A47D6018B7E3D9",
@@ -150,7 +159,7 @@
       "description": [
         "Gather ten obsidian for a Nether portal. Bring food, gold armor, blocks and a fire-resistance potion when possible."
       ],
-      "x": 8.0,
+      "x": 9.2,
       "y": 0.0,
       "tasks": [
         {
@@ -176,7 +185,9 @@
       "optional": false,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "537F38E1C45C20AF",
@@ -208,11 +219,13 @@
         "59A47D6018B7E3D9"
       ],
       "optional": false,
-      "x": 10.0,
+      "x": 11.5,
       "y": 0.0,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "1989B02458810B2E",
@@ -244,11 +257,13 @@
         "537F38E1C45C20AF"
       ],
       "optional": false,
-      "x": 12.0,
+      "x": 13.799999999999999,
       "y": 0.0,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "5157388E66ED22AC",
@@ -256,8 +271,8 @@
       "description": [
         "Obtain six blaze rods in the Nether. Save some for Eyes of Ender and brewing."
       ],
-      "x": 0.0,
-      "y": 3.0,
+      "x": 16.099999999999998,
+      "y": 0.0,
       "tasks": [
         {
           "type": "item",
@@ -283,7 +298,9 @@
       "optional": false,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "5F95AC4FBCD264B3",
@@ -315,11 +332,13 @@
         "5157388E66ED22AC"
       ],
       "optional": false,
-      "x": 2.0,
-      "y": 3.0,
+      "x": 18.4,
+      "y": 0.0,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "3C6F4D2A3B0DE515",
@@ -348,11 +367,13 @@
         "5F95AC4FBCD264B3"
       ],
       "optional": false,
-      "x": 4.0,
-      "y": 3.0,
+      "x": 20.7,
+      "y": 0.0,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "7787362D6B082AD4",
@@ -360,8 +381,8 @@
       "description": [
         "Use the Explorer's Compass and search for Cataclysm's Soul Forge (structure ID is shown by the compass). Rare/epic affixes, armor, healing and fire protection are recommended. Other story bosses remain sealed until their chapter."
       ],
-      "x": 6.0,
-      "y": 3.0,
+      "x": 23.0,
+      "y": 0.0,
       "tasks": [
         {
           "type": "item",
@@ -386,7 +407,9 @@
       "optional": false,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "1286A42DA00B801B",
@@ -395,8 +418,8 @@
         "Defeat the Netherite Monstrosity and carry its Furnace Heart for Memory II. Your order turned a new power into a weapon, and the world paid the price.",
         "This boss guarantees one Monstrosity Furnace Heart on a valid defeat. Pick it up, open this quest and keep the trophy in your inventory. The task completes automatically and the trophy is not consumed. It has no crafting recipe and the archive cannot produce it."
       ],
-      "x": 8.0,
-      "y": 3.0,
+      "x": 25.299999999999997,
+      "y": 0.0,
       "tasks": [
         {
           "id": "2536871419E98EEA",
@@ -435,7 +458,9 @@
       "optional": false,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "gear",
+      "size": 1.25
     },
     {
       "id": "782EA91FB8F2309E",
@@ -463,25 +488,17 @@
         }
       ],
       "dependencies": [
-        "4AE2D7F6A78F781C",
-        "361C92660F02DC67",
-        "29C7ABD3AF1901B3",
-        "7341EE27326510E8",
-        "59A47D6018B7E3D9",
-        "537F38E1C45C20AF",
-        "1989B02458810B2E",
-        "5157388E66ED22AC",
-        "5F95AC4FBCD264B3",
-        "3C6F4D2A3B0DE515",
-        "7787362D6B082AD4",
         "1286A42DA00B801B"
       ],
       "optional": false,
       "progression_mode": "linear",
-      "x": 14.0,
-      "y": 3.0,
+      "x": 27.599999999999998,
+      "y": 0.0,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "gear",
+      "size": 1.25,
+      "icon": "minecraft:book"
     },
     {
       "id": "105316E8497B88D1",
@@ -513,10 +530,12 @@
         "4AE2D7F6A78F781C"
       ],
       "optional": true,
-      "x": 0.0,
+      "x": -3.4499999999999997,
       "y": -3.0,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "4D0ADE025E72A858",
@@ -548,10 +567,12 @@
         "7341EE27326510E8"
       ],
       "optional": true,
-      "x": 3.0,
+      "x": 6.8999999999999995,
       "y": -3.0,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "13131A297E991E34",
@@ -583,10 +604,12 @@
         "5157388E66ED22AC"
       ],
       "optional": true,
-      "x": 6.0,
+      "x": 16.099999999999998,
       "y": -3.0,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "0C2EB509B04576B3",
@@ -618,10 +641,12 @@
         "4AE2D7F6A78F781C"
       ],
       "optional": true,
-      "x": 0.0,
-      "y": -5.0,
+      "x": -1.15,
+      "y": -3.0,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "366541BCCE3606F8",
@@ -653,10 +678,12 @@
         "4AE2D7F6A78F781C"
       ],
       "optional": true,
-      "x": 3.0,
-      "y": -5.0,
+      "x": 1.15,
+      "y": -3.0,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "0CC621FA2F88705A",
@@ -688,12 +715,227 @@
         "4AE2D7F6A78F781C"
       ],
       "optional": true,
-      "x": 6.0,
-      "y": -5.0,
+      "x": 3.4499999999999997,
+      "y": -3.0,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "square",
+      "size": 1.0
+    },
+    {
+      "id": "33E9F916A7FAB6F8",
+      "title": "Optional · Keep a Way Home",
+      "description": [
+        "Carry a Flint and Steel and record the coordinates of your Nether portal. Protect the arrival area before exploring, so a broken portal does not turn an equipment run into a long recovery expedition."
+      ],
+      "x": 9.2,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "minecraft:flint_and_steel",
+      "tasks": [
+        {
+          "id": "0135BB628FC648C7",
+          "type": "item",
+          "item": "minecraft:flint_and_steel",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "45638F56ECA35119",
+          "type": "xp",
+          "xp": 225,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "59A47D6018B7E3D9"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "153800DD22731A1F",
+      "title": "Optional · Prepare for Fire",
+      "description": [
+        "Brew or obtain a suitable fire-defense option and read its duration before leaving safety. Acknowledge this practical lesson after testing your protection; this checkmark does not inspect potion NBT or automatically grant resistance."
+      ],
+      "x": 11.5,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "6A15E7F896CA0FD0",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7DD99AEE931096E8",
+          "type": "xp",
+          "xp": 225,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "537F38E1C45C20AF"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "4A531EEB20A0A28A",
+      "title": "Optional · Bring Empty Bottles",
+      "description": [
+        "Bring bottles and a water source for the brewing setup used by your own loadout. Inspect the installed potion recipes and keep a spare defensive dose for the return trip."
+      ],
+      "x": 16.1,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "minecraft:glass_bottle",
+      "tasks": [
+        {
+          "id": "09E2EF0ECFA06D2B",
+          "type": "item",
+          "item": "minecraft:glass_bottle",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "79BDB6F6FD0F41F7",
+          "type": "xp",
+          "xp": 225,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "5157388E66ED22AC"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "1EEB4AD8AADC0953",
+      "title": "Optional · Locate without Rushing",
+      "description": [
+        "Use the compass and the mod’s locator information to plan the Soul Black Smith journey. Locate the structure first, then return with supplies if needed; discovering an arena is not a requirement to start its fight immediately."
+      ],
+      "x": 23.0,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "28CADA71E7BF66DC",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D0E1960A880B918",
+          "type": "xp",
+          "xp": 225,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "7787362D6B082AD4"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "023B012E575BE530",
+      "title": "Optional · Change the Damage Plan",
+      "description": [
+        "After the Monstrosity encounter, compare the effectiveness of your damage type and defensive preparation. Acknowledge this review after identifying one change for a resistant target instead of simply increasing a damage number."
+      ],
+      "x": 25.3,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "717D57A2B2AC2533",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6CB604F5AA2C102D",
+          "type": "xp",
+          "xp": 225,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "1286A42DA00B801B"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "60F144D388B3B8DC",
+      "title": "Optional · Carry a Spare Tool",
+      "description": [
+        "Prepare a spare Iron Pickaxe for the Nether expedition and leave room for useful drops. Durability and a route back matter when the nearest safe workbench is in another dimension."
+      ],
+      "x": 6.9,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "minecraft:iron_pickaxe",
+      "tasks": [
+        {
+          "id": "54D3F6E5BE51DEC8",
+          "type": "item",
+          "item": "minecraft:iron_pickaxe",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3C41EBD632E5E32B",
+          "type": "xp",
+          "xp": 225,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "7341EE27326510E8"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
     }
   ],
-  "hide_quest_until_deps_visible": true,
+  "hide_quest_until_deps_visible": false,
   "hide_quest_details_until_startable": true
 }

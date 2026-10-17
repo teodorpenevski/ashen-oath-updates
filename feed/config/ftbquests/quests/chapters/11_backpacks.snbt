@@ -5,7 +5,7 @@
   "icon": "sophisticatedbackpacks:backpack",
   "group": "225FE9BE4793200B",
   "order_index": 5,
-  "default_quest_shape": "square",
+  "default_quest_shape": "circle",
   "default_quest_size": 1.0,
   "progression_mode": "flexible",
   "consume_items": false,
@@ -41,7 +41,11 @@
       "dependencies": [],
       "optional": true,
       "x": 0.0,
-      "y": 0.0
+      "y": 0.0,
+      "shape": "gear",
+      "size": 1.3,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
     },
     {
       "id": "4B30DEDE39DEF926",
@@ -73,8 +77,12 @@
         "2C77575A7A29ECFE"
       ],
       "optional": true,
-      "x": 2.0,
-      "y": 0.0
+      "x": 2.5,
+      "y": 0.0,
+      "shape": "square",
+      "size": 1.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
     },
     {
       "id": "1AE3BB74CF5C46C4",
@@ -106,8 +114,12 @@
         "4B30DEDE39DEF926"
       ],
       "optional": true,
-      "x": 4.0,
-      "y": 0.0
+      "x": 5.0,
+      "y": 0.0,
+      "shape": "square",
+      "size": 1.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
     },
     {
       "id": "770770827A6799A7",
@@ -139,8 +151,12 @@
         "1AE3BB74CF5C46C4"
       ],
       "optional": true,
-      "x": 6.0,
-      "y": 0.0
+      "x": 7.5,
+      "y": 0.0,
+      "shape": "square",
+      "size": 1.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
     },
     {
       "id": "33063168DB6FCE93",
@@ -172,8 +188,12 @@
         "770770827A6799A7"
       ],
       "optional": true,
-      "x": 8.0,
-      "y": 0.0
+      "x": 10.0,
+      "y": 0.0,
+      "shape": "square",
+      "size": 1.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
     },
     {
       "id": "120A07C6C529803C",
@@ -205,8 +225,12 @@
         "2C77575A7A29ECFE"
       ],
       "optional": true,
-      "x": 0.0,
-      "y": 3.0
+      "x": -2.5,
+      "y": 3.0,
+      "shape": "square",
+      "size": 1.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
     },
     {
       "id": "60A56E383B85EF84",
@@ -238,8 +262,12 @@
         "2C77575A7A29ECFE"
       ],
       "optional": true,
-      "x": 2.0,
-      "y": 3.0
+      "x": -2.5,
+      "y": -3.0,
+      "shape": "square",
+      "size": 1.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
     },
     {
       "id": "0F6580A2303590F9",
@@ -271,8 +299,12 @@
         "2C77575A7A29ECFE"
       ],
       "optional": true,
-      "x": 4.0,
-      "y": 3.0
+      "x": 2.5,
+      "y": -6.0,
+      "shape": "square",
+      "size": 1.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
     },
     {
       "id": "1A3C98726893A20F",
@@ -304,8 +336,12 @@
         "2C77575A7A29ECFE"
       ],
       "optional": true,
-      "x": 6.0,
-      "y": 3.0
+      "x": -5.0,
+      "y": 0.0,
+      "shape": "square",
+      "size": 1.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
     },
     {
       "id": "3E865FD719DAEA61",
@@ -337,8 +373,568 @@
         "2C77575A7A29ECFE"
       ],
       "optional": true,
-      "x": 8.0,
-      "y": 3.0
+      "x": 7.5,
+      "y": 6.0,
+      "shape": "square",
+      "size": 1.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "64CABE3B39536314",
+      "title": "Choose What Comes Home",
+      "description": [
+        "Open the backpack’s upgrade controls and configure one pickup or magnet filter. Acknowledge this lesson after testing wanted and unwanted drops, because a filter that looks sensible can still collect the wrong item variant."
+      ],
+      "x": 0.0,
+      "y": -3.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "7EB63DAC5B8C115E",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "49B18F81BF7BAB4E",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "2C77575A7A29ECFE"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "0A71B7EC4CDFD825",
+      "title": "A More Selective Pickup",
+      "description": [
+        "Craft the Advanced Pickup Upgrade when you need its extra filtering controls. Read the filter settings and test a handful of drops before using it during a large mining trip."
+      ],
+      "x": -2.5,
+      "y": 6.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "sophisticatedbackpacks:advanced_pickup_upgrade",
+      "tasks": [
+        {
+          "id": "25EC8A33B3DDAE4B",
+          "type": "item",
+          "item": "sophisticatedbackpacks:advanced_pickup_upgrade",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "77D8CBEE913AE73D",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "120A07C6C529803C"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "573E192974A06C56",
+      "title": "Keep the Hotbar Supplied",
+      "description": [
+        "Craft a Refill Upgrade and configure which inventory slots or items it should replenish. Keep spare blocks or consumables in the backpack and test a small stack before relying on the behavior in combat."
+      ],
+      "x": 0.0,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "sophisticatedbackpacks:refill_upgrade",
+      "tasks": [
+        {
+          "id": "7E9FFCBA4BE91C5D",
+          "type": "item",
+          "item": "sophisticatedbackpacks:refill_upgrade",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "495E319981D9A0F2",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "2C77575A7A29ECFE"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "13F8DBF2162B571D",
+      "title": "Unload at the Base",
+      "description": [
+        "Craft a Deposit Upgrade and read its interaction and filter settings. Test it on an ordinary storage chest first so that important equipment stays in your pack."
+      ],
+      "x": 2.5,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "sophisticatedbackpacks:deposit_upgrade",
+      "tasks": [
+        {
+          "id": "2C5BED2D0F126A5E",
+          "type": "item",
+          "item": "sophisticatedbackpacks:deposit_upgrade",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "438612C6A2F7BB30",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "573E192974A06C56"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "0DFDC00F25CD6CF2",
+      "title": "Prepare for Another Trip",
+      "description": [
+        "Craft a Restock Upgrade and configure the supplies you want to recover from storage. Check its filter before interacting with shared inventories so that preparation does not empty your teammate’s reserves."
+      ],
+      "x": 5.0,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "sophisticatedbackpacks:restock_upgrade",
+      "tasks": [
+        {
+          "id": "2D8C080D13789BB8",
+          "type": "item",
+          "item": "sophisticatedbackpacks:restock_upgrade",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1F7CE7642D75977B",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "13F8DBF2162B571D"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "480DA75BA87365D2",
+      "title": "Pack Resources More Tightly",
+      "description": [
+        "Craft a Compacting Upgrade and inspect which recipes it can apply. Enable only the conversions you want, since turning loose resources into blocks can affect other automatic filters."
+      ],
+      "x": 5.0,
+      "y": 8.5,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "sophisticatedbackpacks:compacting_upgrade",
+      "tasks": [
+        {
+          "id": "261E43DE4C4C19F8",
+          "type": "item",
+          "item": "sophisticatedbackpacks:compacting_upgrade",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "436E221681CC0B07",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "3E865FD719DAEA61"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "48A99DE9B9262441",
+      "title": "Discard with a Whitelist",
+      "description": [
+        "Craft a Void Upgrade only when you can configure it carefully. Test with replaceable junk and keep valuable items out of its filter, because voiding intentionally destroys matching items."
+      ],
+      "x": 2.5,
+      "y": -3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "sophisticatedbackpacks:void_upgrade",
+      "tasks": [
+        {
+          "id": "1B3E7AE91355DBA4",
+          "type": "item",
+          "item": "sophisticatedbackpacks:void_upgrade",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "37E4C30D0D833691",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "64CABE3B39536314"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "5BD6766632916D87",
+      "title": "A Fluid Reserve",
+      "description": [
+        "Craft a Tank Upgrade and inspect its capacity and container interaction. Keep different fluids in their intended tanks and test filling and draining before carrying a valuable reserve."
+      ],
+      "x": 5.0,
+      "y": -3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "sophisticatedbackpacks:tank_upgrade",
+      "tasks": [
+        {
+          "id": "3184F6B4C51E176D",
+          "type": "item",
+          "item": "sophisticatedbackpacks:tank_upgrade",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2B938AD61673EA0A",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "1AE3BB74CF5C46C4"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "61194BC56890DB94",
+      "title": "Power in a Pocket",
+      "description": [
+        "Craft a Battery Upgrade and inspect its charging and energy-transfer behavior. Check that your device accepts Forge Energy and that the upgrade’s settings allow the transfer you expect."
+      ],
+      "x": 7.5,
+      "y": -3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "sophisticatedbackpacks:battery_upgrade",
+      "tasks": [
+        {
+          "id": "565E0AE1EFA77F3F",
+          "type": "item",
+          "item": "sophisticatedbackpacks:battery_upgrade",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "52D40CB0F8BC2A31",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "770770827A6799A7"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "0A1BE0E572C96741",
+      "title": "Repairs on the Road",
+      "description": [
+        "Craft an Anvil Upgrade for expeditions that need repairs or enchantment work. Read the normal experience and item costs before using it on your best equipment."
+      ],
+      "x": -7.5,
+      "y": -3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "sophisticatedbackpacks:anvil_upgrade",
+      "tasks": [
+        {
+          "id": "517D55B1136C644D",
+          "type": "item",
+          "item": "sophisticatedbackpacks:anvil_upgrade",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "22D10B17B8A23283",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "1A3C98726893A20F"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "5EF3AE8B18CBB717",
+      "title": "A Portable Smithing Station",
+      "description": [
+        "Craft a Smithing Upgrade and inspect its supported smithing interface. Bring the required template and ingredients rather than assuming the portable workstation removes the recipe cost."
+      ],
+      "x": -10.0,
+      "y": -3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "sophisticatedbackpacks:smithing_upgrade",
+      "tasks": [
+        {
+          "id": "6BF9D87243CE9C36",
+          "type": "item",
+          "item": "sophisticatedbackpacks:smithing_upgrade",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5637B66D84CB21EB",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "0A1BE0E572C96741"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "7782FB2F6F5E6BEF",
+      "title": "Cook Away from Home",
+      "description": [
+        "Craft a Smelting Upgrade and inspect its fuel, input and output slots. Test the upgrade with a small batch and leave room for the finished items before starting a long journey."
+      ],
+      "x": -7.5,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "sophisticatedbackpacks:smelting_upgrade",
+      "tasks": [
+        {
+          "id": "100F8BA60ACCD9C4",
+          "type": "item",
+          "item": "sophisticatedbackpacks:smelting_upgrade",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "790DA6210C78C6A7",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "1A3C98726893A20F"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "1D8B4700677C1F07",
+      "title": "Increase Stack Capacity",
+      "description": [
+        "Upgrade your stack capacity through the installed Tier 2 recipe. Compare the multiplier and available upgrade slots with a larger backpack tier before spending scarce materials."
+      ],
+      "x": 10.0,
+      "y": 6.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "sophisticatedbackpacks:stack_upgrade_tier_2",
+      "tasks": [
+        {
+          "id": "354C3663D109502A",
+          "type": "item",
+          "item": "sophisticatedbackpacks:stack_upgrade_tier_2",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4315CF6217292A19",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "3E865FD719DAEA61"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "00601E7992007215",
+      "title": "Save a Useful Backpack Setup",
+      "description": [
+        "Inspect sorting, memory slots and the upgrade filters available in your backpack interface. Acknowledge this lesson after arranging a repeatable expedition loadout and confirming that your equipped upgrades preserve it."
+      ],
+      "x": 7.5,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "77EDD7B32650F4F9",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3BCDC424A5EE2D34",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "0DFDC00F25CD6CF2"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "599FA0D63FE43788",
+      "title": "Ready for the Return Journey",
+      "description": [
+        "Pack food, recovery supplies, spare tools and room for loot before leaving the base. Test pickup and unloading once more, then acknowledge the lesson after confirming that the upgrades support your actual trip."
+      ],
+      "x": 15.0,
+      "y": 0.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "5456B0E2BEB1810A",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5B821FEC2C871EF7",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "00601E7992007215",
+        "33063168DB6FCE93"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
     }
   ]
 }

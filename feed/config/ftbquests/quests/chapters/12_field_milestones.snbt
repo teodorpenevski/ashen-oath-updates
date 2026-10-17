@@ -5,7 +5,7 @@
   "icon": "minecraft:iron_sword",
   "group": "225FE9BE4793200B",
   "order_index": 6,
-  "default_quest_shape": "square",
+  "default_quest_shape": "circle",
   "default_quest_size": 1.0,
   "progression_mode": "flexible",
   "consume_items": false,
@@ -38,7 +38,11 @@
       "dependencies": [],
       "optional": true,
       "x": 0.0,
-      "y": 0.0
+      "y": 0.0,
+      "shape": "gear",
+      "size": 1.3,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
     },
     {
       "id": "3BE2EDF20B21B935",
@@ -65,8 +69,12 @@
       ],
       "dependencies": [],
       "optional": true,
-      "x": 3.0,
-      "y": 0.0
+      "x": 2.5,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
     },
     {
       "id": "7D616E78BFFCBB33",
@@ -93,8 +101,12 @@
       ],
       "dependencies": [],
       "optional": true,
-      "x": 6.0,
-      "y": 0.0
+      "x": 5.0,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
     },
     {
       "id": "026281E694133691",
@@ -121,8 +133,12 @@
       ],
       "dependencies": [],
       "optional": true,
-      "x": 0.0,
-      "y": 3.0
+      "x": 7.5,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
     },
     {
       "id": "32057800F5DFE194",
@@ -149,8 +165,12 @@
       ],
       "dependencies": [],
       "optional": true,
-      "x": 3.0,
-      "y": 3.0
+      "x": 10.0,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
     },
     {
       "id": "4664A55891797812",
@@ -177,8 +197,12 @@
       ],
       "dependencies": [],
       "optional": true,
-      "x": 6.0,
-      "y": 3.0
+      "x": 0.0,
+      "y": -3.0,
+      "shape": "circle",
+      "size": 1.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
     },
     {
       "id": "4F53D25F7090F14D",
@@ -208,8 +232,12 @@
       ],
       "dependencies": [],
       "optional": true,
-      "x": 0.0,
-      "y": 6.0
+      "x": 2.5,
+      "y": -3.0,
+      "shape": "square",
+      "size": 1.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
     },
     {
       "id": "0036CEF652482539",
@@ -239,8 +267,476 @@
       ],
       "dependencies": [],
       "optional": true,
-      "x": 3.0,
-      "y": 6.0
+      "x": 5.0,
+      "y": -3.0,
+      "shape": "square",
+      "size": 1.0,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "20D923B30664DD2D",
+      "title": "Keep the Crater Small",
+      "description": [
+        "Defeat 15 Creepers while practicing spacing and a safe finishing attack. These optional hunts count credited kills while unlocked and never advance the story’s boss seals."
+      ],
+      "x": 0.0,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "53F897ACFFDC642F",
+          "type": "kill",
+          "entity": "minecraft:creeper",
+          "value": 15
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C728A8912C4BC95",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "308545850CFFDCE9",
+      "title": "Stop the Potion Barrage",
+      "description": [
+        "Defeat 8 Witches and compare a quick approach with a ranged opening. Carry a way to recover from harmful effects instead of judging the encounter only by your first hit."
+      ],
+      "x": 2.5,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "61E8FBBAE9B1E95D",
+          "type": "kill",
+          "entity": "minecraft:witch",
+          "value": 8
+        }
+      ],
+      "rewards": [
+        {
+          "id": "218DAFCBA5017DE0",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "2EAD2B2B796A0AB2",
+      "title": "Watch the Waterline",
+      "description": [
+        "Defeat 15 Drowned without exhausting your air supply. Separate underwater movement and visibility problems from the damage of the enemy itself."
+      ],
+      "x": 5.0,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "280A3B5A8E609386",
+          "type": "kill",
+          "entity": "minecraft:drowned",
+          "value": 15
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6C9840CE6B917BE5",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "2109350566B2CDCC",
+      "title": "Break the Patrol",
+      "description": [
+        "Defeat 15 Pillagers while using cover against crossbow fire. Check the consequences of a captain’s effects before approaching a village afterward."
+      ],
+      "x": 7.5,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "31D2E5D9B56CD9B1",
+          "type": "kill",
+          "entity": "minecraft:pillager",
+          "value": 15
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4AC426A7FE70DD94",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "4992B147B733BA0A",
+      "title": "Respect the Axe",
+      "description": [
+        "Defeat 8 Vindicators while practicing a defensive response to heavy melee pressure. Use spacing, guard or an escape skill rather than trading every hit."
+      ],
+      "x": 10.0,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "04FD6067718E49AC",
+          "type": "kill",
+          "entity": "minecraft:vindicator",
+          "value": 8
+        }
+      ],
+      "rewards": [
+        {
+          "id": "31769A3E01CD533D",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "23989879A8CB3E7F",
+      "title": "Return Fire to the Sky",
+      "description": [
+        "Defeat 6 Ghasts using a reliable ranged response or a well-timed returned projectile. Keep secure footing so that the terrain does not become the more dangerous opponent."
+      ],
+      "x": 0.0,
+      "y": 6.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "1DA92571DBCDFB9B",
+          "type": "kill",
+          "entity": "minecraft:ghast",
+          "value": 6
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D3A3DDA18DF8B7D",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "08BA90E66697C6AB",
+      "title": "Leave Room for the Split",
+      "description": [
+        "Defeat 20 Magma Cubes and leave room for their smaller forms. Keep fire protection and a retreat route available when fighting near lava."
+      ],
+      "x": 2.5,
+      "y": 6.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "5841D7804994DF53",
+          "type": "kill",
+          "entity": "minecraft:magma_cube",
+          "value": 20
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5666CB171C993C30",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "0F3922D93E0F8285",
+      "title": "A Supply That Bounces",
+      "description": [
+        "Defeat 20 Slimes and keep useful slimeballs for later crafting. Check your surroundings before following a split slime into a cave or a crowded room."
+      ],
+      "x": 5.0,
+      "y": 6.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "09C6F868BD544115",
+          "type": "kill",
+          "entity": "minecraft:slime",
+          "value": 20
+        }
+      ],
+      "rewards": [
+        {
+          "id": "34E281C5882ED63D",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "43EE313848093336",
+      "title": "Look Up Before Resting",
+      "description": [
+        "Defeat 8 Phantoms while controlling where they can dive at you. Prepare a safe position and a ranged option rather than chasing them across dangerous terrain."
+      ],
+      "x": 7.5,
+      "y": 6.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "2F9629D39929C27D",
+          "type": "kill",
+          "entity": "minecraft:phantom",
+          "value": 8
+        }
+      ],
+      "rewards": [
+        {
+          "id": "74C73E8A7920E786",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "3CEDCB2156E717DF",
+      "title": "Hold Your Ground in the End",
+      "description": [
+        "Defeat 10 Shulkers and prepare for the levitation that can follow a missed defense. Carry a reliable landing or recovery option before climbing an exposed End City."
+      ],
+      "x": 10.0,
+      "y": 6.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "25F221D90F61D69F",
+          "type": "kill",
+          "entity": "minecraft:shulker",
+          "value": 10
+        }
+      ],
+      "rewards": [
+        {
+          "id": "55FF9E2DB9789455",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "018958FB42C0EAD2",
+      "title": "Choose the Biome for the Trip",
+      "description": [
+        "Use Nature’s Compass to plan a biome expedition for a resource you actually need. This quest detects the compass in inventory; search, travel and safe arrival remain practical steps for you to perform."
+      ],
+      "x": 12.5,
+      "y": 0.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "naturescompass:naturescompass",
+      "tasks": [
+        {
+          "id": "1FFD4083AD140018",
+          "type": "item",
+          "item": "naturescompass:naturescompass",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5DA4CC9B8B12639C",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "24A761601F032AE9",
+      "title": "Find the Next Expedition",
+      "description": [
+        "Use Explorer’s Compass to inspect the available structure names and plan a route. A locator does not remove story boss seals or guarantee that a dangerous structure is safe to enter."
+      ],
+      "x": 12.5,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "explorerscompass:explorerscompass",
+      "tasks": [
+        {
+          "id": "350A206AC97FBD3F",
+          "type": "item",
+          "item": "explorerscompass:explorerscompass",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "67E07FB08B7D4B46",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "3E98603B879250DB",
+      "title": "A Map You Can Trust",
+      "description": [
+        "Open Xaero’s map, place a waypoint and verify that it belongs to the current server world. Acknowledge this lesson after checking the location; maps from an earlier world reset should not be connected blindly."
+      ],
+      "x": 12.5,
+      "y": 6.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "20C134FEB1EFCB48",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7DF2A0781C59FC1E",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "4328D2C93D6FEE0E",
+      "title": "Recover the Expedition",
+      "description": [
+        "Before carrying rare loot, review where your corpse and return waypoint will appear after a death. Acknowledge the lesson after planning a safe recovery route with your party."
+      ],
+      "x": 15.0,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "35B3E176BCDFA167",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B7A309927DCF82D",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
     }
   ]
 }

@@ -12,11 +12,11 @@ StartupEvents.registry("item", event => {
   event.create("dragon_proof").displayName("Proof \u00b7 The Ender Dragon").texture("minecraft:item/dragon_breath").maxStackSize(1);
   event.create("restored_oath").displayName("The Restored Oath").texture("minecraft:item/heart_of_the_sea").maxStackSize(1);
   event.create("dawnwarden_crest").displayName("Dawnwarden Crest").texture("minecraft:item/totem_of_undying").maxStackSize(1);
-  event.create("trophy_oathless").displayName("Oathless Crest").texture("minecraft:prismarine_crystals").maxStackSize(16);
-  event.create("trophy_monstrosity").displayName("Monstrosity Furnace Heart").texture("minecraft:magma_cream").maxStackSize(16);
-  event.create("trophy_wither").displayName("Wither Crown").texture("minecraft:wither_skeleton_skull").maxStackSize(16);
-  event.create("trophy_harbinger").displayName("Harbinger Control Core").texture("minecraft:comparator").maxStackSize(16);
-  event.create("trophy_dragon").displayName("Dragon Soul Scale").texture("minecraft:dragon_breath").maxStackSize(16);
-  event.create("trophy_guardian").displayName("Guardian Void Sigil").texture("minecraft:ender_eye").maxStackSize(16);
-  event.create("trophy_ignis").displayName("Ignis Oathbrand").texture("minecraft:blaze_rod").maxStackSize(16);
+  event.create("trophy_oathless").displayName("Oathless Crest").texture("minecraft:item/prismarine_crystals").maxStackSize(16);
+  event.create("trophy_monstrosity").displayName("Monstrosity Furnace Heart").texture("minecraft:item/magma_cream").maxStackSize(16);
+  event.create("trophy_wither").displayName("Wither Crown").texture("minecraft:item/wither_skeleton_skull").maxStackSize(16);
+  event.create("trophy_harbinger").displayName("Harbinger Control Core").texture("minecraft:item/comparator").maxStackSize(16);
+  event.create("trophy_dragon").displayName("Dragon Soul Scale").texture("minecraft:item/dragon_breath").maxStackSize(16);
+  event.create("trophy_guardian").displayName("Guardian Void Sigil").texture("minecraft:item/ender_eye").maxStackSize(16);
+  event.create("trophy_ignis").displayName("Ignis Oathbrand").texture("minecraft:item/blaze_rod").maxStackSize(16);
 });

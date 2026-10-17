@@ -5,7 +5,7 @@
   "icon": "epicfight:iron_longsword",
   "group": "225FE9BE4793200B",
   "order_index": 7,
-  "default_quest_shape": "square",
+  "default_quest_shape": "circle",
   "default_quest_size": 1.0,
   "progression_mode": "flexible",
   "consume_items": false,
@@ -25,7 +25,7 @@
       ],
       "optional": true,
       "x": 0.0,
-      "y": -4.0,
+      "y": 0.0,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
       "dependencies": [],
@@ -43,7 +43,10 @@
           "auto": "enabled",
           "team_reward": false
         }
-      ]
+      ],
+      "shape": "gear",
+      "size": 1.3,
+      "icon": "minecraft:book"
     },
     {
       "id": "6DD88FAF41E54CBB",
@@ -54,11 +57,13 @@
         "Test recovery with cheap items first. Tick this tutorial after learning the recovery controls."
       ],
       "optional": true,
-      "x": 7.0,
-      "y": -4.0,
+      "x": -3.0,
+      "y": -8.0,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "dependencies": [],
+      "dependencies": [
+        "3AAD5C7715C13490"
+      ],
       "tasks": [
         {
           "id": "2F878CE2D5151104",
@@ -73,7 +78,10 @@
           "auto": "enabled",
           "team_reward": false
         }
-      ]
+      ],
+      "shape": "circle",
+      "size": 1.0,
+      "icon": "minecraft:book"
     },
     {
       "id": "52E3741D747907D8",
@@ -84,11 +92,13 @@
         "Keep the required item in your inventory. The task completes automatically without consuming your equipment."
       ],
       "optional": true,
-      "x": -2.0,
-      "y": 0.0,
+      "x": 5.0,
+      "y": -6.0,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "dependencies": [],
+      "dependencies": [
+        "3AAD5C7715C13490"
+      ],
       "tasks": [
         {
           "id": "40D9682412D48578",
@@ -108,7 +118,9 @@
           "auto": "enabled",
           "team_reward": false
         }
-      ]
+      ],
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "78E59C05E4D5FBDC",
@@ -119,11 +131,13 @@
         "Keep the required item in your inventory. The task completes automatically without consuming your equipment."
       ],
       "optional": true,
-      "x": 2.0,
-      "y": 0.0,
+      "x": 5.0,
+      "y": -2.0,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "dependencies": [],
+      "dependencies": [
+        "3AAD5C7715C13490"
+      ],
       "tasks": [
         {
           "id": "3AAFB432CE5C0F94",
@@ -143,7 +157,9 @@
           "auto": "enabled",
           "team_reward": false
         }
-      ]
+      ],
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "661B7CE756B68D45",
@@ -154,11 +170,13 @@
         "Keep the required item in your inventory. The task completes automatically without consuming your equipment."
       ],
       "optional": true,
-      "x": 6.0,
-      "y": 0.0,
+      "x": 5.0,
+      "y": 2.0,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "dependencies": [],
+      "dependencies": [
+        "3AAD5C7715C13490"
+      ],
       "tasks": [
         {
           "id": "76DD3AEB228D637F",
@@ -178,22 +196,24 @@
           "auto": "enabled",
           "team_reward": false
         }
-      ]
+      ],
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "00233D61EF966309",
       "title": "A Mage Focus",
       "description": [
-        "Craft and carry one iron spell book.",
-        "Keep another book and learn an offensive spell. Mage skills increase mana and spell power; use Iron's casting controls alongside Epic Fight.",
-        "Keep the required item in your inventory. The task completes automatically without consuming your equipment."
+        "Obtain an Ironbound Tome as an optional upgrade or alternative early spellbook. The Mage starter kit uses a Flimsy Journal and Graybeard Staff; inspect the Magic chapter for inscription, equipment and reusable casting lessons."
       ],
       "optional": true,
-      "x": -6.0,
-      "y": 0.0,
+      "x": 5.0,
+      "y": 6.0,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "dependencies": [],
+      "dependencies": [
+        "3AAD5C7715C13490"
+      ],
       "tasks": [
         {
           "id": "39932A95B5DDCFEC",
@@ -213,7 +233,9 @@
           "auto": "enabled",
           "team_reward": false
         }
-      ]
+      ],
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "745C3D4F485262AF",
@@ -224,11 +246,13 @@
         "Keep the required item in your inventory. The task completes automatically without consuming your equipment."
       ],
       "optional": true,
-      "x": -6.0,
-      "y": 6.0,
+      "x": 5.0,
+      "y": -10.0,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "dependencies": [],
+      "dependencies": [
+        "3AAD5C7715C13490"
+      ],
       "tasks": [
         {
           "id": "06290A298DBC5DE8",
@@ -248,7 +272,9 @@
           "auto": "enabled",
           "team_reward": false
         }
-      ]
+      ],
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "13885E7364D74000",
@@ -259,11 +285,13 @@
         "Keep the required item in your inventory. The task completes automatically without consuming your equipment."
       ],
       "optional": true,
-      "x": 6.0,
-      "y": 3.0,
+      "x": 5.0,
+      "y": 10.0,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
-      "dependencies": [],
+      "dependencies": [
+        "3AAD5C7715C13490"
+      ],
       "tasks": [
         {
           "id": "68B11658548ED8DD",
@@ -283,7 +311,9 @@
           "auto": "enabled",
           "team_reward": false
         }
-      ]
+      ],
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "5A0D87AAD293F5E2",
@@ -293,8 +323,8 @@
         "Keep the required item in your inventory. The task completes automatically without consuming your equipment."
       ],
       "optional": true,
-      "x": -2.0,
-      "y": 3.0,
+      "x": 10.0,
+      "y": -6.0,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
       "dependencies": [
@@ -319,7 +349,9 @@
           "auto": "enabled",
           "team_reward": false
         }
-      ]
+      ],
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "35C7E3525B4CC1EC",
@@ -329,8 +361,8 @@
         "Keep the required item in your inventory. The task completes automatically without consuming your equipment."
       ],
       "optional": true,
-      "x": 2.0,
-      "y": 3.0,
+      "x": 10.0,
+      "y": -2.0,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
       "dependencies": [
@@ -355,7 +387,9 @@
           "auto": "enabled",
           "team_reward": false
         }
-      ]
+      ],
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "35654DF6B084CB4E",
@@ -366,8 +400,8 @@
         "Keep the required item in your inventory. The task completes automatically without consuming your equipment."
       ],
       "optional": true,
-      "x": 6.0,
-      "y": 6.0,
+      "x": 7.5,
+      "y": 10.0,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
       "dependencies": [
@@ -392,7 +426,9 @@
           "auto": "enabled",
           "team_reward": false
         }
-      ]
+      ],
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "5F26C60E375DE9D2",
@@ -403,8 +439,8 @@
         "Keep the required item in your inventory. The task completes automatically without consuming your equipment."
       ],
       "optional": true,
-      "x": -2.0,
-      "y": 6.0,
+      "x": 12.5,
+      "y": -6.0,
       "hide_until_deps_complete": false,
       "hide_until_deps_visible": false,
       "dependencies": [
@@ -429,7 +465,623 @@
           "auto": "enabled",
           "team_reward": false
         }
-      ]
+      ],
+      "shape": "square",
+      "size": 1.0
+    },
+    {
+      "id": "76663F441F56C401",
+      "title": "Weapons Ready, Tools Free",
+      "description": [
+        "Equip a supported weapon and compare Epic Fight stance with holding a block or utility item. The pack switches combat behavior for weapons, so check your actual mode before practicing an attack."
+      ],
+      "x": -3.0,
+      "y": 0.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "2F88406E34C49E5D",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3555831BA08884D2",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "3AAD5C7715C13490"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "59A82AC0AFAE4A65",
+      "title": "Guard and Parry",
+      "description": [
+        "Equip an unlocked Guard or Parry skill in the appropriate Epic Fight slot and test it on an ordinary enemy. Read stamina use and timing carefully; acknowledging this lesson records practice, not a new skill unlock."
+      ],
+      "x": -6.0,
+      "y": -2.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "221FA58B6593EAA5",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "071ABCE02C908219",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "76663F441F56C401"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "103A903BF87E124F",
+      "title": "Roll or Step",
+      "description": [
+        "Choose Roll or Step from the default unlocked skills and test movement around a target. A dodge is a deliberate stamina commitment, so finish the practice with enough stamina left for a defensive response."
+      ],
+      "x": -6.0,
+      "y": 0.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "5FE77285F3E4EF15",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "126AE7FF639FE693",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "76663F441F56C401"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "448AC1D622C276C2",
+      "title": "A Sustainable Attack Rhythm",
+      "description": [
+        "Compare short attacks, a longer combo and a pause for stamina recovery. Hold the attack input to test the pack’s repeat-attack behavior, then acknowledge the lesson after finding a rhythm that leaves a defensive reserve."
+      ],
+      "x": -9.0,
+      "y": 0.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "793767742191B949",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1D44CE1B96484BAE",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "103A903BF87E124F"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "419FC68DD0D5FC7B",
+      "title": "Plan Several Points Together",
+      "description": [
+        "Open Ashen Paths and queue a connected route before pressing Confirm. Review the class restrictions and previewed cost so that travel and major nodes form one deliberate allocation batch."
+      ],
+      "x": -3.0,
+      "y": -4.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "25CA9617795C0DED",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6EAE29EC7E87C30F",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "3AAD5C7715C13490"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "7D9DBDD47923EBF0",
+      "title": "Change a Build Carefully",
+      "description": [
+        "Right-click an allocated passive to request a refund, or use Refund all for a full rebuild. Connected nodes must be refunded from the outside inward; acknowledge this lesson after checking the preview and confirmation controls."
+      ],
+      "x": -6.0,
+      "y": -4.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "0B7452D9AD36AA7B",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4A03D793B199B80D",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "419FC68DD0D5FC7B"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "61818C41DF911463",
+      "title": "Choose an Ascendancy",
+      "description": [
+        "At 10 allocated main-tree points, inspect the two subclasses available to your selected class and the first two subclass points. Two more points unlock at 20 allocated main-tree points, and the separate four-point budget means each small-and-major pair is a real choice."
+      ],
+      "x": -6.0,
+      "y": -6.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "72CC67A483807E64",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3EC5A646B865CCAA",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "419FC68DD0D5FC7B"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "3E548A18A9A73AA3",
+      "title": "Measure a Real Rotation",
+      "description": [
+        "Craft a Target Dummy and compare the same equipment over a fixed test interval. Total damage and DPS measure different things, so reset or separate tests before comparing a burst with a sustained rotation."
+      ],
+      "x": 0.0,
+      "y": 4.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "dummmmmmy:target_dummy",
+      "tasks": [
+        {
+          "id": "460038C6B8927954",
+          "type": "item",
+          "item": "dummmmmmy:target_dummy",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "204C3B7A89AA524F",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "3AAD5C7715C13490"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "0103732491A8C7A4",
+      "title": "A Safe Weapon Stow",
+      "description": [
+        "Find the Sheathe binding in Controls and test drawing and stowing your equipped weapon pair. Test it away from enemies first so that the animation does not hide an incoming attack."
+      ],
+      "x": -6.0,
+      "y": 2.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "2EBDBF0B6AE701F4",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2ACAB347DA4C8475",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "76663F441F56C401"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "6C8EE09441B2AB64",
+      "title": "Your Class’s First Spell",
+      "description": [
+        "At level 10, inspect your class’s core spell: Stomp for Warrior, Magic Missile for Mage, Magic Arrow for Ranger or Poison Splash for Rogue. Equip its book and test the actual spell binding; acknowledge this lesson after using the reward rather than treating the checkmark as a level detector."
+      ],
+      "x": -3.0,
+      "y": 4.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "2854CBD759457AF7",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0E492638F0E45DCA",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "3AAD5C7715C13490"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "7CE0DBD06ED06B2B",
+      "title": "Poison and a Deliberate Finisher",
+      "description": [
+        "If playing Rogue, compare a normal poison rotation with a sneak attack using Catalytic Strike after at least three stacks. Watch the enemy’s stack indicator and your stamina recovery before judging the result; this is an optional build lesson, not a forced class switch."
+      ],
+      "x": 7.5,
+      "y": -4.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "15F9BAEE4CF6A693",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4735313B6819BE3E",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "78E59C05E4D5FBDC"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "615E8A8569EC0761",
+      "title": "Build Blood Rage",
+      "description": [
+        "If playing Warrior, compare a short combo with the attack-speed stacks of Blood Rage and read its health tradeoff. Colossal Grip is a separate subclass choice for dual two-handed weapons, so inspect your selected nodes instead of assuming every Warrior has it."
+      ],
+      "x": 7.5,
+      "y": -8.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "18C941F04BED498B",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "695A2D7C68B63FE9",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "52E3741D747907D8"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "496F57769F1D80A4",
+      "title": "Mark, Move, Release",
+      "description": [
+        "If playing Ranger, test Hunter’s Mark, a fully drawn shot and Windrunner’s movement window against the same target. Watch duration and cooldown separately; this optional practice lesson does not grant the passives it describes."
+      ],
+      "x": 7.5,
+      "y": 4.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "5CFF048121352AD1",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "522EC73C911733F7",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "661B7CE756B68D45"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "532792C0CB186E14",
+      "title": "Ward, Blink and Cast",
+      "description": [
+        "If playing Mage, compare a spell rotation with the mana-regeneration scaling of Mana Siphon and a defensive Blink. Arcane Ward needs its damage-free activation window, so test its shield cycle separately from a continuous incoming-damage test."
+      ],
+      "x": 7.5,
+      "y": 6.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "2F99A7F704BE588A",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "01C228A770920B57",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "00233D61EF966309"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "558EFC4D301F28E6",
+      "title": "Compare before Replacing",
+      "description": [
+        "Hold Ctrl over compatible equipment to compare it with what you currently wear or hold. Check attack speed, defenses and useful effects alongside raw damage, then acknowledge this lesson after testing the more promising option."
+      ],
+      "x": -3.0,
+      "y": 6.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "6D0786247FC43EDB",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0D181BCB4F66D7C4",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "3E548A18A9A73AA3"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "53DA99D78139CD86",
+      "title": "Another Reach Option",
+      "description": [
+        "Inspect a Spartan halberd and its reach, attack timing and Epic Fight behavior. A longer weapon changes spacing, so compare it against your current weapon on the same target before replacing a familiar moveset."
+      ],
+      "x": 7.5,
+      "y": -10.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "spartanweaponry:diamond_halberd",
+      "tasks": [
+        {
+          "id": "51E116D904B19D3D",
+          "type": "item",
+          "item": "spartanweaponry:diamond_halberd",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0B47225CB4520F5E",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "745C3D4F485262AF"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "4B77E309AA3EFA2D",
+      "title": "A Stronger Bow",
+      "description": [
+        "Craft or obtain a Diamond Longbow and inspect its draw behavior and compatible ammunition. Compare a fully drawn shot with your earlier bow rather than relying only on its item name."
+      ],
+      "x": 7.5,
+      "y": 2.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "spartanweaponry:diamond_longbow",
+      "tasks": [
+        {
+          "id": "18CBB2110B72D10E",
+          "type": "item",
+          "item": "spartanweaponry:diamond_longbow",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4770B7AC6F89FD51",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "661B7CE756B68D45"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "47147E864AE912BC",
+      "title": "A Different Ranged Rhythm",
+      "description": [
+        "Inspect a Diamond Heavy Crossbow and prepare its compatible ammunition. Test the reload-and-release rhythm on a safe target before choosing it for an encounter with little room to reload."
+      ],
+      "x": 10.0,
+      "y": 2.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "spartanweaponry:diamond_heavy_crossbow",
+      "tasks": [
+        {
+          "id": "10BE28BBDCEC9E90",
+          "type": "item",
+          "item": "spartanweaponry:diamond_heavy_crossbow",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3C5B973EAEAA2BDB",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "4B77E309AA3EFA2D"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
     }
   ]
 }

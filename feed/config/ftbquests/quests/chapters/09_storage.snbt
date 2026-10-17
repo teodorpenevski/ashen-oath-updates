@@ -5,7 +5,7 @@
   "title": "Storage · Refined Storage",
   "icon": "refinedstorage:controller",
   "order_index": 3,
-  "default_quest_shape": "square",
+  "default_quest_shape": "circle",
   "default_quest_size": 1.0,
   "progression_mode": "flexible",
   "consume_items": false,
@@ -36,7 +36,10 @@
       "dependencies": [],
       "optional": true,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": false
+      "hide_until_deps_visible": false,
+      "shape": "gear",
+      "size": 1.3,
+      "icon": "minecraft:book"
     },
     {
       "id": "1FD1A2F19FC39680",
@@ -44,7 +47,7 @@
       "description": [
         "Power the Controller from Thermal. Connect the remaining network blocks by adjacency or Refined Storage cables."
       ],
-      "x": 2.0,
+      "x": 2.5,
       "y": 0.0,
       "tasks": [
         {
@@ -70,7 +73,9 @@
       ],
       "optional": true,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": false
+      "hide_until_deps_visible": false,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "4747786E996C8F95",
@@ -78,7 +83,7 @@
       "description": [
         "Place item storage disks in a Disk Drive. Use JEI to choose the capacity you can afford."
       ],
-      "x": 4.0,
+      "x": 5.0,
       "y": 0.0,
       "tasks": [
         {
@@ -104,7 +109,9 @@
       ],
       "optional": true,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": false
+      "hide_until_deps_visible": false,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "6B8C58E2F0A2872A",
@@ -112,7 +119,7 @@
       "description": [
         "Connect a Crafting Grid to search and craft from network inventory."
       ],
-      "x": 6.0,
+      "x": 7.5,
       "y": 0.0,
       "tasks": [
         {
@@ -138,7 +145,9 @@
       ],
       "optional": true,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": false
+      "hide_until_deps_visible": false,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "1DF6C48EDFED353D",
@@ -146,7 +155,7 @@
       "description": [
         "Attach External Storage to a chest or Sophisticated Storage Controller. Set priorities deliberately; test with a small item transfer first."
       ],
-      "x": 8.0,
+      "x": 10.0,
       "y": 0.0,
       "tasks": [
         {
@@ -172,7 +181,9 @@
       ],
       "optional": true,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": false
+      "hide_until_deps_visible": false,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "0C21C73333C1C187",
@@ -180,7 +191,7 @@
       "description": [
         "Automate frequently used components with patterns. Keep unique NBT-heavy loot in external physical storage rather than crowding disks."
       ],
-      "x": 10.0,
+      "x": 12.5,
       "y": 0.0,
       "tasks": [
         {
@@ -203,6 +214,689 @@
       ],
       "dependencies": [
         "1DF6C48EDFED353D"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "shape": "square",
+      "size": 1.0
+    },
+    {
+      "id": "4167EAD5B9203D4B",
+      "title": "Metal for a Network",
+      "description": [
+        "Craft Quartz Enriched Iron and inspect its uses before spending it on decorative blocks. It is a core material for the network’s casings and storage components."
+      ],
+      "x": 0.0,
+      "y": -3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "refinedstorage:quartz_enriched_iron",
+      "tasks": [
+        {
+          "id": "6B72E20535964958",
+          "type": "item",
+          "item": "refinedstorage:quartz_enriched_iron",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3484335201780FC6",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "7A361C444EA897AF"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "42572908D913663D",
+      "title": "A Silicon Supply",
+      "description": [
+        "Obtain Silicon through an installed JEI recipe and reserve a working supply for processors. The quest checks inventory ownership, so it will also recognize material produced by a processing line."
+      ],
+      "x": 2.5,
+      "y": -3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "refinedstorage:silicon",
+      "tasks": [
+        {
+          "id": "331801F53D528477",
+          "type": "item",
+          "item": "refinedstorage:silicon",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2DBDEC1C8BBCA07B",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "4167EAD5B9203D4B"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "4A005E98D01B83B9",
+      "title": "Bind the Processors",
+      "description": [
+        "Craft Processor Binding and inspect the raw processor recipes. Raw processors need their listed processing step before they become the finished components used in machines."
+      ],
+      "x": 5.0,
+      "y": -3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "refinedstorage:processor_binding",
+      "tasks": [
+        {
+          "id": "103E7292700D1C7C",
+          "type": "item",
+          "item": "refinedstorage:processor_binding",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "12B7C989B18A5559",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "42572908D913663D"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "2DAD23E140DCB4E2",
+      "title": "The Basic Processor",
+      "description": [
+        "Make a finished Basic Processor from its raw form using the installed recipe. Keep the raw and finished names distinct when diagnosing a crafting grid that refuses an ingredient."
+      ],
+      "x": 7.5,
+      "y": -3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "refinedstorage:basic_processor",
+      "tasks": [
+        {
+          "id": "1180B00DE9D9A9CD",
+          "type": "item",
+          "item": "refinedstorage:basic_processor",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "49C4498F80B74F19",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "4A005E98D01B83B9"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "43C024DC5D666C20",
+      "title": "The Improved Processor",
+      "description": [
+        "Produce an Improved Processor for the network’s intermediate components. Check its own raw recipe rather than treating it as a direct upgrade made by combining finished Basic Processors."
+      ],
+      "x": 10.0,
+      "y": -3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "refinedstorage:improved_processor",
+      "tasks": [
+        {
+          "id": "5400200E41554DD4",
+          "type": "item",
+          "item": "refinedstorage:improved_processor",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0EE60BE7CAB83F5A",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "2DAD23E140DCB4E2"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "0FBB92271EB9BD17",
+      "title": "The Advanced Processor",
+      "description": [
+        "Produce an Advanced Processor for more demanding network devices. Use a small batch first so you can finish the controller and grid before automating processor production."
+      ],
+      "x": 12.5,
+      "y": -3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "refinedstorage:advanced_processor",
+      "tasks": [
+        {
+          "id": "708E36F3D3EAE455",
+          "type": "item",
+          "item": "refinedstorage:advanced_processor",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "51608DEA602ECE91",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "43C024DC5D666C20"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "171D21FF5562277B",
+      "title": "Connect the Devices",
+      "description": [
+        "Craft network cable and connect the controller to the disk drive and crafting grid. Check the controller’s energy use and the grid’s connection status before moving valuable items into the system."
+      ],
+      "x": 2.5,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "refinedstorage:cable",
+      "tasks": [
+        {
+          "id": "3B492753112116B3",
+          "type": "item",
+          "item": "refinedstorage:cable",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "067A9FD6D9AA5E15",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "1FD1A2F19FC39680"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "4BE12BDFF82D8670",
+      "title": "Your First Actual Disk",
+      "description": [
+        "Craft a 1k Storage Disk and insert it into the Disk Drive. The drive itself stores no items without compatible storage media; inspect the disk’s capacity and whether it stores items or fluids before importing everything."
+      ],
+      "x": 5.0,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "refinedstorage:1k_storage_disk",
+      "tasks": [
+        {
+          "id": "76A54DD2FF9116FB",
+          "type": "item",
+          "item": "refinedstorage:1k_storage_disk",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1DAF6BF3B309A25A",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "4747786E996C8F95"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "652A25A993A96B3A",
+      "title": "Room to Grow",
+      "description": [
+        "Craft a 4k Storage Disk and compare its capacity with the first disk. Keep the original disk or migrate its contents safely instead of destroying storage media that still contains items."
+      ],
+      "x": 7.5,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "refinedstorage:4k_storage_disk",
+      "tasks": [
+        {
+          "id": "78D0B70B39B8954F",
+          "type": "item",
+          "item": "refinedstorage:4k_storage_disk",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "137D2348E72F3574",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "4BE12BDFF82D8670"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "6FB1DC458484C119",
+      "title": "Collect Machine Outputs",
+      "description": [
+        "Attach an Importer to an inventory whose contents should enter the network. Configure filters where needed and leave equipment or mixed personal storage out of an unrestricted import line."
+      ],
+      "x": 10.0,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "refinedstorage:importer",
+      "tasks": [
+        {
+          "id": "37407801E9EB7752",
+          "type": "item",
+          "item": "refinedstorage:importer",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "04CAE8EDF40E1DB6",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "1DF6C48EDFED353D",
+        "652A25A993A96B3A"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "4ED5CA7644F3B95C",
+      "title": "Supply a Workstation",
+      "description": [
+        "Attach an Exporter to a destination that needs a controlled supply of ingredients. Filter the intended item and inspect available stock before adding speed or stack upgrades."
+      ],
+      "x": 12.5,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "refinedstorage:exporter",
+      "tasks": [
+        {
+          "id": "306CE70D3D6CC91B",
+          "type": "item",
+          "item": "refinedstorage:exporter",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5C4668CB0FBEFA62",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "6FB1DC458484C119"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "1015E3FF647A329F",
+      "title": "Write an Autocrafting Pattern",
+      "description": [
+        "Build a Pattern Grid and encode a simple crafting recipe into a blank pattern. Crafting patterns and processing patterns behave differently, so select the mode that matches the workstation."
+      ],
+      "x": 15.0,
+      "y": 0.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "refinedstorage:pattern_grid",
+      "tasks": [
+        {
+          "id": "3463B98E8BFB39D4",
+          "type": "item",
+          "item": "refinedstorage:pattern_grid",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4568A908FD17BE88",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "0C21C73333C1C187"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "0C5928622B6149C6",
+      "title": "A Blank Pattern",
+      "description": [
+        "Craft blank Patterns for recipes you intend to automate. Keep a few spare patterns for testing and avoid encoding a large recipe chain before its simpler components work."
+      ],
+      "x": 15.0,
+      "y": -3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "refinedstorage:pattern",
+      "tasks": [
+        {
+          "id": "58BF24FB45188F73",
+          "type": "item",
+          "item": "refinedstorage:pattern",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "72B5B66B6BF102FE",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "1015E3FF647A329F"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "17CD76D29852F8AF",
+      "title": "Follow the Crafting Job",
+      "description": [
+        "Build a Crafting Monitor and request a small craft from the grid. Inspect the job’s missing ingredients or blocked processing output before canceling it and starting another copy."
+      ],
+      "x": 17.5,
+      "y": -3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "refinedstorage:crafting_monitor",
+      "tasks": [
+        {
+          "id": "201AC9D8816B7E94",
+          "type": "item",
+          "item": "refinedstorage:crafting_monitor",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4E1867D31850EEEE",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "1015E3FF647A329F"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "6C74B609E0F5B292",
+      "title": "A Buffer for Processing",
+      "description": [
+        "Build an Interface and inspect its stocked-item and network-access behavior. Use it where a machine needs a stable boundary between its local inventory and your storage network."
+      ],
+      "x": 17.5,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "refinedstorage:interface",
+      "tasks": [
+        {
+          "id": "54EE560B87DF0C93",
+          "type": "item",
+          "item": "refinedstorage:interface",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6AD3182EE1D834BC",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "1015E3FF647A329F"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "69D7D6F43817D854",
+      "title": "Access Without a Cable in Hand",
+      "description": [
+        "Build a Wireless Transmitter and inspect its range and energy requirements. A transmitter needs a powered network and an appropriate bound wireless device before it provides useful access."
+      ],
+      "x": 5.0,
+      "y": -6.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "refinedstorage:wireless_transmitter",
+      "tasks": [
+        {
+          "id": "4753DD83BCA53ABB",
+          "type": "item",
+          "item": "refinedstorage:wireless_transmitter",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "09AB74EFF933D1B9",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "6B8C58E2F0A2872A"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "776E09E13AC9891A",
+      "title": "Bind the Wireless Grid",
+      "description": [
+        "Craft and bind a Wireless Grid using the installed interaction described in its tooltip. Test it close to the transmitter before troubleshooting distance or dimensional limitations."
+      ],
+      "x": 10.0,
+      "y": -6.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "refinedstorage:wireless_grid",
+      "tasks": [
+        {
+          "id": "12327B86688C1DEC",
+          "type": "item",
+          "item": "refinedstorage:wireless_grid",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "323BFAA23CB1F442",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "69D7D6F43817D854"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "254F3A2A7EC407F8",
+      "title": "Protect the Storage",
+      "description": [
+        "Check that the network remains powered and that external storage priorities route items where you expect. Acknowledge this review after testing a small autocraft and making a backup plan for disks, filters and processing patterns."
+      ],
+      "x": 20.0,
+      "y": 0.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "0C5709838C6CD352",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B558437518AF147",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "17CD76D29852F8AF",
+        "4ED5CA7644F3B95C"
       ],
       "optional": true,
       "hide_until_deps_complete": false,

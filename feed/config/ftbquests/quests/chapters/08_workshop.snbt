@@ -5,7 +5,7 @@
   "title": "Workshop · Thermal",
   "icon": "thermal:machine_pulverizer",
   "order_index": 2,
-  "default_quest_shape": "square",
+  "default_quest_shape": "circle",
   "default_quest_size": 1.0,
   "progression_mode": "flexible",
   "consume_items": false,
@@ -36,7 +36,10 @@
       "dependencies": [],
       "optional": true,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": false
+      "hide_until_deps_visible": false,
+      "shape": "gear",
+      "size": 1.3,
+      "icon": "minecraft:book"
     },
     {
       "id": "3D99DE03F52686DB",
@@ -44,7 +47,7 @@
       "description": [
         "The Stirling Dynamo uses fuel. Connect it to machinery with a Thermal energy duct. Follow JEI for exact recipes."
       ],
-      "x": 2.0,
+      "x": 2.5,
       "y": 0.0,
       "tasks": [
         {
@@ -70,7 +73,9 @@
       ],
       "optional": true,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": false
+      "hide_until_deps_visible": false,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "2E341BFF54D8235D",
@@ -78,7 +83,7 @@
       "description": [
         "Pulverize suitable ore inputs and smelt the results. Check JEI yields; not every input gives extra metal."
       ],
-      "x": 4.0,
+      "x": 5.0,
       "y": 0.0,
       "tasks": [
         {
@@ -104,7 +109,9 @@
       ],
       "optional": true,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": false
+      "hide_until_deps_visible": false,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "29AD1AF339F228EE",
@@ -112,7 +119,7 @@
       "description": [
         "The Induction Smelter provides useful alloys and processing. Check required auxiliary inputs in JEI."
       ],
-      "x": 6.0,
+      "x": 7.5,
       "y": 0.0,
       "tasks": [
         {
@@ -138,7 +145,9 @@
       ],
       "optional": true,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": false
+      "hide_until_deps_visible": false,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "5AA6866DA0BFBA36",
@@ -146,7 +155,7 @@
       "description": [
         "Add an energy buffer so machines and storage remain usable between refuelling."
       ],
-      "x": 8.0,
+      "x": 10.0,
       "y": 0.0,
       "tasks": [
         {
@@ -172,15 +181,17 @@
       ],
       "optional": true,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": false
+      "hide_until_deps_visible": false,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "091072C6FBC4C3FD",
-      "title": "Stop Here",
+      "title": "A Workshop That Serves the Adventure",
       "description": [
-        "Upgrade this small setup as needed. No reactor, chemical chain or enormous factory is required for the story."
+        "Keep only the machines that solve an actual supply problem for your party. After testing one reliable production line, acknowledge this review and return to adventuring whenever the workshop already does what you need."
       ],
-      "x": 10.0,
+      "x": 18.0,
       "y": 0.0,
       "tasks": [
         {
@@ -198,7 +209,601 @@
         }
       ],
       "dependencies": [
+        "7E0A5467006F00C5"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": "minecraft:book"
+    },
+    {
+      "id": "7A4EC99AFCCD3E59",
+      "title": "A Complete Power Circuit",
+      "description": [
+        "Connect a fueled Stirling Dynamo to one machine and observe its energy buffer while it works. Forge Energy is a transfer system: generation, storage, connections and machine-side settings must all agree before a machine can run."
+      ],
+      "x": 2.5,
+      "y": -3.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "1AE5AA9FE4FF5CAD",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "66E0AF505CD05136",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "3D99DE03F52686DB"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "0E40A587DCC36A4D",
+      "title": "Carry the Current",
+      "description": [
+        "Craft Energy Ducts and connect a dynamo, an energy cell and a machine. Read each block’s side configuration if the machine stays empty; a connection alone does not guarantee the attached face accepts energy."
+      ],
+      "x": 2.5,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "thermal:energy_duct",
+      "tasks": [
+        {
+          "id": "3C917BCE3331E51E",
+          "type": "item",
+          "item": "thermal:energy_duct",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "291A3243E14E5735",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "3D99DE03F52686DB"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "09575954160037CB",
+      "title": "Smelting by Machine",
+      "description": [
+        "Build a Redstone Furnace and compare its energy and item inputs with your fuel furnaces. Keep fuel smelting as a fallback while you learn how machine buffers and output slots behave."
+      ],
+      "x": 5.0,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "thermal:machine_furnace",
+      "tasks": [
+        {
+          "id": "7DBF0172E2B85FD4",
+          "type": "item",
+          "item": "thermal:machine_furnace",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1582BA859A49FF15",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "2E341BFF54D8235D",
+        "0E40A587DCC36A4D"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "2A520CCDBB09C614",
+      "title": "Use Every Log",
+      "description": [
+        "Build a Sawmill and inspect its installed wood recipes and byproducts in JEI. Reserve enough planks for construction before sending your full timber supply into an automated process."
+      ],
+      "x": 5.0,
+      "y": -3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "thermal:machine_sawmill",
+      "tasks": [
+        {
+          "id": "4071D2718349AE55",
+          "type": "item",
+          "item": "thermal:machine_sawmill",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "74E3950561C51250",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "2E341BFF54D8235D"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "6BF8FA10CB4E90A6",
+      "title": "Gears, Plates and Dies",
+      "description": [
+        "Build a Multiservo Press and inspect its gear, plate and packing recipes. Some operations require a matching die, so check all recipe slots rather than assuming a missing ingredient is a power fault."
+      ],
+      "x": 7.5,
+      "y": -3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "thermal:machine_press",
+      "tasks": [
+        {
+          "id": "631972594A5093BB",
+          "type": "item",
+          "item": "thermal:machine_press",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "67BB9FC841667287",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "29AD1AF339F228EE"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "502E97145B79DDD9",
+      "title": "Shape a Gear",
+      "description": [
+        "Craft the gear die and install it for a compatible press recipe. Compare its material requirements with hand crafting before choosing your preferred production route."
+      ],
+      "x": 7.5,
+      "y": -5.5,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "thermal:press_gear_die",
+      "tasks": [
+        {
+          "id": "3868A44698D3DB2A",
+          "type": "item",
+          "item": "thermal:press_gear_die",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2458E0A407AD4441",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "6BF8FA10CB4E90A6"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "2EF2F6E7D239149E",
+      "title": "A Controlled Melt",
+      "description": [
+        "Build a Magma Crucible and inspect a recipe that produces a useful fluid. Provide a destination for the output before running a large batch, because a full internal tank stops production."
+      ],
+      "x": 7.5,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "thermal:machine_crucible",
+      "tasks": [
+        {
+          "id": "518836B3C3173011",
+          "type": "item",
+          "item": "thermal:machine_crucible",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B958348A08D66FF",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "29AD1AF339F228EE",
+        "09575954160037CB"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "7F33D37CA3622F7D",
+      "title": "Move Fluids Safely",
+      "description": [
+        "Craft Fluid Ducts and connect a compatible source and destination. Check tank contents and side modes first, and keep incompatible fluids on separate lines while learning the system."
+      ],
+      "x": 10.0,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "thermal:fluid_duct",
+      "tasks": [
+        {
+          "id": "0EAD592DAF395BFA",
+          "type": "item",
+          "item": "thermal:fluid_duct",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "111FB76923F50AFC",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "2EF2F6E7D239149E"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "1945126E6DAC069B",
+      "title": "Tell the Line to Extract",
+      "description": [
+        "Craft a Servo attachment and inspect its redstone and filtering controls. Attach it to the appropriate duct connection when extraction needs to be requested instead of assuming every tank pushes automatically."
+      ],
+      "x": 12.5,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "thermal:servo_attachment",
+      "tasks": [
+        {
+          "id": "55DDC5A985A0BB85",
+          "type": "item",
+          "item": "thermal:servo_attachment",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "756F14803EF51658",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "7F33D37CA3622F7D"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "5ABD87EE0E671E6E",
+      "title": "Fuel from a Fluid",
+      "description": [
+        "Build a Magmatic Dynamo when you have a sustainable supply of a valid fluid fuel. Read its fuel recipes in JEI and keep an ordinary fuel generator available until the new line is reliable."
+      ],
+      "x": 5.0,
+      "y": -5.5,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "thermal:dynamo_magmatic",
+      "tasks": [
+        {
+          "id": "7428C14FB74FAD48",
+          "type": "item",
+          "item": "thermal:dynamo_magmatic",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3113C52926C2D049",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "3D99DE03F52686DB"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "7E62F9A3A0B00E48",
+      "title": "Inputs, Outputs and Redstone",
+      "description": [
+        "Configure one machine’s input face, output face and redstone behavior, then run a small batch. Acknowledge this lesson after the output reaches its intended inventory without manual intervention."
+      ],
+      "x": 10.0,
+      "y": -3.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "6BA4F4CA650DADF3",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5D198B4097B9A233",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
         "5AA6866DA0BFBA36"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "289A893D92436245",
+      "title": "Brewing at Scale",
+      "description": [
+        "Build an Alchemical Imbuer and inspect its actual ingredient and fluid recipe requirements. This Thermal workstation is separate from Iron’s Alchemist Cauldron, so follow the recipe shown for the machine you built."
+      ],
+      "x": 12.5,
+      "y": -3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "thermal:machine_brewer",
+      "tasks": [
+        {
+          "id": "0AC3D2D414A60238",
+          "type": "item",
+          "item": "thermal:machine_brewer",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6E684D3175A4C98E",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "7E62F9A3A0B00E48"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "714FF3CE35218804",
+      "title": "A Small Powered Garden",
+      "description": [
+        "Build a Phytogenic Insolator and inspect its water, crop and optional catalyst inputs. Start with a small, useful crop supply and check consumption before committing your entire power budget."
+      ],
+      "x": 12.5,
+      "y": 0.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "thermal:machine_insolator",
+      "tasks": [
+        {
+          "id": "4CF378EFC97075E4",
+          "type": "item",
+          "item": "thermal:machine_insolator",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6B28FC7AAEAA0C02",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "7E62F9A3A0B00E48"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "03FAE75E7BB38F67",
+      "title": "Separate the Useful Parts",
+      "description": [
+        "Build a Centrifugal Separator and examine a recipe with several outputs. Provide room for every output, since a blocked byproduct can halt an otherwise correctly powered process."
+      ],
+      "x": 15.0,
+      "y": -5.5,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "thermal:machine_centrifuge",
+      "tasks": [
+        {
+          "id": "6CE283477ED8896E",
+          "type": "item",
+          "item": "thermal:machine_centrifuge",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "180184AE1AB0E515",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "7E62F9A3A0B00E48"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "1355A5CF61382411",
+      "title": "Upgrade the Bottleneck",
+      "description": [
+        "Inspect compatible integral components and machine augments in JEI and read their energy and throughput tradeoffs. Acknowledge this lesson after upgrading one actual bottleneck and confirming that power generation and item handling can keep up."
+      ],
+      "x": 12.5,
+      "y": -5.5,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "63802EFC92019448",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "04ED3FCAF5ED1AAF",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "5AA6866DA0BFBA36"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "7E0A5467006F00C5",
+      "title": "One Reliable Production Line",
+      "description": [
+        "Run a small input-to-output production loop with a power buffer and a destination for byproducts. Keep a manual shutoff and acknowledge the lesson only after the line runs without blocked slots or an empty energy supply."
+      ],
+      "x": 15.0,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "4D4FF5CC7E0C2E0D",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7FD315943A724892",
+          "type": "xp",
+          "xp": 175,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "1945126E6DAC069B",
+        "714FF3CE35218804"
       ],
       "optional": true,
       "hide_until_deps_complete": false,

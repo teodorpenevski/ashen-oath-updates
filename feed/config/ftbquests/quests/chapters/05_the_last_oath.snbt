@@ -5,7 +5,7 @@
   "title": "5 · The Last Oath",
   "icon": "minecraft:netherite_sword",
   "order_index": 4,
-  "default_quest_shape": "square",
+  "default_quest_shape": "circle",
   "default_quest_size": 1.0,
   "progression_mode": "linear",
   "consume_items": false,
@@ -38,7 +38,10 @@
       "optional": false,
       "progression_mode": "linear",
       "hide_until_deps_complete": true,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "gear",
+      "size": 1.25,
+      "icon": "minecraft:book"
     },
     {
       "id": "783C1D5EE99C70FA",
@@ -70,11 +73,13 @@
         "41BBBC19CC667EB1"
       ],
       "optional": false,
-      "x": 2.0,
+      "x": 2.3,
       "y": 0.0,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "7D99864B95FE56A6",
@@ -106,11 +111,13 @@
         "783C1D5EE99C70FA"
       ],
       "optional": false,
-      "x": 4.0,
+      "x": 4.6,
       "y": 0.0,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "2C76467207C693B3",
@@ -142,11 +149,13 @@
         "7D99864B95FE56A6"
       ],
       "optional": false,
-      "x": 6.0,
+      "x": 6.8999999999999995,
       "y": 0.0,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "25F94F5AE6D11655",
@@ -154,7 +163,7 @@
       "description": [
         "Locate the Burning Arena in the Nether. Ignis is now unlocked. Bring healing and fire protection; his attacks still demand careful movement."
       ],
-      "x": 8.0,
+      "x": 9.2,
       "y": 0.0,
       "tasks": [
         {
@@ -176,7 +185,10 @@
       "optional": false,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": "minecraft:book"
     },
     {
       "id": "3355E00049EBD411",
@@ -185,7 +197,7 @@
         "Defeat Ignis and carry its Oathbrand for Memory V. Your commander preserved the seal, but became its prisoner. Claiming the trophy quest reward lets you craft and use the final oath.",
         "This boss guarantees one Ignis Oathbrand on a valid defeat. Pick it up, open this quest and keep the trophy in your inventory. The task completes automatically and the trophy is not consumed. It has no crafting recipe and the archive cannot produce it."
       ],
-      "x": 10.0,
+      "x": 11.5,
       "y": 0.0,
       "tasks": [
         {
@@ -230,7 +242,9 @@
       "optional": false,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "6240DEB6D2B5141C",
@@ -262,11 +276,13 @@
         "3355E00049EBD411"
       ],
       "optional": false,
-      "x": 12.0,
+      "x": 13.799999999999999,
       "y": 0.0,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "7FD9DF30159C4A2B",
@@ -298,11 +314,13 @@
         "6240DEB6D2B5141C"
       ],
       "optional": false,
-      "x": 0.0,
-      "y": 3.0,
+      "x": 16.099999999999998,
+      "y": 0.0,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "302C829E15206E1F",
@@ -310,8 +328,8 @@
       "description": [
         "Craft the Restored Oath from all five memories, one amethyst shard, one obsidian and one Eye of Ender. JEI shows the recipe."
       ],
-      "x": 2.0,
-      "y": 3.0,
+      "x": 18.4,
+      "y": 0.0,
       "tasks": [
         {
           "type": "item",
@@ -329,7 +347,9 @@
       "optional": false,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "47F815F7465C41A4",
@@ -337,8 +357,8 @@
       "description": [
         "Right-click the Restored Oath into the air. This seals the breach and awards the Dawnwarden Crest. Your refuge is the beginning of a new order."
       ],
-      "x": 4.0,
-      "y": 3.0,
+      "x": 20.7,
+      "y": 0.0,
       "tasks": [
         {
           "type": "item",
@@ -363,7 +383,9 @@
       "optional": false,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "1860B1F1A801D894",
@@ -371,8 +393,8 @@
       "description": [
         "The campaign is complete. Remaining Cataclysm bosses are optional hunts. Expand your workshop, perfect your build or help another warrior."
       ],
-      "x": 6.0,
-      "y": 3.0,
+      "x": 23.0,
+      "y": 0.0,
       "tasks": [
         {
           "type": "checkmark",
@@ -386,7 +408,10 @@
       "optional": false,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "gear",
+      "size": 1.25,
+      "icon": "minecraft:book"
     },
     {
       "id": "49A4D015F385EECE",
@@ -414,24 +439,17 @@
         }
       ],
       "dependencies": [
-        "41BBBC19CC667EB1",
-        "783C1D5EE99C70FA",
-        "7D99864B95FE56A6",
-        "2C76467207C693B3",
-        "25F94F5AE6D11655",
-        "3355E00049EBD411",
-        "6240DEB6D2B5141C",
-        "7FD9DF30159C4A2B",
-        "302C829E15206E1F",
-        "47F815F7465C41A4",
         "1860B1F1A801D894"
       ],
       "optional": false,
       "progression_mode": "linear",
-      "x": 14.0,
-      "y": 3.0,
+      "x": 25.299999999999997,
+      "y": 0.0,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "gear",
+      "size": 1.25,
+      "icon": "minecraft:book"
     },
     {
       "id": "6C6EFCA66D9236D0",
@@ -463,10 +481,12 @@
         "41BBBC19CC667EB1"
       ],
       "optional": true,
-      "x": 0.0,
+      "x": -5.75,
       "y": -3.0,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "1D35909ED4177E95",
@@ -498,10 +518,12 @@
         "41BBBC19CC667EB1"
       ],
       "optional": true,
-      "x": 3.0,
+      "x": -3.4499999999999997,
       "y": -3.0,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "05ACC929400C7189",
@@ -533,10 +555,12 @@
         "41BBBC19CC667EB1"
       ],
       "optional": true,
-      "x": 6.0,
+      "x": -1.15,
       "y": -3.0,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "32CDBEA3C1ABEDEE",
@@ -568,10 +592,12 @@
         "41BBBC19CC667EB1"
       ],
       "optional": true,
-      "x": 0.0,
-      "y": -5.0,
+      "x": 1.15,
+      "y": -3.0,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "134E74E2D56DB475",
@@ -603,10 +629,12 @@
         "41BBBC19CC667EB1"
       ],
       "optional": true,
-      "x": 3.0,
-      "y": -5.0,
+      "x": 3.4499999999999997,
+      "y": -3.0,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "5AB3B80CE006C28C",
@@ -638,12 +666,217 @@
         "41BBBC19CC667EB1"
       ],
       "optional": true,
-      "x": 6.0,
-      "y": -5.0,
+      "x": 5.75,
+      "y": -3.0,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "square",
+      "size": 1.0
+    },
+    {
+      "id": "7B8FC5C38B328307",
+      "title": "Optional · The Arena Offering",
+      "description": [
+        "Inspect Burning Ashes and the Burning Arena’s altar interaction before activating Ignis. Finish Chapter 4 first, since an offering cannot override a story seal that still protects the boss."
+      ],
+      "x": 9.2,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "cataclysm:burning_ashes",
+      "tasks": [
+        {
+          "id": "4E94B6B7A694A62C",
+          "type": "item",
+          "item": "cataclysm:burning_ashes",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "279113123033FF8E",
+          "type": "xp",
+          "xp": 375,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "25F94F5AE6D11655"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "418AEA7A6606E4F1",
+      "title": "Optional · One Last Defensive Check",
+      "description": [
+        "Review armor condition, healing, fire defense and a usable escape ability before the final arena. Acknowledge this lesson after checking the real equipped bonuses rather than assuming inventory ownership applies them."
+      ],
+      "x": 2.3,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "3ED08B51AEB2CA27",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6B38BA47A8FBF251",
+          "type": "xp",
+          "xp": 375,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "783C1D5EE99C70FA"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "0874654D0D3669FC",
+      "title": "Optional · Read the Five Memories",
+      "description": [
+        "Read the recovered story memories before combining them into the Restored Oath. The archive can recover earned memories if they were lost, while defeated-boss trophies still have to come from real victories."
+      ],
+      "x": 13.8,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "39F759B4CC8B133C",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "304B174A927D1BDD",
+          "type": "xp",
+          "xp": 375,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "6240DEB6D2B5141C"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "49957B6043F71489",
+      "title": "Optional · Prepare the Final Space",
+      "description": [
+        "Choose a safe clear area before using the Restored Oath and keep the needed item in hand. Acknowledge this lesson after reading its interaction instructions; the optional quest never runs the ending command for you."
+      ],
+      "x": 18.4,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "43418C4808AF98C5",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "22BF273F159428B4",
+          "type": "xp",
+          "xp": 375,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "302C829E15206E1F"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "74448CC59AD35934",
+      "title": "Optional · Leave a Home for the Party",
+      "description": [
+        "Review your shared claims, permissions, storage and recovery supplies after the campaign. The world remains playable, so make the base comfortable for your next adventure together."
+      ],
+      "x": 23.0,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "4711F925088A2C36",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4FD4E5AF1D108D44",
+          "type": "xp",
+          "xp": 375,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "1860B1F1A801D894"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "45A759FBC6763F23",
+      "title": "Optional · A New Hunting Season",
+      "description": [
+        "Open the Bosses chapter to review undefeated encounters and repeat contracts. These hunts reward further exploration without reopening or replacing the completed story’s required milestones."
+      ],
+      "x": 25.3,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "54AC0D2EE4F84398",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6B2441CB088CC543",
+          "type": "xp",
+          "xp": 375,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "1860B1F1A801D894"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
     }
   ],
-  "hide_quest_until_deps_visible": true,
+  "hide_quest_until_deps_visible": false,
   "hide_quest_details_until_startable": true
 }

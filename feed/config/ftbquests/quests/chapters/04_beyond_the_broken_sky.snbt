@@ -5,7 +5,7 @@
   "title": "4 · Beyond the Broken Sky",
   "icon": "minecraft:ender_eye",
   "order_index": 3,
-  "default_quest_shape": "square",
+  "default_quest_shape": "circle",
   "default_quest_size": 1.0,
   "progression_mode": "linear",
   "consume_items": false,
@@ -43,7 +43,9 @@
       "optional": false,
       "progression_mode": "linear",
       "hide_until_deps_complete": true,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "gear",
+      "size": 1.25
     },
     {
       "id": "410070DFE728E2E7",
@@ -75,11 +77,13 @@
         "1454D2AD4A892058"
       ],
       "optional": false,
-      "x": 2.0,
+      "x": 2.3,
       "y": 0.0,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "288620C64F026930",
@@ -111,11 +115,13 @@
         "410070DFE728E2E7"
       ],
       "optional": false,
-      "x": 4.0,
+      "x": 4.6,
       "y": 0.0,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "4F23CF0F9ED3F0FA",
@@ -147,11 +153,13 @@
         "288620C64F026930"
       ],
       "optional": false,
-      "x": 6.0,
+      "x": 6.8999999999999995,
       "y": 0.0,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "433D700323A42058",
@@ -159,7 +167,7 @@
       "description": [
         "Bring blocks, a bow, water, food and slow falling. Set your spawn near the stronghold. The Dragon is now unlocked."
       ],
-      "x": 8.0,
+      "x": 9.2,
       "y": 0.0,
       "tasks": [
         {
@@ -181,7 +189,10 @@
       "optional": false,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": "minecraft:book"
     },
     {
       "id": "296D51A670EC4E8F",
@@ -190,7 +201,7 @@
         "Defeat the Ender Dragon and carry its Soul Scale. The Ender Guardian seal opens after claiming the trophy quest reward.",
         "This boss guarantees one Dragon Soul Scale on a valid defeat. Pick it up, open this quest and keep the trophy in your inventory. The task completes automatically and the trophy is not consumed. It has no crafting recipe and the archive cannot produce it."
       ],
-      "x": 10.0,
+      "x": 11.5,
       "y": 0.0,
       "tasks": [
         {
@@ -228,7 +239,9 @@
       "optional": false,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "60E8251347EF7473",
@@ -260,11 +273,13 @@
         "296D51A670EC4E8F"
       ],
       "optional": false,
-      "x": 12.0,
+      "x": 13.799999999999999,
       "y": 0.0,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "46E9744420FDAA10",
@@ -296,11 +311,13 @@
         "60E8251347EF7473"
       ],
       "optional": false,
-      "x": 0.0,
-      "y": 3.0,
+      "x": 16.099999999999998,
+      "y": 0.0,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "5807A95330D76D3D",
@@ -308,8 +325,8 @@
       "description": [
         "Search the outer End for the Ruined Citadel using the Explorer's Compass. Bring enough resources for a return route."
       ],
-      "x": 2.0,
-      "y": 3.0,
+      "x": 18.4,
+      "y": 0.0,
       "tasks": [
         {
           "type": "checkmark",
@@ -330,7 +347,10 @@
       "optional": false,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": "minecraft:book"
     },
     {
       "id": "77E135866714EAB0",
@@ -338,8 +358,8 @@
       "description": [
         "Prepare a strong epic build. The Guardian uses gravity and powerful close attacks. Learn its openings rather than relying only on armor."
       ],
-      "x": 4.0,
-      "y": 3.0,
+      "x": 20.7,
+      "y": 0.0,
       "tasks": [
         {
           "type": "checkmark",
@@ -353,7 +373,10 @@
       "optional": false,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": "minecraft:book"
     },
     {
       "id": "4CE7E918102A1FCB",
@@ -362,8 +385,8 @@
         "Defeat the Ender Guardian and carry its Void Sigil for Memory IV. You surrendered your memories to seal the invasion; Ignis remained behind.",
         "This boss guarantees one Guardian Void Sigil on a valid defeat. Pick it up, open this quest and keep the trophy in your inventory. The task completes automatically and the trophy is not consumed. It has no crafting recipe and the archive cannot produce it."
       ],
-      "x": 6.0,
-      "y": 3.0,
+      "x": 23.0,
+      "y": 0.0,
       "tasks": [
         {
           "id": "56E72AF0D7317071",
@@ -403,7 +426,9 @@
       "optional": false,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "gear",
+      "size": 1.25
     },
     {
       "id": "6CE8FFE640C18655",
@@ -431,24 +456,17 @@
         }
       ],
       "dependencies": [
-        "1454D2AD4A892058",
-        "410070DFE728E2E7",
-        "288620C64F026930",
-        "4F23CF0F9ED3F0FA",
-        "433D700323A42058",
-        "296D51A670EC4E8F",
-        "60E8251347EF7473",
-        "46E9744420FDAA10",
-        "5807A95330D76D3D",
-        "77E135866714EAB0",
         "4CE7E918102A1FCB"
       ],
       "optional": false,
       "progression_mode": "linear",
-      "x": 14.0,
-      "y": 3.0,
+      "x": 25.299999999999997,
+      "y": 0.0,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "gear",
+      "size": 1.25,
+      "icon": "minecraft:book"
     },
     {
       "id": "7B267D4B1CA2681C",
@@ -480,10 +498,12 @@
         "1454D2AD4A892058"
       ],
       "optional": true,
-      "x": 0.0,
+      "x": -4.6,
       "y": -3.0,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "5D43EF00ABA11CBA",
@@ -515,10 +535,12 @@
         "296D51A670EC4E8F"
       ],
       "optional": true,
-      "x": 3.0,
+      "x": 11.5,
       "y": -3.0,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "6E91D04BA57299FD",
@@ -550,10 +572,12 @@
         "1454D2AD4A892058"
       ],
       "optional": true,
-      "x": 6.0,
+      "x": -2.3,
       "y": -3.0,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "447FBD29F778E970",
@@ -586,9 +610,11 @@
       ],
       "optional": true,
       "x": 0.0,
-      "y": -5.0,
+      "y": -3.0,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "61B179D5D7020847",
@@ -620,10 +646,12 @@
         "1454D2AD4A892058"
       ],
       "optional": true,
-      "x": 3.0,
-      "y": -5.0,
+      "x": 2.3,
+      "y": -3.0,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "0956A747C34A18E8",
@@ -655,12 +683,227 @@
         "1454D2AD4A892058"
       ],
       "optional": true,
-      "x": 6.0,
-      "y": -5.0,
+      "x": 4.6,
+      "y": -3.0,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "square",
+      "size": 1.0
+    },
+    {
+      "id": "52FF9B062A9E2016",
+      "title": "Optional · Respect the Empty Sky",
+      "description": [
+        "Plan a response to falls, levitation and the void before entering exposed End terrain. A water bucket helps some situations but does not make a fall into the void recoverable by itself."
+      ],
+      "x": 6.9,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "7546107033FDBD9C",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0B4E70786548CC48",
+          "type": "xp",
+          "xp": 325,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "4F23CF0F9ED3F0FA"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "2AC6DD917B7C6D3C",
+      "title": "Optional · A Reserved Landing Plan",
+      "description": [
+        "Test your fall-protection or movement option in a safe place and keep it accessible during the expedition. Acknowledge this lesson after checking its actual range, input and resource cost."
+      ],
+      "x": 9.2,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "3ECD23D774EA90CB",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1B83F07421162A61",
+          "type": "xp",
+          "xp": 325,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "433D700323A42058"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "368221E159E4D4FB",
+      "title": "Optional · The Dragon Can Return",
+      "description": [
+        "Inspect the vanilla End Crystal recipe and the four-crystal respawn arrangement around the exit portal. The optional Bosses contracts reward repeat victories, but never summon the Dragon or bypass its story seal."
+      ],
+      "x": 11.5,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "minecraft:end_crystal",
+      "tasks": [
+        {
+          "id": "1E71CF607B282AD9",
+          "type": "item",
+          "item": "minecraft:end_crystal",
+          "count": 4,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4A4A1D285A07217C",
+          "type": "xp",
+          "xp": 325,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "296D51A670EC4E8F"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "1BECCD57B8752770",
+      "title": "Optional · Wings beyond the City",
+      "description": [
+        "Seek an End Ship and obtain Elytra when you are ready for the journey. Test durability, takeoff and a safe landing area before treating flight as your only return route."
+      ],
+      "x": 16.1,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "minecraft:elytra",
+      "tasks": [
+        {
+          "id": "225D453F78D1D6F1",
+          "type": "item",
+          "item": "minecraft:elytra",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "76B08F3D36649EA5",
+          "type": "xp",
+          "xp": 325,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "46E9744420FDAA10"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "0DFAB377AC224B43",
+      "title": "Optional · Clear the Citadel Approach",
+      "description": [
+        "Separate the Ruined Citadel’s defenders before committing to its main guardian encounter. This optional preparation does not replace the Dragon Soul Scale story reward required to open the Ender Guardian seal."
+      ],
+      "x": 18.4,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "09704267F026FC30",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "339AB7586CEB5A60",
+          "type": "xp",
+          "xp": 325,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "5807A95330D76D3D"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "617A55E50AAA7AE1",
+      "title": "Optional · A Return Cache",
+      "description": [
+        "Leave spare food, building blocks and tools near your established return point. Keep the route marked so a death does not force you to recover the entire expedition with empty hands."
+      ],
+      "x": 2.3,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "minecraft:chest",
+      "tasks": [
+        {
+          "id": "2AD4FBE1AE0FD68B",
+          "type": "item",
+          "item": "minecraft:chest",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6E40B9598F6D18A6",
+          "type": "xp",
+          "xp": 325,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "410070DFE728E2E7"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
     }
   ],
-  "hide_quest_until_deps_visible": true,
+  "hide_quest_until_deps_visible": false,
   "hide_quest_details_until_startable": true
 }

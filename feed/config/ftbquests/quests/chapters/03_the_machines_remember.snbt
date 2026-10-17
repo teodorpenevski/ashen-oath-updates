@@ -5,7 +5,7 @@
   "title": "3 · The Machines Remember",
   "icon": "minecraft:nether_star",
   "order_index": 2,
-  "default_quest_shape": "square",
+  "default_quest_shape": "circle",
   "default_quest_size": 1.0,
   "progression_mode": "linear",
   "consume_items": false,
@@ -38,7 +38,10 @@
       "optional": false,
       "progression_mode": "linear",
       "hide_until_deps_complete": true,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "gear",
+      "size": 1.25,
+      "icon": "minecraft:book"
     },
     {
       "id": "0DD8E2A6DF79E07F",
@@ -70,11 +73,13 @@
         "4A7B72887691AA5B"
       ],
       "optional": false,
-      "x": 2.0,
+      "x": 2.3,
       "y": 0.0,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "6165C8B0D5968CB5",
@@ -106,11 +111,13 @@
         "0DD8E2A6DF79E07F"
       ],
       "optional": false,
-      "x": 4.0,
+      "x": 4.6,
       "y": 0.0,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "507E26F12D5F4767",
@@ -118,7 +125,7 @@
       "description": [
         "Gather three wither skeleton skulls. Prepare a proper arena for the Wither, away from your base."
       ],
-      "x": 6.0,
+      "x": 6.8999999999999995,
       "y": 0.0,
       "tasks": [
         {
@@ -144,7 +151,9 @@
       "optional": false,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "391C1E877E0CBC7C",
@@ -176,11 +185,13 @@
         "507E26F12D5F4767"
       ],
       "optional": false,
-      "x": 8.0,
+      "x": 9.2,
       "y": 0.0,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "7845C5F4707B8C2A",
@@ -189,7 +200,7 @@
         "Defeat the Wither and carry its crown. Keep its Nether Star: you need it to awaken the Harbinger. The Harbinger seal opens when the crown quest reward is claimed.",
         "This boss guarantees one Wither Crown on a valid defeat. Pick it up, open this quest and keep the trophy in your inventory. The task completes automatically and the trophy is not consumed. It has no crafting recipe and the archive cannot produce it."
       ],
-      "x": 10.0,
+      "x": 11.5,
       "y": 0.0,
       "tasks": [
         {
@@ -228,7 +239,9 @@
       "optional": false,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "781CD8246C7C2C52",
@@ -260,11 +273,13 @@
         "7845C5F4707B8C2A"
       ],
       "optional": false,
-      "x": 12.0,
+      "x": 13.799999999999999,
       "y": 0.0,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "712C5F2778094C6D",
@@ -296,11 +311,13 @@
         "781CD8246C7C2C52"
       ],
       "optional": false,
-      "x": 0.0,
-      "y": 3.0,
+      "x": 16.099999999999998,
+      "y": 0.0,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0
     },
     {
       "id": "52B92AA15999CF9B",
@@ -308,8 +325,8 @@
       "description": [
         "Locate the Ancient Factory with the Explorer's Compass. Prepare armor, healing, ranged options and enough room to dodge."
       ],
-      "x": 2.0,
-      "y": 3.0,
+      "x": 18.4,
+      "y": 0.0,
       "tasks": [
         {
           "type": "checkmark",
@@ -330,7 +347,10 @@
       "optional": false,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": "minecraft:book"
     },
     {
       "id": "24793CD25C45D029",
@@ -338,8 +358,8 @@
       "description": [
         "Use the Nether Star to activate the Harbinger. Learn its attacks and use the arena's EMP mechanic when available. Epic equipment is the intended preparation target."
       ],
-      "x": 4.0,
-      "y": 3.0,
+      "x": 20.7,
+      "y": 0.0,
       "tasks": [
         {
           "type": "checkmark",
@@ -353,7 +373,10 @@
       "optional": false,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "circle",
+      "size": 1.0,
+      "icon": "minecraft:book"
     },
     {
       "id": "03D3C1A1D4E8A23A",
@@ -362,8 +385,8 @@
         "Defeat the Harbinger and carry its Control Core for Memory III. You ordered an evacuation; your commander refused to abandon the weapon.",
         "This boss guarantees one Harbinger Control Core on a valid defeat. Pick it up, open this quest and keep the trophy in your inventory. The task completes automatically and the trophy is not consumed. It has no crafting recipe and the archive cannot produce it."
       ],
-      "x": 6.0,
-      "y": 3.0,
+      "x": 23.0,
+      "y": 0.0,
       "tasks": [
         {
           "id": "7816992848316441",
@@ -402,7 +425,9 @@
       "optional": false,
       "progression_mode": "linear",
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "gear",
+      "size": 1.25
     },
     {
       "id": "7613A7476AEB640E",
@@ -430,24 +455,17 @@
         }
       ],
       "dependencies": [
-        "4A7B72887691AA5B",
-        "0DD8E2A6DF79E07F",
-        "6165C8B0D5968CB5",
-        "507E26F12D5F4767",
-        "391C1E877E0CBC7C",
-        "7845C5F4707B8C2A",
-        "781CD8246C7C2C52",
-        "712C5F2778094C6D",
-        "52B92AA15999CF9B",
-        "24793CD25C45D029",
         "03D3C1A1D4E8A23A"
       ],
       "optional": false,
       "progression_mode": "linear",
-      "x": 14.0,
-      "y": 3.0,
+      "x": 25.299999999999997,
+      "y": 0.0,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "gear",
+      "size": 1.25,
+      "icon": "minecraft:book"
     },
     {
       "id": "651915B829819435",
@@ -479,10 +497,12 @@
         "4A7B72887691AA5B"
       ],
       "optional": true,
-      "x": 0.0,
+      "x": -5.75,
       "y": -3.0,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "451C49B60CC7FCE8",
@@ -514,10 +534,12 @@
         "4A7B72887691AA5B"
       ],
       "optional": true,
-      "x": 3.0,
+      "x": -3.4499999999999997,
       "y": -3.0,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "4D0C2129C87C9DC6",
@@ -549,10 +571,12 @@
         "4A7B72887691AA5B"
       ],
       "optional": true,
-      "x": 6.0,
+      "x": -1.15,
       "y": -3.0,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "4E100D96F59EB675",
@@ -584,10 +608,12 @@
         "4A7B72887691AA5B"
       ],
       "optional": true,
-      "x": 0.0,
-      "y": -5.0,
+      "x": 1.15,
+      "y": -3.0,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "4A91D7CA321CE0AE",
@@ -619,10 +645,12 @@
         "4A7B72887691AA5B"
       ],
       "optional": true,
-      "x": 3.0,
-      "y": -5.0,
+      "x": 3.4499999999999997,
+      "y": -3.0,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "square",
+      "size": 1.0
     },
     {
       "id": "378722E2BCB509A4",
@@ -654,12 +682,227 @@
         "4A7B72887691AA5B"
       ],
       "optional": true,
-      "x": 6.0,
-      "y": -5.0,
+      "x": 5.75,
+      "y": -3.0,
       "hide_until_deps_complete": false,
-      "hide_until_deps_visible": true
+      "hide_until_deps_visible": true,
+      "shape": "square",
+      "size": 1.0
+    },
+    {
+      "id": "4E39BF069BE7E21D",
+      "title": "Optional · Choose the Wither Arena",
+      "description": [
+        "Prepare a legal, controlled Wither arena away from the shared base and villagers. Complete the required previous story chapter before summoning, because the old seal cancels damage while the boss is locked."
+      ],
+      "x": 6.9,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "288C6F9B000BD689",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4AD7A6C153758EE1",
+          "type": "xp",
+          "xp": 275,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "507E26F12D5F4767"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "2DE2E8AC9D0AE891",
+      "title": "Optional · A Powered Workbench",
+      "description": [
+        "Connect a small powered workstation and confirm that its input face accepts Forge Energy. The Workshop and Storage tutorials are available as side branches; building an entire factory is not a hidden story requirement."
+      ],
+      "x": 13.8,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "thermal:energy_duct",
+      "tasks": [
+        {
+          "id": "72ECA6884DE7F008",
+          "type": "item",
+          "item": "thermal:energy_duct",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6BA447F12D825F2D",
+          "type": "xp",
+          "xp": 275,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "781CD8246C7C2C52"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "7E4A41F0DFCA9CA6",
+      "title": "Optional · Fuel the Expedition",
+      "description": [
+        "Prepare durable food for the factory expedition and compare its saturation in AppleSkin. Leave room for defensive supplies so a long exploration trip is not limited by one missing consumable."
+      ],
+      "x": 16.1,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "minecraft:golden_carrot",
+      "tasks": [
+        {
+          "id": "0E9F34520B686DEF",
+          "type": "item",
+          "item": "minecraft:golden_carrot",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "58B48A15BECDC348",
+          "type": "xp",
+          "xp": 275,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "712C5F2778094C6D"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "2AD290D3E46690A9",
+      "title": "Optional · Read the Machine Room",
+      "description": [
+        "Before waking an unfamiliar machine, inspect the arena, nearby defenders and possible retreat paths. Acknowledge this lesson after locating the encounter and deciding where you can safely reposition."
+      ],
+      "x": 18.4,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "7D5CF1533EE03A16",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "50D21F17DDDEE6B2",
+          "type": "xp",
+          "xp": 275,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "52B92AA15999CF9B"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "312468117436E1C1",
+      "title": "Optional · Confirm the Wither Record",
+      "description": [
+        "Keep the Wither Crown in inventory until its story quest completes, then claim the story reward. This recorded victory opens the Harbinger seal; holding a Nether Star alone does not replace that story step."
+      ],
+      "x": 20.7,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": "minecraft:book",
+      "tasks": [
+        {
+          "id": "49C921F1A7F6EEF8",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1E336C42A7DBC464",
+          "type": "xp",
+          "xp": 275,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "24793CD25C45D029"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
+    },
+    {
+      "id": "216898C691D03A74",
+      "title": "Optional · Buffer the Workshop",
+      "description": [
+        "Build a small Energy Cell when your optional machines need a buffer between generation and demand. Inspect its input and output settings before diagnosing an empty machine as a lack of fuel."
+      ],
+      "x": 2.3,
+      "y": 3.0,
+      "size": 1.0,
+      "shape": "square",
+      "icon": "thermal:energy_cell",
+      "tasks": [
+        {
+          "id": "202D5E35F8530501",
+          "type": "item",
+          "item": "thermal:energy_cell",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4E8C0212E3F7EA5B",
+          "type": "xp",
+          "xp": 275,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "0DD8E2A6DF79E07F"
+      ],
+      "optional": true,
+      "hide_until_deps_complete": false,
+      "hide_until_deps_visible": false
     }
   ],
-  "hide_quest_until_deps_visible": true,
+  "hide_quest_until_deps_visible": false,
   "hide_quest_details_until_startable": true
 }
