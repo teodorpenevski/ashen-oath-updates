@@ -124,7 +124,8 @@
           "item": "minecraft:wither_skeleton_skull",
           "count": 3,
           "consume_items": false,
-          "id": "2B653A294FD7D854"
+          "id": "2B653A294FD7D854",
+          "only_from_crafting": false
         }
       ],
       "rewards": [
@@ -182,8 +183,8 @@
       "id": "7845C5F4707B8C2A",
       "title": "Death Opens the Factory",
       "description": [
-        "Defeat the Wither and submit its crown. Keep its Nether Star: you need it to awaken the Harbinger. The Harbinger seal opens when the crown is submitted.",
-        "This boss guarantees one Wither Crown on a valid defeat. Pick it up, open this quest and click its item task to submit it. The trophy is consumed. It has no crafting recipe and the archive cannot produce it."
+        "Defeat the Wither and carry its crown. Keep its Nether Star: you need it to awaken the Harbinger. The Harbinger seal opens when the crown quest reward is claimed.",
+        "This boss guarantees one Wither Crown on a valid defeat. Pick it up, open this quest and keep the trophy in your inventory. The task completes automatically and the trophy is not consumed. It has no crafting recipe and the archive cannot produce it."
       ],
       "x": 10.0,
       "y": 0.0,
@@ -193,7 +194,7 @@
           "type": "item",
           "item": "kubejs:trophy_wither",
           "count": 1,
-          "consume_items": true,
+          "consume_items": false,
           "only_from_crafting": false,
           "match_nbt": false
         }
@@ -352,8 +353,8 @@
       "id": "03D3C1A1D4E8A23A",
       "title": "The Evacuation Order",
       "description": [
-        "Defeat the Harbinger and submit its Control Core for Memory III. You ordered an evacuation; your commander refused to abandon the weapon.",
-        "This boss guarantees one Harbinger Control Core on a valid defeat. Pick it up, open this quest and click its item task to submit it. The trophy is consumed. It has no crafting recipe and the archive cannot produce it."
+        "Defeat the Harbinger and carry its Control Core for Memory III. You ordered an evacuation; your commander refused to abandon the weapon.",
+        "This boss guarantees one Harbinger Control Core on a valid defeat. Pick it up, open this quest and keep the trophy in your inventory. The task completes automatically and the trophy is not consumed. It has no crafting recipe and the archive cannot produce it."
       ],
       "x": 6.0,
       "y": 3.0,
@@ -363,7 +364,7 @@
           "type": "item",
           "item": "kubejs:trophy_harbinger",
           "count": 1,
-          "consume_items": true,
+          "consume_items": false,
           "only_from_crafting": false,
           "match_nbt": false
         }
@@ -455,7 +456,7 @@
           "item": "thermal:dynamo_stirling",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],
@@ -489,7 +490,7 @@
           "item": "refinedstorage:controller",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],
@@ -523,7 +524,7 @@
           "item": "ironfurnaces:diamond_furnace",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],
@@ -557,7 +558,7 @@
           "item": "sophisticatedbackpacks:iron_backpack",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],
@@ -591,7 +592,7 @@
           "item": "minecraft:diamond_pickaxe",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],
@@ -625,7 +626,7 @@
           "item": "thermal:energy_cell",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],

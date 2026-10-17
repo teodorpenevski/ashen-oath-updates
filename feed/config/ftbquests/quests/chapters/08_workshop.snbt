@@ -51,7 +51,8 @@
           "item": "thermal:dynamo_stirling",
           "count": 1,
           "consume_items": false,
-          "id": "2B38CB7C371D5063"
+          "id": "2B38CB7C371D5063",
+          "only_from_crafting": false
         }
       ],
       "rewards": [
@@ -83,7 +84,8 @@
           "item": "thermal:machine_pulverizer",
           "count": 1,
           "consume_items": false,
-          "id": "462A5201E5111F26"
+          "id": "462A5201E5111F26",
+          "only_from_crafting": false
         }
       ],
       "rewards": [
@@ -115,7 +117,8 @@
           "item": "thermal:machine_smelter",
           "count": 1,
           "consume_items": false,
-          "id": "0D709A66CAF9B193"
+          "id": "0D709A66CAF9B193",
+          "only_from_crafting": false
         }
       ],
       "rewards": [
@@ -147,7 +150,8 @@
           "item": "thermal:energy_cell",
           "count": 1,
           "consume_items": false,
-          "id": "66980D28164C0306"
+          "id": "66980D28164C0306",
+          "only_from_crafting": false
         }
       ],
       "rewards": [

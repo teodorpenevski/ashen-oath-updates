@@ -77,9 +77,9 @@
       "id": "52E3741D747907D8",
       "title": "A Warrior Blade",
       "description": [
-        "Craft and submit one iron longsword.",
+        "Craft and carry one iron longsword.",
         "Equip a second one for yourself, switch to Epic Fight battle mode and practice its attack chain. Class skills support durability and melee damage.",
-        "Open the item task to submit it. Submission consumes one item; keep a separate copy for your own equipment."
+        "Keep the required item in your inventory. The task completes automatically without consuming your equipment."
       ],
       "optional": true,
       "x": -2.0,
@@ -93,7 +93,7 @@
           "type": "item",
           "item": "epicfight:iron_longsword",
           "count": 1,
-          "consume_items": true,
+          "consume_items": false,
           "only_from_crafting": false,
           "match_nbt": false
         }
@@ -111,9 +111,9 @@
       "id": "78E59C05E4D5FBDC",
       "title": "A Rogue Blade",
       "description": [
-        "Craft and submit one iron dagger.",
+        "Craft and carry one iron dagger.",
         "Make another for use. Try its battle-mode attack chain; Rogue skills support movement and critical hits.",
-        "Open the item task to submit it. Submission consumes one item; keep a separate copy for your own equipment."
+        "Keep the required item in your inventory. The task completes automatically without consuming your equipment."
       ],
       "optional": true,
       "x": 2.0,
@@ -127,7 +127,7 @@
           "type": "item",
           "item": "epicfight:iron_dagger",
           "count": 1,
-          "consume_items": true,
+          "consume_items": false,
           "only_from_crafting": false,
           "match_nbt": false
         }
@@ -145,9 +145,9 @@
       "id": "661B7CE756B68D45",
       "title": "A Ranger Kit",
       "description": [
-        "Craft and submit one bow.",
+        "Craft and carry one bow.",
         "Bring arrows and keep another bow for use. Ranger skills improve arrow damage and draw speed.",
-        "Open the item task to submit it. Submission consumes one item; keep a separate copy for your own equipment."
+        "Keep the required item in your inventory. The task completes automatically without consuming your equipment."
       ],
       "optional": true,
       "x": 6.0,
@@ -161,7 +161,7 @@
           "type": "item",
           "item": "minecraft:bow",
           "count": 1,
-          "consume_items": true,
+          "consume_items": false,
           "only_from_crafting": false,
           "match_nbt": false
         }
@@ -179,9 +179,9 @@
       "id": "00233D61EF966309",
       "title": "A Mage Focus",
       "description": [
-        "Craft and submit one iron spell book.",
+        "Craft and carry one iron spell book.",
         "Keep another book and learn an offensive spell. Mage skills increase mana and spell power; use Iron's casting controls alongside Epic Fight.",
-        "Open the item task to submit it. Submission consumes one item; keep a separate copy for your own equipment."
+        "Keep the required item in your inventory. The task completes automatically without consuming your equipment."
       ],
       "optional": true,
       "x": -6.0,
@@ -195,7 +195,7 @@
           "type": "item",
           "item": "irons_spellbooks:iron_spell_book",
           "count": 1,
-          "consume_items": true,
+          "consume_items": false,
           "only_from_crafting": false,
           "match_nbt": false
         }
@@ -213,9 +213,9 @@
       "id": "745C3D4F485262AF",
       "title": "Reach and Spacing",
       "description": [
-        "Craft and submit an iron spear.",
+        "Craft and carry an iron spear.",
         "Use another spear to practice spacing and recovery between attack chains.",
-        "Open the item task to submit it. Submission consumes one item; keep a separate copy for your own equipment."
+        "Keep the required item in your inventory. The task completes automatically without consuming your equipment."
       ],
       "optional": true,
       "x": -6.0,
@@ -229,7 +229,7 @@
           "type": "item",
           "item": "epicfight:iron_spear",
           "count": 1,
-          "consume_items": true,
+          "consume_items": false,
           "only_from_crafting": false,
           "match_nbt": false
         }
@@ -247,9 +247,9 @@
       "id": "13885E7364D74000",
       "title": "A Heavy Alternative",
       "description": [
-        "Craft and submit one iron greataxe.",
+        "Craft and carry one iron greataxe.",
         "Use its JEI recipe, then practice another copy in Epic Fight battle mode.",
-        "Open the item task to submit it. Submission consumes one item; keep a separate copy for your own equipment."
+        "Keep the required item in your inventory. The task completes automatically without consuming your equipment."
       ],
       "optional": true,
       "x": 6.0,
@@ -263,7 +263,7 @@
           "type": "item",
           "item": "wom:iron_greataxe",
           "count": 1,
-          "consume_items": true,
+          "consume_items": false,
           "only_from_crafting": false,
           "match_nbt": false
         }
@@ -281,8 +281,8 @@
       "id": "5A0D87AAD293F5E2",
       "title": "Diamond Longsword",
       "description": [
-        "Craft and submit one diamond longsword after iron equipment feels comfortable..",
-        "Open the item task to submit it. Submission consumes one item; keep a separate copy for your own equipment."
+        "Craft and carry one diamond longsword after iron equipment feels comfortable..",
+        "Keep the required item in your inventory. The task completes automatically without consuming your equipment."
       ],
       "optional": true,
       "x": -2.0,
@@ -298,7 +298,7 @@
           "type": "item",
           "item": "epicfight:diamond_longsword",
           "count": 1,
-          "consume_items": true,
+          "consume_items": false,
           "only_from_crafting": false,
           "match_nbt": false
         }
@@ -316,8 +316,8 @@
       "id": "35C7E3525B4CC1EC",
       "title": "Diamond Dagger",
       "description": [
-        "Craft and submit one diamond dagger as an optional Rogue weapon milestone..",
-        "Open the item task to submit it. Submission consumes one item; keep a separate copy for your own equipment."
+        "Craft and carry one diamond dagger as an optional Rogue weapon milestone..",
+        "Keep the required item in your inventory. The task completes automatically without consuming your equipment."
       ],
       "optional": true,
       "x": 2.0,
@@ -333,7 +333,7 @@
           "type": "item",
           "item": "epicfight:diamond_dagger",
           "count": 1,
-          "consume_items": true,
+          "consume_items": false,
           "only_from_crafting": false,
           "match_nbt": false
         }
@@ -351,9 +351,9 @@
       "id": "35654DF6B084CB4E",
       "title": "Diamond Greataxe",
       "description": [
-        "Craft and submit one diamond greataxe.",
+        "Craft and carry one diamond greataxe.",
         "Apply Apotheosis gearing to your personal weapon when available.",
-        "Open the item task to submit it. Submission consumes one item; keep a separate copy for your own equipment."
+        "Keep the required item in your inventory. The task completes automatically without consuming your equipment."
       ],
       "optional": true,
       "x": 6.0,
@@ -369,7 +369,7 @@
           "type": "item",
           "item": "wom:diamond_greataxe",
           "count": 1,
-          "consume_items": true,
+          "consume_items": false,
           "only_from_crafting": false,
           "match_nbt": false
         }
@@ -387,9 +387,9 @@
       "id": "5F26C60E375DE9D2",
       "title": "An Endgame Blade",
       "description": [
-        "Upgrade and submit one netherite longsword using JEI.",
+        "Upgrade and carry one netherite longsword using JEI.",
         "This milestone is optional and never consumes your backpack or boss trophy.",
-        "Open the item task to submit it. Submission consumes one item; keep a separate copy for your own equipment."
+        "Keep the required item in your inventory. The task completes automatically without consuming your equipment."
       ],
       "optional": true,
       "x": -2.0,
@@ -405,7 +405,7 @@
           "type": "item",
           "item": "epicfight:netherite_longsword",
           "count": 1,
-          "consume_items": true,
+          "consume_items": false,
           "only_from_crafting": false,
           "match_nbt": false
         }

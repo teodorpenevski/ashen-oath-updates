@@ -179,8 +179,8 @@
       "id": "3355E00049EBD411",
       "title": "The Commander at the Breach",
       "description": [
-        "Defeat Ignis and submit its Oathbrand for Memory V. Your commander preserved the seal, but became its prisoner. Submission lets you craft and use the final oath.",
-        "This boss guarantees one Ignis Oathbrand on a valid defeat. Pick it up, open this quest and click its item task to submit it. The trophy is consumed. It has no crafting recipe and the archive cannot produce it."
+        "Defeat Ignis and carry its Oathbrand for Memory V. Your commander preserved the seal, but became its prisoner. Claiming the trophy quest reward lets you craft and use the final oath.",
+        "This boss guarantees one Ignis Oathbrand on a valid defeat. Pick it up, open this quest and keep the trophy in your inventory. The task completes automatically and the trophy is not consumed. It has no crafting recipe and the archive cannot produce it."
       ],
       "x": 10.0,
       "y": 0.0,
@@ -190,7 +190,7 @@
           "type": "item",
           "item": "kubejs:trophy_ignis",
           "count": 1,
-          "consume_items": true,
+          "consume_items": false,
           "only_from_crafting": false,
           "match_nbt": false
         }
@@ -313,7 +313,8 @@
           "item": "kubejs:restored_oath",
           "count": 1,
           "consume_items": false,
-          "id": "58BD8C72E62E8D05"
+          "id": "58BD8C72E62E8D05",
+          "only_from_crafting": false
         }
       ],
       "rewards": [],
@@ -339,7 +340,8 @@
           "item": "kubejs:dawnwarden_crest",
           "count": 1,
           "consume_items": false,
-          "id": "04042020E2B01DB1"
+          "id": "04042020E2B01DB1",
+          "only_from_crafting": false
         }
       ],
       "rewards": [
@@ -439,7 +441,7 @@
           "item": "sophisticatedbackpacks:netherite_backpack",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],
@@ -473,7 +475,7 @@
           "item": "ironfurnaces:netherite_furnace",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],
@@ -507,7 +509,7 @@
           "item": "minecraft:netherite_sword",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],
@@ -541,7 +543,7 @@
           "item": "minecraft:netherite_chestplate",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],
@@ -575,7 +577,7 @@
           "item": "minecraft:beacon",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],
@@ -609,7 +611,7 @@
           "item": "minecraft:diamond_boots",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],

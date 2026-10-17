@@ -25,7 +25,7 @@
           "item": "sophisticatedbackpacks:backpack",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],
@@ -55,7 +55,7 @@
           "item": "sophisticatedbackpacks:iron_backpack",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],
@@ -87,7 +87,7 @@
           "item": "sophisticatedbackpacks:gold_backpack",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],
@@ -119,7 +119,7 @@
           "item": "sophisticatedbackpacks:diamond_backpack",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],
@@ -151,7 +151,7 @@
           "item": "sophisticatedbackpacks:netherite_backpack",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],
@@ -183,7 +183,7 @@
           "item": "sophisticatedbackpacks:pickup_upgrade",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],
@@ -215,7 +215,7 @@
           "item": "sophisticatedbackpacks:magnet_upgrade",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],
@@ -247,7 +247,7 @@
           "item": "sophisticatedbackpacks:feeding_upgrade",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],
@@ -279,7 +279,7 @@
           "item": "sophisticatedbackpacks:crafting_upgrade",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],
@@ -311,7 +311,7 @@
           "item": "sophisticatedbackpacks:stack_upgrade_tier_1",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],

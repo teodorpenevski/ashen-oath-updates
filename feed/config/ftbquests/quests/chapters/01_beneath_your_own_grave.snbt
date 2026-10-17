@@ -17,7 +17,7 @@
         "You wake beneath a memorial. Your name has been scraped away. Your hands remember a blade, but your mind remembers nothing.",
         "Open this book with its inventory button. Claim the archive below. Right-click the archive into the air to recover lost story tokens and see the world chapter.",
         "Story boss unlocks are shared across this server. Quest rewards and tutorial progress use FTB teams. Create a party before adventuring together.",
-        "Story chapters unlock only after every required chapter milestone and its closing quest. Boss trophies must be picked up and submitted; optional tutorials remain available from the start."
+        "Story chapters unlock only after every required chapter milestone and its closing quest. Boss trophies are detected in your inventory; claim their quest rewards to advance the story; optional tutorials remain available from the start."
       ],
       "x": 0.0,
       "y": 0.0,
@@ -82,7 +82,7 @@
       "id": "2D523D61AE906EA2",
       "title": "A Place to Return To",
       "description": [
-        "Craft and submit a white bed and a crafting table to establish a safe refuge. Both items are consumed when submitted."
+        "Craft and carry a white bed and a crafting table to establish a safe refuge. Both items are detected automatically and remain in your inventory."
       ],
       "x": 4.0,
       "y": 0.0,
@@ -91,7 +91,7 @@
           "type": "item",
           "item": "minecraft:white_bed",
           "count": 1,
-          "consume_items": true,
+          "consume_items": false,
           "only_from_crafting": false,
           "id": "7731B8B667BAA908"
         },
@@ -99,7 +99,7 @@
           "type": "item",
           "item": "minecraft:crafting_table",
           "count": 1,
-          "consume_items": true,
+          "consume_items": false,
           "only_from_crafting": false,
           "id": "46BA97C59F48B233"
         }
@@ -198,14 +198,16 @@
           "item": "minecraft:iron_sword",
           "count": 1,
           "consume_items": false,
-          "id": "458C659ECB49069F"
+          "id": "458C659ECB49069F",
+          "only_from_crafting": false
         },
         {
           "type": "item",
           "item": "minecraft:shield",
           "count": 1,
           "consume_items": false,
-          "id": "776027820D73069C"
+          "id": "776027820D73069C",
+          "only_from_crafting": false
         }
       ],
       "rewards": [
@@ -296,7 +298,8 @@
           "item": "apotheosis:salvaging_table",
           "count": 1,
           "consume_items": false,
-          "id": "7F124DBB5C2615A5"
+          "id": "7F124DBB5C2615A5",
+          "only_from_crafting": false
         }
       ],
       "rewards": [
@@ -363,7 +366,7 @@
           "item": "kubejs:oath_shard",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],
@@ -378,8 +381,8 @@
       "id": "3D2E11776642B4CF",
       "title": "The First Name",
       "description": [
-        "Defeat The Oathless and submit its crest to recover Memory I. You were a Dawnwarden; someone erased your identity.",
-        "This boss guarantees one Oathless Crest on a valid defeat. Pick it up, open this quest and click its item task to submit it. The trophy is consumed. It has no crafting recipe and the archive cannot produce it."
+        "Defeat The Oathless and carry its crest to recover Memory I. You were a Dawnwarden; someone erased your identity.",
+        "This boss guarantees one Oathless Crest on a valid defeat. Pick it up, open this quest and keep the trophy in your inventory. The task completes automatically and the trophy is not consumed. It has no crafting recipe and the archive cannot produce it."
       ],
       "x": 8.0,
       "y": 3.0,
@@ -389,7 +392,7 @@
           "type": "item",
           "item": "kubejs:trophy_oathless",
           "count": 1,
-          "consume_items": true,
+          "consume_items": false,
           "only_from_crafting": false,
           "match_nbt": false
         }
@@ -478,7 +481,7 @@
           "item": "minecraft:furnace",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],
@@ -510,7 +513,7 @@
           "item": "ironfurnaces:iron_furnace",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],
@@ -542,7 +545,7 @@
           "item": "minecraft:iron_helmet",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],
@@ -574,7 +577,7 @@
           "item": "minecraft:iron_chestplate",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],
@@ -606,7 +609,7 @@
           "item": "sophisticatedbackpacks:backpack",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],
@@ -638,7 +641,7 @@
           "item": "minecraft:bow",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],

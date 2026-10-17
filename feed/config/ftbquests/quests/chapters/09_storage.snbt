@@ -51,7 +51,8 @@
           "item": "refinedstorage:controller",
           "count": 1,
           "consume_items": false,
-          "id": "7D2BBC22F5973213"
+          "id": "7D2BBC22F5973213",
+          "only_from_crafting": false
         }
       ],
       "rewards": [
@@ -83,7 +84,8 @@
           "item": "refinedstorage:disk_drive",
           "count": 1,
           "consume_items": false,
-          "id": "17E96464B329CBE8"
+          "id": "17E96464B329CBE8",
+          "only_from_crafting": false
         }
       ],
       "rewards": [
@@ -115,7 +117,8 @@
           "item": "refinedstorage:crafting_grid",
           "count": 1,
           "consume_items": false,
-          "id": "1598FDC3BF04B59A"
+          "id": "1598FDC3BF04B59A",
+          "only_from_crafting": false
         }
       ],
       "rewards": [
@@ -147,7 +150,8 @@
           "item": "refinedstorage:external_storage",
           "count": 1,
           "consume_items": false,
-          "id": "49301A32FF628A70"
+          "id": "49301A32FF628A70",
+          "only_from_crafting": false
         }
       ],
       "rewards": [
@@ -179,7 +183,8 @@
           "item": "refinedstorage:crafter",
           "count": 1,
           "consume_items": false,
-          "id": "17078FE68EBF475A"
+          "id": "17078FE68EBF475A",
+          "only_from_crafting": false
         }
       ],
       "rewards": [

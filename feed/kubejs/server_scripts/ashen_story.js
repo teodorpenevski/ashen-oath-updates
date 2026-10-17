@@ -11,7 +11,7 @@ const ASHEN_GATES = {
   ],
   "cataclysm:the_harbinger": [
     "execute if score #chapter ashen_story matches 3.. if score #wither ashen_story matches 1",
-    "Submit the Chapter 3 Wither Crown first."
+    "Complete the Chapter 3 Wither Crown quest first."
   ],
   "minecraft:ender_dragon": [
     "execute if score #chapter ashen_story matches 4..",
@@ -19,7 +19,7 @@ const ASHEN_GATES = {
   ],
   "cataclysm:ender_guardian": [
     "execute if score #chapter ashen_story matches 4.. if score #dragon ashen_story matches 1",
-    "Submit the Chapter 4 Dragon Soul Scale first."
+    "Complete the Chapter 4 Dragon Soul Scale quest first."
   ],
   "cataclysm:ignis": [
     "execute if score #chapter ashen_story matches 5..",
@@ -72,7 +72,7 @@ EntityEvents.death(event => {
 });
 PlayerEvents.loggedIn(event => {
   event.server.runCommandSilent('execute as ' + event.player.uuid + ' run function ashen:recover');
-  event.player.tell('Ashen Oath: open the quest book. Submit boss trophies to finish the story chapters. The archive recovers memories, never trophies.');
+  event.player.tell('Ashen Oath: open the quest book. Keep boss trophies in your inventory to complete their quests, then claim the story rewards. The archive recovers memories, never trophies.');
 });
 ItemEvents.rightClicked('kubejs:memory_archive', event => {
   if (event.level.isClientSide()) return;

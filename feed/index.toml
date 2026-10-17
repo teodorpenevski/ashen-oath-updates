@@ -20,27 +20,27 @@ hash = "201da035fdfcedaf9f7b8d9a84f170f0fc6a48567a3de9a020a317b444b99eb2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/01_beneath_your_own_grave.snbt"
-hash = "10c1e3f2ac651990fc91ecaef3f2bd398cf6e75b66c20c55ab53a61e79defdce"
+hash = "a3608f9802a4813b12e3254a7931ddcc9216d1666217604486dd0857d2701645"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/02_embers_of_a_changed_world.snbt"
-hash = "a5a35a339d5f3b5621a3702acada62fc11c2e28be18a5d3b1a1a3f7a3a4dbb8f"
+hash = "c7d456006fd199cdf8d2fef318c215123a8ac4e9c9b9506a92f023e8a388757c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/03_the_machines_remember.snbt"
-hash = "288740e738b61cee6e5a0a119f48cf9a64de1ff19ea910ad280f8a0dc95edf78"
+hash = "b5c697450747507d4d046a72d95b8f0c385f498f6b8865d6f54c4fcbf0bd5b16"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/04_beyond_the_broken_sky.snbt"
-hash = "e49efa929e66ba57d2de578802ee7e86c4965ec2d5f129d4a744be99a6829b4b"
+hash = "edd95a20daa9401e0978f28b33b4bffc054d2840b3535414a44fd2ba69f63136"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/05_the_last_oath.snbt"
-hash = "936660a239d51ab331270ddad17296057478548ab41276f61414058199cf6b0e"
+hash = "484fc876b9adb2a981ce27e996ed562cb2c9f29bbfc4a4f86c8544f28b65210c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/06_gearing.snbt"
-hash = "27fca74b8771ed4abb0c581cde2abc9d632fef11ac036b2eaa2ab2ed581adb69"
+hash = "b5817dca67d04e7a419e2c4903f5ae98e99cf9f4900bc8639ac10eadf31e311c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/07_magic.snbt"
@@ -48,19 +48,19 @@ hash = "b60d1939f90d9fd35e8fecc9998080681e8805d4ad9c31b66755c3a9fa9a4315"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_workshop.snbt"
-hash = "ee2387a38f1a0079cc410a18265d789ed8bef91d11838bbcca88b89cd4e815d5"
+hash = "23f43296baac5be26f0fce67a14ccf0af8683ffb3afea742f7133a7ab6a88906"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/09_storage.snbt"
-hash = "abaa7fb1fe19cb8d0373a2fbebab2e3999dd1d8b7cf736597b0d0164e27aebac"
+hash = "d2181f9f2533d19c0e4fe1acda18feed2db551fe06660cf8bd2880937bd6ee32"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/10_base_upgrades.snbt"
-hash = "0dbd1134d8adfe8953ec098611c1bb4f4e9e16173a08539c5e9fc657e192cbe3"
+hash = "0060b323e8ee4a20a4ae8b6d484e9b12c5aad29708d0f553dbc96ed6915bec8e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/11_backpacks.snbt"
-hash = "107af90cc407560fcdacbad7a8dec8346aa3b7a71ef96011683beb554a675cbe"
+hash = "21c0157fc5fd2105f36877fd022eb66b0a6ce1d663fe45516124babdc212bc30"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/12_field_milestones.snbt"
@@ -68,7 +68,7 @@ hash = "2d4e3978cbe2bc8f3c94653d4c6f887760935b369ccf212edf74ee08c58c1b1e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/13_combat_and_classes.snbt"
-hash = "b2e8b9ec0d9286a42f01770575214ea8edafa52f42f463c75a3855926e9df994"
+hash = "37698dd1ed0ae470de68c005ca65004b276ec4e2151f775b7bd178a2d89f8a0b"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -121,6 +121,10 @@ hash = "a91dbc7736280d1b1cc5c5026ff34ca711ad932b5d53756c12f772f3b2f184d9"
 [[files]]
 file = "defaultconfigs/corpse-server.toml"
 hash = "09fbf4a2a9e81b317fc2f81ad87285778947ec8245ed1024cf68b5d0df4f2016"
+
+[[files]]
+file = "defaultconfigs/openpartiesandclaims-server.toml"
+hash = "a57ccf3f7d2c48f7e1d6847017a0b24379be25bcf1d729c991e3ce7846c05426"
 
 [[files]]
 file = "defaultconfigs/skilltree-server.toml"
@@ -500,7 +504,7 @@ hash = "58814e1b5bf225f83c128879f9e59aea6ffb22dcfaa2ce7d278e3cb3ce9e77ab"
 
 [[files]]
 file = "kubejs/data/ashen/functions/boss/dragon.mcfunction"
-hash = "f3bcb094781dbd2d5e0691edf8bb99cf1490951e9df995e53fa8f55c43d8ed1a"
+hash = "a59356ac9c2bdf2cbba947777e9abf6ba3a602500074cf71d523f887881fcd2e"
 
 [[files]]
 file = "kubejs/data/ashen/functions/boss/guardian.mcfunction"
@@ -612,7 +616,7 @@ hash = "f08063b4f0b9b343cde3808c74b1c12dc2d1a801c8c3ffa96843acbb029b0879"
 
 [[files]]
 file = "kubejs/data/ashen/functions/finish.mcfunction"
-hash = "7c8087981eb16a4557d808087c91a42e75c95df96fb062b1bad9ecffc31d24d6"
+hash = "79cd2721eaa6a585d40a8ae80c5c1645b321915d58a092fc11afda14b14b606d"
 
 [[files]]
 file = "kubejs/data/ashen/functions/finish_valid.mcfunction"
@@ -2612,7 +2616,7 @@ hash = "39de2661ffeb5ceb2fcfcb7ff0ec26bba1cc63102381bf47f1848c608a6a78ee"
 
 [[files]]
 file = "kubejs/server_scripts/ashen_story.js"
-hash = "9428da396e360b23855d7f5d7886c94af851d50d72c64409beb4833e1327ef34"
+hash = "8d9d5b97098f96c89638474a73f4f201f0381cc95a79faef1b0e091b56209947"
 
 [[files]]
 file = "kubejs/server_scripts/ashen_subclass_effects.js"
@@ -2755,7 +2759,7 @@ metafile = true
 
 [[files]]
 file = "mods/ashen-skill-bridge-1.0.0.jar"
-hash = "6f11f68cbaa6cc6f6633085bdfa229b3423a874f235bdc77e3295de4ac0d2d2c"
+hash = "e9e31f51a1f1fc3ae9ae82f0ea59bfdf766ad113981b7e60c39914f284c05ed5"
 
 [[files]]
 file = "mods/cloth-config-11.1.136-forge.jar.pw.toml"
@@ -2773,6 +2777,11 @@ hash = "c6f14bea8a02c68bfd7c33083616020d409c6b44ee6167efcd426f9d600a6718"
 metafile = true
 
 [[files]]
+file = "mods/craftingstation-1.20.1-1.2.3.jar.pw.toml"
+hash = "12062e21317d3d54ac46d1bed69a0ebf62f74aa1e69333645dfacef39b88bd3c"
+metafile = true
+
+[[files]]
 file = "mods/curios-forge-5.14.1+1.20.1.jar.pw.toml"
 hash = "5bc8a3da75e0ed62d2f8bc8d32688b21a9e867baf96329786db32b35f37d32bf"
 metafile = true
@@ -2785,6 +2794,11 @@ metafile = true
 [[files]]
 file = "mods/dummmmmmy-1.20-2.0.12-forge.jar.pw.toml"
 hash = "90bdd14a29a2a5ff4bf60e76d2662bdbbd46f3351d2510e348fa735c6e310f5f"
+metafile = true
+
+[[files]]
+file = "mods/effortlessbuilding-1.20.1-3.11.jar.pw.toml"
+hash = "bb8847074577a97db380b13c7c1348f96573033e76600e5f1bddab4c21b33e3a"
 metafile = true
 
 [[files]]
@@ -2920,6 +2934,11 @@ metafile = true
 [[files]]
 file = "mods/oculus-mc1.20.1-1.8.0.jar.pw.toml"
 hash = "ba5a7c5a38032c6dbeaa982c39a8ada23a4538fdde900ab00d260c4e98ed77f2"
+metafile = true
+
+[[files]]
+file = "mods/open-parties-and-claims-forge-1.20.1-0.33.0.jar.pw.toml"
+hash = "2d88511fda34123537d2f8c531a02881e72830073d069d94f40cb66cc3f947e9"
 metafile = true
 
 [[files]]

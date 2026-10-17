@@ -24,7 +24,8 @@
           "item": "sophisticatedstorage:iron_chest",
           "count": 1,
           "consume_items": false,
-          "id": "3D8DA473320F6950"
+          "id": "3D8DA473320F6950",
+          "only_from_crafting": false
         }
       ],
       "rewards": [
@@ -54,7 +55,8 @@
           "item": "sophisticatedstorage:gold_chest",
           "count": 1,
           "consume_items": false,
-          "id": "6F12F2259B921A06"
+          "id": "6F12F2259B921A06",
+          "only_from_crafting": false
         }
       ],
       "rewards": [
@@ -86,7 +88,8 @@
           "item": "sophisticatedstorage:diamond_chest",
           "count": 1,
           "consume_items": false,
-          "id": "5012D4BC246F9E90"
+          "id": "5012D4BC246F9E90",
+          "only_from_crafting": false
         }
       ],
       "rewards": [
@@ -118,7 +121,8 @@
           "item": "ironfurnaces:iron_furnace",
           "count": 1,
           "consume_items": false,
-          "id": "7BA8755FAF7EE563"
+          "id": "7BA8755FAF7EE563",
+          "only_from_crafting": false
         }
       ],
       "rewards": [
@@ -150,7 +154,8 @@
           "item": "ironfurnaces:diamond_furnace",
           "count": 1,
           "consume_items": false,
-          "id": "64E5E7A67E6C3A31"
+          "id": "64E5E7A67E6C3A31",
+          "only_from_crafting": false
         }
       ],
       "rewards": [
@@ -182,7 +187,8 @@
           "item": "ironfurnaces:netherite_furnace",
           "count": 1,
           "consume_items": false,
-          "id": "1F2B43B44805188B"
+          "id": "1F2B43B44805188B",
+          "only_from_crafting": false
         }
       ],
       "rewards": [

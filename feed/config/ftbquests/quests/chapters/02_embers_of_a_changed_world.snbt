@@ -89,7 +89,8 @@
           "item": "irons_spellbooks:inscription_table",
           "count": 1,
           "consume_items": false,
-          "id": "6910FE511612EFBB"
+          "id": "6910FE511612EFBB",
+          "only_from_crafting": false
         }
       ],
       "rewards": [
@@ -122,7 +123,8 @@
           "item": "apotheosis:simple_reforging_table",
           "count": 1,
           "consume_items": false,
-          "id": "49D2AE62EBBC0718"
+          "id": "49D2AE62EBBC0718",
+          "only_from_crafting": false
         }
       ],
       "rewards": [
@@ -155,7 +157,8 @@
           "item": "minecraft:obsidian",
           "count": 10,
           "consume_items": false,
-          "id": "5A3EED640CC9B2D2"
+          "id": "5A3EED640CC9B2D2",
+          "only_from_crafting": false
         }
       ],
       "rewards": [
@@ -258,7 +261,8 @@
           "item": "minecraft:blaze_rod",
           "count": 6,
           "consume_items": false,
-          "id": "3A6580CFCB962FAE"
+          "id": "3A6580CFCB962FAE",
+          "only_from_crafting": false
         }
       ],
       "rewards": [
@@ -358,7 +362,8 @@
           "item": "explorerscompass:explorerscompass",
           "count": 1,
           "consume_items": false,
-          "id": "4A7CE49E7990C67F"
+          "id": "4A7CE49E7990C67F",
+          "only_from_crafting": false
         }
       ],
       "rewards": [
@@ -381,8 +386,8 @@
       "id": "1286A42DA00B801B",
       "title": "The Weapon That Broke the World",
       "description": [
-        "Defeat the Netherite Monstrosity and submit its Furnace Heart for Memory II. Your order turned a new power into a weapon, and the world paid the price.",
-        "This boss guarantees one Monstrosity Furnace Heart on a valid defeat. Pick it up, open this quest and click its item task to submit it. The trophy is consumed. It has no crafting recipe and the archive cannot produce it."
+        "Defeat the Netherite Monstrosity and carry its Furnace Heart for Memory II. Your order turned a new power into a weapon, and the world paid the price.",
+        "This boss guarantees one Monstrosity Furnace Heart on a valid defeat. Pick it up, open this quest and keep the trophy in your inventory. The task completes automatically and the trophy is not consumed. It has no crafting recipe and the archive cannot produce it."
       ],
       "x": 8.0,
       "y": 3.0,
@@ -392,7 +397,7 @@
           "type": "item",
           "item": "kubejs:trophy_monstrosity",
           "count": 1,
-          "consume_items": true,
+          "consume_items": false,
           "only_from_crafting": false,
           "match_nbt": false
         }
@@ -485,7 +490,7 @@
           "item": "ironfurnaces:gold_furnace",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],
@@ -519,7 +524,7 @@
           "item": "minecraft:enchanting_table",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],
@@ -553,7 +558,7 @@
           "item": "minecraft:brewing_stand",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],
@@ -587,7 +592,7 @@
           "item": "minecraft:golden_boots",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],
@@ -621,7 +626,7 @@
           "item": "sophisticatedbackpacks:gold_backpack",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],
@@ -655,7 +660,7 @@
           "item": "sophisticatedstorage:diamond_chest",
           "count": 1,
           "consume_items": false,
-          "only_from_crafting": true,
+          "only_from_crafting": false,
           "match_nbt": false
         }
       ],
