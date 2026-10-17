@@ -1,0 +1,2 @@
+# Feed hashes describe exact bytes; never normalize their line endings.
+feed/** -text
