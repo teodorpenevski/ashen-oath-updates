@@ -16,6 +16,11 @@ hash = "089f7383a1a3adf2ae3c418cd37ef9149e2ebd6f48b4a16a75f933b3c48c2c5e"
 preserve = true
 
 [[files]]
+file = "config/ashen-enemy-health.json"
+hash = "11fad78d99c36d45c45d4a9df597ea6de01df49fd439f42da4aa9f4701cf1f9e"
+preserve = true
+
+[[files]]
 file = "config/efpunchycompat-client.toml"
 hash = "19ff22ea75a924e77d4649700981da9f745282465cd7ebfad7f689e6e3dbbea5"
 preserve = true
@@ -843,7 +848,7 @@ hash = "3910d870db92ac53bf2e9cc4f853212193780bd00d0b607f4af6abeba46c54fb"
 
 [[files]]
 file = "kubejs/data/ashen/skills/asc_berserker_big_1.json"
-hash = "e6fa1692e9a66694af669d4ecfeb860526e70a77d9fb50a3b351ab64b94b889f"
+hash = "91db99dec7d7591f4b49dbdd7db357c8a116b04e134a92b60e961df0fb5c11b9"
 
 [[files]]
 file = "kubejs/data/ashen/skills/asc_berserker_big_2.json"
@@ -2651,7 +2656,7 @@ hash = "f44cc7f65ba21f2a5ecdfc4491d5c5172cbee71561906b2c5eba9679776f3d4a"
 
 [[files]]
 file = "kubejs/startup_scripts/00_ashen_combat_data.js"
-hash = "13442ad5fd315f5ae6f621709d5277f5ca4e75eb37e01981700917d683a187d2"
+hash = "b395d90363fb38ff5e32d406446d337fb064cff4bfbbae08809df1d9f06bd41c"
 
 [[files]]
 file = "kubejs/startup_scripts/ashen_ability_keybinds.js"
@@ -2796,7 +2801,7 @@ metafile = true
 
 [[files]]
 file = "mods/ashen-skill-bridge-1.0.0.jar"
-hash = "3979aa3d2ff01e4f4051c8b263463f5989e5b34c6610a8c2e852d98f6bc6c750"
+hash = "ba3007f60128b375b25944ffb674d65385e85683c0a5721310434cf1edb7ab7f"
 
 [[files]]
 file = "mods/cloth-config-11.1.136-forge.jar.pw.toml"
@@ -2996,6 +3001,11 @@ metafile = true
 [[files]]
 file = "mods/rhino-forge-2001.2.3-build.10.jar.pw.toml"
 hash = "0095e5e425db7659d3d2a051ae6b46933a492e95aaa0d1a71ca7173ccf7440dd"
+metafile = true
+
+[[files]]
+file = "mods/shieldhider-forge-1.20.1-1.1.0.jar.pw.toml"
+hash = "9ffe83c216bdb759e88913d02778ba86df8791699e397aa7d97f0e914463398b"
 metafile = true
 
 [[files]]

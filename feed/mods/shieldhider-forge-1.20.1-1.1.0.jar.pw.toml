@@ -1,0 +1,8 @@
+name = "Shield Hider"
+filename = "shieldhider-forge-1.20.1-1.1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/gDlNzeRh/versions/rEZKYiix/shieldhider-forge-1.20.1-1.1.0.jar"
+hash-format = "sha512"
+hash = "5a77c6053b1348acf10b8b5d1e8c0cd19e22299d50e29748dfc8ce58bdb35ebf487f53857bc1105bcf668df54dc0186ae4a89015095d7a309a6af6989382f69f"

@@ -21,7 +21,7 @@
       "attribute": "minecraft:generic.armor",
       "id": "1c36b008-e76f-5226-95bf-d776d05f3a61",
       "name": "Ashen asc_berserker_big_1",
-      "amount": -0.2,
+      "amount": -0.35,
       "operation": 1,
       "player_multiplier": {
         "type": "skilltree:none"

@@ -1845,7 +1845,7 @@ global.ashenCombat = {
           },
           "big": {
             "title": "Glass Juggernaut",
-            "description": "+70% attack damage; 20% reduced armor.",
+            "description": "+70% attack damage; 35% reduced armor.",
             "bonuses": [
               [
                 "minecraft:generic.attack_damage",
@@ -1854,7 +1854,7 @@ global.ashenCombat = {
               ],
               [
                 "minecraft:generic.armor",
-                -0.2,
+                -0.35,
                 "multiply_base"
               ]
             ],
@@ -2426,7 +2426,7 @@ global.ashenCombat = {
   ],
   "tree_id": "ashen:classes",
   "subclass_balance": {
-    "version": "vanguard-2026-10-18-v1",
+    "version": "vanguard-glass-2026-10-18-v2",
     "previous_bonuses": [
       {
         "node": "ashen:asc_arcanist_small_1",
