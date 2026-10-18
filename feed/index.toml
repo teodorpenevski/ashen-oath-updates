@@ -17,7 +17,7 @@ preserve = true
 
 [[files]]
 file = "config/epicfight-common.toml"
-hash = "709b4bd3b7c5c22cf269e145ca2fcd25155cde818dea54ad0ccb40df5c015b04"
+hash = "693eaf7f25fb1adb69801c3161b1c625042077a8940d95bd769558c5e24ed703"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -2765,7 +2765,7 @@ metafile = true
 
 [[files]]
 file = "mods/ashen-skill-bridge-1.0.0.jar"
-hash = "c8f4a0229900846638f44138e6f7acc5d7a26fc60174bf46ae124ef74ae2d74d"
+hash = "f294b71a50147836e4ccefe1f6eb0185ee3bf97779402b59f988517487dc1dab"
 
 [[files]]
 file = "mods/cloth-config-11.1.136-forge.jar.pw.toml"

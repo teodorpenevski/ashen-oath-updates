@@ -15,7 +15,7 @@
 	noMobsInBossfight = true
 	#0 = vanilla, 1 = epicfight
 	#Range: 0 ~ 1
-	initialMode = 1
+	initialMode = 0
 	#Range: 0 ~ 100
 	weightPenalty = 100
 	epicDrop = false
