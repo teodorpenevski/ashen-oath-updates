@@ -1,0 +1,8 @@
+name = "Collective"
+filename = "collective-1.20.1-8.57.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/e0M1UDsY/versions/DXj3emWv/collective-1.20.1-8.57.jar"
+hash-format = "sha512"
+hash = "cbd426c93155c3ef2dffff142e7bfddb839e5335b9af149965e6d828f9a5e107187e42eac9a1735adfb86191390d08f37d8ed837cea8dea7b41a6a87ac307177"

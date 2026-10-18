@@ -1,0 +1,99 @@
+{
+  "loader": "forge:separate_transforms",
+  "base": {
+    "loader": "forge:obj",
+    "model": "wom:models/item/obj/agony.obj",
+    "flip-v": true,
+    "display": {
+      "thirdperson_righthand": {
+        "translation": [
+          6,
+          -10.5,
+          7.8
+        ],
+        "rotation": [
+          86,
+          0,
+          0
+        ],
+        "scale": [
+          0.75,
+          0.75,
+          0.75
+        ]
+      },
+      "firstperson_righthand": {
+        "translation": [
+          30,
+          -10,
+          -5
+        ],
+        "rotation": [
+          45,
+          0,
+          0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "thirdperson_lefthand": {
+        "translation": [
+          -6.0,
+          -10.5,
+          7.8
+        ],
+        "rotation": [
+          86,
+          0,
+          0
+        ],
+        "scale": [
+          0.75,
+          0.75,
+          0.75
+        ]
+      },
+      "firstperson_lefthand": {
+        "translation": [
+          14.0,
+          -10,
+          -5
+        ],
+        "rotation": [
+          45,
+          0,
+          0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  },
+  "perspectives": {
+    "ground": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "wom:item/agony"
+      }
+    },
+    "gui": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "wom:item/agony"
+      },
+      "gui_light": "front"
+    },
+    "fixed": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "wom:item/agony"
+      }
+    }
+  }
+}

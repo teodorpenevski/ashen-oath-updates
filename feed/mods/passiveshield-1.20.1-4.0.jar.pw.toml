@@ -1,0 +1,8 @@
+name = "Passive Shield"
+filename = "passiveshield-1.20.1-4.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/iQBrasyH/versions/zw06UG5Y/passiveshield-1.20.1-4.0.jar"
+hash-format = "sha512"
+hash = "c393c9d17bafd6b73313d90b6069b25e4f05076e2b5475087e4f596fe4d8c16473f1639e592c5dca7d2ce5ee671f8ef783ef5862ac0d6534055d7581fa92daf0"

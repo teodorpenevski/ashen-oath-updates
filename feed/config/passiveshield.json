@@ -1,0 +1,8 @@
+{
+  "hideShieldWhenNotInUse": {
+    "value": true
+  },
+  "passiveShieldPercentageDamageNegated": {
+    "value": 0.0
+  }
+}

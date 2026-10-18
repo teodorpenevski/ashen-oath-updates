@@ -104,6 +104,11 @@ hash = "2fde6f4dbc42c5e58e01416c3ade320be32e449f2c4593f5ef01e22d9e29692a"
 preserve = true
 
 [[files]]
+file = "config/passiveshield.json"
+hash = "ee82060125b1b2dbd9d408a05a204fd1ee24bdbb87db146e8a5119ee87a62e9a"
+preserve = true
+
+[[files]]
 file = "config/punchy/mix_profiles/.active_mix_profile"
 hash = "021679c64c3487007d245a897a6b1f5500c93f69731a8b0dbf29be635eba5447"
 preserve = true
@@ -297,6 +302,10 @@ hash = "998c02be54a55579ffe421687a4d25a5b519ed8bd65d5abce32afd343750e872"
 [[files]]
 file = "kubejs/assets/minecraft/models/crossbow.json"
 hash = "c23d5c4032b55d24a3b886b400bfb75f1a4808fd9f354b246a9f506642865d75"
+
+[[files]]
+file = "kubejs/assets/wom/models/item/agony.json"
+hash = "e5455247805d7a92197e5db2a9582d5bb2ac10097c9a14e5974c2a49e77527ba"
 
 [[files]]
 file = "kubejs/client_scripts/ashen_ability_keybinds.js"
@@ -2801,7 +2810,7 @@ metafile = true
 
 [[files]]
 file = "mods/ashen-skill-bridge-1.0.0.jar"
-hash = "ba3007f60128b375b25944ffb674d65385e85683c0a5721310434cf1edb7ab7f"
+hash = "01016ce100e86107a590757df95ee7a185d8831d020ddbbc76c898c887349acb"
 
 [[files]]
 file = "mods/cloth-config-11.1.136-forge.jar.pw.toml"
@@ -2811,6 +2820,11 @@ metafile = true
 [[files]]
 file = "mods/cofh_core-1.20.1-11.0.2.56.jar.pw.toml"
 hash = "537ba738dba922ac24a75ce9d220fbb0ab63e2b53e272be6057c4f5f3a2148f5"
+metafile = true
+
+[[files]]
+file = "mods/collective-1.20.1-8.57.jar.pw.toml"
+hash = "460b42ab23266bca1d7b7e65d2f9157b131f7b66cfcb0cc1473a940ddcef9f9d"
 metafile = true
 
 [[files]]
@@ -2984,6 +2998,11 @@ hash = "2d88511fda34123537d2f8c531a02881e72830073d069d94f40cb66cc3f947e9"
 metafile = true
 
 [[files]]
+file = "mods/passiveshield-1.20.1-4.0.jar.pw.toml"
+hash = "0aad682e65af0ce4d01117e8d0f10489facb8e1deaa8a33044440034686de525"
+metafile = true
+
+[[files]]
 file = "mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar.pw.toml"
 hash = "15772c87126a9076959f5572c7bc7e2da34614fc01d7d49f22de3c9645312d92"
 metafile = true
@@ -3001,11 +3020,6 @@ metafile = true
 [[files]]
 file = "mods/rhino-forge-2001.2.3-build.10.jar.pw.toml"
 hash = "0095e5e425db7659d3d2a051ae6b46933a492e95aaa0d1a71ca7173ccf7440dd"
-metafile = true
-
-[[files]]
-file = "mods/shieldhider-forge-1.20.1-1.1.0.jar.pw.toml"
-hash = "9ffe83c216bdb759e88913d02778ba86df8791699e397aa7d97f0e914463398b"
 metafile = true
 
 [[files]]
