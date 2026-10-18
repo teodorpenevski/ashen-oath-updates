@@ -2625,7 +2625,7 @@ hash = "ac1f27e4e231f38eae514437b1cb1990070641b7fa2abd2c2ed3d03a87ae1581"
 
 [[files]]
 file = "kubejs/startup_scripts/00_ashen_combat_data.js"
-hash = "2d9c8f23acdfb5aa902a9c2a906662786c2c4b1a73e9d95798a6ba0c8fa57435"
+hash = "58d43ec9e55075a3e85a59198a4e724b23d51867590c12dc860a61235b06b7b5"
 
 [[files]]
 file = "kubejs/startup_scripts/ashen_ability_keybinds.js"
@@ -2765,7 +2765,7 @@ metafile = true
 
 [[files]]
 file = "mods/ashen-skill-bridge-1.0.0.jar"
-hash = "f278fa25e27eab959d437a431e4eb3348783f950799ae4555d2089b35aace8a9"
+hash = "903c0e0574587402050fa3ddcc7426f87477c4b9b836931e451d2bcff82e1948"
 
 [[files]]
 file = "mods/cloth-config-11.1.136-forge.jar.pw.toml"

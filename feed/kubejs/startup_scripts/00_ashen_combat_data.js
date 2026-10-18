@@ -64,7 +64,7 @@ global.ashenCombat = {
       "rogue_19": {
         "skill": "epicfight:phantom_ascent",
         "name": "Phantom Ascent",
-        "effect": "Unlocks Epic Fight Phantom Ascent and equips it into an empty Mover slot. When equipped, combat-mode Jump and V share one extra jump per airtime; landing resets both. No cooldown."
+        "effect": "Unlocks Epic Fight Phantom Ascent and equips it into an empty Mover slot. When equipped, Jump works in combat and mining mode, including while holding tools or empty-handed. Jump and the separate ability key share one extra jump per airtime; landing resets both. No cooldown."
       }
     },
     "keystones": {
