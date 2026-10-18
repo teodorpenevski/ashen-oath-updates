@@ -1476,6 +1476,230 @@ file = "kubejs/data/ashen/skills/warrior_lifesteal_2.json"
 hash = "e1270083ed9f402d529d50e855d960c4bc0e528f3b9c9ff90514a6c88d36b491"
 
 [[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/acupuncture.json"
+hash = "188aef418afc762ecb3d4dc6e5f6f4ec7392de9c03cb519a246b3b0c601acb41"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/arrow_volley.json"
+hash = "4eb3b7f526ff75b0959374bfc686e3a9302473b53b4857c5d98be26886d0f19a"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/ascension.json"
+hash = "19217d8dd4fb96eb579160eec33d1bb5828f07499865c4c31d40649d1f6c581b"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/ball_lightning.json"
+hash = "174cf2297b6820e0d40014db8e535e02b18e090a5bd2a3c1505d9209b3ab95eb"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/black_hole.json"
+hash = "f25b3e0800ea5709d7fed35e2ee3bc392c477b79a98326a1c8a7570b2b88635e"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/blaze_storm.json"
+hash = "4eb3b7f526ff75b0959374bfc686e3a9302473b53b4857c5d98be26886d0f19a"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/blood_needles.json"
+hash = "188aef418afc762ecb3d4dc6e5f6f4ec7392de9c03cb519a246b3b0c601acb41"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/blood_slash.json"
+hash = "19217d8dd4fb96eb579160eec33d1bb5828f07499865c4c31d40649d1f6c581b"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/burning_dash.json"
+hash = "19217d8dd4fb96eb579160eec33d1bb5828f07499865c4c31d40649d1f6c581b"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/chain_creeper.json"
+hash = "188aef418afc762ecb3d4dc6e5f6f4ec7392de9c03cb519a246b3b0c601acb41"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/cone_of_cold.json"
+hash = "4eb3b7f526ff75b0959374bfc686e3a9302473b53b4857c5d98be26886d0f19a"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/devour.json"
+hash = "1533a12b635871281f70757d2eb573b64d5db46302701bec32556634471c64cc"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/dragon_breath.json"
+hash = "4eb3b7f526ff75b0959374bfc686e3a9302473b53b4857c5d98be26886d0f19a"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/earthquake.json"
+hash = "174cf2297b6820e0d40014db8e535e02b18e090a5bd2a3c1505d9209b3ab95eb"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/eldritch_blast.json"
+hash = "f25b3e0800ea5709d7fed35e2ee3bc392c477b79a98326a1c8a7570b2b88635e"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/electrocute.json"
+hash = "4eb3b7f526ff75b0959374bfc686e3a9302473b53b4857c5d98be26886d0f19a"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/fang_strike.json"
+hash = "174cf2297b6820e0d40014db8e535e02b18e090a5bd2a3c1505d9209b3ab95eb"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/fang_swirl.json"
+hash = "174cf2297b6820e0d40014db8e535e02b18e090a5bd2a3c1505d9209b3ab95eb"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/fang_ward.json"
+hash = "174cf2297b6820e0d40014db8e535e02b18e090a5bd2a3c1505d9209b3ab95eb"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/fire_arrow.json"
+hash = "2ab329c4b372a2c2a23954e887e9103dc47d64ced7c2213a6b9957270b570f6b"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/fire_breath.json"
+hash = "4eb3b7f526ff75b0959374bfc686e3a9302473b53b4857c5d98be26886d0f19a"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/firebolt.json"
+hash = "2ab329c4b372a2c2a23954e887e9103dc47d64ced7c2213a6b9957270b570f6b"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/firecracker.json"
+hash = "188aef418afc762ecb3d4dc6e5f6f4ec7392de9c03cb519a246b3b0c601acb41"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/firefly_swarm.json"
+hash = "174cf2297b6820e0d40014db8e535e02b18e090a5bd2a3c1505d9209b3ab95eb"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/flaming_barrage.json"
+hash = "174cf2297b6820e0d40014db8e535e02b18e090a5bd2a3c1505d9209b3ab95eb"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/frost_step.json"
+hash = "19217d8dd4fb96eb579160eec33d1bb5828f07499865c4c31d40649d1f6c581b"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/frostbite.json"
+hash = "cb5d5f08f860bd238fe07483a2c73ff6e6d736b349fbfd60a3eec002dd829a60"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/guiding_bolt.json"
+hash = "19217d8dd4fb96eb579160eec33d1bb5828f07499865c4c31d40649d1f6c581b"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/gust.json"
+hash = "e7a9f4a706c92ce121d227b22a5662b535bccae853da2b09992a02ffbd770a59"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/ice_block.json"
+hash = "4600fcd7cfb7baa602bc45f5bdfb7b1a62aff7c02378d2e2fc5a0d9d94505cb5"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/ice_spikes.json"
+hash = "f25b3e0800ea5709d7fed35e2ee3bc392c477b79a98326a1c8a7570b2b88635e"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/icicle.json"
+hash = "2ab329c4b372a2c2a23954e887e9103dc47d64ced7c2213a6b9957270b570f6b"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/lightning_bolt.json"
+hash = "5f53e7724072a4d3622049cef58dc30ee6fbd9684efe2363cc403ef1b94888f7"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/lightning_lance.json"
+hash = "188aef418afc762ecb3d4dc6e5f6f4ec7392de9c03cb519a246b3b0c601acb41"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/lob_creeper.json"
+hash = "188aef418afc762ecb3d4dc6e5f6f4ec7392de9c03cb519a246b3b0c601acb41"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/magic_arrow.json"
+hash = "2ab329c4b372a2c2a23954e887e9103dc47d64ced7c2213a6b9957270b570f6b"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/magic_missile.json"
+hash = "2ab329c4b372a2c2a23954e887e9103dc47d64ced7c2213a6b9957270b570f6b"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/magma_bomb.json"
+hash = "2ab329c4b372a2c2a23954e887e9103dc47d64ced7c2213a6b9957270b570f6b"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/poison_arrow.json"
+hash = "abcb6bbdf7f738725109fb903fe1dbeccb8adff7405865083c52762cdfb20056"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/poison_breath.json"
+hash = "4eb3b7f526ff75b0959374bfc686e3a9302473b53b4857c5d98be26886d0f19a"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/poison_splash.json"
+hash = "19217d8dd4fb96eb579160eec33d1bb5828f07499865c4c31d40649d1f6c581b"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/ray_of_frost.json"
+hash = "f25b3e0800ea5709d7fed35e2ee3bc392c477b79a98326a1c8a7570b2b88635e"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/ray_of_siphoning.json"
+hash = "174cf2297b6820e0d40014db8e535e02b18e090a5bd2a3c1505d9209b3ab95eb"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/sacrifice.json"
+hash = "f25b3e0800ea5709d7fed35e2ee3bc392c477b79a98326a1c8a7570b2b88635e"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/scorch.json"
+hash = "abcb6bbdf7f738725109fb903fe1dbeccb8adff7405865083c52762cdfb20056"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/sculk_tentacles.json"
+hash = "174cf2297b6820e0d40014db8e535e02b18e090a5bd2a3c1505d9209b3ab95eb"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/shockwave.json"
+hash = "1364e17976a3f9b3ce932185be49c191ec24cb0e683deece7c6ad8c12e006221"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/sonic_boom.json"
+hash = "977ab4c5da750415fc49e18596b4de943611b929a05e74a4c6fa79f6218ba7ce"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/starfall.json"
+hash = "4eb3b7f526ff75b0959374bfc686e3a9302473b53b4857c5d98be26886d0f19a"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/stomp.json"
+hash = "015206ef940caa365c489bc98bb69cd8003529856dac5b064f16ff3a87868942"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/sunbeam.json"
+hash = "f25b3e0800ea5709d7fed35e2ee3bc392c477b79a98326a1c8a7570b2b88635e"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/thunderstorm.json"
+hash = "6a8f49a0dfcfcbede6ac182e07aca2c9aca448633c82e93301179b67b7c4f478"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/volt_strike.json"
+hash = "19217d8dd4fb96eb579160eec33d1bb5828f07499865c4c31d40649d1f6c581b"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/wall_of_fire.json"
+hash = "4eb3b7f526ff75b0959374bfc686e3a9302473b53b4857c5d98be26886d0f19a"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/wisp.json"
+hash = "174cf2297b6820e0d40014db8e535e02b18e090a5bd2a3c1505d9209b3ab95eb"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/wither_skull.json"
+hash = "2ab329c4b372a2c2a23954e887e9103dc47d64ced7c2213a6b9957270b570f6b"
+
+[[files]]
 file = "kubejs/data/minecraft/tags/functions/load.json"
 hash = "1540e0bf3981af754954db45454321987656e572a11ccf2d3cf99eb3839dabdc"
 
@@ -2810,7 +3034,7 @@ metafile = true
 
 [[files]]
 file = "mods/ashen-skill-bridge-1.0.0.jar"
-hash = "01016ce100e86107a590757df95ee7a185d8831d020ddbbc76c898c887349acb"
+hash = "5c0c1194ba6856bbd7b6dfb055366486cafa3d37f26d1b6c1f340b5ee758df67"
 
 [[files]]
 file = "mods/cloth-config-11.1.136-forge.jar.pw.toml"
