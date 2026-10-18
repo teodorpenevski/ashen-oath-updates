@@ -1,13 +1,13 @@
 {
   "id": "ashen:asc_vanguard_small_4",
-  "title": "Anchored Stance",
+  "title": "Shared Resolve",
   "bonuses": [
     {
       "type": "skilltree:attribute",
-      "attribute": "minecraft:generic.knockback_resistance",
+      "attribute": "minecraft:generic.armor_toughness",
       "id": "6f379f09-c0fb-5d58-b030-1fdc0c5bc8fe",
       "name": "Ashen asc_vanguard_small_4",
-      "amount": 0.05,
+      "amount": 1,
       "operation": 0,
       "player_multiplier": {
         "type": "skilltree:none"

@@ -79,11 +79,11 @@
   "skill.ashen.asc_vanguard_small_1.description": "Passive: no activation or cooldown./nCosts 1 subclass point (separate pool).",
   "skill.ashen.asc_vanguard_big_1.description": "Passive: no activation or cooldown./nCosts 1 subclass point (separate pool).",
   "skill.ashen.asc_vanguard_small_2.description": "Passive: no activation or cooldown./nCosts 1 subclass point (separate pool).",
-  "skill.ashen.asc_vanguard_big_2.description": "Take 40% less incoming damage while blocking./nPassive: no activation or cooldown./nCosts 1 subclass point (separate pool).",
+  "skill.ashen.asc_vanguard_big_2.description": "Guarding or parrying enemy attacks grants Reprisal/nstacks./nMaximum: 5 stacks. Stacks last 6 seconds; guarding/nrefreshes the duration./nYour next successful melee hit consumes all stacks./nPer stack: +20% hit damage and heal 3% of maximum/nhealth./nBroken guards and friendly attacks grant no stacks./nPassive: no activation or cooldown./nCosts 1 subclass point (separate pool).",
   "skill.ashen.asc_vanguard_small_3.description": "Passive: no activation or cooldown./nCosts 1 subclass point (separate pool).",
-  "skill.ashen.asc_vanguard_big_3.description": "Take 50% less incoming damage at or below 35% health./nPassive: no activation or cooldown./nCosts 1 subclass point (separate pool).",
+  "skill.ashen.asc_vanguard_big_3.description": "Sprint for 1 uninterrupted second while moving to ready/na charge./nYour next successful melee hit deals +60% damage and/nstronger knockback./nThe hit consumes the charge. Sprint for another second/nto recharge./nPassive: no activation or cooldown./nCosts 1 subclass point (separate pool).",
   "skill.ashen.asc_vanguard_small_4.description": "Passive: no activation or cooldown./nCosts 1 subclass point (separate pool).",
-  "skill.ashen.asc_vanguard_big_4.description": "Regenerate 1 health per second while crouching and/nstationary./nPassive: no activation or cooldown./nCosts 1 subclass point (separate pool).",
+  "skill.ashen.asc_vanguard_big_4.description": "You and party members within 8 blocks take 15% less/ndamage./nHeal 10% of maximum health each second while in range./nWorks on yourself even without a party./nMultiple Vanguard auras do not stack./nPassive: no activation or cooldown./nCosts 1 subclass point (separate pool).",
   "skill.ashen.asc_berserker_root.description": "Free base; no bonuses. Only available to the Warrior/nstarter class after its main entry node is allocated./nOne subclass per character. Respec with Memory of/nRenewal to change it. Separate points: 2 at 10 main/nallocations, 2 more at 20.",
   "skill.ashen.asc_berserker_small_1.description": "Passive: no activation or cooldown./nCosts 1 subclass point (separate pool).",
   "skill.ashen.asc_berserker_big_1.description": "Passive: no activation or cooldown./nCosts 1 subclass point (separate pool).",
@@ -116,5 +116,6 @@
   "skill.ashen.rogue_0.description": "Selected Rogue starter class: become invisible while/nsneaking. Mobs cannot target you, and existing aggro and/nattack memories clear. Standing restores normal/ntargeting. Always available to both Rogue subclasses; no/npoints or cooldown. Other sources of invisibility keep/ntheir own duration.",
   "key.ashen.sheathe": "Sheathe / draw weapons",
   "effect.ashen_skill_bridge.rogue_venom": "Rogue Venom",
-  "effect.ashen_skill_bridge.shadow_mark": "Shadow Mark"
+  "effect.ashen_skill_bridge.shadow_mark": "Shadow Mark",
+  "key.ashen.ammunition": "Cycle ammunition (basic / special)"
 }

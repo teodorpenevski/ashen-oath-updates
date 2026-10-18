@@ -129,6 +129,11 @@ hash = "6102e554b23eaec54a23adcc3f134ca014cf7c0d2a4b89f6f64fb0d9b937c6e8"
 preserve = true
 
 [[files]]
+file = "config/sophisticatedcore-client.toml"
+hash = "8154740d87fdf5a722c946903c300ebaa6ead0f10b7af8a7b16d303f5f37cb99"
+preserve = true
+
+[[files]]
 file = "config/starting_classes-common.toml"
 hash = "a91dbc7736280d1b1cc5c5026ff34ca711ad932b5d53756c12f772f3b2f184d9"
 
@@ -146,7 +151,7 @@ hash = "c3fa1bf1927b10174fd2fc71094b99345efe0b68cb8cd4d1b640712a53d4e4e1"
 
 [[files]]
 file = "kubejs/assets/ashen/lang/en_us.json"
-hash = "083195db4b25e6aaa1dcd35fcd31ffcb41cca9f17b26af01d85072cc2fc4b19a"
+hash = "6379e8f6f96eff62cf0c33bd6a4524088983354ba3b7fb753e14ed662bec4ce6"
 
 [[files]]
 file = "kubejs/assets/ashen/textures/gui/lock_on.png"
@@ -291,6 +296,10 @@ hash = "c23d5c4032b55d24a3b886b400bfb75f1a4808fd9f354b246a9f506642865d75"
 [[files]]
 file = "kubejs/client_scripts/ashen_ability_keybinds.js"
 hash = "34908899d1832c3a3cdc0beeff938c3bdb791004042f34ccac8a300486c40457"
+
+[[files]]
+file = "kubejs/client_scripts/ashen_ammunition.js"
+hash = "c7c93ebcb4a1ed8be9cc7cc33e514e38e8e739f7b0a7af31db67c0a7e1ee2b7e"
 
 [[files]]
 file = "kubejs/client_scripts/ashen_class_picker.js"
@@ -1014,19 +1023,19 @@ hash = "db00d10664f88f2c4a8dd5e8d143350427dbb54ac33818ed7d36c42317fb95ad"
 
 [[files]]
 file = "kubejs/data/ashen/skills/asc_vanguard_big_1.json"
-hash = "b2550d54c4ee642e7dea3784dfb36dc826eb65ff4aab17acffd31d13580fde24"
+hash = "0db06233e217e774ce589ea38b77438a1aa136150229372b7f276ad864931568"
 
 [[files]]
 file = "kubejs/data/ashen/skills/asc_vanguard_big_2.json"
-hash = "1b1b1f2b393c89ff19206566c908871208c029bca269f2fb31bddd7e3cc13e3c"
+hash = "d1255a37fcf0ddd44cffbbed324cbfca2b90830229d55edfe2c09eddcbde7e15"
 
 [[files]]
 file = "kubejs/data/ashen/skills/asc_vanguard_big_3.json"
-hash = "5daa7bf6b82482ec15476330aeb28af6b14378c04cdcce13ebcb63f1cfd2da6e"
+hash = "6d88894f16f3c552cb3f5c8942ee5ab55e00ffb4d7e7c305b5b3f6bf11b139b8"
 
 [[files]]
 file = "kubejs/data/ashen/skills/asc_vanguard_big_4.json"
-hash = "7ba70ad853b9f3de19fa10c02289c4e59f4567e65e1735c8a1b0476bbf0d4aa6"
+hash = "6315e6fc414c05dc2a5cfe46d99d606619abe50cc8ca2b4afab0da6718969059"
 
 [[files]]
 file = "kubejs/data/ashen/skills/asc_vanguard_root.json"
@@ -1038,15 +1047,15 @@ hash = "83225263636fe1abee189c3c13d7f446bf6b0debee1dbff05cc925ef9fc78907"
 
 [[files]]
 file = "kubejs/data/ashen/skills/asc_vanguard_small_2.json"
-hash = "91f760a47b6bd0e1898ca8d47c0fffe711a4419b1526adb79bdb6d4d2e7c6b99"
+hash = "906eb482f7a87c28e8df61752c1d71a24d9c24b590575eb32792f7915003c4dd"
 
 [[files]]
 file = "kubejs/data/ashen/skills/asc_vanguard_small_3.json"
-hash = "c0f52756b507f43f997d126313c46686cdf91e81da47cfc8dd47729f98409f65"
+hash = "fff8cb6dd125503808bb0e003b92e8ce505ee47131a7ff2159bb1fca233ae6b0"
 
 [[files]]
 file = "kubejs/data/ashen/skills/asc_vanguard_small_4.json"
-hash = "bf7543b1b00e2453b0a11f2f076fec394300c9885a8e68b0404993cf77056bbc"
+hash = "7ba1210613112ef7bddc7922f79d4ed386d90e0c7825b401b9306d23c1c68d71"
 
 [[files]]
 file = "kubejs/data/ashen/skills/awakening.json"
@@ -2597,6 +2606,10 @@ file = "kubejs/server_scripts/ashen_abilities.js"
 hash = "0931c846c15a692f7e6e5810fbff2ff3f6fdff71b1656af2656d3d7cd787a12e"
 
 [[files]]
+file = "kubejs/server_scripts/ashen_ammunition.js"
+hash = "aa0bc61b6888adbcdfc65c3b335ff643ac26cc87c8922bacd6058a8ef40741bf"
+
+[[files]]
 file = "kubejs/server_scripts/ashen_ascendancy.js"
 hash = "c579f27a23736ad4568ffb99b32c60a13137eb100138c93f78df3960ec48bb56"
 
@@ -2618,7 +2631,7 @@ hash = "684e41c79b789f8a5a8571def30028dd50873a1035ff8664214d5942cba8aa02"
 
 [[files]]
 file = "kubejs/server_scripts/ashen_passive_tree.js"
-hash = "6298bbf039841e52e41b7a442c778dffa6743d0c78b3b99e75aaa936cfc54dcf"
+hash = "d04f9ba4e843900892c80c66253d4820c19a8d072dbdfbba9425224968f20b07"
 
 [[files]]
 file = "kubejs/server_scripts/ashen_recipes.js"
@@ -2634,15 +2647,15 @@ hash = "8d9d5b97098f96c89638474a73f4f201f0381cc95a79faef1b0e091b56209947"
 
 [[files]]
 file = "kubejs/server_scripts/ashen_subclass_effects.js"
-hash = "ac1f27e4e231f38eae514437b1cb1990070641b7fa2abd2c2ed3d03a87ae1581"
+hash = "f44cc7f65ba21f2a5ecdfc4491d5c5172cbee71561906b2c5eba9679776f3d4a"
 
 [[files]]
 file = "kubejs/startup_scripts/00_ashen_combat_data.js"
-hash = "58d43ec9e55075a3e85a59198a4e724b23d51867590c12dc860a61235b06b7b5"
+hash = "13442ad5fd315f5ae6f621709d5277f5ca4e75eb37e01981700917d683a187d2"
 
 [[files]]
 file = "kubejs/startup_scripts/ashen_ability_keybinds.js"
-hash = "e3a24aa323d369d06112508893cf62471ea99c143fad83ca2c188c5b805bf433"
+hash = "5c32701235c3297658f16f04f8eb646fa1a1885a45aa98e2764c88a73de35e94"
 
 [[files]]
 file = "kubejs/startup_scripts/ashen_damage_events.js"
@@ -2783,7 +2796,7 @@ metafile = true
 
 [[files]]
 file = "mods/ashen-skill-bridge-1.0.0.jar"
-hash = "40fba662fcddc980a188538ac8781a6732a6b90ce90f2f3a3b1a0c466959f3ec"
+hash = "9e1b41e4bc07209803e7c287da09af78ee9e8627df93c899454cfeb9a97da979"
 
 [[files]]
 file = "mods/cloth-config-11.1.136-forge.jar.pw.toml"

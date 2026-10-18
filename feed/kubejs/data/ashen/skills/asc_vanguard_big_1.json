@@ -7,7 +7,7 @@
       "attribute": "minecraft:generic.armor",
       "id": "5e3c02fc-8591-55f4-a705-116f3a48a822",
       "name": "Ashen asc_vanguard_big_1",
-      "amount": 12,
+      "amount": 8,
       "operation": 0,
       "player_multiplier": {
         "type": "skilltree:none"
@@ -21,7 +21,7 @@
       "attribute": "minecraft:generic.armor_toughness",
       "id": "5e46d330-57ae-5f2c-9667-062a129892cc",
       "name": "Ashen asc_vanguard_big_1",
-      "amount": 6,
+      "amount": 4,
       "operation": 0,
       "player_multiplier": {
         "type": "skilltree:none"
@@ -32,11 +32,11 @@
     },
     {
       "type": "skilltree:attribute",
-      "attribute": "minecraft:generic.movement_speed",
+      "attribute": "minecraft:generic.knockback_resistance",
       "id": "928bd941-2315-509a-ba5d-32915a82586d",
       "name": "Ashen asc_vanguard_big_1",
-      "amount": -0.15,
-      "operation": 1,
+      "amount": 0.2,
+      "operation": 0,
       "player_multiplier": {
         "type": "skilltree:none"
       },

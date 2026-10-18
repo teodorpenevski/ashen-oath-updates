@@ -227,9 +227,10 @@ function ashenBuffState(player, now) {
     var flurry=Math.min(3,d.getInt('ashen_flurry_hits'));
     if (flurry>0) add('flurry','Flurry','+'+(flurry*10)+'% next melee hit',flurry,d.getLong('ashen_flurry_until')-now);
   }
-  if (has('asc_vanguard_big_2') && ashenBlocking(player)) add('bulwark','Bulwark','40% less damage',0,0);
-  if (has('asc_vanguard_big_3') && player.getHealth()<=player.getMaxHealth()*.35) add('last_stand','Last Stand','50% less damage',0,0);
-  if (has('asc_vanguard_big_4') && player.isCrouching() && Math.abs(player.motionX)+Math.abs(player.motionZ)<.01) add('holdfast','Holdfast','1 health per second',0,0);
+  var vanguard=Java.loadClass('ashen.interop.AshenVanguard'),reprisals=vanguard.reprisals(player);
+  if(reprisals>0)add('reprisal','Reprisal','+'+(reprisals*20)+'% next hit / Heal '+(reprisals*3)+'% max health',reprisals,vanguard.remaining(player)*50);
+  if(vanguard.charged(player))add('juggernaut','Juggernaut','+60% next hit / Strong knockback',0,0);
+  if(vanguard.protectedByAura(player))add('stand_together','Stand Together','15% less damage / Heal 10% max health per second',0,0);
   if (has('asc_berserker_big_4') && AshenGuardBridge.colossusMovesetActive(player)) add('colossal_grip','Colossal Grip','Dual two-handed weapons',0,0);
   return rows;
 }

@@ -61,8 +61,6 @@ function ashenApplyEffect(entity, effect, seconds, amplifier) {
 function ashenSubclassRegeneration(player) {
   if (!ashenSkillsReady(player)) return;
   if (!ashenHas(player, 'asc_berserker_big_2') || player.persistentData.getLong('ashen_blood_rage_until') <= Date.now()) ashenClearBloodRage(player);
-  if (ashenHas(player, 'asc_vanguard_big_4') && player.isCrouching()
-      && Math.abs(player.motionX) + Math.abs(player.motionZ) < 0.01) player.heal(0.25);
 }
 function ashenSyncColossus(player) {
   if (!ashenSkillsReady(player)) return;
@@ -110,8 +108,6 @@ function ashenSubclassHurt(event) {
       return;
     }
     if (ashenHas(victim, 'asc_scout_big_4') && source.is(AshenDamageTags.IS_FALL)) { event.cancel(); return; }
-    if (ashenHas(victim, 'asc_vanguard_big_2') && ashenBlocking(victim)) event.damage *= 0.6;
-    if (ashenHas(victim, 'asc_vanguard_big_3') && victim.getHealth() <= victim.getMaxHealth() * 0.35) event.damage *= 0.5;
   }
   var player = ashenPlayerSource(source);
   if (!player) return;

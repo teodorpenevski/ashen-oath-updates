@@ -1,14 +1,14 @@
 {
   "id": "ashen:asc_vanguard_small_3",
-  "title": "Firm Resolve",
+  "title": "Forward March",
   "bonuses": [
     {
       "type": "skilltree:attribute",
-      "attribute": "minecraft:generic.max_health",
+      "attribute": "minecraft:generic.movement_speed",
       "id": "8ed82cd7-b815-5b2e-9d37-17b5311f8111",
       "name": "Ashen asc_vanguard_small_3",
-      "amount": 2,
-      "operation": 0,
+      "amount": 0.05,
+      "operation": 1,
       "player_multiplier": {
         "type": "skilltree:none"
       },

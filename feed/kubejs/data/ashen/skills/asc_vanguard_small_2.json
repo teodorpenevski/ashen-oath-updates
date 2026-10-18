@@ -1,14 +1,14 @@
 {
   "id": "ashen:asc_vanguard_small_2",
-  "title": "Braced Guard",
+  "title": "Counterweight",
   "bonuses": [
     {
       "type": "skilltree:attribute",
-      "attribute": "minecraft:generic.armor_toughness",
+      "attribute": "minecraft:generic.attack_damage",
       "id": "eacfcd60-28da-59d3-9b96-2ffe36d662ba",
       "name": "Ashen asc_vanguard_small_2",
-      "amount": 1,
-      "operation": 0,
+      "amount": 0.08,
+      "operation": 1,
       "player_multiplier": {
         "type": "skilltree:none"
       },

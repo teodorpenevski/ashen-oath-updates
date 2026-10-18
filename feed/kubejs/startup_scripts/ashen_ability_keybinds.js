@@ -3,6 +3,7 @@ if (Platform.isClientEnvironment()) {
   KeyBindEvents.register(event => {
     event.create('ashen_mage_blink', 'key.ashen.mage_blink', 90, 'key.categories.ashen');
     event.create('ashen_sheathe', 'key.ashen.sheathe', 89, 'key.categories.ashen');
+    event.create('ashen_ammunition', 'key.ashen.ammunition', 91, 'key.categories.ashen');
     event.create('ashen_ranger_windrunner', 'key.ashen.ranger_windrunner', 88, 'key.categories.ashen');
     event.create('ashen_ranger_mark', 'key.ashen.ranger_mark', 67, 'key.categories.ashen');
     event.create('ashen_rogue_double_jump', 'key.ashen.rogue_double_jump', 86, 'key.categories.ashen');

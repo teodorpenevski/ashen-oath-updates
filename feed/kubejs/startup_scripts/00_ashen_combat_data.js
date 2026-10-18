@@ -1681,26 +1681,27 @@ global.ashenCombat = {
             "position": [
               -691,
               299
-            ]
+            ],
+            "description": "Always active attribute bonus."
           },
           "big": {
             "title": "Living Fortress",
-            "description": "+12 armor and +6 armor toughness; 15% reduced movement speed.",
+            "description": "+8 armor. +4 armor toughness. +20% knockback resistance. No movement penalty.",
             "bonuses": [
               [
                 "minecraft:generic.armor",
-                12,
+                8,
                 "addition"
               ],
               [
                 "minecraft:generic.armor_toughness",
-                6,
+                4,
                 "addition"
               ],
               [
-                "minecraft:generic.movement_speed",
-                -0.15,
-                "multiply_base"
+                "minecraft:generic.knockback_resistance",
+                0.2,
+                "addition"
               ]
             ],
             "node": "ashen:asc_vanguard_big_1",
@@ -1715,12 +1716,12 @@ global.ashenCombat = {
         },
         {
           "small": {
-            "title": "Braced Guard",
+            "title": "Counterweight",
             "bonuses": [
               [
-                "minecraft:generic.armor_toughness",
-                1,
-                "addition"
+                "minecraft:generic.attack_damage",
+                0.08,
+                "multiply_base"
               ]
             ],
             "node": "ashen:asc_vanguard_small_2",
@@ -1728,12 +1729,13 @@ global.ashenCombat = {
             "position": [
               -755,
               250
-            ]
+            ],
+            "description": "Always active attribute bonus."
           },
           "big": {
-            "title": "Adamant",
-            "description": "Take 40% less incoming damage while blocking. No stat penalty; rewards holding your guard at the right moment.",
-            "effect": "blocking_resistance",
+            "title": "Reprisal",
+            "description": "Guards/parries grant up to 5 stacks, lasting 6 seconds. Your next melee hit consumes them for +20% hit damage and heals 3% maximum health per stack.",
+            "effect": "reprisal",
             "bonuses": [],
             "node": "ashen:asc_vanguard_big_2",
             "cost": 1,
@@ -1747,12 +1749,12 @@ global.ashenCombat = {
         },
         {
           "small": {
-            "title": "Firm Resolve",
+            "title": "Forward March",
             "bonuses": [
               [
-                "minecraft:generic.max_health",
-                2,
-                "addition"
+                "minecraft:generic.movement_speed",
+                0.05,
+                "multiply_base"
               ]
             ],
             "node": "ashen:asc_vanguard_small_3",
@@ -1760,12 +1762,13 @@ global.ashenCombat = {
             "position": [
               -755,
               190
-            ]
+            ],
+            "description": "Always active attribute bonus."
           },
           "big": {
-            "title": "Last Bastion",
-            "description": "Take 50% less incoming damage at or below 35% health. No maximum-health penalty; the benefit requires remaining at low health.",
-            "effect": "low_health_resistance",
+            "title": "Juggernaut",
+            "description": "Sprint while moving for 1 uninterrupted second to ready your next melee hit: +60% damage and stronger knockback. Sprint another second after consuming it to recharge.",
+            "effect": "juggernaut",
             "bonuses": [],
             "node": "ashen:asc_vanguard_big_3",
             "cost": 1,
@@ -1779,11 +1782,11 @@ global.ashenCombat = {
         },
         {
           "small": {
-            "title": "Anchored Stance",
+            "title": "Shared Resolve",
             "bonuses": [
               [
-                "minecraft:generic.knockback_resistance",
-                0.05,
+                "minecraft:generic.armor_toughness",
+                1,
                 "addition"
               ]
             ],
@@ -1792,12 +1795,13 @@ global.ashenCombat = {
             "position": [
               -691,
               141
-            ]
+            ],
+            "description": "Always active attribute bonus."
           },
           "big": {
-            "title": "Stoneblood",
-            "description": "Regenerate 1 health per second while crouching and stationary. No stat penalty; hold position to recover.",
-            "effect": "crouch_regeneration",
+            "title": "Stand Together",
+            "description": "You and party members within 8 blocks take 15% less damage and heal 10% maximum health per second. Multiple auras do not stack.",
+            "effect": "stand_together",
             "bonuses": [],
             "node": "ashen:asc_vanguard_big_4",
             "cost": 1,
@@ -2422,7 +2426,7 @@ global.ashenCombat = {
   ],
   "tree_id": "ashen:classes",
   "subclass_balance": {
-    "version": "blood-rage-2026-10-13-v2",
+    "version": "vanguard-2026-10-18-v1",
     "previous_bonuses": [
       {
         "node": "ashen:asc_arcanist_small_1",
