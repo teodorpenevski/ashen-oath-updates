@@ -104,11 +104,6 @@ hash = "2fde6f4dbc42c5e58e01416c3ade320be32e449f2c4593f5ef01e22d9e29692a"
 preserve = true
 
 [[files]]
-file = "config/passiveshield.json"
-hash = "ee82060125b1b2dbd9d408a05a204fd1ee24bdbb87db146e8a5119ee87a62e9a"
-preserve = true
-
-[[files]]
 file = "config/punchy/mix_profiles/.active_mix_profile"
 hash = "021679c64c3487007d245a897a6b1f5500c93f69731a8b0dbf29be635eba5447"
 preserve = true
@@ -131,6 +126,11 @@ preserve = true
 [[files]]
 file = "config/punchy/punchy_config.json"
 hash = "65c2343d169c15a9ff6ab2c5b98d3521ceba682eb3b049d62c2bbfcaf7f2facf"
+preserve = true
+
+[[files]]
+file = "config/serilum/passiveshield.json"
+hash = "ee82060125b1b2dbd9d408a05a204fd1ee24bdbb87db146e8a5119ee87a62e9a"
 preserve = true
 
 [[files]]
