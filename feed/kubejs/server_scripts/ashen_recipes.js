@@ -1,5 +1,8 @@
 // Five recovered memories close the breach. No unrelated factory gate.
 ServerEvents.recipes(event => {
+  event.shaped('minecraft:saddle', ['LLL', 'L L', 'I I'], {
+    L: 'minecraft:leather', I: 'minecraft:iron_ingot'
+  }).id('kubejs:ashen/saddle');
   event.shapeless('kubejs:restored_oath', [
     'kubejs:memory_1','kubejs:memory_2','kubejs:memory_3',
     'kubejs:memory_4','kubejs:memory_5',

@@ -2609,7 +2609,7 @@ hash = "6298bbf039841e52e41b7a442c778dffa6743d0c78b3b99e75aaa936cfc54dcf"
 
 [[files]]
 file = "kubejs/server_scripts/ashen_recipes.js"
-hash = "cb893c9a27e1e38840b9b187bc5ccfbdc570e9ae87d16c88b3888cc37eca3677"
+hash = "2bd931996045f0176986ff8665aa366c3898ce185ad3ddaf25f2c73c0ffd4e37"
 
 [[files]]
 file = "kubejs/server_scripts/ashen_skills.js"
@@ -2765,7 +2765,7 @@ metafile = true
 
 [[files]]
 file = "mods/ashen-skill-bridge-1.0.0.jar"
-hash = "f294b71a50147836e4ccefe1f6eb0185ee3bf97779402b59f988517487dc1dab"
+hash = "d6d2b5b07c8bbc931b065bb7ac4709baba5592a0f95658d194f035b159b69cc5"
 
 [[files]]
 file = "mods/cloth-config-11.1.136-forge.jar.pw.toml"
