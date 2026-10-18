@@ -1,12 +1,12 @@
 name = "Ashen Oath"
 author = "Toshkee"
-version = "1.0.13"
+version = "1.0.14"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "caec5a1aa3bb2302b78ff929bc2e343b4f906278370ad491bd49ddbf41ae154d"
+hash = "e0a86d894a6a3042097aa57651e2e17b54f6fcc8c454ca5b0bf77453903106bf"
 
 [versions]
 minecraft = "1.20.1"

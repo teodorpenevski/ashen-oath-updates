@@ -2796,7 +2796,7 @@ metafile = true
 
 [[files]]
 file = "mods/ashen-skill-bridge-1.0.0.jar"
-hash = "27269dd2feffe3f9ef310fc67a3d12e0450710f756d30805406b2c801168409a"
+hash = "3979aa3d2ff01e4f4051c8b263463f5989e5b34c6610a8c2e852d98f6bc6c750"
 
 [[files]]
 file = "mods/cloth-config-11.1.136-forge.jar.pw.toml"
