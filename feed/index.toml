@@ -6,6 +6,11 @@ hash = "438de2af36bf905993252e5015ad3b2f907473f0ad2722d6c79185728bb9b20b"
 preserve = true
 
 [[files]]
+file = "config/advancedcompass-client.toml"
+hash = "60d3e6d246433d5cb47cb8171ef13707edab1fc45e0d424ecee5365bdf458bd9"
+preserve = true
+
+[[files]]
 file = "config/appleskin-client.toml"
 hash = "089f7383a1a3adf2ae3c418cd37ef9149e2ebd6f48b4a16a75f933b3c48c2c5e"
 preserve = true
@@ -294,6 +299,10 @@ hash = "c36d86b1a6f8ac73ee2e421e085453e8a498f0da8ec1d578470a4a36bb0382d8"
 [[files]]
 file = "kubejs/client_scripts/ashen_mouse_scroll.js"
 hash = "7996098972ccaca8d3193e66963d137d01b5859b2ec2fd27459f4c53959d41d3"
+
+[[files]]
+file = "kubejs/client_scripts/ashen_party_positions.js"
+hash = "75bca31c894c1e61067d97e5fa8246c05530ca236ee88ec4a413dee8d2a16289"
 
 [[files]]
 file = "kubejs/client_scripts/ashen_subclasses.js"
@@ -2604,6 +2613,10 @@ file = "kubejs/server_scripts/ashen_epic_links.js"
 hash = "e985d47680aa148d602ede812b9f39f8d3f412e967efcb14b0708b5c1f160baa"
 
 [[files]]
+file = "kubejs/server_scripts/ashen_party_positions.js"
+hash = "684e41c79b789f8a5a8571def30028dd50873a1035ff8664214d5942cba8aa02"
+
+[[files]]
 file = "kubejs/server_scripts/ashen_passive_tree.js"
 hash = "6298bbf039841e52e41b7a442c778dffa6743d0c78b3b99e75aaa936cfc54dcf"
 
@@ -2754,6 +2767,11 @@ hash = "42f6833b8bcc28858173eae112a3484b7a729aa48d5fb29922bf22353d2159d1"
 metafile = true
 
 [[files]]
+file = "mods/advancedcompass.forge.1.20.1-1.2.15.jar.pw.toml"
+hash = "f531d9e63d9d0cbc2c8af38c6f073468196cd5679d59963a37fbba2116b9268c"
+metafile = true
+
+[[files]]
 file = "mods/appleskin-forge-mc1.20.1-2.5.1.jar.pw.toml"
 hash = "c7c6db7f6f6e84614ad13164c9156327a10ff2b61531c688777910bc91d7e154"
 metafile = true
@@ -2765,7 +2783,7 @@ metafile = true
 
 [[files]]
 file = "mods/ashen-skill-bridge-1.0.0.jar"
-hash = "903c0e0574587402050fa3ddcc7426f87477c4b9b836931e451d2bcff82e1948"
+hash = "40fba662fcddc980a188538ac8781a6732a6b90ce90f2f3a3b1a0c466959f3ec"
 
 [[files]]
 file = "mods/cloth-config-11.1.136-forge.jar.pw.toml"

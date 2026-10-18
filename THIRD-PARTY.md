@@ -104,3 +104,5 @@ Passive Skill Trees supplies the unified Ashen Paths class-tree interface using 
 - Move Those Hands! 1.2.3 — author credited in original archive/project; ARR. Author archive installed locally without modification. https://modrinth.com/resourcepack/move-those-hands-punchy-animation-addon
 
 Resource-pack source URLs, versions and hashes are pinned in resourcepacks-lock.json. Local installation does not grant redistribution rights for ARR archives.
+
+Advanced Compass 1.2.15 (client only): https://www.curseforge.com/minecraft/mc-mods/advanced-compass/files/4589756. All Rights Reserved; the author explicitly permits use in modpacks. Original binary is unmodified; locked download and hashes are in navigation-mods-source.json.

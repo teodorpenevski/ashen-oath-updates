@@ -1,0 +1,8 @@
+name = "Advanced Compass"
+filename = "advancedcompass.forge.1.20.1-1.2.15.jar"
+side = "client"
+
+[download]
+url = "https://www.cursemaven.com/curse/maven/advanced-compass-461424/4589756/advanced-compass-461424-4589756.jar"
+hash-format = "sha512"
+hash = "4d883cb1798b558fe44b73f09d022c66eebd88b629525314a0917f70e43d6d08c107b204ef81ac787f79f38ba2d324f71160f7941711af7f6217038eebed90b9"
