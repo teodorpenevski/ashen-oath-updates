@@ -1560,6 +1560,10 @@ file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/fire_breath.j
 hash = "4eb3b7f526ff75b0959374bfc686e3a9302473b53b4857c5d98be26886d0f19a"
 
 [[files]]
+file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/fireball.json"
+hash = "cb5d5f08f860bd238fe07483a2c73ff6e6d736b349fbfd60a3eec002dd829a60"
+
+[[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/firebolt.json"
 hash = "2ab329c4b372a2c2a23954e887e9103dc47d64ced7c2213a6b9957270b570f6b"
 
@@ -3034,7 +3038,7 @@ metafile = true
 
 [[files]]
 file = "mods/ashen-skill-bridge-1.0.0.jar"
-hash = "5c0c1194ba6856bbd7b6dfb055366486cafa3d37f26d1b6c1f340b5ee758df67"
+hash = "bf0f050af00fde08c1787de77065bef7a613eb6a8692a269e6db38b267b87ef6"
 
 [[files]]
 file = "mods/cloth-config-11.1.136-forge.jar.pw.toml"
