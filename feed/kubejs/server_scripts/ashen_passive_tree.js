@@ -4,6 +4,7 @@ var AshenSkillsReloader = Java.loadClass('daripher.skilltree.data.reloader.Skill
 var AshenResourceLocation = Java.loadClass('net.minecraft.resources.ResourceLocation');
 var AshenMotionPacket = Java.loadClass('net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket');
 var AshenActiveBridge = Java.loadClass('ashen.interop.AshenActiveAbilities');
+var AshenMeleeBridge = Java.loadClass('ashen.interop.AshenMeleeWeapons');
 var ASHEN_CENTER = new AshenResourceLocation('ashen:awakening');
 var ASHEN_RAGE_DAMAGE = '3b428de1-beb4-43ca-a0ad-5c53beef0001';
 var ASHEN_RAGE_SPEED = '3b428de1-beb4-43ca-a0ad-5c53beef0002';
@@ -40,17 +41,7 @@ function ashenRemoveRage(player, server) {
 function ashenUpdateRage(player, server) {
   if (!ashenSkillsReady(player)) return;
   var learned = ashenLearned(player);
-  var held = String(player.mainHandItem.id);
-  var weapon = /(?:sword|mace)/i.test(held) || (/axe/i.test(held) && !/pickaxe/i.test(held));
-  var eligible = !!learned['ashen:warrior_19'] && weapon;
-  var active = player.persistentData.getBoolean('ashen_rage_active');
-  if (eligible == active) return;
-  ashenRemoveRage(player, server);
-  if (eligible) {
-    server.runCommandSilent('attribute ' + player.username + ' minecraft:generic.attack_damage modifier add ' + ASHEN_RAGE_DAMAGE + ' Ashen_Rage_Damage 0.12 multiply_base');
-    server.runCommandSilent('attribute ' + player.username + ' minecraft:generic.attack_speed modifier add ' + ASHEN_RAGE_SPEED + ' Ashen_Rage_Speed 0.15 multiply_base');
-  }
-  player.persistentData.putBoolean('ashen_rage_active', eligible);
+  AshenMeleeBridge.updateRage(player, !!learned['ashen:warrior_19']);
 }
 
 PlayerEvents.loggedIn(event => {

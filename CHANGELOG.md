@@ -4,6 +4,15 @@ Short player-facing notes for every published updater version. Earlier developme
 
 [GitHub Releases](https://github.com/teodorpenevski/ashen-oath-updates/releases)
 
+## 1.0.20
+
+- Added a compact selected-ammunition icon to the right of the hotbar while holding a bow or crossbow. It shows the real remaining count for special ammo, or ∞ for unlimited basic ammo.
+- Cycling ammunition now shows a brief animated vertical selector with item icons, distinct potion-arrow names, counts and your current keybind. It fades away after switching; crossbows label the selection for the next load.
+- Berserk now grants its +12% attack damage and +15% attack speed when holding any recognised melee weapon in either hand, including Agony and other modded weapons. Mining tools, ranged weapons and shields do not activate it. Updated its tooltip.
+- Restart both client and server to activate the update. Personal keybinds and Punchy settings are preserved.
+
+[Release page](https://github.com/teodorpenevski/ashen-oath-updates/releases/tag/v1.0.20) | [Full changes](https://github.com/teodorpenevski/ashen-oath-updates/compare/v1.0.19...v1.0.20)
+
 ## 1.0.19
 
 - Fixed mount exploration tracking for connected players and removed an ambiguous FTB quest API call that caused server script errors.

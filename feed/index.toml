@@ -175,7 +175,7 @@ hash = "c3fa1bf1927b10174fd2fc71094b99345efe0b68cb8cd4d1b640712a53d4e4e1"
 
 [[files]]
 file = "kubejs/assets/ashen/lang/en_us.json"
-hash = "6379e8f6f96eff62cf0c33bd6a4524088983354ba3b7fb753e14ed662bec4ce6"
+hash = "4e9207c9757b4442594b4d7d26460e86d56f83c38dd79f3ab27ecdb8f3333554"
 
 [[files]]
 file = "kubejs/assets/ashen/textures/gui/lock_on.png"
@@ -327,7 +327,7 @@ hash = "34908899d1832c3a3cdc0beeff938c3bdb791004042f34ccac8a300486c40457"
 
 [[files]]
 file = "kubejs/client_scripts/ashen_ammunition.js"
-hash = "c7c93ebcb4a1ed8be9cc7cc33e514e38e8e739f7b0a7af31db67c0a7e1ee2b7e"
+hash = "1e38aba41241f00eca05566bc69243c0843e88498249a9c5250004e3d689556a"
 
 [[files]]
 file = "kubejs/client_scripts/ashen_class_picker.js"
@@ -2883,7 +2883,7 @@ hash = "0931c846c15a692f7e6e5810fbff2ff3f6fdff71b1656af2656d3d7cd787a12e"
 
 [[files]]
 file = "kubejs/server_scripts/ashen_ammunition.js"
-hash = "aa0bc61b6888adbcdfc65c3b335ff643ac26cc87c8922bacd6058a8ef40741bf"
+hash = "e7c96eae3331a648a86c65725c04b930f34ddb39eee7bb673e75e156b1ea56fd"
 
 [[files]]
 file = "kubejs/server_scripts/ashen_ascendancy.js"
@@ -2911,7 +2911,7 @@ hash = "684e41c79b789f8a5a8571def30028dd50873a1035ff8664214d5942cba8aa02"
 
 [[files]]
 file = "kubejs/server_scripts/ashen_passive_tree.js"
-hash = "d04f9ba4e843900892c80c66253d4820c19a8d072dbdfbba9425224968f20b07"
+hash = "695dae2e7b267cefa9eff2392677c0fef76bfecb49e8e7380a5af76767c9a177"
 
 [[files]]
 file = "kubejs/server_scripts/ashen_recipes.js"
@@ -3080,7 +3080,7 @@ metafile = true
 
 [[files]]
 file = "mods/ashen-skill-bridge-1.0.0.jar"
-hash = "da619f23197a9fbccd28df3708527fb40b5c77af6b30cc2ed7f2a452f55a474a"
+hash = "70733c3f58419cbc839cab669457f3512bdb695b3ebd03174c69d10a4a2fb163"
 
 [[files]]
 file = "mods/blueprint-1.20.1-7.1.5.jar.pw.toml"
