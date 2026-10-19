@@ -1,0 +1,8 @@
+name = "Mythic Mounts"
+filename = "mythicmounts-20.1-7.4.2-forge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/xP7vOoRA/versions/uoWwdhb2/mythicmounts-20.1-7.4.2-forge.jar"
+hash-format = "sha512"
+hash = "4259e975de50f8ccb7a2be091604c82a920bdd666181498acd0a4c06b5b51f9d958bfa764620ef54e39778ae330690cde13f416b03bd0e48b22559a8743aae15"

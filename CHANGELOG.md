@@ -4,6 +4,16 @@ Short player-facing notes for every published updater version. Earlier developme
 
 [GitHub Releases](https://github.com/teodorpenevski/ashen-oath-updates/releases)
 
+## 1.0.18
+
+- Added a light Windswept expansion: Chestnut Forest, Snowy Chestnut Forest, Pine Barrens, Snowy Pine Barrens and Tundra, at reduced generation weights. New biomes appear in unexplored chunks; existing terrain and builds are retained.
+- Added Mythic Mounts Forge with 14 ground, flying and aquatic creatures, including dire wolves, riding lizards, griffons, dragons and giant moths. Spawn density is reduced.
+- Added eight optional mount quests. FTB teams unlock ground/aquatic riding by visiting three Overworld biomes and using a crafted Earthbound Oath, then earn flying mounts through a major-boss victory and a crafted Skybound Oath.
+- Added server-side riding checks, persistent team unlocks and bonding recipes; another player's owned mounts retain pet damage protection.
+- Update both client and server and restart to load the new mods. Existing keybinds and personal Punchy profiles are preserved.
+
+[Release page](https://github.com/teodorpenevski/ashen-oath-updates/releases/tag/v1.0.18) | [Full changes](https://github.com/teodorpenevski/ashen-oath-updates/compare/v1.0.17...v1.0.18)
+
 ## 1.0.17
 
 Originally published: 2026-10-19.

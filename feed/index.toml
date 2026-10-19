@@ -6,6 +6,11 @@ hash = "438de2af36bf905993252e5015ad3b2f907473f0ad2722d6c79185728bb9b20b"
 preserve = true
 
 [[files]]
+file = "config/MythicMountsConfig.json"
+hash = "b14bf3647416d7bde85a1a44620591acb199f1523c3f2b005e3f1a9006f73666"
+preserve = true
+
+[[files]]
 file = "config/advancedcompass-client.toml"
 hash = "60d3e6d246433d5cb47cb8171ef13707edab1fc45e0d424ecee5365bdf458bd9"
 preserve = true
@@ -90,6 +95,10 @@ file = "config/ftbquests/quests/chapters/14_bosses.snbt"
 hash = "f14704fcc391b549d99d333f060f7c1cbaeec45331fe95ffc435c46cd93c59fb"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/15_mounts.snbt"
+hash = "cb470e2a7eadff9c91e2fc31971eb3268095599bac0f759ad5d71536d12ebc9e"
+
+[[files]]
 file = "config/ftbquests/quests/data.snbt"
 hash = "ce6cbb883091a622716be56a89b73d13bccb0d8cfffcbedbc3568ff4a33822de"
 
@@ -146,6 +155,11 @@ preserve = true
 [[files]]
 file = "config/starting_classes-common.toml"
 hash = "a91dbc7736280d1b1cc5c5026ff34ca711ad932b5d53756c12f772f3b2f184d9"
+
+[[files]]
+file = "config/windswept-common.toml"
+hash = "0d09e4f991954f7154c566c603bac8cfbb78f30ae4d09436e54703b0956eb6f1"
+preserve = true
 
 [[files]]
 file = "defaultconfigs/corpse-server.toml"
@@ -2844,6 +2858,26 @@ file = "kubejs/data/starting_classes/disabled_classes.json"
 hash = "68895b24cbb2dd79d4f93571b4fa81c244c50e89d6984e9f624cc155e6056bed"
 
 [[files]]
+file = "kubejs/data/windswept/blueprint/modded_biome_slices/chestnut.json"
+hash = "e2d16fb93f094b2d1fb30bfbe6af6531bdea935840a3930a72a01288140c503c"
+
+[[files]]
+file = "kubejs/data/windswept/blueprint/modded_biome_slices/lavender.json"
+hash = "35fb7cb78603010237d91d0ca6341e6b547e31b4a1e805ff2b4b05c4536ef2ad"
+
+[[files]]
+file = "kubejs/data/windswept/blueprint/modded_biome_slices/pine.json"
+hash = "196ec8a3582fedccc75aefb5ab693b8f163510b7a409d9b1c89503ea302048df"
+
+[[files]]
+file = "kubejs/data/windswept/blueprint/modded_biome_slices/savanna.json"
+hash = "498e6832feb1d9594031dcaca279e5f314c446af3a143486143c0fce556b2a47"
+
+[[files]]
+file = "kubejs/data/windswept/blueprint/modded_biome_slices/tundra.json"
+hash = "433ce71bfb5ce94562ae9c170e6fab7ba6cf64c03f7e87aeebca27edd6d1bb74"
+
+[[files]]
 file = "kubejs/server_scripts/ashen_abilities.js"
 hash = "0931c846c15a692f7e6e5810fbff2ff3f6fdff71b1656af2656d3d7cd787a12e"
 
@@ -2866,6 +2900,10 @@ hash = "7264b5012afbc22b9c87d5dfb6103c141c76f6a90dc1b85f5317f441bc7e96d6"
 [[files]]
 file = "kubejs/server_scripts/ashen_epic_links.js"
 hash = "e985d47680aa148d602ede812b9f39f8d3f412e967efcb14b0708b5c1f160baa"
+
+[[files]]
+file = "kubejs/server_scripts/ashen_mount_progression.js"
+hash = "bf7cdb0f8834f355be4eff2a505f7d84a5e7a56347c0d49ac345155eb5f0bf54"
 
 [[files]]
 file = "kubejs/server_scripts/ashen_party_positions.js"
@@ -2906,6 +2944,10 @@ hash = "5726cb3725d7330c5ff7e88cfb4c7415f2e446dc3e8d343c6df6c0cb1ea8af48"
 [[files]]
 file = "kubejs/startup_scripts/ashen_items.js"
 hash = "8f0117202d1ba0e868c7ff9112bfe71ab4b2abd75e2abe5a451cdcf81b85d3f5"
+
+[[files]]
+file = "kubejs/startup_scripts/ashen_mount_items.js"
+hash = "47ec28356f75bd205ffb130e076786c26e5a791478308ba5ea2f5cd9dbc26302"
 
 [[files]]
 file = "kubejs/startup_scripts/ashen_subclass_controls.js"
@@ -3038,7 +3080,12 @@ metafile = true
 
 [[files]]
 file = "mods/ashen-skill-bridge-1.0.0.jar"
-hash = "7ff83f4cbf77407093c8898fba0f5b60048df8eb111f6184503edfa32abe09f1"
+hash = "e3bdb5981bb3baa20066bac56db8be8acbdf1e23ea07080b44ffd71394041217"
+
+[[files]]
+file = "mods/blueprint-1.20.1-7.1.5.jar.pw.toml"
+hash = "9d7b96fba868ee1f9b61ebf571b583a249f6a5f2a39a4b25a7be510ab0f754f6"
+metafile = true
 
 [[files]]
 file = "mods/cloth-config-11.1.136-forge.jar.pw.toml"
@@ -3216,6 +3263,11 @@ hash = "cb818363e6faf08c4eae94b8c0d2227032dadfcfd161bb835c612966d09739b1"
 metafile = true
 
 [[files]]
+file = "mods/mythicmounts-20.1-7.4.2-forge.jar.pw.toml"
+hash = "96feeb1a2c8488f681d6b08e5665c032bf7b017ed09ebd4d8fa8073c31ac364c"
+metafile = true
+
+[[files]]
 file = "mods/oculus-mc1.20.1-1.8.0.jar.pw.toml"
 hash = "ba5a7c5a38032c6dbeaa982c39a8ada23a4538fdde900ab00d260c4e98ed77f2"
 metafile = true
@@ -3293,6 +3345,11 @@ metafile = true
 [[files]]
 file = "mods/thermal_foundation-1.20.1-11.0.6.70.jar.pw.toml"
 hash = "db1bc8f48b11b815604ae166fd75d8e19f69de908f974df786e53154a3d17390"
+metafile = true
+
+[[files]]
+file = "mods/windswept-1.20.1-3.0.4.jar.pw.toml"
+hash = "03dacd3d85919c633fe23f368ce3d5a4cd5a3265a39b5b9997e2688845bbdf23"
 metafile = true
 
 [[files]]

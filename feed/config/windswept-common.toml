@@ -1,0 +1,11 @@
+[tweaks]
+"Birch Branches" = false
+"Strays Only" = false
+"Ice Boat Nerf" = false
+"Larger Flower Hitbox" = false
+"Rabbit Litters" = false
+"Rain Wash Away Snow" = false
+"Freezing Water" = false
+
+[worldgen]
+"Tree Roots" = true

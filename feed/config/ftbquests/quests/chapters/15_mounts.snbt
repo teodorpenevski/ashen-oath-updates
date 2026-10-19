@@ -1,0 +1,262 @@
+{
+  "id": "1CA1D59D68EB11BA",
+  "filename": "15_mounts",
+  "title": "Mounts · Bonds of Earth and Sky",
+  "icon": "minecraft:saddle",
+  "group": "225FE9BE4793200B",
+  "order_index": 10,
+  "default_quest_shape": "circle",
+  "default_quest_size": 1.0,
+  "progression_mode": "flexible",
+  "consume_items": false,
+  "hide_quest_until_deps_complete": false,
+  "hide_quest_until_deps_visible": false,
+  "quests": [
+    {
+      "id": "2D989B4B692BC1F7",
+      "title": "Trailbound · Three Horizons",
+      "description": [
+        "Your FTB team must visit three different Overworld biomes after this update. Vanilla biomes count, so finding newly generated terrain is optional. This task tracks actual exploration automatically."
+      ],
+      "tasks": [
+        {
+          "id": "62F72F5C6661BCAE",
+          "type": "custom",
+          "max_progress": 3
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7C38E0C3608FFA9D",
+          "type": "xp",
+          "xp": 100,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [],
+      "optional": true,
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.0
+    },
+    {
+      "id": "73360F3A558F7967",
+      "title": "The Saddlemaker",
+      "description": [
+        "Craft a saddle using five leather and two iron ingots, or find one while exploring. New mounts still need their normal saddle and taming process after your team earns a riding bond."
+      ],
+      "tasks": [
+        {
+          "id": "13D14D54AE1035C8",
+          "type": "item",
+          "item": "minecraft:saddle",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5D65678F594D62CF",
+          "type": "xp",
+          "xp": 100,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "2D989B4B692BC1F7"
+      ],
+      "optional": true,
+      "x": 2.0,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.0
+    },
+    {
+      "id": "7969FBE7D2C166D9",
+      "title": "An Earthbound Oath",
+      "description": [
+        "Craft the Earthbound Oath from four leather, two iron ingots, two wheat and one string. Once your team has explored three different Overworld biomes, right-click the oath to consume it and earn permanent access to the added ground and aquatic mounts."
+      ],
+      "tasks": [
+        {
+          "id": "7D42E6C32E0AF74F",
+          "type": "item",
+          "item": "kubejs:earthbound_oath",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "34BACDBD63DB305C",
+          "type": "xp",
+          "xp": 150,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "73360F3A558F7967"
+      ],
+      "optional": true,
+      "x": 4.0,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.0
+    },
+    {
+      "id": "3577A21A6539859F",
+      "title": "Bind the Road",
+      "description": [
+        "Right-click your Earthbound Oath to activate the team riding license. This checks the actual server unlock; a traded or borrowed item cannot skip the exploration requirement. Tame and saddle your chosen mount normally."
+      ],
+      "tasks": [
+        {
+          "id": "28919B49949C883E",
+          "type": "custom",
+          "max_progress": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7E8AD953C6E6B096",
+          "type": "xp",
+          "xp": 150,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "7969FBE7D2C166D9"
+      ],
+      "optional": true,
+      "x": 6.0,
+      "y": 0.0,
+      "shape": "gear",
+      "size": 1.3
+    },
+    {
+      "id": "17E9CBF4D004962F",
+      "title": "A Victory Worth Wings",
+      "description": [
+        "After earning ground riding, defeat a major boss: the Wither, Ender Dragon, a Cataclysm boss, the Dead King or Echo of Tyros. The player credited with the victory unlocks this milestone for their FTB team; ordinary Apotheosis rares and the starter Oathless trial do not count."
+      ],
+      "tasks": [
+        {
+          "id": "731A274F348B677B",
+          "type": "custom",
+          "max_progress": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "296D8EA4B4B86FCD",
+          "type": "xp",
+          "xp": 500,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "3577A21A6539859F"
+      ],
+      "optional": true,
+      "x": 6.0,
+      "y": 2.0,
+      "shape": "circle",
+      "size": 1.0
+    },
+    {
+      "id": "000B109BA95A2AF0",
+      "title": "A Skybound Oath",
+      "description": [
+        "Craft a Skybound Oath with three phantom membranes, two feathers, two ender pearls, one diamond and one Earthbound Oath. Your team needs both ground riding and a qualifying boss victory before this item can grant flight."
+      ],
+      "tasks": [
+        {
+          "id": "03F39072C8D37468",
+          "type": "item",
+          "item": "kubejs:skybound_oath",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "38B2CC63E46592FB",
+          "type": "xp",
+          "xp": 250,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "17E9CBF4D004962F"
+      ],
+      "optional": true,
+      "x": 4.0,
+      "y": 2.0,
+      "shape": "circle",
+      "size": 1.0
+    },
+    {
+      "id": "7FD4FF8BE577E177",
+      "title": "Earn Your Wings",
+      "description": [
+        "Right-click the Skybound Oath to consume it and unlock the added flying mounts for your FTB team. Taming, saddles, ownership, terrain and each creature's normal flight controls still apply. Unlocks are saved with the team and survive death and reconnects."
+      ],
+      "tasks": [
+        {
+          "id": "4A72E17C83C0DBAC",
+          "type": "custom",
+          "max_progress": 1
+        }
+      ],
+      "rewards": [
+        {
+          "id": "44A11DF4B37742D3",
+          "type": "xp",
+          "xp": 500,
+          "auto": "enabled",
+          "team_reward": false
+        }
+      ],
+      "dependencies": [
+        "000B109BA95A2AF0"
+      ],
+      "optional": true,
+      "x": 2.0,
+      "y": 2.0,
+      "shape": "gear",
+      "size": 1.3
+    },
+    {
+      "id": "45BC935DA497588C",
+      "title": "Companions of the Ashen Road",
+      "description": [
+        "Ground options include dire wolves, riding lizards, courier birds and nightmares; flying choices include griffons, dragons, giant moths, colelytras, firebirds and nether bats. Use Mythic Mounts' field guide and JEI for food and equipment details. Players cannot damage another player's owned mount."
+      ],
+      "tasks": [
+        {
+          "id": "1094C2D7503B0F2A",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "3577A21A6539859F"
+      ],
+      "optional": true,
+      "x": 8.0,
+      "y": 0.0,
+      "shape": "circle",
+      "size": 1.0
+    }
+  ]
+}

@@ -106,3 +106,11 @@ Passive Skill Trees supplies the unified Ashen Paths class-tree interface using 
 Resource-pack source URLs, versions and hashes are pinned in resourcepacks-lock.json. Local installation does not grant redistribution rights for ARR archives.
 
 Advanced Compass 1.2.15 (client only): https://www.curseforge.com/minecraft/mc-mods/advanced-compass/files/4589756. All Rights Reserved; the author explicitly permits use in modpacks. Original binary is unmodified; locked download and hashes are in navigation-mods-source.json.
+
+## Biomes and mounts (1.0.18)
+
+- Windswept 3.0.4: https://modrinth.com/mod/windswept (All Rights Reserved; original author distribution).
+- Blueprint 7.1.5: https://modrinth.com/mod/blueprint (license from the pinned project metadata).
+- Mythic Mounts Forge 20.1-7.4.2: https://modrinth.com/mod/mythic-mounts (All Rights Reserved; original author distribution).
+
+The update feed uses original download URLs and hashes; biome selection and riding progression are separate Ashen Oath data/code.
