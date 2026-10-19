@@ -4,6 +4,14 @@ Short player-facing notes for every published updater version. Earlier developme
 
 [GitHub Releases](https://github.com/teodorpenevski/ashen-oath-updates/releases)
 
+## 1.0.19
+
+- Fixed mount exploration tracking for connected players and removed an ambiguous FTB quest API call that caused server script errors.
+- Added a crafting recipe for the **Mythical Mounts** guide: one book and one leather, in any crafting grid. The mount quest now names the book and explains how to obtain it.
+- Keeps the five new biomes, 14 mounts and exploration → boss → flight progression from 1.0.18. Restart both sides after updating; existing controls and Punchy settings are preserved.
+
+[Release page](https://github.com/teodorpenevski/ashen-oath-updates/releases/tag/v1.0.19) | [Full changes](https://github.com/teodorpenevski/ashen-oath-updates/compare/v1.0.18...v1.0.19)
+
 ## 1.0.18
 
 - Added a light Windswept expansion: Chestnut Forest, Snowy Chestnut Forest, Pine Barrens, Snowy Pine Barrens and Tundra, at reduced generation weights. New biomes appear in unexplored chunks; existing terrain and builds are retained.

@@ -96,7 +96,7 @@ hash = "f14704fcc391b549d99d333f060f7c1cbaeec45331fe95ffc435c46cd93c59fb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/15_mounts.snbt"
-hash = "cb470e2a7eadff9c91e2fc31971eb3268095599bac0f759ad5d71536d12ebc9e"
+hash = "352018872c2225883513c4c01df3c128bd80b402b2c62f72d8b8f69ca8c1749d"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -2903,7 +2903,7 @@ hash = "e985d47680aa148d602ede812b9f39f8d3f412e967efcb14b0708b5c1f160baa"
 
 [[files]]
 file = "kubejs/server_scripts/ashen_mount_progression.js"
-hash = "bf7cdb0f8834f355be4eff2a505f7d84a5e7a56347c0d49ac345155eb5f0bf54"
+hash = "cfc0193e9cc96e1506e59003c693fddf3f9a8824e2a5c81ddbb29d6722472f29"
 
 [[files]]
 file = "kubejs/server_scripts/ashen_party_positions.js"
@@ -3080,7 +3080,7 @@ metafile = true
 
 [[files]]
 file = "mods/ashen-skill-bridge-1.0.0.jar"
-hash = "e3bdb5981bb3baa20066bac56db8be8acbdf1e23ea07080b44ffd71394041217"
+hash = "da619f23197a9fbccd28df3708527fb40b5c77af6b30cc2ed7f2a452f55a474a"
 
 [[files]]
 file = "mods/blueprint-1.20.1-7.1.5.jar.pw.toml"

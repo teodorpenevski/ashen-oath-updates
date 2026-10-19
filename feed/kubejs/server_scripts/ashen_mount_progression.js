@@ -36,7 +36,7 @@ ServerEvents.tick(event => {
   if(++ashenMountTicks%20!==0 || !AshenMountQuestFile.INSTANCE)return;
   var file=AshenMountQuestFile.INSTANCE;var tasks=file.getAllTasks();
   event.server.players.forEach(player => {
-    var team=file.getOrCreateTeamData(player);
+    var team=file['getOrCreateTeamData(net.minecraft.world.entity.Entity)'](player);
     for(var i=0;i<tasks.size();i++){
       var task=tasks.get(i);var rule=ASHEN_MOUNT_RULES[String(task.getCodeString()).toUpperCase()];
       if(!rule || !team.canStartTasks(task.getQuest()))continue;
@@ -46,6 +46,7 @@ ServerEvents.tick(event => {
   });
 });
 ServerEvents.recipes(event => {
+  event.shapeless(Item.of('patchouli:guide_book', {'patchouli:book':'mythicmounts:mythical_mounts'}), ['minecraft:book','minecraft:leather']).id('kubejs:ashen/mythical_mounts_guide');
   event.shaped('kubejs:earthbound_oath',['LIL','WSW','LIL'],{L:'minecraft:leather',I:'minecraft:iron_ingot',W:'minecraft:wheat',S:'minecraft:string'}).id('kubejs:ashen/earthbound_oath');
   event.shaped('kubejs:skybound_oath',['MPM','FOF','PDM'],{M:'minecraft:phantom_membrane',P:'minecraft:ender_pearl',F:'minecraft:feather',O:'kubejs:earthbound_oath',D:'minecraft:diamond'}).id('kubejs:ashen/skybound_oath');
 });
