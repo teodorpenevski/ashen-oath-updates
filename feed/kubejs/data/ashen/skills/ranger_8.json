@@ -4,7 +4,7 @@
   "bonuses": [
     {
       "type": "skilltree:attribute",
-      "attribute": "attributeslib:draw_speed",
+      "attribute": "ashen_skill_bridge:bow_attack_speed",
       "id": "e2caef7a-2205-5029-9baa-081ed8fd450e",
       "name": "Ashen ranger_8",
       "amount": 0.05,

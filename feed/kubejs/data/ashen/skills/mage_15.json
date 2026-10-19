@@ -7,7 +7,7 @@
       "attribute": "irons_spellbooks:spell_power",
       "id": "65ab19f1-a328-5b50-a509-db6d2039ea9f",
       "name": "Ashen mage_15",
-      "amount": 0.05,
+      "amount": 0.1,
       "operation": 1,
       "player_multiplier": {
         "type": "skilltree:none"

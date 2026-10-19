@@ -14,6 +14,12 @@ function ashenRefreshSubclassStats(player) {
   if (!ashenSkillsReady(player)) return;
   var revision = global.ashenCombat.settings.passive_revision;
   if (revision && player.persistentData.getString('ashen_major_revision') != revision) {
+    // Removed/replaced bonuses need their OLD attribute UUID removed explicitly.
+    (global.ashenCombat.settings.retired_balance_modifiers || []).forEach(bonus => {
+      var attribute = AshenRegistries.ATTRIBUTE.get(new AshenResourceLocation(bonus.attribute));
+      var instance = attribute ? player.getAttribute(attribute) : null;
+      if (instance) instance.removeModifier(AshenModifierUUID.fromString(bonus.id));
+    });
     // Mana Siphon's retired flat spell-power bonus is absent from its new data.
     var retired = player.getAttribute(AshenRegistries.ATTRIBUTE.get(new AshenResourceLocation('irons_spellbooks:spell_power')));
     if (retired) retired.removeModifier(AshenModifierUUID.fromString('688d116c-3601-522e-9230-13f2e4bd388f'));

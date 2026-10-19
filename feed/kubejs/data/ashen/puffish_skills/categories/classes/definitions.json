@@ -56,7 +56,7 @@
   },
   "mage_2": {
     "title": "Spell Focus",
-    "description": "+5% spell power.",
+    "description": "10% spell power.",
     "icon": {
       "type": "item",
       "data": {
@@ -75,7 +75,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:spell_power",
-          "value": 0.05,
+          "value": 0.1,
           "operation": "multiply_base"
         }
       }
@@ -110,7 +110,7 @@
   },
   "mage_4": {
     "title": "Arcane Precision",
-    "description": "+5% spell power.",
+    "description": "10% spell power.",
     "icon": {
       "type": "item",
       "data": {
@@ -129,7 +129,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:spell_power",
-          "value": 0.05,
+          "value": 0.1,
           "operation": "multiply_base"
         }
       }
@@ -255,7 +255,7 @@
   },
   "warrior_2": {
     "title": "Heavy Hand",
-    "description": "+2 melee attack damage.",
+    "description": "+1.5 generic.attack damage.",
     "icon": {
       "type": "item",
       "data": {
@@ -274,7 +274,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "minecraft:generic.attack_damage",
-          "value": 2,
+          "value": 1.5,
           "operation": "addition"
         }
       }
@@ -309,7 +309,7 @@
   },
   "warrior_4": {
     "title": "Follow Through",
-    "description": "+2 melee attack damage.",
+    "description": "+1.5 generic.attack damage.",
     "icon": {
       "type": "item",
       "data": {
@@ -328,7 +328,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "minecraft:generic.attack_damage",
-          "value": 2,
+          "value": 1.5,
           "operation": "addition"
         }
       }
@@ -626,7 +626,7 @@
   },
   "ranger_1": {
     "title": "Swift Draw",
-    "description": "+5% draw speed.",
+    "description": "5% bow attack speed.",
     "icon": {
       "type": "item",
       "data": {
@@ -644,7 +644,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "attributeslib:draw_speed",
+          "attribute": "ashen_skill_bridge:bow_attack_speed",
           "value": 0.05,
           "operation": "multiply_base"
         }
@@ -653,7 +653,7 @@
   },
   "ranger_2": {
     "title": "True Aim",
-    "description": "+5% arrow damage.",
+    "description": "5% arrow damage. +1 bow damage.",
     "icon": {
       "type": "item",
       "data": {
@@ -674,6 +674,14 @@
           "attribute": "attributeslib:arrow_damage",
           "value": 0.05,
           "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "ashen_skill_bridge:bow_damage",
+          "value": 1,
+          "operation": "addition"
         }
       }
     ]
@@ -707,7 +715,7 @@
   },
   "ranger_4": {
     "title": "Patient Hunter",
-    "description": "+5% arrow damage.",
+    "description": "5% arrow damage. +1 bow damage.",
     "icon": {
       "type": "item",
       "data": {
@@ -728,6 +736,14 @@
           "attribute": "attributeslib:arrow_damage",
           "value": 0.05,
           "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "ashen_skill_bridge:bow_damage",
+          "value": 1,
+          "operation": "addition"
         }
       }
     ]
@@ -761,7 +777,7 @@
   },
   "ranger_6": {
     "title": "Horizon Memory",
-    "description": "+5% draw speed.",
+    "description": "5% bow attack speed.",
     "icon": {
       "type": "item",
       "data": {
@@ -779,7 +795,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "attributeslib:draw_speed",
+          "attribute": "ashen_skill_bridge:bow_attack_speed",
           "value": 0.05,
           "operation": "multiply_base"
         }
@@ -789,7 +805,7 @@
   },
   "awakening": {
     "title": "The Forgotten Warrior",
-    "description": "Start here for free. Follow a path toward a class region. Hybrid builds are allowed. 49 total points; not enough to unlock everything.",
+    "description": "+3 generic.attack damage. +2 generic.max health. 5% generic.movement speed.",
     "icon": {
       "type": "item",
       "data": {
@@ -804,7 +820,32 @@
     },
     "cost": 0,
     "size": 1.6,
-    "rewards": []
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 3,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 2,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
   },
   "path_mage": {
     "title": "Clear Mind",
@@ -864,7 +905,7 @@
   },
   "mage_8": {
     "title": "Focused Casting",
-    "description": "+5% spell power.",
+    "description": "10% spell power.",
     "icon": {
       "type": "item",
       "data": {
@@ -884,7 +925,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:spell_power",
-          "value": 0.05,
+          "value": 0.1,
           "operation": "multiply_base"
         }
       }
@@ -892,7 +933,7 @@
   },
   "mage_9": {
     "title": "Arcanist",
-    "description": "+20 maximum mana and +5% spell power.",
+    "description": "+20 max mana. 10% spell power.",
     "icon": {
       "type": "item",
       "data": {
@@ -920,7 +961,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:spell_power",
-          "value": 0.05,
+          "value": 0.1,
           "operation": "multiply_base"
         }
       }
@@ -1084,7 +1125,7 @@
   },
   "mage_15": {
     "title": "Steel and Sorcery",
-    "description": "+5% spell power.",
+    "description": "10% spell power.",
     "icon": {
       "type": "item",
       "data": {
@@ -1104,7 +1145,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "irons_spellbooks:spell_power",
-          "value": 0.05,
+          "value": 0.1,
           "operation": "multiply_base"
         }
       }
@@ -1277,7 +1318,7 @@
   },
   "ranger_8": {
     "title": "Bow Discipline",
-    "description": "+5% draw speed.",
+    "description": "5% bow attack speed.",
     "icon": {
       "type": "item",
       "data": {
@@ -1296,7 +1337,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "attributeslib:draw_speed",
+          "attribute": "ashen_skill_bridge:bow_attack_speed",
           "value": 0.05,
           "operation": "multiply_base"
         }
@@ -1305,7 +1346,7 @@
   },
   "ranger_9": {
     "title": "Marksman",
-    "description": "+5% arrow damage and +5% draw speed.",
+    "description": "5% arrow damage. 5% bow attack speed.",
     "icon": {
       "type": "item",
       "data": {
@@ -1332,7 +1373,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "attributeslib:draw_speed",
+          "attribute": "ashen_skill_bridge:bow_attack_speed",
           "value": 0.05,
           "operation": "multiply_base"
         }
@@ -1397,7 +1438,7 @@
   },
   "ranger_12": {
     "title": "Scout",
-    "description": "+2 health and +2% movement speed.",
+    "description": "+2 generic.max health. 2% generic.movement speed. +1 bow damage.",
     "icon": {
       "type": "item",
       "data": {
@@ -1428,12 +1469,20 @@
           "value": 0.02,
           "operation": "multiply_base"
         }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "ashen_skill_bridge:bow_damage",
+          "value": 1,
+          "operation": "addition"
+        }
       }
     ]
   },
   "ranger_13": {
     "title": "Follow-up Shot",
-    "description": "+5% draw speed.",
+    "description": "5% bow attack speed.",
     "icon": {
       "type": "item",
       "data": {
@@ -1452,7 +1501,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "attributeslib:draw_speed",
+          "attribute": "ashen_skill_bridge:bow_attack_speed",
           "value": 0.05,
           "operation": "multiply_base"
         }
@@ -1461,7 +1510,7 @@
   },
   "ranger_14": {
     "title": "Hawkeye",
-    "description": "Marksman capstone: +10% arrow damage and +5% draw speed.",
+    "description": "10% arrow damage. 5% bow attack speed.",
     "icon": {
       "type": "item",
       "data": {
@@ -1488,7 +1537,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "attributeslib:draw_speed",
+          "attribute": "ashen_skill_bridge:bow_attack_speed",
           "value": 0.05,
           "operation": "multiply_base"
         }
@@ -1569,7 +1618,7 @@
   },
   "ranger_17": {
     "title": "Read the Wind",
-    "description": "+5% draw speed.",
+    "description": "5% bow attack speed.",
     "icon": {
       "type": "item",
       "data": {
@@ -1588,7 +1637,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "attributeslib:draw_speed",
+          "attribute": "ashen_skill_bridge:bow_attack_speed",
           "value": 0.05,
           "operation": "multiply_base"
         }
@@ -1790,7 +1839,7 @@
   },
   "warrior_11": {
     "title": "Crushing Force",
-    "description": "+0.1 impact and +15% attack damage.",
+    "description": "+0.1 impact. 12% generic.attack damage.",
     "icon": {
       "type": "item",
       "data": {
@@ -1818,7 +1867,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "minecraft:generic.attack_damage",
-          "value": 0.15,
+          "value": 0.12,
           "operation": "multiply_base"
         }
       }
@@ -1826,7 +1875,7 @@
   },
   "warrior_12": {
     "title": "Berserker",
-    "description": "+2 melee attack damage and +2 stamina.",
+    "description": "+1.5 generic.attack damage. +2 staminar.",
     "icon": {
       "type": "item",
       "data": {
@@ -1846,7 +1895,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "minecraft:generic.attack_damage",
-          "value": 2,
+          "value": 1.5,
           "operation": "addition"
         }
       },
@@ -1934,7 +1983,7 @@
   },
   "warrior_15": {
     "title": "Press the Attack",
-    "description": "+2 melee attack damage.",
+    "description": "+1.5 generic.attack damage.",
     "icon": {
       "type": "item",
       "data": {
@@ -1954,7 +2003,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "minecraft:generic.attack_damage",
-          "value": 2,
+          "value": 1.5,
           "operation": "addition"
         }
       }
@@ -1962,7 +2011,7 @@
   },
   "warrior_16": {
     "title": "Warborn",
-    "description": "+3 melee attack damage, +0.2 impact and +2 stamina.",
+    "description": "+1.5 generic.attack damage. +0.2 impact. +2 staminar.",
     "icon": {
       "type": "item",
       "data": {
@@ -1982,7 +2031,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "minecraft:generic.attack_damage",
-          "value": 3,
+          "value": 1.5,
           "operation": "addition"
         }
       },
@@ -2034,7 +2083,7 @@
   },
   "warrior_18": {
     "title": "Oathkeeper",
-    "description": "+2 maximum health, +2 melee attack damage and +1 armor toughness.",
+    "description": "+2 generic.max health. +1.5 generic.attack damage. +1 generic.armor toughness.",
     "icon": {
       "type": "item",
       "data": {
@@ -2062,7 +2111,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "minecraft:generic.attack_damage",
-          "value": 2,
+          "value": 1.5,
           "operation": "addition"
         }
       },
@@ -2638,7 +2687,7 @@
   },
   "ranger_20": {
     "title": "Eagle Eye",
-    "description": "Passive: +10% arrow damage and +10% bow draw speed.",
+    "description": "23% arrow damage. 23% bow attack speed.",
     "icon": {
       "type": "item",
       "data": {
@@ -2658,15 +2707,15 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "attributeslib:arrow_damage",
-          "value": 0.1,
+          "value": 0.23,
           "operation": "multiply_base"
         }
       },
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "attributeslib:draw_speed",
-          "value": 0.1,
+          "attribute": "ashen_skill_bridge:bow_attack_speed",
+          "value": 0.23,
           "operation": "multiply_base"
         }
       }
@@ -2776,7 +2825,7 @@
   },
   "warrior_21": {
     "title": "Battle Tempo",
-    "description": "Passive: +20% attack damage and +10% knockback resistance.",
+    "description": "15% generic.attack damage. +0.1 generic.knockback resistance.",
     "icon": {
       "type": "item",
       "data": {
@@ -2796,7 +2845,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "minecraft:generic.attack_damage",
-          "value": 0.2,
+          "value": 0.15,
           "operation": "multiply_base"
         }
       },

@@ -18,7 +18,7 @@
     },
     {
       "type": "skilltree:attribute",
-      "attribute": "attributeslib:draw_speed",
+      "attribute": "ashen_skill_bridge:bow_attack_speed",
       "id": "38ed38a5-d15a-5a9e-98ef-5a49130f8b07",
       "name": "Ashen ranger_9",
       "amount": 0.05,

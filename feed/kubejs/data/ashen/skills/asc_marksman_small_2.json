@@ -4,7 +4,7 @@
   "bonuses": [
     {
       "type": "skilltree:attribute",
-      "attribute": "attributeslib:draw_speed",
+      "attribute": "ashen_skill_bridge:bow_attack_speed",
       "id": "5e58b43a-62eb-5f5a-b613-c0f48120baa6",
       "name": "Ashen asc_marksman_small_2",
       "amount": 0.1,

@@ -21,7 +21,7 @@
       "attribute": "minecraft:generic.attack_damage",
       "id": "0f094e27-c6e3-5e91-b416-62a8e9ba62c8",
       "name": "Ashen warrior_11",
-      "amount": 0.15,
+      "amount": 0.12,
       "operation": 1,
       "player_multiplier": {
         "type": "skilltree:none"

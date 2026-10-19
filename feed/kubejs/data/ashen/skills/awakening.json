@@ -7,7 +7,7 @@
       "attribute": "minecraft:generic.attack_damage",
       "id": "c561a017-e63c-51b4-ab52-c5ee343226ff",
       "name": "Ashen awakening",
-      "amount": 5,
+      "amount": 3,
       "operation": 0,
       "player_multiplier": {
         "type": "skilltree:none"

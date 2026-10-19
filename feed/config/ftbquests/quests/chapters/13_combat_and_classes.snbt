@@ -1,7 +1,7 @@
 {
   "id": "49E9F9949D613104",
   "filename": "13_combat_and_classes",
-  "title": "Combat and Classes · Optional",
+  "title": "Combat and Classes Ã‚Â· Optional",
   "icon": "epicfight:iron_longsword",
   "group": "225FE9BE4793200B",
   "order_index": 7,
@@ -17,7 +17,7 @@
       "title": "A Calling in the Ashes",
       "description": [
         "On your first server join, Ashen Oath opens a picker in chat for Mage, Warrior, Rogue or Ranger. Choose your starter identity and basic equipment. Returning players keep their class through death and relogging.",
-        "Open Passive Skill Trees with O (default key) and select a class tree. The Ashen Oath starter picker and the mod’s skill tree classes are separate systems.",
+        "Open Passive Skill Trees with O (default key) and select a class tree. The Ashen Oath starter picker and the modÃ¢â‚¬â„¢s skill tree classes are separate systems.",
         "Follow the branches: Mage northwest, Ranger northeast, Warrior southwest, Rogue southeast. Each region has two specializations. Mixing regions is allowed.",
         "Earn skill points through XP and spend them in the selected tree. Skills survive death.",
         "Craft a Memory of Renewal in JEI. Right-click to reset Passive Skill Tree allocations and reopen the class picker. Pick a new class or the same class for a fresh build. A second starter kit is never granted.",
@@ -166,7 +166,7 @@
       "title": "A Ranger Kit",
       "description": [
         "Craft and carry one bow.",
-        "Bring arrows and keep another bow for use. Ranger skills improve arrow damage and draw speed.",
+        "Bring arrows and keep another bow for use. Ranger skills improve arrow damage and bow attack speed.",
         "Keep the required item in your inventory. The task completes automatically without consuming your equipment."
       ],
       "optional": true,
@@ -572,7 +572,7 @@
       "id": "448AC1D622C276C2",
       "title": "A Sustainable Attack Rhythm",
       "description": [
-        "Compare short attacks, a longer combo and a pause for stamina recovery. Hold the attack input to test the pack’s repeat-attack behavior, then acknowledge the lesson after finding a rhythm that leaves a defensive reserve."
+        "Compare short attacks, a longer combo and a pause for stamina recovery. Hold the attack input to test the packÃ¢â‚¬â„¢s repeat-attack behavior, then acknowledge the lesson after finding a rhythm that leaves a defensive reserve."
       ],
       "x": -9.0,
       "y": 0.0,
@@ -773,9 +773,9 @@
     },
     {
       "id": "6C8EE09441B2AB64",
-      "title": "Your Class’s First Spell",
+      "title": "Your ClassÃ¢â‚¬â„¢s First Spell",
       "description": [
-        "At level 10, inspect your class’s core spell: Stomp for Warrior, Magic Missile for Mage, Magic Arrow for Ranger or Poison Splash for Rogue. Equip its book and test the actual spell binding; acknowledge this lesson after using the reward rather than treating the checkmark as a level detector."
+        "At level 10, inspect your classÃ¢â‚¬â„¢s core spell: Stomp for Warrior, Magic Missile for Mage, Poison Arrow for Ranger or Poison Splash for Rogue. Equip its book and test the actual spell binding; acknowledge this lesson after using the reward rather than treating the checkmark as a level detector."
       ],
       "x": -3.0,
       "y": 4.0,
@@ -808,7 +808,7 @@
       "id": "7CE0DBD06ED06B2B",
       "title": "Poison and a Deliberate Finisher",
       "description": [
-        "If playing Rogue, compare a normal poison rotation with a sneak attack using Catalytic Strike after at least three stacks. Watch the enemy’s stack indicator and your stamina recovery before judging the result; this is an optional build lesson, not a forced class switch."
+        "If playing Rogue, compare a normal poison rotation with a sneak attack using Catalytic Strike after at least three stacks. Watch the enemyÃ¢â‚¬â„¢s stack indicator and your stamina recovery before judging the result; this is an optional build lesson, not a forced class switch."
       ],
       "x": 7.5,
       "y": -4.5,
@@ -874,7 +874,7 @@
       "id": "496F57769F1D80A4",
       "title": "Mark, Move, Release",
       "description": [
-        "If playing Ranger, test Hunter’s Mark, a fully drawn shot and Windrunner’s movement window against the same target. Watch duration and cooldown separately; this optional practice lesson does not grant the passives it describes."
+        "If playing Ranger, test HunterÃ¢â‚¬â„¢s Mark, a fully drawn shot and WindrunnerÃ¢â‚¬â„¢s movement window against the same target. Watch duration and cooldown separately; this optional practice lesson does not grant the passives it describes."
       ],
       "x": 7.5,
       "y": 4.5,

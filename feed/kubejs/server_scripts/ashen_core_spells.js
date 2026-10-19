@@ -4,7 +4,7 @@ var AshenCoreRegistry = Java.loadClass('io.redspace.ironsspellbooks.api.registry
 var ASHEN_CORE_SPELLS = {
   warrior: {id: 'stomp', name: 'Stomp'},
   mage: {id: 'magic_missile', name: 'Magic Missile'},
-  ranger: {id: 'magic_arrow', name: 'Magic Arrow'},
+  ranger: {id: 'poison_arrow', name: 'Poison Arrow'},
   rogue: {id: 'poison_splash', name: 'Poison Splash'}
 };
 
@@ -28,7 +28,8 @@ function ashenUnlockCoreSpell(player) {
   if (!data.getBoolean('ashen_core_level10')) return false;
   var cls = ashenStarterClass(player);
   if (!Object.prototype.hasOwnProperty.call(ASHEN_CORE_SPELLS, cls)) return false;
-  var claim = 'ashen_core_spell_' + cls + '_claimed';
+  // Existing Rangers receive the replacement once; never overwrite crafted books.
+  var claim = cls == 'ranger' ? 'ashen_core_poison_arrow_claimed' : 'ashen_core_spell_' + cls + '_claimed';
   if (data.getBoolean(claim)) return false;
   // Wait for inventory space instead of losing a unique reward on the ground.
   if (player.inventory.getFreeSlot() < 0) {

@@ -64,7 +64,7 @@ hash = "cf7e6f1fc9b651505cd13a3f7446a0269a41fb054a0d91ca3084d563f1291504"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/07_magic.snbt"
-hash = "1bf189bad0ddd4e65783d155c9cdc798aa58aa077eacd0a6b2d99147f338fa65"
+hash = "738374aa0300efdec2b7872d91aaab3adef0ea3416b436ad93de1ade8b303317"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_workshop.snbt"
@@ -88,7 +88,7 @@ hash = "268e0c59233a8efb47140f0f229ba53326e0ee834f75d19fc44903a7237aa109"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/13_combat_and_classes.snbt"
-hash = "4f9d9e68f1816f20703dc1978edcce799c82963f4fffab053a1cb253f8375bb8"
+hash = "6943ef3fc618bbdd0a83b3afad70cdd7b0172e8a4090e2e821de94a487bd69bf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/14_bosses.snbt"
@@ -175,7 +175,7 @@ hash = "c3fa1bf1927b10174fd2fc71094b99345efe0b68cb8cd4d1b640712a53d4e4e1"
 
 [[files]]
 file = "kubejs/assets/ashen/lang/en_us.json"
-hash = "4e9207c9757b4442594b4d7d26460e86d56f83c38dd79f3ab27ecdb8f3333554"
+hash = "02c9198f425e12b8dd4b5cdb70e8b5991c2f010d72dac7bc43b188e7b7aaad5c"
 
 [[files]]
 file = "kubejs/assets/ashen/textures/gui/lock_on.png"
@@ -258,6 +258,30 @@ file = "kubejs/assets/ashen/textures/quests/boss_panel_5.png"
 hash = "cad8452ed798140ed4904ccbd93aeae5e2f3bc2c9e35695d89e7f95bb99d1b2b"
 
 [[files]]
+file = "kubejs/assets/ashen_skill_bridge/models/item/apprentice_wand.json"
+hash = "a155b017af8bcf9a5d99ef193d7963a7744c797cfdbb7c70999a0a271ad47f55"
+
+[[files]]
+file = "kubejs/assets/ashen_skill_bridge/models/item/archmage_wand.json"
+hash = "a155b017af8bcf9a5d99ef193d7963a7744c797cfdbb7c70999a0a271ad47f55"
+
+[[files]]
+file = "kubejs/assets/ashen_skill_bridge/models/item/fire_charge.json"
+hash = "659ef85d0850cbdaab7fa9d19fa0ae6029ce2022dcb5367dcc6b975f32681a26"
+
+[[files]]
+file = "kubejs/assets/ashen_skill_bridge/models/item/frost_charge.json"
+hash = "9a3d9b36a691fcf092a2da7693ae75a8f36ccefc72700b772739e1dfaed0ce9e"
+
+[[files]]
+file = "kubejs/assets/ashen_skill_bridge/models/item/runic_wand.json"
+hash = "a155b017af8bcf9a5d99ef193d7963a7744c797cfdbb7c70999a0a271ad47f55"
+
+[[files]]
+file = "kubejs/assets/ashen_skill_bridge/models/item/storm_charge.json"
+hash = "92dd679e4e746cea9be90c77c320f937aa8b6f08106eb4ccec76af11b605faa5"
+
+[[files]]
 file = "kubejs/assets/ashen_skill_bridge/textures/mob_effect/rogue_venom.png"
 hash = "9645e52d3ba82d4aea34eb57e6852a0c1d54478b3ef2c28e9670408f55c268e4"
 
@@ -268,6 +292,10 @@ hash = "7455687b36162839ed96867d631dd5a85e267e13b585de7bebe2be0948248f64"
 [[files]]
 file = "kubejs/assets/ashen_skill_bridge/textures/mob_effect/virulent_poison.png"
 hash = "9645e52d3ba82d4aea34eb57e6852a0c1d54478b3ef2c28e9670408f55c268e4"
+
+[[files]]
+file = "kubejs/assets/attributeslib/lang/en_us.json"
+hash = "6b1628b220f25cad8008ecbe7cb1a00bfb6f92ebcb0c790d501c21558f868a35"
 
 [[files]]
 file = "kubejs/assets/epicfight/models/item/spear.json"
@@ -775,7 +803,7 @@ hash = "c9b91cc01e250c1e318302920b035f02d701905e0ebac90d56299e8d4237c651"
 
 [[files]]
 file = "kubejs/data/ashen/puffish_skills/categories/classes/definitions.json"
-hash = "adcf89845bd41fb0b50d23e4c81ac390ccc3fc39b7070b23cf87812c7474152a"
+hash = "79a55f57c1fb66355efd0bebf5cf331ececae8dbde89da285fd5d6a454c8cee7"
 
 [[files]]
 file = "kubejs/data/ashen/puffish_skills/categories/classes/experience.json"
@@ -788,6 +816,30 @@ hash = "3e9cfca20df8ce0c2adab0659ad82aa1ac1eac6260f418b49b85ad084344b552"
 [[files]]
 file = "kubejs/data/ashen/puffish_skills/config.json"
 hash = "1d5ce3e9d800010d28ea9fcc73f20e476f8fe2a6753567ecbd989b118644c84c"
+
+[[files]]
+file = "kubejs/data/ashen/recipes/apprentice_wand.json"
+hash = "4b954ea9be25fdfe764b1246c13df489b748aea46c9fd7e6a837cacf9d82d535"
+
+[[files]]
+file = "kubejs/data/ashen/recipes/archmage_wand.json"
+hash = "7c2ca69b8a19fdd942e688df8dd6242ca66295ba22db4a315175b070020aba13"
+
+[[files]]
+file = "kubejs/data/ashen/recipes/fire_charge.json"
+hash = "02ad0bea62494d84c81987befc6787fdaae4658217dd1adeb8c1a02eeaef42b3"
+
+[[files]]
+file = "kubejs/data/ashen/recipes/frost_charge.json"
+hash = "9f48edaec77064e117afd925975f0f84c740297bb8194c5f8477594817f626fb"
+
+[[files]]
+file = "kubejs/data/ashen/recipes/runic_wand.json"
+hash = "07a168891fb5df33f2e2b5bd2cb36e8b8394b4477f7cafad8e86b532094046af"
+
+[[files]]
+file = "kubejs/data/ashen/recipes/storm_charge.json"
+hash = "5eded3bc253e9ab0611a0961cc8b5656fcf425ad0f7a3c4f9994014f42029769"
 
 [[files]]
 file = "kubejs/data/ashen/skill_trees/classes.json"
@@ -943,7 +995,7 @@ hash = "ac9720d0616308b5fa88e8bcbfa80f85b316e7f20d4748e77e360d446b855821"
 
 [[files]]
 file = "kubejs/data/ashen/skills/asc_marksman_big_1.json"
-hash = "fbc1940f1c08e66d78c09ecf83e1334a9daeba1555a20f6ec318f83f3f67cd91"
+hash = "d1a074a5c5ac79c8880e897406d7eb5e6b426c236ab52de4603901f345ce0dfe"
 
 [[files]]
 file = "kubejs/data/ashen/skills/asc_marksman_big_2.json"
@@ -967,7 +1019,7 @@ hash = "aa749f83ba4ffaa6a4c94252987c8fcb88eeda93385b6a754d6f1966b219a9c4"
 
 [[files]]
 file = "kubejs/data/ashen/skills/asc_marksman_small_2.json"
-hash = "61c7cf4a4c75dcfd2a0fec4588ce29d185b4a752d954cf21044c75856e7592a4"
+hash = "89db4a3d349d601bdab8beae9f39a83dc35eb2865f7c28d2f9e702c8b8496f4e"
 
 [[files]]
 file = "kubejs/data/ashen/skills/asc_marksman_small_3.json"
@@ -975,7 +1027,7 @@ hash = "a639207b6931a57d2792092c49675bb6647a737534b91e8eafcfc35ff2ff6352"
 
 [[files]]
 file = "kubejs/data/ashen/skills/asc_marksman_small_4.json"
-hash = "027e1bf32841605ef8b9f551cd972ef6b45b195e3032fe3b606536c60a793c89"
+hash = "bf059e8ca6fefb91183e37db45e05eb3f72a58fefd919855572efeb9562dfce1"
 
 [[files]]
 file = "kubejs/data/ashen/skills/asc_scout_big_1.json"
@@ -1087,7 +1139,7 @@ hash = "7ba1210613112ef7bddc7922f79d4ed386d90e0c7825b401b9306d23c1c68d71"
 
 [[files]]
 file = "kubejs/data/ashen/skills/awakening.json"
-hash = "7dbd7a8a0d913571fda317cd8ce54ccef0a78fe0799f1c0056a694de1e25fbc6"
+hash = "b2b6a75fa5fd003d730f52b2de2b0d4e50d2133ded42bc9e2160480109dea1ed"
 
 [[files]]
 file = "kubejs/data/ashen/skills/keystone_mage.json"
@@ -1103,7 +1155,7 @@ hash = "3765199fd5241b5811d40232a4b865024bfdfc78fed9a7703fa548d8c850f69a"
 
 [[files]]
 file = "kubejs/data/ashen/skills/keystone_warrior.json"
-hash = "b5a9cbc687da2d42e9b8cace1731d449ef89221f4e0ad46a04ccef6be83a00bf"
+hash = "ecfdf90bc08494b57d12d9e457420f0787c71f15426c4aa171c01147e8aaf374"
 
 [[files]]
 file = "kubejs/data/ashen/skills/mage_0.json"
@@ -1135,7 +1187,7 @@ hash = "94a86a697fac26ab1a7594623c423740b839c8d26384105009d914426ec64c76"
 
 [[files]]
 file = "kubejs/data/ashen/skills/mage_15.json"
-hash = "15157ebf5443be7bc686a610742d03c3b8255b67b9baad0aaed80575903ba26f"
+hash = "4d07546d2c500dec7f578e4938ee6a95e792d19119b1eefd7b45a3d66c0c4f54"
 
 [[files]]
 file = "kubejs/data/ashen/skills/mage_16.json"
@@ -1155,7 +1207,7 @@ hash = "806917771931628f79811c4742da81e79e7e03d9c9d0f808b47ddc3c57cab68c"
 
 [[files]]
 file = "kubejs/data/ashen/skills/mage_2.json"
-hash = "e70bb037fe110feb2f83a98e68c6e266984bb8b858484b8f5b52d97a4f058651"
+hash = "efef5fdb6d1f6bf6815e53247e9e7baab82692855138b9fc3dac2a6477839e95"
 
 [[files]]
 file = "kubejs/data/ashen/skills/mage_20.json"
@@ -1171,7 +1223,7 @@ hash = "3d156146061f36bac6c77184b513743832a96b274c647b4d5be5885013a4c4c7"
 
 [[files]]
 file = "kubejs/data/ashen/skills/mage_4.json"
-hash = "009f1878e8e7fa261fd4cad72387148e812fe54503dad6272b7b7d8f9e460a0b"
+hash = "6f0bb56a96b70774f2a8641efee100860c19739a5b7a014916f3ae59380cd17c"
 
 [[files]]
 file = "kubejs/data/ashen/skills/mage_5.json"
@@ -1187,11 +1239,11 @@ hash = "fff1a5b57ffd6cc81235938548adc2215180adfffb9dc9a9fd586ef6ed8bce9e"
 
 [[files]]
 file = "kubejs/data/ashen/skills/mage_8.json"
-hash = "8d9e90af25345ca5d953b5ff74bf114070e30cefc41c601816082dfe81919c18"
+hash = "a8284f7f59c139a01b9ef7a6e73a72c885d5b67932cf42be569288147b145a3f"
 
 [[files]]
 file = "kubejs/data/ashen/skills/mage_9.json"
-hash = "098adfb99930456638db989d2ef45102a2b96cf4f0cfe4cead1c2ef77e44f5a1"
+hash = "16d42eb3c5b62f0d454ef0125a8182e93ed1cf6ec71e840c60db58b88b0ccab6"
 
 [[files]]
 file = "kubejs/data/ashen/skills/path_mage.json"
@@ -1215,7 +1267,7 @@ hash = "bd921df8f22568ba916bbad5e3525fde45b98e5cad0f83b369ad5ca045f52797"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_1.json"
-hash = "3d7b886288af57f240540eb2444ab3bc4ef5ccf737fcb83f97c131b1ef0732b8"
+hash = "ee5bea01b7015eff164d0646409074e08a2aa22f06d94f8767a4513a84ec8618"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_10.json"
@@ -1227,15 +1279,15 @@ hash = "64cb8950b0e8d0bc0cf75fb8935d9d2221da14d1deac9b9e625ed54d364bbcee"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_12.json"
-hash = "d9166be892f4aab2f3c1ec9966fd4b2e8fe54dca230849b8622b216e1d0086a8"
+hash = "0086e91d1c63dbaf61c67d8aca27e619bca0a8fcb1457b15fbadd1ecfb4ce763"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_13.json"
-hash = "48b86d677575b961c9683e2923e87c811517439c43c5f8b5f9b0ac173bcd277e"
+hash = "e8861c627b3f84e71afc83bc3b4afe6b8cad1d61fd07c57b594e41b4d092cecc"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_14.json"
-hash = "010ee07d858cbfdd98fb105dc0fe3f9a7802c60eceed58cdd565f8bc78024ae8"
+hash = "cc88f9a6d8cad3869bb49cf469a87e462955b5498a4f38fc840e47a310d5170a"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_15.json"
@@ -1247,7 +1299,7 @@ hash = "e9a90c7f7f37f728cee53b5e502936ff7dfd56eeabb011543d071d872de50292"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_17.json"
-hash = "7453e4ad66ab3357ba69f504919df7c76273a31ed8a6a7fa41a8ab4a2f7e4957"
+hash = "b44c689b199cdecba4e79d234be8eb1686470f847bf9b15bf94a99d1881ab698"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_18.json"
@@ -1259,11 +1311,11 @@ hash = "cc2d0d08b4700f6564f452f2ad452b761a6226520a2d8dcb95fee65bcf4cdec5"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_2.json"
-hash = "cf60aef4e1783d55b6ca6d2d5c4697ebb679366571e44f4c969a99d53b66f165"
+hash = "e3d0aedde6c083dac3293a16bbb026372364c045fd385b797bd928cb335d2779"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_20.json"
-hash = "ed04a49e05a1bc50358ff6df0f54f62004e7199a7d830a58cb9216fb10ea7e5e"
+hash = "cf42b201ecfea95a421ad669b2a3ef3032b228533780fd070c3fa961d6dd926f"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_21.json"
@@ -1275,7 +1327,7 @@ hash = "ec93e68add75737edaed5b85411f71df382ee10f3f645963c75678036f681ff2"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_4.json"
-hash = "7f0125287e67c8c2a99be03daf9ce7cc258939071f00490cfacf8e5f57a7fffb"
+hash = "51115870edbe67d0393de61686013269e68e28d347927967eb93a156b680cc06"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_5.json"
@@ -1283,7 +1335,7 @@ hash = "a09da8645681694c04c628a454845c4cc0e9f4f88b6c3b2bee83bb3cb263f35e"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_6.json"
-hash = "2ca73a7e102f6259232b616d80051378efe1b164f6e42b6d14d62eb7d7522780"
+hash = "4854d56ddfce6520755b2b5ca9927ca813c242877fe83a7147616c358c637733"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_7.json"
@@ -1291,11 +1343,11 @@ hash = "3c361334fd9fb276d484db3b21220d5c594523b11f74ce1ff9896e4af0dee336"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_8.json"
-hash = "0ad35da9695ac868f7b503314422c99083111c22e5536a771e7b9c3d85326422"
+hash = "49487ecbdb2ba005f614f45adaa1e7eb7fcce1ad207877f1cf1f3d18d42963b6"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_9.json"
-hash = "900a3bd4a59074f25da362b6255bded0ede6e95d439feb37572872fd26641460"
+hash = "19d3c0d501ba6918d12e3ffd3c14d40e5b8f7bed91dbf6e9c77cb943ee5740a1"
 
 [[files]]
 file = "kubejs/data/ashen/skills/rogue_0.json"
@@ -1407,11 +1459,11 @@ hash = "b4d23f21d54660fa57a0530a9693a022ffc144dc57a3b514f010915d620c1a0a"
 
 [[files]]
 file = "kubejs/data/ashen/skills/warrior_11.json"
-hash = "4a384be94524c0536804db278ea9b922c9e185edfcd7128f897a56201dc5ba16"
+hash = "a8ae0b86a1c75c5bae71a002752ce45b4d98c0d15113fbd1e34a144f03982ff5"
 
 [[files]]
 file = "kubejs/data/ashen/skills/warrior_12.json"
-hash = "1256b28b4f3fe8c561a8dba5ad24f531f85e49d31d752a458b84547abac5da31"
+hash = "14e1f93c1fc6fe281c549f9cc101a338b62fb3bafe51951aa79139537681dc75"
 
 [[files]]
 file = "kubejs/data/ashen/skills/warrior_13.json"
@@ -1423,11 +1475,11 @@ hash = "cc2f5a50777f96a7bfb74dce4ada32f92c1058b17dc2c902db3f83d932fba69c"
 
 [[files]]
 file = "kubejs/data/ashen/skills/warrior_15.json"
-hash = "33d1e7649236a6b2aaef635f49bee6a95755e843d52e8a0ce450ef7f7cd284dc"
+hash = "6825f0db6154f4ee947ff6da0d630f594d79f82fe8b6ce1a79f47a097dcfc435"
 
 [[files]]
 file = "kubejs/data/ashen/skills/warrior_16.json"
-hash = "1e849e2257bd4ea0fe637473905e51e913462d1bc23435cbeb07a8d443cc4f8e"
+hash = "ff8e93e3cbbd7ee37f0ef66e241cfdbbaf44f6659024b06a8843fb81dd1a950d"
 
 [[files]]
 file = "kubejs/data/ashen/skills/warrior_17.json"
@@ -1435,7 +1487,7 @@ hash = "7371b4b2bc81efc56c8a97385e204c094e1a459cd0779dd292fe844623286723"
 
 [[files]]
 file = "kubejs/data/ashen/skills/warrior_18.json"
-hash = "8b37e63ea56d313ae5f654ee6dacf95fb9ba95e4ef40f35f6b97b949ed4931ea"
+hash = "6312dc549511a85f6384377b56ba2fa54e251a9f539df95be44f8c5f95a2ec19"
 
 [[files]]
 file = "kubejs/data/ashen/skills/warrior_19.json"
@@ -1443,7 +1495,7 @@ hash = "4d24cc28fbd5d45e6694d604545eca6c3a5023617f9852f345c741ec30f80a83"
 
 [[files]]
 file = "kubejs/data/ashen/skills/warrior_2.json"
-hash = "e4a62e8b7dbecba54e71f99fd0e33bb729137f3909f73affef93f86940c7c667"
+hash = "074559871f645c1fd099280b3d2cccd8a7ca7370f84e5368135ca1bcfe108679"
 
 [[files]]
 file = "kubejs/data/ashen/skills/warrior_20.json"
@@ -1451,7 +1503,7 @@ hash = "487e3aaef6e9b2d8d2242bf72803e8a5c185868f12cf57587cc58936774bf54c"
 
 [[files]]
 file = "kubejs/data/ashen/skills/warrior_21.json"
-hash = "8883405f3100fc65aadc40798232730537051091bd63869d405f668f7a372fa5"
+hash = "70ab8d7fdf521397d3b8e4b1f2f1536315d627dce5b37ab96ac6d668d6453514"
 
 [[files]]
 file = "kubejs/data/ashen/skills/warrior_3.json"
@@ -1459,7 +1511,7 @@ hash = "ed3c38876df0aa8de8437a7cb0394728babe2bd4c6e100e1849b823ab587a5c4"
 
 [[files]]
 file = "kubejs/data/ashen/skills/warrior_4.json"
-hash = "833088e21c9552aa1e7af05b8c4882334c9c88480b4c50a5261311e7d9b95fdd"
+hash = "6f3d48d1fe5167ee9a4150a72d7e5913cc0b885ab32deaf7eab95365e1c3ccaf"
 
 [[files]]
 file = "kubejs/data/ashen/skills/warrior_5.json"
@@ -1551,7 +1603,7 @@ hash = "f25b3e0800ea5709d7fed35e2ee3bc392c477b79a98326a1c8a7570b2b88635e"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/electrocute.json"
-hash = "4eb3b7f526ff75b0959374bfc686e3a9302473b53b4857c5d98be26886d0f19a"
+hash = "945d33be5b539b0e5d79a84335f78dfe7eb9deee9976fefa78eb66894220b2c5"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/fang_strike.json"
@@ -1579,7 +1631,7 @@ hash = "cb5d5f08f860bd238fe07483a2c73ff6e6d736b349fbfd60a3eec002dd829a60"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/firebolt.json"
-hash = "2ab329c4b372a2c2a23954e887e9103dc47d64ced7c2213a6b9957270b570f6b"
+hash = "cbef42d744e9641d3d27f990ebdb101b6fd85639440aea226aea2f4c07fe5c66"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/firecracker.json"
@@ -1619,7 +1671,7 @@ hash = "f25b3e0800ea5709d7fed35e2ee3bc392c477b79a98326a1c8a7570b2b88635e"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/icicle.json"
-hash = "2ab329c4b372a2c2a23954e887e9103dc47d64ced7c2213a6b9957270b570f6b"
+hash = "cbef42d744e9641d3d27f990ebdb101b6fd85639440aea226aea2f4c07fe5c66"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/lightning_bolt.json"
@@ -1639,7 +1691,7 @@ hash = "2ab329c4b372a2c2a23954e887e9103dc47d64ced7c2213a6b9957270b570f6b"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/magic_missile.json"
-hash = "2ab329c4b372a2c2a23954e887e9103dc47d64ced7c2213a6b9957270b570f6b"
+hash = "cbef42d744e9641d3d27f990ebdb101b6fd85639440aea226aea2f4c07fe5c66"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/magma_bomb.json"
@@ -1663,7 +1715,7 @@ hash = "f25b3e0800ea5709d7fed35e2ee3bc392c477b79a98326a1c8a7570b2b88635e"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/ray_of_siphoning.json"
-hash = "174cf2297b6820e0d40014db8e535e02b18e090a5bd2a3c1505d9209b3ab95eb"
+hash = "219dbb70109a4e6c6335af0d9e7d187512521a1b6f435feacd36318aa9a62480"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/sacrifice.json"
@@ -2895,7 +2947,7 @@ hash = "e805681f00de96987bd751406da76848ce4544d56231aab60315159a216ebbc1"
 
 [[files]]
 file = "kubejs/server_scripts/ashen_core_spells.js"
-hash = "7264b5012afbc22b9c87d5dfb6103c141c76f6a90dc1b85f5317f441bc7e96d6"
+hash = "b57db6adbf47c0925a12870b20751c242f9a408a003cac5b86134d2c142b179c"
 
 [[files]]
 file = "kubejs/server_scripts/ashen_epic_links.js"
@@ -2911,7 +2963,7 @@ hash = "684e41c79b789f8a5a8571def30028dd50873a1035ff8664214d5942cba8aa02"
 
 [[files]]
 file = "kubejs/server_scripts/ashen_passive_tree.js"
-hash = "695dae2e7b267cefa9eff2392677c0fef76bfecb49e8e7380a5af76767c9a177"
+hash = "95776c457021301da1677ecd7a0254ce5c6889ebab1db0be1452a4f3b1bef49c"
 
 [[files]]
 file = "kubejs/server_scripts/ashen_recipes.js"
@@ -2927,11 +2979,11 @@ hash = "8d9d5b97098f96c89638474a73f4f201f0381cc95a79faef1b0e091b56209947"
 
 [[files]]
 file = "kubejs/server_scripts/ashen_subclass_effects.js"
-hash = "f44cc7f65ba21f2a5ecdfc4491d5c5172cbee71561906b2c5eba9679776f3d4a"
+hash = "97a17f867c53b989fb7e1545058d971caac5da148f1059f46598081c66415bac"
 
 [[files]]
 file = "kubejs/startup_scripts/00_ashen_combat_data.js"
-hash = "b395d90363fb38ff5e32d406446d337fb064cff4bfbbae08809df1d9f06bd41c"
+hash = "09bb4daf3d13220484d6d63268c149486c7c01baa6cf9263c6c1e616df5e6df4"
 
 [[files]]
 file = "kubejs/startup_scripts/ashen_ability_keybinds.js"
@@ -3080,7 +3132,7 @@ metafile = true
 
 [[files]]
 file = "mods/ashen-skill-bridge-1.0.0.jar"
-hash = "70733c3f58419cbc839cab669457f3512bdb695b3ebd03174c69d10a4a2fb163"
+hash = "5c6b3524b57a8df2c906f86b4a1dc059a6baef60fe3e93360e9e0bf2a3e95f6c"
 
 [[files]]
 file = "mods/blueprint-1.20.1-7.1.5.jar.pw.toml"

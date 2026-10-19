@@ -18,7 +18,7 @@
     },
     {
       "type": "skilltree:attribute",
-      "attribute": "attributeslib:draw_speed",
+      "attribute": "ashen_skill_bridge:bow_attack_speed",
       "id": "d6cd6174-b29a-546d-999c-c30b91a22888",
       "name": "Ashen asc_marksman_big_1",
       "amount": -0.1,

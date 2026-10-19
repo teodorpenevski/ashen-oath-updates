@@ -4,6 +4,19 @@ Short player-facing notes for every published updater version. Earlier developme
 
 [GitHub Releases](https://github.com/teodorpenevski/ashen-oath-updates/releases)
 
+## 1.0.21
+
+- The free central Awakening node now grants +3 Attack Damage, +2 Maximum Health and +5% Movement Speed. Existing builds migrate automatically without losing allocated skills or points.
+- Rebalanced the main class trees: reduced Warrior's accumulated damage bonuses and Berserk to +10% damage while keeping its +15% attack speed; increased small Mage spell-power bonuses and several weaker spells.
+- Bows and crossbows fire instantly, with attack-speed-based recovery shared across hands and weapon swaps. Draw Speed is now Bow Attack Speed; Ranger also gains modest flat bow damage. Basic ammo remains unlimited and selected special ammo is consumed.
+- Ranger's level-10 core spell is now Poison Arrow I. Existing Rangers receive the replacement once without losing their old books. Rogue keeps Poison Splash.
+- Added craftable Apprentice, Runic and Archmage Wands with unlimited arcane bolts and selectable Ember, Frost and Storm charges. Powered shots consume charges without mana; wands lose one durability per four successful hits. The magic tutorial explains wandcraft.
+- Fixed dual axes and mixed axe/sword/dagger pairs showing and attacking with both hands. Berserk's buff indicator correctly follows equipped melee weapons.
+- Made the ammo badge and cycling panel smaller, restored clipped ammo names/icons and added padding to buff cards.
+- Restart the client to download this grouped update; the server must run the matching pack. Existing keybinds and Punchy profiles are preserved.
+
+[Release page](https://github.com/teodorpenevski/ashen-oath-updates/releases/tag/v1.0.21) | [Full changes](https://github.com/teodorpenevski/ashen-oath-updates/compare/v1.0.20...v1.0.21)
+
 ## 1.0.20
 
 - Added a compact selected-ammunition icon to the right of the hotbar while holding a bow or crossbow. It shows the real remaining count for special ammo, or ∞ for unlimited basic ammo.

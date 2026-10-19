@@ -15,6 +15,20 @@
       "player_condition": {
         "type": "skilltree:none"
       }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "ashen_skill_bridge:bow_damage",
+      "id": "97d4181b-947c-5d60-95ed-1b677663fdf9",
+      "name": "Ashen ranger_2",
+      "amount": 1,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
     }
   ],
   "requirements": [],

@@ -7,7 +7,7 @@
       "attribute": "minecraft:generic.attack_damage",
       "id": "33e000f2-ac31-5b05-9293-017906bad5fd",
       "name": "Ashen keystone_warrior",
-      "amount": 0.5,
+      "amount": 0.4,
       "operation": 1,
       "player_multiplier": {
         "type": "skilltree:none"

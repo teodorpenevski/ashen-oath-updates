@@ -105,7 +105,7 @@ global.ashenCombat = {
         "bonuses": [
           [
             "minecraft:generic.attack_damage",
-            0.5,
+            0.4,
             "multiply_base"
           ],
           [
@@ -119,7 +119,7 @@ global.ashenCombat = {
             "addition"
           ]
         ],
-        "description": "+50% attack damage, +25% knockback resistance and +3 armor toughness."
+        "description": "+40% attack damage, +25% knockback resistance and +3 armor toughness."
       },
       "rogue": {
         "title": "Executioner",
@@ -179,7 +179,7 @@ global.ashenCombat = {
           "multiply_base"
         ],
         [
-          "attributeslib:draw_speed",
+          "ashen_skill_bridge:bow_attack_speed",
           0.23,
           "multiply_base"
         ]
@@ -223,14 +223,14 @@ global.ashenCombat = {
       "warrior_2": [
         [
           "minecraft:generic.attack_damage",
-          2,
+          1.5,
           "addition"
         ]
       ],
       "warrior_4": [
         [
           "minecraft:generic.attack_damage",
-          2,
+          1.5,
           "addition"
         ]
       ],
@@ -242,14 +242,14 @@ global.ashenCombat = {
         ],
         [
           "minecraft:generic.attack_damage",
-          0.15,
+          0.12,
           "multiply_base"
         ]
       ],
       "warrior_12": [
         [
           "minecraft:generic.attack_damage",
-          2,
+          1.5,
           "addition"
         ],
         [
@@ -261,14 +261,14 @@ global.ashenCombat = {
       "warrior_15": [
         [
           "minecraft:generic.attack_damage",
-          2,
+          1.5,
           "addition"
         ]
       ],
       "warrior_16": [
         [
           "minecraft:generic.attack_damage",
-          3,
+          1.5,
           "addition"
         ],
         [
@@ -290,7 +290,7 @@ global.ashenCombat = {
         ],
         [
           "minecraft:generic.attack_damage",
-          2,
+          1.5,
           "addition"
         ],
         [
@@ -302,7 +302,7 @@ global.ashenCombat = {
       "warrior_21": [
         [
           "minecraft:generic.attack_damage",
-          0.2,
+          0.15,
           "multiply_base"
         ],
         [
@@ -314,7 +314,7 @@ global.ashenCombat = {
       "keystone_warrior": [
         [
           "minecraft:generic.attack_damage",
-          0.5,
+          0.4,
           "multiply_base"
         ],
         [
@@ -327,14 +327,255 @@ global.ashenCombat = {
           3,
           "addition"
         ]
+      ],
+      "asc_marksman_big_1": [
+        [
+          "attributeslib:arrow_damage",
+          0.8,
+          "multiply_base"
+        ],
+        [
+          "ashen_skill_bridge:bow_attack_speed",
+          -0.1,
+          "multiply_base"
+        ]
+      ],
+      "asc_marksman_small_2": [
+        [
+          "ashen_skill_bridge:bow_attack_speed",
+          0.1,
+          "multiply_base"
+        ]
+      ],
+      "asc_marksman_small_4": [
+        [
+          "ashen_skill_bridge:bow_attack_speed",
+          0.05,
+          "multiply_base"
+        ]
+      ],
+      "awakening": [
+        [
+          "minecraft:generic.attack_damage",
+          3,
+          "addition"
+        ],
+        [
+          "minecraft:generic.max_health",
+          2,
+          "addition"
+        ],
+        [
+          "minecraft:generic.movement_speed",
+          0.05,
+          "multiply_base"
+        ]
+      ],
+      "mage_15": [
+        [
+          "irons_spellbooks:spell_power",
+          0.1,
+          "multiply_base"
+        ]
+      ],
+      "mage_2": [
+        [
+          "irons_spellbooks:spell_power",
+          0.1,
+          "multiply_base"
+        ]
+      ],
+      "mage_4": [
+        [
+          "irons_spellbooks:spell_power",
+          0.1,
+          "multiply_base"
+        ]
+      ],
+      "mage_8": [
+        [
+          "irons_spellbooks:spell_power",
+          0.1,
+          "multiply_base"
+        ]
+      ],
+      "mage_9": [
+        [
+          "irons_spellbooks:max_mana",
+          20,
+          "addition"
+        ],
+        [
+          "irons_spellbooks:spell_power",
+          0.1,
+          "multiply_base"
+        ]
+      ],
+      "ranger_1": [
+        [
+          "ashen_skill_bridge:bow_attack_speed",
+          0.05,
+          "multiply_base"
+        ]
+      ],
+      "ranger_12": [
+        [
+          "minecraft:generic.max_health",
+          2,
+          "addition"
+        ],
+        [
+          "minecraft:generic.movement_speed",
+          0.02,
+          "multiply_base"
+        ],
+        [
+          "ashen_skill_bridge:bow_damage",
+          1,
+          "addition"
+        ]
+      ],
+      "ranger_13": [
+        [
+          "ashen_skill_bridge:bow_attack_speed",
+          0.05,
+          "multiply_base"
+        ]
+      ],
+      "ranger_14": [
+        [
+          "attributeslib:arrow_damage",
+          0.1,
+          "multiply_base"
+        ],
+        [
+          "ashen_skill_bridge:bow_attack_speed",
+          0.05,
+          "multiply_base"
+        ]
+      ],
+      "ranger_17": [
+        [
+          "ashen_skill_bridge:bow_attack_speed",
+          0.05,
+          "multiply_base"
+        ]
+      ],
+      "ranger_2": [
+        [
+          "attributeslib:arrow_damage",
+          0.05,
+          "multiply_base"
+        ],
+        [
+          "ashen_skill_bridge:bow_damage",
+          1,
+          "addition"
+        ]
+      ],
+      "ranger_4": [
+        [
+          "attributeslib:arrow_damage",
+          0.05,
+          "multiply_base"
+        ],
+        [
+          "ashen_skill_bridge:bow_damage",
+          1,
+          "addition"
+        ]
+      ],
+      "ranger_6": [
+        [
+          "ashen_skill_bridge:bow_attack_speed",
+          0.05,
+          "multiply_base"
+        ]
+      ],
+      "ranger_8": [
+        [
+          "ashen_skill_bridge:bow_attack_speed",
+          0.05,
+          "multiply_base"
+        ]
+      ],
+      "ranger_9": [
+        [
+          "attributeslib:arrow_damage",
+          0.05,
+          "multiply_base"
+        ],
+        [
+          "ashen_skill_bridge:bow_attack_speed",
+          0.05,
+          "multiply_base"
+        ]
       ]
     },
-    "passive_revision": "warrior-main-damage-2026-10-15-v1",
+    "passive_revision": "ranged-mage-warrior-center3-2026-10-19-v3",
     "passive_effects": {
       "warrior_20": "Gain 4 Fortify (absorption health). Consumed Fortify refills after 5 seconds without taking damage. Stacks with absorption from other sources.",
       "mage_21": "Gain 5% spell power per 10% total mana regeneration, including the base 100%. At 120% total regeneration, gain +60% spell power. Scales continuously with regeneration from your entire build.",
       "mage_20": "After 5 damage-free seconds, gain an Energy Shield absorbing up to 30 damage after armor and ordinary absorption. After 10 seconds active or exhausting the shield, burst the damage absorbed to nearby hostile mobs within 4 blocks. After each burst, rearm after another 5 damage-free seconds. No activation key."
-    }
+    },
+    "retired_balance_modifiers": [
+      {
+        "attribute": "attributeslib:draw_speed",
+        "id": "d6cd6174-b29a-546d-999c-c30b91a22888"
+      },
+      {
+        "attribute": "attributeslib:draw_speed",
+        "id": "5e58b43a-62eb-5f5a-b613-c0f48120baa6"
+      },
+      {
+        "attribute": "attributeslib:draw_speed",
+        "id": "c998444d-27bf-50c4-b09a-de67b8f38983"
+      },
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "id": "c561a017-e63c-51b4-ab52-c5ee343226ff"
+      },
+      {
+        "attribute": "minecraft:generic.max_health",
+        "id": "ca31e87a-363b-5827-a1fb-0d6880674659"
+      },
+      {
+        "attribute": "minecraft:generic.movement_speed",
+        "id": "d88e3997-3cf7-5495-86f7-410907b78333"
+      },
+      {
+        "attribute": "attributeslib:draw_speed",
+        "id": "f2c9cdcb-e7f3-54cd-b628-f3ddcaeb5b2f"
+      },
+      {
+        "attribute": "attributeslib:draw_speed",
+        "id": "1a230b29-b23a-59ef-ae54-71eb810363cb"
+      },
+      {
+        "attribute": "attributeslib:draw_speed",
+        "id": "3c7d6083-de38-565a-80a7-4fb91b950ff5"
+      },
+      {
+        "attribute": "attributeslib:draw_speed",
+        "id": "91bfa7a1-f6cc-5a11-b795-c2c7416ee75e"
+      },
+      {
+        "attribute": "attributeslib:draw_speed",
+        "id": "d77ecc4e-3549-5e1f-8165-e88c80d56f14"
+      },
+      {
+        "attribute": "attributeslib:draw_speed",
+        "id": "e6bfa24a-8b78-58b6-beba-b18e90bc8af2"
+      },
+      {
+        "attribute": "attributeslib:draw_speed",
+        "id": "e2caef7a-2205-5029-9baa-081ed8fd450e"
+      },
+      {
+        "attribute": "attributeslib:draw_speed",
+        "id": "38ed38a5-d15a-5a9e-98ef-5a49130f8b07"
+      }
+    ]
   },
   "free_nodes": {
     "ashen:awakening": [],
@@ -1368,7 +1609,7 @@ global.ashenCombat = {
           },
           "big": {
             "title": "Siege Archer",
-            "description": "+80% arrow damage; 10% reduced draw speed. Favors deliberate, heavy shots.",
+            "description": "+80% arrow damage; 10% reduced bow attack speed. Favors deliberate, heavy shots.",
             "bonuses": [
               [
                 "attributeslib:arrow_damage",
@@ -1376,7 +1617,7 @@ global.ashenCombat = {
                 "multiply_base"
               ],
               [
-                "attributeslib:draw_speed",
+                "ashen_skill_bridge:bow_attack_speed",
                 -0.1,
                 "multiply_base"
               ]
@@ -1396,7 +1637,7 @@ global.ashenCombat = {
             "title": "Patient Draw",
             "bonuses": [
               [
-                "attributeslib:draw_speed",
+                "ashen_skill_bridge:bow_attack_speed",
                 0.1,
                 "multiply_base"
               ]
@@ -1475,7 +1716,7 @@ global.ashenCombat = {
             "title": "Rapid Nock",
             "bonuses": [
               [
-                "attributeslib:draw_speed",
+                "ashen_skill_bridge:bow_attack_speed",
                 0.05,
                 "multiply_base"
               ]
@@ -2560,7 +2801,7 @@ global.ashenCombat = {
       },
       {
         "node": "ashen:asc_marksman_small_2",
-        "attribute": "attributeslib:draw_speed",
+        "attribute": "ashen_skill_bridge:bow_attack_speed",
         "id": "5e58b43a-62eb-5f5a-b613-c0f48120baa6"
       },
       {
@@ -2585,12 +2826,12 @@ global.ashenCombat = {
       },
       {
         "node": "ashen:asc_marksman_small_4",
-        "attribute": "attributeslib:draw_speed",
+        "attribute": "ashen_skill_bridge:bow_attack_speed",
         "id": "c998444d-27bf-50c4-b09a-de67b8f38983"
       },
       {
         "node": "ashen:asc_marksman_big_4",
-        "attribute": "attributeslib:draw_speed",
+        "attribute": "ashen_skill_bridge:bow_attack_speed",
         "id": "d104c7e6-2c32-5a0d-ab3a-3b3e301adee0"
       },
       {
