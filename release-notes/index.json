@@ -1,0 +1,159 @@
+{
+  "schema": 1,
+  "current_version": "1.0.17",
+  "releases": [
+    {
+      "version": "1.0.1",
+      "tag": "v1.0.1",
+      "name": "Ashen Oath 1.0.1",
+      "notes": "release-notes/1.0.1.md",
+      "commit": "d67f1bf90f6b5e64730be24b871471b84760496d",
+      "original_date": "2026-10-17",
+      "previous_tag": null
+    },
+    {
+      "version": "1.0.2",
+      "tag": "v1.0.2",
+      "name": "Ashen Oath 1.0.2",
+      "notes": "release-notes/1.0.2.md",
+      "commit": "513f215c30105f4595123ad62d2fc52a4493a538",
+      "original_date": "2026-10-17",
+      "previous_tag": "v1.0.1"
+    },
+    {
+      "version": "1.0.3",
+      "tag": "v1.0.3",
+      "name": "Ashen Oath 1.0.3",
+      "notes": "release-notes/1.0.3.md",
+      "commit": "819fddeb7d63e9f3105ac2c55c85fb23b9b902f3",
+      "original_date": "2026-10-17",
+      "previous_tag": "v1.0.2"
+    },
+    {
+      "version": "1.0.4",
+      "tag": "v1.0.4",
+      "name": "Ashen Oath 1.0.4",
+      "notes": "release-notes/1.0.4.md",
+      "commit": "056c6fcf278d7f679c34903891b966cc5080d82d",
+      "original_date": "2026-10-17",
+      "previous_tag": "v1.0.3"
+    },
+    {
+      "version": "1.0.5",
+      "tag": "v1.0.5",
+      "name": "Ashen Oath 1.0.5",
+      "notes": "release-notes/1.0.5.md",
+      "commit": "c79d13d82de709b48e22c7b43d3a7cc188627579",
+      "original_date": "2026-10-17",
+      "previous_tag": "v1.0.4"
+    },
+    {
+      "version": "1.0.6",
+      "tag": "v1.0.6",
+      "name": "Ashen Oath 1.0.6",
+      "notes": "release-notes/1.0.6.md",
+      "commit": "8512e07f0d12c747971923ab56e7ddc6363e8229",
+      "original_date": "2026-10-18",
+      "previous_tag": "v1.0.5"
+    },
+    {
+      "version": "1.0.7",
+      "tag": "v1.0.7",
+      "name": "Ashen Oath 1.0.7",
+      "notes": "release-notes/1.0.7.md",
+      "commit": "2d5551efc1bdf018c2266e4461a91ac351fa48c8",
+      "original_date": "2026-10-18",
+      "previous_tag": "v1.0.6"
+    },
+    {
+      "version": "1.0.8",
+      "tag": "v1.0.8",
+      "name": "Ashen Oath 1.0.8",
+      "notes": "release-notes/1.0.8.md",
+      "commit": "1ae32b80e9583b18a463ebcae1cdd2870f5db88b",
+      "original_date": "2026-10-18",
+      "previous_tag": "v1.0.7"
+    },
+    {
+      "version": "1.0.9",
+      "tag": "v1.0.9",
+      "name": "Ashen Oath 1.0.9",
+      "notes": "release-notes/1.0.9.md",
+      "commit": "57f02aec94c9669f028629f7a7f13f42899087ad",
+      "original_date": "2026-10-18",
+      "previous_tag": "v1.0.8"
+    },
+    {
+      "version": "1.0.10",
+      "tag": "v1.0.10",
+      "name": "Ashen Oath 1.0.10",
+      "notes": "release-notes/1.0.10.md",
+      "commit": "33579ad58faee8effd2d87eacb8448aede69fc80",
+      "original_date": "2026-10-18",
+      "previous_tag": "v1.0.9"
+    },
+    {
+      "version": "1.0.11",
+      "tag": "v1.0.11",
+      "name": "Ashen Oath 1.0.11",
+      "notes": "release-notes/1.0.11.md",
+      "commit": "cc86d3b80ae6b706a3a5075a6d4d421d074cce29",
+      "original_date": "2026-10-18",
+      "previous_tag": "v1.0.10"
+    },
+    {
+      "version": "1.0.12",
+      "tag": "v1.0.12",
+      "name": "Ashen Oath 1.0.12",
+      "notes": "release-notes/1.0.12.md",
+      "commit": "3c82bf99ff03b6892946a09421f576af25f30f29",
+      "original_date": "2026-10-18",
+      "previous_tag": "v1.0.11"
+    },
+    {
+      "version": "1.0.13",
+      "tag": "v1.0.13",
+      "name": "Ashen Oath 1.0.13",
+      "notes": "release-notes/1.0.13.md",
+      "commit": "f9ccf454e99501866ea9366c5a307e4f4da7222b",
+      "original_date": "2026-10-18",
+      "previous_tag": "v1.0.12"
+    },
+    {
+      "version": "1.0.14",
+      "tag": "v1.0.14",
+      "name": "Ashen Oath 1.0.14",
+      "notes": "release-notes/1.0.14.md",
+      "commit": "1be18e6cb63f882697dc67a344ba6adc9cd1a3d5",
+      "original_date": "2026-10-18",
+      "previous_tag": "v1.0.13"
+    },
+    {
+      "version": "1.0.15",
+      "tag": "v1.0.15",
+      "name": "Ashen Oath 1.0.15",
+      "notes": "release-notes/1.0.15.md",
+      "commit": "9e01d5f1e331921fe1f94736c2ff6c1d8bdae7e8",
+      "original_date": "2026-10-18",
+      "previous_tag": "v1.0.14"
+    },
+    {
+      "version": "1.0.16",
+      "tag": "v1.0.16",
+      "name": "Ashen Oath 1.0.16",
+      "notes": "release-notes/1.0.16.md",
+      "commit": "783da6a7269cafbacf33fe2e48b73f06a2fe64e4",
+      "original_date": "2026-10-18",
+      "previous_tag": "v1.0.15"
+    },
+    {
+      "version": "1.0.17",
+      "tag": "v1.0.17",
+      "name": "Ashen Oath 1.0.17",
+      "notes": "release-notes/1.0.17.md",
+      "commit": "677f559e254d1a5e14f92f4372da8ddf558bcee1",
+      "original_date": "2026-10-19",
+      "previous_tag": "v1.0.16"
+    }
+  ]
+}
