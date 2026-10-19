@@ -3038,7 +3038,7 @@ metafile = true
 
 [[files]]
 file = "mods/ashen-skill-bridge-1.0.0.jar"
-hash = "bf0f050af00fde08c1787de77065bef7a613eb6a8692a269e6db38b267b87ef6"
+hash = "7ff83f4cbf77407093c8898fba0f5b60048df8eb111f6184503edfa32abe09f1"
 
 [[files]]
 file = "mods/cloth-config-11.1.136-forge.jar.pw.toml"
@@ -3310,7 +3310,7 @@ hash = "f32b8ea63004447c46fab8fdca6b4407ab807766f80097eedddd300303ef4d34"
 
 [[files]]
 file = "resourcepacks/Ashen-Silly-Punchies-0.1-1.20.1.zip"
-hash = "ff852d82910d590e4a50e83aed74d78f87491ab6a6bd6629afcbdb853397f3b7"
+hash = "ef8ac81c8f3f753d7fca1ffe5a47375f197a0362bce262563e41624d1954172c"
 
 [[files]]
 file = "resourcepacks/Better+Lanterns+v1.2(mc-1.20.1).zip.pw.toml"
