@@ -64,7 +64,7 @@ hash = "cf7e6f1fc9b651505cd13a3f7446a0269a41fb054a0d91ca3084d563f1291504"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/07_magic.snbt"
-hash = "74d60f15983ae5fc383fcf3181204a80897df39e4dd352114884ece5f4523271"
+hash = "2f46d7f27e07ffd32b7d1b36470d7583d9f25380bd4384c93aa46034106f966e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_workshop.snbt"
@@ -3244,7 +3244,7 @@ metafile = true
 
 [[files]]
 file = "mods/ashen-skill-bridge-1.0.0.jar"
-hash = "408b8403180cf1adba04289db5c18be11c0c36c69b0a4fe8ab2d1ca0237c4d85"
+hash = "abe1a7760ba823b4679dbcd314a116a280d5fcc0159acb3a8840a4107428be38"
 
 [[files]]
 file = "mods/blueprint-1.20.1-7.1.5.jar.pw.toml"

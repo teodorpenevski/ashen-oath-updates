@@ -4,6 +4,17 @@ Short player-facing notes for every published updater version. Earlier developme
 
 [GitHub Releases](https://github.com/teodorpenevski/ashen-oath-updates/releases)
 
+## 1.0.23
+
+- Wand attacks now flow through three distinct arm and body movements, followed by an 800 ms wind-up after the third shot. Individual shot damage and the stronger third hit remain unchanged.
+- Quick wand bolts register individually instead of being swallowed by enemy damage-immunity frames. Spell Power, elemental scaling and finite special charges still apply.
+- Elemental Vortex now charges after six landed normal wand shots instead of recharging over time. Firing no normal attack for three seconds resets the counter; casting the special consumes the charge. The Epic Fight icon shows hit progress.
+- Fixed the vortex-effect class-loading crash after a local update. Updates now require stopped targets before replacing mod JARs; controls, Punchy profiles and player progress are preserved.
+- Pack owners can now run PUBLISH-VERSION.cmd to build, test and publish one grouped update with the latest draft notes, without a Codex session.
+- Server owners: stop the server and apply this version's matching portable server ZIP with UPDATE-SERVER.cmd. Clients receive the published update at launch.
+
+[Release page](https://github.com/teodorpenevski/ashen-oath-updates/releases/tag/v1.0.23) | [Full changes](https://github.com/teodorpenevski/ashen-oath-updates/compare/v1.0.22...v1.0.23)
+
 ## 1.0.22
 
 - Wands now chain three casts with forehand, backhand and forward-snap animations. The third shot deals 150% damage; bolts scale with Spell Power and the selected element's school power.

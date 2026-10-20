@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "current_version": "1.0.22",
+  "current_version": "1.0.23",
   "releases": [
     {
       "version": "1.0.1",
@@ -196,9 +196,18 @@
       "tag": "v1.0.22",
       "name": "Ashen Oath 1.0.22",
       "notes": "release-notes/1.0.22.md",
+      "commit": "9ae3b0003b565a87f246854932fc4cc53135b626",
+      "original_date": "2026-10-20",
+      "previous_tag": "v1.0.21"
+    },
+    {
+      "version": "1.0.23",
+      "tag": "v1.0.23",
+      "name": "Ashen Oath 1.0.23",
+      "notes": "release-notes/1.0.23.md",
       "commit": null,
       "original_date": null,
-      "previous_tag": "v1.0.21"
+      "previous_tag": "v1.0.22"
     }
   ]
 }
