@@ -1,0 +1,40 @@
+{
+  "type": "apotheosis:attribute",
+  "attribute": "minecraft:generic.attack_speed",
+  "operation": "MULTIPLY_TOTAL",
+  "values": {
+    "common": {
+      "min": 0.08,
+      "steps": 4,
+      "step": 0.0125
+    },
+    "uncommon": {
+      "min": 0.105,
+      "steps": 4,
+      "step": 0.0125
+    },
+    "rare": {
+      "min": 0.13,
+      "steps": 4,
+      "step": 0.0125
+    },
+    "epic": {
+      "min": 0.155,
+      "steps": 4,
+      "step": 0.0125
+    },
+    "mythic": {
+      "min": 0.18,
+      "steps": 4,
+      "step": 0.0125
+    },
+    "ancient": {
+      "min": 0.205,
+      "steps": 4,
+      "step": 0.0125
+    }
+  },
+  "types": [
+    "ashen_wand"
+  ]
+}

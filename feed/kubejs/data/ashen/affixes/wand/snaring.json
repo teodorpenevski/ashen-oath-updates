@@ -1,0 +1,30 @@
+{
+  "type": "apotheosis:mob_effect",
+  "mob_effect": "minecraft:slowness",
+  "target": "ATTACK_TARGET",
+  "values": {
+    "rare": {
+      "duration": 60,
+      "amplifier": 0,
+      "cooldown": 160
+    },
+    "epic": {
+      "duration": 70,
+      "amplifier": 0,
+      "cooldown": 160
+    },
+    "mythic": {
+      "duration": 80,
+      "amplifier": 0,
+      "cooldown": 160
+    },
+    "ancient": {
+      "duration": 90,
+      "amplifier": 0,
+      "cooldown": 160
+    }
+  },
+  "types": [
+    "ashen_wand"
+  ]
+}

@@ -2,7 +2,7 @@
   "id": "22B6002D9D01721B",
   "filename": "07_magic",
   "group": "225FE9BE4793200B",
-  "title": "Magic \u00b7 From First Spark to Dead King",
+  "title": "Magic · From First Spark to Dead King",
   "icon": "irons_spellbooks:inscription_table",
   "order_index": 1,
   "default_quest_shape": "circle",
@@ -14,7 +14,7 @@
   "quests": [
     {
       "id": "2499ED72E62662F9",
-      "title": "I \u00b7 The First Spark",
+      "title": "I · The First Spark",
       "description": [
         "An apprentice's journal is the beginning of a legend, not its limit. Follow the five stages from gathered essence to the Dead King, with optional school, alchemy, research and exploration branches along the way. Every class can learn magic; Ashen's separate level-10 class spell reward remains available."
       ],
@@ -164,7 +164,9 @@
       "title": "The Graybeard's First Staff",
       "description": [
         "Claim or craft a Graybeard Staff and compare its held attributes with your ordinary weapon. A staff supports your spellcasting, while the equipped spellbook supplies the spells themselves; keep both systems in mind when building your loadout.",
-        "Optional ranged alternative: craft an Apprentice Wand from a stick, Arcane Essence and an Amethyst Shard. Wands fire unlimited arcane bolts and lose one durability per four successful hits; upgrade to Runic and Archmage tiers through JEI. Craft Ember, Frost or Storm Charges and select them with your ammunition binding for finite powered shots without a mana cost."
+        "Optional ranged alternative: craft an Apprentice Wand from a stick, Arcane Essence and an Amethyst Shard. Wands fire unlimited arcane bolts and lose one durability per four successful hits; upgrade to Runic and Archmage tiers through JEI. Craft Ember, Frost or Storm Charges and select them with your ammunition binding for finite powered shots without a mana cost.",
+        "Cast in a three-shot chain: the third wand shot deals 150% damage and uses a stronger forward casting motion. A pause or weapon change resets the chain. Spell Power and the selected charge's school scale wand damage. Hold a wand and inspect a charge to see current damage. Reforge wands with Apotheosis for suitable magic and attack-speed affixes; Iron's magic gems can now be socketed into staffs and wands at a Smithing Table.",
+        "Wand combat controls: use your existing Epic Fight combat-mode toggle. Your Attack binding (normally Left Mouse) fires the selected ammo and chains three different swings; the third shot deals 150% damage. Your Use binding (normally Right Mouse) casts Elemental Vortex every 10 seconds: a 4-block-radius pull that deals 200% of the selected shot damage over 3 seconds. Both attacks consume one selected elemental charge; basic arcane ammo remains unlimited. The compact circular meter shows when the special is ready."
       ],
       "x": -3.0,
       "y": 0.0,
@@ -559,7 +561,7 @@
     },
     {
       "id": "6CB9122BF591A7C4",
-      "title": "Early Game \u00b7 A Working Caster",
+      "title": "Early Game · A Working Caster",
       "description": [
         "Equip an inscribed book, cast a useful spell and recover enough mana to cast again. This practical checkmark is your acknowledgement that the basic loop works; the optional staff and full robe set do not block the next workshop lesson."
       ],
@@ -594,7 +596,7 @@
     },
     {
       "id": "556531154F769E07",
-      "title": "Optional \u00b7 Follow the Living World",
+      "title": "Optional · Follow the Living World",
       "description": [
         "Craft Nature's Compass and use its biome search to plan a trip for supplies, creatures or scenery. This optional inventory task proves you own the tool; using its search is a practice instruction, and neither teleportation nor completion of this branch is required for magic progression."
       ],
@@ -632,7 +634,7 @@
     },
     {
       "id": "11180DABC0E23FFB",
-      "title": "II \u00b7 The Scribe's Workshop",
+      "title": "II · The Scribe's Workshop",
       "description": [
         "Build a Scroll Forge once you have its Nether-era materials, using JEI for the installed recipe. Its paper, ink and school-focus inputs let you choose a specific available spell instead of relying entirely on random loot."
       ],
@@ -857,7 +859,7 @@
     },
     {
       "id": "78DA39729338B8F7",
-      "title": "School \u00b7 Evocation",
+      "title": "School · Evocation",
       "description": [
         "Bring an emerald as the Evocation focus for the Scroll Forge. Begin with a reliable projectile or summon, then compare its mana cost and targeting with the basic spell you already use."
       ],
@@ -896,7 +898,7 @@
     },
     {
       "id": "1C77D78966795BF2",
-      "title": "School \u00b7 Fire",
+      "title": "School · Fire",
       "description": [
         "Bring a blaze rod as the Fire focus and forge a spell that fits your available ink. Fire-resistant enemies call for another damage school, so retain a backup rather than investing every slot in the same element."
       ],
@@ -935,7 +937,7 @@
     },
     {
       "id": "7F6209A297C756A3",
-      "title": "School \u00b7 Ice",
+      "title": "School · Ice",
       "description": [
         "Recover a Frozen Bone from a stray and use it as the Ice focus. Test an Ice spell's control effects alongside its damage, especially when a safer casting window matters more than one large hit."
       ],
@@ -974,7 +976,7 @@
     },
     {
       "id": "6134522CADC358C0",
-      "title": "School \u00b7 Lightning",
+      "title": "School · Lightning",
       "description": [
         "Bottle a charged creeper's lightning to obtain Bottle o' Lightning, the actual Lightning focus in this version. A vanilla lightning rod is not the forge ingredient; plan the collection safely before approaching a charged creeper."
       ],
@@ -1013,7 +1015,7 @@
     },
     {
       "id": "1057862EF46DA271",
-      "title": "School \u00b7 Holy",
+      "title": "School · Holy",
       "description": [
         "Craft or recover a Divine Pearl and inspect Holy spells at the Scroll Forge. Compare a supportive or healing option with an offensive spell so your loadout gains a new role rather than only another attack."
       ],
@@ -1052,7 +1054,7 @@
     },
     {
       "id": "1F10EE7E444A9D29",
-      "title": "School \u00b7 Blood",
+      "title": "School · Blood",
       "description": [
         "Obtain a Blood Vial through the heated-cauldron or Alchemist Cauldron blood system and use it as the Blood focus. Read projectile counts, targeting and recovery effects carefully before deciding how a Blood spell fits your rotation."
       ],
@@ -1091,7 +1093,7 @@
     },
     {
       "id": "7F0791D342126FE0",
-      "title": "School \u00b7 Ender",
+      "title": "School · Ender",
       "description": [
         "Reserve an ender pearl as the Ender focus and inspect the school's movement, utility and damage options. Iron's Teleport spell and Ashen's passive Blink are separate abilities, so improving one does not change the other's range or cooldown."
       ],
@@ -1130,7 +1132,7 @@
     },
     {
       "id": "55B2800C20768E96",
-      "title": "School \u00b7 Nature",
+      "title": "School · Nature",
       "description": [
         "Keep a poisonous potato from farming or exploration as the Nature focus. Test poison, roots or defensive magic while remembering that Iron's spell effects and Ashen Rogue's custom poison stacks are separate systems."
       ],
@@ -1244,7 +1246,7 @@
     },
     {
       "id": "4164F7E7E2CF01E8",
-      "title": "Optional \u00b7 A Needle for Forgotten Places",
+      "title": "Optional · A Needle for Forgotten Places",
       "description": [
         "Craft Explorer's Compass and use its structure list to plan a magical expedition such as an Evoker Fort. It finds structures rather than biomes and does not bypass Ashen's story boss gates; this optional task detects the item, not a successful search or arrival."
       ],
@@ -1282,7 +1284,7 @@
     },
     {
       "id": "17B02B9DBE223098",
-      "title": "III \u00b7 Break the Evoker Conclave",
+      "title": "III · Break the Evoker Conclave",
       "description": [
         "Hunt an Evoker, ideally while raiding an Evoker Fort, and secure magical loot for your next workshop projects. Search forts for scrolls and materials, but seek Ruined Books in Ancient Cities rather than expecting one structure to supply everything."
       ],
@@ -1724,7 +1726,7 @@
     },
     {
       "id": "6BDA0A827E12C9B2",
-      "title": "Mid Game \u00b7 Your Own Spellcraft",
+      "title": "Mid Game · Your Own Spellcraft",
       "description": [
         "Enter a magical structure with a deliberately forged and leveled spell, an equipped book and a defensive response. Compare sustained damage, mana recovery and casting windows before acknowledging that the workshop now supports your own chosen build."
       ],
@@ -1799,7 +1801,7 @@
     },
     {
       "id": "1BC56DB6AA526AC4",
-      "title": "IV \u00b7 The Archmage's Ink",
+      "title": "IV · The Archmage's Ink",
       "description": [
         "Convert 1000 mB of Epic Ink and an amethyst shard into 250 mB of Legendary Ink. Legendary is a rarity bracket rather than a promise of maximum numerical level, so inspect the next-level requirement at the anvil."
       ],
@@ -2328,7 +2330,7 @@
     },
     {
       "id": "790D6A98C9339AD3",
-      "title": "V \u00b7 The Road to the Dead King",
+      "title": "V · The Road to the Dead King",
       "description": [
         "Craft a Wayward Compass and follow its search toward the Catacombs, then enter the structure with your prepared loadout. This is the pre-boss locator; the Bone Key belongs to the reward-vault route after the Dead King's defeat."
       ],
@@ -2668,7 +2670,7 @@
     },
     {
       "id": "28A4A5EAE27042C8",
-      "title": "Late Game \u00b7 An Archmage's Loadout",
+      "title": "Late Game · An Archmage's Loadout",
       "description": [
         "Finish with an equipped loadout that combines sustained damage, defense, recovery and practical movement, then compare its rotation on the training dummy. The Dead King and equipment-upgrade path complete this chapter's main lesson; Eldritch research and the Echo of Tyros remain optional challenges to explore afterward."
       ],

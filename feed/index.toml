@@ -64,7 +64,7 @@ hash = "cf7e6f1fc9b651505cd13a3f7446a0269a41fb054a0d91ca3084d563f1291504"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/07_magic.snbt"
-hash = "738374aa0300efdec2b7872d91aaab3adef0ea3416b436ad93de1ade8b303317"
+hash = "74d60f15983ae5fc383fcf3181204a80897df39e4dd352114884ece5f4523271"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_workshop.snbt"
@@ -175,7 +175,7 @@ hash = "c3fa1bf1927b10174fd2fc71094b99345efe0b68cb8cd4d1b640712a53d4e4e1"
 
 [[files]]
 file = "kubejs/assets/ashen/lang/en_us.json"
-hash = "02c9198f425e12b8dd4b5cdb70e8b5991c2f010d72dac7bc43b188e7b7aaad5c"
+hash = "077bb4bc028ccffc0d82bcf81d881e91310de10054b81f75119e1846ee17ba55"
 
 [[files]]
 file = "kubejs/assets/ashen/textures/gui/lock_on.png"
@@ -628,6 +628,66 @@ hash = "fec2748409a48d679fa1c708f834ed78ac85ca649b394dffbd8aa458e58f85af"
 [[files]]
 file = "kubejs/data/ashen/advancements/story/wither.json"
 hash = "3508be476f709dfac99aa127f2e7bbf528faf092be98443b187034f121d8a8e3"
+
+[[files]]
+file = "kubejs/data/ashen/affix_loot_entries/apprentice_wand.json"
+hash = "2fb67fef4490419e7dafbc03eb940f6a033e4049c6691f5340538aed76b2419f"
+
+[[files]]
+file = "kubejs/data/ashen/affix_loot_entries/archmage_wand.json"
+hash = "93068dbc8c0ea726111f37396427b210be21d4828c11d9aeb57575f72bd5ad74"
+
+[[files]]
+file = "kubejs/data/ashen/affix_loot_entries/runic_wand.json"
+hash = "512f6f762ff7aa6e23f9c54ee4b377ac2f2cc53a5965ca586f7016916a44304e"
+
+[[files]]
+file = "kubejs/data/ashen/affixes/wand/attack_speed.json"
+hash = "ee369a324a4b261a1e0b359748a7e40027e9702b813bd11395613666d8d32d62"
+
+[[files]]
+file = "kubejs/data/ashen/affixes/wand/evocation_power.json"
+hash = "bd2c66e6853094f180421433443f52f3c8a324250517c6d34a2032c3fb2401af"
+
+[[files]]
+file = "kubejs/data/ashen/affixes/wand/fire_power.json"
+hash = "fb8174aaa2aff9a2b6675eb4e440a63580f67e21d991b2d4a72b1e0d3b1cf1d3"
+
+[[files]]
+file = "kubejs/data/ashen/affixes/wand/fleet.json"
+hash = "dfb92daa66c0f7801d1c3edad9dbf07914d1b09faac80dd7225a2f5b0fba9b57"
+
+[[files]]
+file = "kubejs/data/ashen/affixes/wand/ice_power.json"
+hash = "e3e44c5efc2c59298def4ad48db9bda3748eca3f768155e36c107753696624c5"
+
+[[files]]
+file = "kubejs/data/ashen/affixes/wand/lightning_power.json"
+hash = "be787e9faa7d890b80047b5c2e974f19baca5d8f3a701ffad90e7e9082cac6a7"
+
+[[files]]
+file = "kubejs/data/ashen/affixes/wand/mana_regen.json"
+hash = "3266ecdcaf453a4a76a84a2325fec1f2935a13424f2582bcc34c1095d84fa59a"
+
+[[files]]
+file = "kubejs/data/ashen/affixes/wand/max_mana.json"
+hash = "299750695a8b7b058e5a6124bf83446e709264a841789c9f799dd9af2c983325"
+
+[[files]]
+file = "kubejs/data/ashen/affixes/wand/renewing.json"
+hash = "dadde9bf5317603dee128c24b121a6aa54d46cf351b0904c41fc77c3ff4cad2f"
+
+[[files]]
+file = "kubejs/data/ashen/affixes/wand/snaring.json"
+hash = "13a9d243a710bf877c017c69c4b120f94892dbca29e93a1f40ad6f7e8d9da298"
+
+[[files]]
+file = "kubejs/data/ashen/affixes/wand/spell_power.json"
+hash = "e400bc61f7b93c2c2730d53a732ae2f4f2073dc1b4baa11d515d170b2b70d566"
+
+[[files]]
+file = "kubejs/data/ashen/affixes/wand/weakening.json"
+hash = "3ac004db717f8a28385152ae428c616fe5db29cd685968052f467a82e83105cb"
 
 [[files]]
 file = "kubejs/data/ashen/classes/mage.json"
@@ -1540,6 +1600,58 @@ hash = "73eb9e51e8d2f225382a43c02a5cc3d196fbf0caf5b807a5668dd715057bf22d"
 [[files]]
 file = "kubejs/data/ashen/skills/warrior_lifesteal_2.json"
 hash = "e1270083ed9f402d529d50e855d960c4bc0e528f3b9c9ff90514a6c88d36b491"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/gems/blood.json"
+hash = "f2c1bdac5081dbd167a20eee53b4f792e51199a7d20a021c397008f91408acce"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/gems/cast_time.json"
+hash = "e7557c65015646841d270ef04d2ee5fd519fbf78be8a1f0f7a0917721449e24c"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/gems/cooldown.json"
+hash = "357e67a4e2171bb2966cf78de60bc027f52b4238ec3396900e0b4ddb2734584e"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/gems/ender.json"
+hash = "bb7f46b5efdb5cc3622b8cd43a3b564bf988a591122610e69ba1911fe14aef07"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/gems/evocation.json"
+hash = "048c20dc720b649d217cb6083cdfd6597b642dbc05e0c096b8bdf6b1f899f1ac"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/gems/fire.json"
+hash = "1dd7f0af0c3d8559d3997cc4059576e3f948971a4592ef7f082252c739ab09f3"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/gems/holy.json"
+hash = "ba3cee1b87a369fc16eb2f6b37517a9ca1fc5aa611bb33eee1ec6697a1310d87"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/gems/ice.json"
+hash = "52caaf93b0a30224fdad01bf6e2a2d346e025eed567c7131b2a5ef9287ffecb4"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/gems/intelligent.json"
+hash = "946686907f791a55d19473d532dbafbadd2ff98d0565b3bf15c8af678e6bbc3a"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/gems/lightning.json"
+hash = "85c11e1c3ac4e59a2e98a1ea70855569bbbc72924d4cb627ea1f7e94023581fc"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/gems/nature.json"
+hash = "52da8e6701dd03c574aa7ced77f3fdc9ed1f7c77c0ad89661dfdfd8e3cebab4f"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/gems/spell_resist.json"
+hash = "b2cb6b69c56dba1c7c9126b756a6f223be4f430e8251a094793910297526b650"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/gems/summoning.json"
+hash = "90763d5abbf27c24babf4427095499588d28d58c19a9a7df69b06c4cd54ba7ec"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/acupuncture.json"
@@ -3132,7 +3244,7 @@ metafile = true
 
 [[files]]
 file = "mods/ashen-skill-bridge-1.0.0.jar"
-hash = "5c6b3524b57a8df2c906f86b4a1dc059a6baef60fe3e93360e9e0bf2a3e95f6c"
+hash = "408b8403180cf1adba04289db5c18be11c0c36c69b0a4fe8ab2d1ca0237c4d85"
 
 [[files]]
 file = "mods/blueprint-1.20.1-7.1.5.jar.pw.toml"
