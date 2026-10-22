@@ -1,4 +1,4 @@
 {
-  "ashen:damage_multiplier": 1,
-  "ashen:martial_damage_multiplier": 1.25
+  "ashen:damage_multiplier": 0.8,
+  "ashen:martial_damage_multiplier": 1.0
 }

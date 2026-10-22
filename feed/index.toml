@@ -21,8 +21,18 @@ hash = "089f7383a1a3adf2ae3c418cd37ef9149e2ebd6f48b4a16a75f933b3c48c2c5e"
 preserve = true
 
 [[files]]
+file = "config/ashen-boss-encounters.json"
+hash = "709d269640f338a387b120b8713679c4115fe38b6c1a63df58e40f5467aa2f81"
+preserve = true
+
+[[files]]
 file = "config/ashen-enemy-health.json"
 hash = "11fad78d99c36d45c45d4a9df597ea6de01df49fd439f42da4aa9f4701cf1f9e"
+preserve = true
+
+[[files]]
+file = "config/cataclysm-common.toml"
+hash = "e746622f179febe6d339b35cf0246ccebaaba0f95b9b4507989894e5a74aee10"
 preserve = true
 
 [[files]]
@@ -40,23 +50,23 @@ hash = "201da035fdfcedaf9f7b8d9a84f170f0fc6a48567a3de9a020a317b444b99eb2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/01_beneath_your_own_grave.snbt"
-hash = "10d8ed3c55f4d4a57e0485dcde84e0b50a71633642efec62ee1dc6b4aec1c9fe"
+hash = "a0cac018fc3cbd041a60273d1d8e8af4b7a1580f08282d67cf513f911c48af9e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/02_embers_of_a_changed_world.snbt"
-hash = "bd9fb33e8ba89ca8c1ffcf56a9dee4b1f657d7270b96d07e3da12a4f38754bd9"
+hash = "1d05deaa6579d3b0dacf05594be8e147315a959fe6d9ab9eb179434e76366ff0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/03_the_machines_remember.snbt"
-hash = "e1f06496ce5a92f1ec16708df612c728bafcd4f0934b94e93bb19b716bd88b18"
+hash = "c0f01d5aa6e314c598324dcd7dd65836b67f7edf36f9c8c166ef003c942e02f7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/04_beyond_the_broken_sky.snbt"
-hash = "373a864cc23002fb45e1edfb0408f6305e16b3ff3402ce0c954f642d93f9ced1"
+hash = "bb07d7b66cc1afebae3cbfdb01cd0c2b3ce1da2d124337823e908888e758169d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/05_the_last_oath.snbt"
-hash = "d43cd1c4504955d6862cffe66bc51764715879a586445137a5a700060f9b14af"
+hash = "8927d7c1a513b9f97a6243a8a59ffc5b5f77f8d77d516281d32bda084d68380b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/06_gearing.snbt"
@@ -175,7 +185,7 @@ hash = "c3fa1bf1927b10174fd2fc71094b99345efe0b68cb8cd4d1b640712a53d4e4e1"
 
 [[files]]
 file = "kubejs/assets/ashen/lang/en_us.json"
-hash = "077bb4bc028ccffc0d82bcf81d881e91310de10054b81f75119e1846ee17ba55"
+hash = "c124e4a2455f978062fc3abe1d1f151eae1cab0fb6f82bee50ec63667070a539"
 
 [[files]]
 file = "kubejs/assets/ashen/textures/gui/lock_on.png"
@@ -851,7 +861,7 @@ hash = "e3f4be457a5cfcb2761caf04a6498c34d073d54537239deb3d736c9e551bb3c7"
 
 [[files]]
 file = "kubejs/data/ashen/functions/trial.mcfunction"
-hash = "701f55571dff20379b6c10e715eecb7c484f07f2e69c9cfd62c3588e16b0a043"
+hash = "a33ac1e435f01ad7598df02b64f93f625cc3b4baf156233a5b6b557396100143"
 
 [[files]]
 file = "kubejs/data/ashen/puffish_skills/categories/classes/category.json"
@@ -863,7 +873,7 @@ hash = "c9b91cc01e250c1e318302920b035f02d701905e0ebac90d56299e8d4237c651"
 
 [[files]]
 file = "kubejs/data/ashen/puffish_skills/categories/classes/definitions.json"
-hash = "79a55f57c1fb66355efd0bebf5cf331ececae8dbde89da285fd5d6a454c8cee7"
+hash = "c10aa04324896672a0bb80bbfe8900ee2ab25f726b01ab3e68fcc7a2b08c3564"
 
 [[files]]
 file = "kubejs/data/ashen/puffish_skills/categories/classes/experience.json"
@@ -1211,11 +1221,11 @@ hash = "e49473330deec3deeed8b452dbb04536bab744590d67df0446f9e3dfc57280f4"
 
 [[files]]
 file = "kubejs/data/ashen/skills/keystone_rogue.json"
-hash = "3765199fd5241b5811d40232a4b865024bfdfc78fed9a7703fa548d8c850f69a"
+hash = "84ad8b942763fa6f0cfb67c8cb0f8f264e884bd9d638b92c6da3056d6711f5c7"
 
 [[files]]
 file = "kubejs/data/ashen/skills/keystone_warrior.json"
-hash = "ecfdf90bc08494b57d12d9e457420f0787c71f15426c4aa171c01147e8aaf374"
+hash = "29f5854008c2379b326c1e7976cf17e77bf6e10f3fe69d0a115d512d59ed7c4c"
 
 [[files]]
 file = "kubejs/data/ashen/skills/mage_0.json"
@@ -1323,7 +1333,7 @@ hash = "505c15a6b1cd59688b0b0b4572479e418ce1dd400841b9745245b0ccef5e3131"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_0.json"
-hash = "bd921df8f22568ba916bbad5e3525fde45b98e5cad0f83b369ad5ca045f52797"
+hash = "809261b95dd79ec19eae39ff373e591407a2968fb996a0ecad9f3950317d7fbd"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_1.json"
@@ -1339,7 +1349,7 @@ hash = "64cb8950b0e8d0bc0cf75fb8935d9d2221da14d1deac9b9e625ed54d364bbcee"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_12.json"
-hash = "0086e91d1c63dbaf61c67d8aca27e619bca0a8fcb1457b15fbadd1ecfb4ce763"
+hash = "3f8570f97b8b067d8278ab0c6398b4360a14126bf85db436dc58e1eb6f95a019"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_13.json"
@@ -1347,15 +1357,15 @@ hash = "e8861c627b3f84e71afc83bc3b4afe6b8cad1d61fd07c57b594e41b4d092cecc"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_14.json"
-hash = "cc88f9a6d8cad3869bb49cf469a87e462955b5498a4f38fc840e47a310d5170a"
+hash = "70a3cc826d696b9d091c959dbf6eff39422afbf213f5b2a05c3caa08aae29a21"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_15.json"
-hash = "bbf5fb7f07574eb32bf7605bfa5c2b4450bdb97ac4ebf12208b1ca8ca2b501eb"
+hash = "846bc83f5e3f5a1e7f9881c286e2f7f8f2c82b2a792b5c52645cb5bcc136170e"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_16.json"
-hash = "e9a90c7f7f37f728cee53b5e502936ff7dfd56eeabb011543d071d872de50292"
+hash = "a27ab6d4c954de62f31d917fda03645a2cfb4dbc3e212fe6188302066fd6531f"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_17.json"
@@ -1363,7 +1373,7 @@ hash = "b44c689b199cdecba4e79d234be8eb1686470f847bf9b15bf94a99d1881ab698"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_18.json"
-hash = "aadb03cc0f19fe154d354d4f08e85aa206e6b9682accecc24a2312184e0a1760"
+hash = "8e82b4482f54464bbe1ab8c4a49aa300d710da3f847fd7d23b5c8f0543b16ec7"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_19.json"
@@ -1371,11 +1381,11 @@ hash = "cc2d0d08b4700f6564f452f2ad452b761a6226520a2d8dcb95fee65bcf4cdec5"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_2.json"
-hash = "e3d0aedde6c083dac3293a16bbb026372364c045fd385b797bd928cb335d2779"
+hash = "6c8ddc0820f35af021c318caf7a9edb372066969015df8b86d7905d80e1771d8"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_20.json"
-hash = "cf42b201ecfea95a421ad669b2a3ef3032b228533780fd070c3fa961d6dd926f"
+hash = "492e904ff8ce1894e66d50f335ccef11219479517ae19490ef5871e696783159"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_21.json"
@@ -1387,7 +1397,7 @@ hash = "ec93e68add75737edaed5b85411f71df382ee10f3f645963c75678036f681ff2"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_4.json"
-hash = "51115870edbe67d0393de61686013269e68e28d347927967eb93a156b680cc06"
+hash = "e13beaec8b6b880cd9ebf065e5416ecb83347e53ecb471b94c5dfad7b950b4d1"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_5.json"
@@ -1399,7 +1409,7 @@ hash = "4854d56ddfce6520755b2b5ca9927ca813c242877fe83a7147616c358c637733"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_7.json"
-hash = "3c361334fd9fb276d484db3b21220d5c594523b11f74ce1ff9896e4af0dee336"
+hash = "0dababd09a957461572d6177cff5a48a806bdb40e1296f3348fbaebc4de53f49"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_8.json"
@@ -1407,7 +1417,7 @@ hash = "49487ecbdb2ba005f614f45adaa1e7eb7fcce1ad207877f1cf1f3d18d42963b6"
 
 [[files]]
 file = "kubejs/data/ashen/skills/ranger_9.json"
-hash = "19d3c0d501ba6918d12e3ffd3c14d40e5b8f7bed91dbf6e9c77cb943ee5740a1"
+hash = "84f251a3bba593e8a86ab3a53dfd6ce6b0e3a7589e837c2a6deae52b08bb7e87"
 
 [[files]]
 file = "kubejs/data/ashen/skills/rogue_0.json"
@@ -1443,7 +1453,7 @@ hash = "cb343ea798bc1c6c4f963d8fc9054a28a798b3dc096e882c780942aaf5a1c118"
 
 [[files]]
 file = "kubejs/data/ashen/skills/rogue_16.json"
-hash = "f4627a0fbc1f755aadd13798a2c80aa7fbd7c8523ed0b97452560c90614211b8"
+hash = "3a86c260a72b6614f7ad532d0fb2b8355ec3c01fad0577b781821a4f4eb1e94d"
 
 [[files]]
 file = "kubejs/data/ashen/skills/rogue_17.json"
@@ -1451,7 +1461,7 @@ hash = "02f1554f87ab99ff7e899a3bd8e5ee05ff31d09b41e3e86781892c609de32b63"
 
 [[files]]
 file = "kubejs/data/ashen/skills/rogue_18.json"
-hash = "d91e6ce23a18db5226e0cf4dd271a4905fb031a617949fa9e1801ebc61958f07"
+hash = "2a2ad8e61aafe00096b820d3bf62ef9fabef0f1623c9af37229499f027494c44"
 
 [[files]]
 file = "kubejs/data/ashen/skills/rogue_19.json"
@@ -1479,7 +1489,7 @@ hash = "1c32a0dfed56024c3af2a44153d4971ce611fc9cff88c288cfb450cf2ed817ee"
 
 [[files]]
 file = "kubejs/data/ashen/skills/rogue_5.json"
-hash = "2009391a319a5a01c31c579191cb7bfbf54e4c510573aa124eb75d41f6e89497"
+hash = "3e25b8eb96145257c265274b94b7def00e2cb60ceab39ea471b9be6f2926e13c"
 
 [[files]]
 file = "kubejs/data/ashen/skills/rogue_6.json"
@@ -1495,7 +1505,7 @@ hash = "5241e1a71000dd48291e0d9aee8966cbcbf5e9994b8a858706f362e95f6163c4"
 
 [[files]]
 file = "kubejs/data/ashen/skills/rogue_9.json"
-hash = "f6ca1eee800dfa09c846ac676c8f5c041fb256c810947f839d2c7032927115b3"
+hash = "064d3d5da5d6e14b82832ed3281fb366461c0dd8962f2fa048d15afcdcf2969e"
 
 [[files]]
 file = "kubejs/data/ashen/skills/rogue_lifesteal_1.json"
@@ -1507,7 +1517,7 @@ hash = "d585fd8b1798a7a2e9a661632c11eabe4dba2fbfe6fda37576a4543a3183ca3b"
 
 [[files]]
 file = "kubejs/data/ashen/skills/warrior_0.json"
-hash = "54d334a9e8731f3a784591e48e75cd4623c88f96c7eca80b62dce4edf6344a63"
+hash = "427a712ce99cfa6ad16c0c022a2019feedd7d189d030b31fb7f17ff7b30f562b"
 
 [[files]]
 file = "kubejs/data/ashen/skills/warrior_1.json"
@@ -1519,11 +1529,11 @@ hash = "b4d23f21d54660fa57a0530a9693a022ffc144dc57a3b514f010915d620c1a0a"
 
 [[files]]
 file = "kubejs/data/ashen/skills/warrior_11.json"
-hash = "a8ae0b86a1c75c5bae71a002752ce45b4d98c0d15113fbd1e34a144f03982ff5"
+hash = "10b23945f9d02627feb98b205555646c8690dd005208f3469c3fcea65067dfec"
 
 [[files]]
 file = "kubejs/data/ashen/skills/warrior_12.json"
-hash = "14e1f93c1fc6fe281c549f9cc101a338b62fb3bafe51951aa79139537681dc75"
+hash = "1a07146b1a8d8161b85a5c6dd9054f176fee21b0508cfb27414beb7dbd073cb9"
 
 [[files]]
 file = "kubejs/data/ashen/skills/warrior_13.json"
@@ -1535,11 +1545,11 @@ hash = "cc2f5a50777f96a7bfb74dce4ada32f92c1058b17dc2c902db3f83d932fba69c"
 
 [[files]]
 file = "kubejs/data/ashen/skills/warrior_15.json"
-hash = "6825f0db6154f4ee947ff6da0d630f594d79f82fe8b6ce1a79f47a097dcfc435"
+hash = "e45d63a5e0ea082eed2e49e3674a1adafec804d0c55e075eda4c75d64f799726"
 
 [[files]]
 file = "kubejs/data/ashen/skills/warrior_16.json"
-hash = "ff8e93e3cbbd7ee37f0ef66e241cfdbbaf44f6659024b06a8843fb81dd1a950d"
+hash = "240fec6853618ea79fe449c7735ea03d370f0f81d7d3b25442558c1d0dfced52"
 
 [[files]]
 file = "kubejs/data/ashen/skills/warrior_17.json"
@@ -1547,7 +1557,7 @@ hash = "7371b4b2bc81efc56c8a97385e204c094e1a459cd0779dd292fe844623286723"
 
 [[files]]
 file = "kubejs/data/ashen/skills/warrior_18.json"
-hash = "6312dc549511a85f6384377b56ba2fa54e251a9f539df95be44f8c5f95a2ec19"
+hash = "8d2b6816a75f93b8ca0d40bd9b652aeb2f4a5ebaaf3ed07204763d3d6eb4b082"
 
 [[files]]
 file = "kubejs/data/ashen/skills/warrior_19.json"
@@ -1555,7 +1565,7 @@ hash = "4d24cc28fbd5d45e6694d604545eca6c3a5023617f9852f345c741ec30f80a83"
 
 [[files]]
 file = "kubejs/data/ashen/skills/warrior_2.json"
-hash = "074559871f645c1fd099280b3d2cccd8a7ca7370f84e5368135ca1bcfe108679"
+hash = "3f98062e04aca9c35cc32966d7a87221bca0c091723a8eb0f043e3b374e965a2"
 
 [[files]]
 file = "kubejs/data/ashen/skills/warrior_20.json"
@@ -1563,7 +1573,7 @@ hash = "487e3aaef6e9b2d8d2242bf72803e8a5c185868f12cf57587cc58936774bf54c"
 
 [[files]]
 file = "kubejs/data/ashen/skills/warrior_21.json"
-hash = "70ab8d7fdf521397d3b8e4b1f2f1536315d627dce5b37ab96ac6d668d6453514"
+hash = "6f6bc02e5d35f058d14a50cd65f03ab878e764889b8d01d7a7168c26223b5c86"
 
 [[files]]
 file = "kubejs/data/ashen/skills/warrior_3.json"
@@ -1571,7 +1581,7 @@ hash = "ed3c38876df0aa8de8437a7cb0394728babe2bd4c6e100e1849b823ab587a5c4"
 
 [[files]]
 file = "kubejs/data/ashen/skills/warrior_4.json"
-hash = "6f3d48d1fe5167ee9a4150a72d7e5913cc0b885ab32deaf7eab95365e1c3ccaf"
+hash = "b51ebaa0cf9f7613a365e0e4af82569e06137b827cdc2a306c1a8114adf262a6"
 
 [[files]]
 file = "kubejs/data/ashen/skills/warrior_5.json"
@@ -1655,231 +1665,231 @@ hash = "90763d5abbf27c24babf4427095499588d28d58c19a9a7df69b06c4cd54ba7ec"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/acupuncture.json"
-hash = "188aef418afc762ecb3d4dc6e5f6f4ec7392de9c03cb519a246b3b0c601acb41"
+hash = "6f9d7dc21aa8c335f931b904e74ae7411888f25da606c32d9c984ca118d355cd"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/arrow_volley.json"
-hash = "4eb3b7f526ff75b0959374bfc686e3a9302473b53b4857c5d98be26886d0f19a"
+hash = "edf6107f464559552e4108605901bda7127f4efc5a9b8a4afbdf0ab49641a33b"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/ascension.json"
-hash = "19217d8dd4fb96eb579160eec33d1bb5828f07499865c4c31d40649d1f6c581b"
+hash = "cbaa04f2bbb9bdbbbe3f56d83c61468367eb2c83169f911492a96d19c6f4a927"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/ball_lightning.json"
-hash = "174cf2297b6820e0d40014db8e535e02b18e090a5bd2a3c1505d9209b3ab95eb"
+hash = "4f1af2c438fd8d2e34a2601233096fe9c332c2a7027a7846f91187f047af84dc"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/black_hole.json"
-hash = "f25b3e0800ea5709d7fed35e2ee3bc392c477b79a98326a1c8a7570b2b88635e"
+hash = "850df4f5fde00fa6885aaa52d40ba7a8873b6d92b1e4d71f1564e3e038c42277"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/blaze_storm.json"
-hash = "4eb3b7f526ff75b0959374bfc686e3a9302473b53b4857c5d98be26886d0f19a"
+hash = "edf6107f464559552e4108605901bda7127f4efc5a9b8a4afbdf0ab49641a33b"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/blood_needles.json"
-hash = "188aef418afc762ecb3d4dc6e5f6f4ec7392de9c03cb519a246b3b0c601acb41"
+hash = "6f9d7dc21aa8c335f931b904e74ae7411888f25da606c32d9c984ca118d355cd"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/blood_slash.json"
-hash = "19217d8dd4fb96eb579160eec33d1bb5828f07499865c4c31d40649d1f6c581b"
+hash = "cbaa04f2bbb9bdbbbe3f56d83c61468367eb2c83169f911492a96d19c6f4a927"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/burning_dash.json"
-hash = "19217d8dd4fb96eb579160eec33d1bb5828f07499865c4c31d40649d1f6c581b"
+hash = "cbaa04f2bbb9bdbbbe3f56d83c61468367eb2c83169f911492a96d19c6f4a927"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/chain_creeper.json"
-hash = "188aef418afc762ecb3d4dc6e5f6f4ec7392de9c03cb519a246b3b0c601acb41"
+hash = "6f9d7dc21aa8c335f931b904e74ae7411888f25da606c32d9c984ca118d355cd"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/cone_of_cold.json"
-hash = "4eb3b7f526ff75b0959374bfc686e3a9302473b53b4857c5d98be26886d0f19a"
+hash = "edf6107f464559552e4108605901bda7127f4efc5a9b8a4afbdf0ab49641a33b"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/devour.json"
-hash = "1533a12b635871281f70757d2eb573b64d5db46302701bec32556634471c64cc"
+hash = "a288b6411c1e9b9ebf9cdd33d3a2b7fb7f2f1949b44bbebfb5652c56ebac1127"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/dragon_breath.json"
-hash = "4eb3b7f526ff75b0959374bfc686e3a9302473b53b4857c5d98be26886d0f19a"
+hash = "edf6107f464559552e4108605901bda7127f4efc5a9b8a4afbdf0ab49641a33b"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/earthquake.json"
-hash = "174cf2297b6820e0d40014db8e535e02b18e090a5bd2a3c1505d9209b3ab95eb"
+hash = "4f1af2c438fd8d2e34a2601233096fe9c332c2a7027a7846f91187f047af84dc"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/eldritch_blast.json"
-hash = "f25b3e0800ea5709d7fed35e2ee3bc392c477b79a98326a1c8a7570b2b88635e"
+hash = "850df4f5fde00fa6885aaa52d40ba7a8873b6d92b1e4d71f1564e3e038c42277"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/electrocute.json"
-hash = "945d33be5b539b0e5d79a84335f78dfe7eb9deee9976fefa78eb66894220b2c5"
+hash = "1d89ee9453072c4543dcc47167abf8741a1e437f3785f2f13bfdfbe59ed2a08d"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/fang_strike.json"
-hash = "174cf2297b6820e0d40014db8e535e02b18e090a5bd2a3c1505d9209b3ab95eb"
+hash = "4f1af2c438fd8d2e34a2601233096fe9c332c2a7027a7846f91187f047af84dc"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/fang_swirl.json"
-hash = "174cf2297b6820e0d40014db8e535e02b18e090a5bd2a3c1505d9209b3ab95eb"
+hash = "4f1af2c438fd8d2e34a2601233096fe9c332c2a7027a7846f91187f047af84dc"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/fang_ward.json"
-hash = "174cf2297b6820e0d40014db8e535e02b18e090a5bd2a3c1505d9209b3ab95eb"
+hash = "4f1af2c438fd8d2e34a2601233096fe9c332c2a7027a7846f91187f047af84dc"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/fire_arrow.json"
-hash = "2ab329c4b372a2c2a23954e887e9103dc47d64ced7c2213a6b9957270b570f6b"
+hash = "871116e9ba9d0aed498cc64dc441a2ea7a2a98f76eafa8c5bfba8d984c6738e9"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/fire_breath.json"
-hash = "4eb3b7f526ff75b0959374bfc686e3a9302473b53b4857c5d98be26886d0f19a"
+hash = "edf6107f464559552e4108605901bda7127f4efc5a9b8a4afbdf0ab49641a33b"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/fireball.json"
-hash = "cb5d5f08f860bd238fe07483a2c73ff6e6d736b349fbfd60a3eec002dd829a60"
+hash = "5920b0cf7898566a4b518ef05eb91e6f5486ae7db118ccbcbf224d39b6b9444a"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/firebolt.json"
-hash = "cbef42d744e9641d3d27f990ebdb101b6fd85639440aea226aea2f4c07fe5c66"
+hash = "b84db5584445baa691542cf155433834876bea559d0865e02d594563ed0f3fc6"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/firecracker.json"
-hash = "188aef418afc762ecb3d4dc6e5f6f4ec7392de9c03cb519a246b3b0c601acb41"
+hash = "6f9d7dc21aa8c335f931b904e74ae7411888f25da606c32d9c984ca118d355cd"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/firefly_swarm.json"
-hash = "174cf2297b6820e0d40014db8e535e02b18e090a5bd2a3c1505d9209b3ab95eb"
+hash = "4f1af2c438fd8d2e34a2601233096fe9c332c2a7027a7846f91187f047af84dc"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/flaming_barrage.json"
-hash = "174cf2297b6820e0d40014db8e535e02b18e090a5bd2a3c1505d9209b3ab95eb"
+hash = "4f1af2c438fd8d2e34a2601233096fe9c332c2a7027a7846f91187f047af84dc"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/frost_step.json"
-hash = "19217d8dd4fb96eb579160eec33d1bb5828f07499865c4c31d40649d1f6c581b"
+hash = "cbaa04f2bbb9bdbbbe3f56d83c61468367eb2c83169f911492a96d19c6f4a927"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/frostbite.json"
-hash = "cb5d5f08f860bd238fe07483a2c73ff6e6d736b349fbfd60a3eec002dd829a60"
+hash = "5920b0cf7898566a4b518ef05eb91e6f5486ae7db118ccbcbf224d39b6b9444a"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/guiding_bolt.json"
-hash = "19217d8dd4fb96eb579160eec33d1bb5828f07499865c4c31d40649d1f6c581b"
+hash = "cbaa04f2bbb9bdbbbe3f56d83c61468367eb2c83169f911492a96d19c6f4a927"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/gust.json"
-hash = "e7a9f4a706c92ce121d227b22a5662b535bccae853da2b09992a02ffbd770a59"
+hash = "132cc4d81155108276bc9fb7e4ef8bd7f36b1ad8c647405dc32475efd1e00d14"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/ice_block.json"
-hash = "4600fcd7cfb7baa602bc45f5bdfb7b1a62aff7c02378d2e2fc5a0d9d94505cb5"
+hash = "4c7d0d8407a6d260c7a749c7d617c7c914441a13da15ebea32e11c260014e1b5"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/ice_spikes.json"
-hash = "f25b3e0800ea5709d7fed35e2ee3bc392c477b79a98326a1c8a7570b2b88635e"
+hash = "850df4f5fde00fa6885aaa52d40ba7a8873b6d92b1e4d71f1564e3e038c42277"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/icicle.json"
-hash = "cbef42d744e9641d3d27f990ebdb101b6fd85639440aea226aea2f4c07fe5c66"
+hash = "b84db5584445baa691542cf155433834876bea559d0865e02d594563ed0f3fc6"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/lightning_bolt.json"
-hash = "5f53e7724072a4d3622049cef58dc30ee6fbd9684efe2363cc403ef1b94888f7"
+hash = "8068444d5639c01acfd6be1a2a70a9836ac19a806ae9dd0c599c15b765b8b069"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/lightning_lance.json"
-hash = "188aef418afc762ecb3d4dc6e5f6f4ec7392de9c03cb519a246b3b0c601acb41"
+hash = "6f9d7dc21aa8c335f931b904e74ae7411888f25da606c32d9c984ca118d355cd"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/lob_creeper.json"
-hash = "188aef418afc762ecb3d4dc6e5f6f4ec7392de9c03cb519a246b3b0c601acb41"
+hash = "6f9d7dc21aa8c335f931b904e74ae7411888f25da606c32d9c984ca118d355cd"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/magic_arrow.json"
-hash = "2ab329c4b372a2c2a23954e887e9103dc47d64ced7c2213a6b9957270b570f6b"
+hash = "871116e9ba9d0aed498cc64dc441a2ea7a2a98f76eafa8c5bfba8d984c6738e9"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/magic_missile.json"
-hash = "cbef42d744e9641d3d27f990ebdb101b6fd85639440aea226aea2f4c07fe5c66"
+hash = "b84db5584445baa691542cf155433834876bea559d0865e02d594563ed0f3fc6"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/magma_bomb.json"
-hash = "2ab329c4b372a2c2a23954e887e9103dc47d64ced7c2213a6b9957270b570f6b"
+hash = "871116e9ba9d0aed498cc64dc441a2ea7a2a98f76eafa8c5bfba8d984c6738e9"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/poison_arrow.json"
-hash = "abcb6bbdf7f738725109fb903fe1dbeccb8adff7405865083c52762cdfb20056"
+hash = "a4981e63ac023ce2a7c600a396acdc578b775c449d52d5ccc18409a892caf056"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/poison_breath.json"
-hash = "4eb3b7f526ff75b0959374bfc686e3a9302473b53b4857c5d98be26886d0f19a"
+hash = "edf6107f464559552e4108605901bda7127f4efc5a9b8a4afbdf0ab49641a33b"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/poison_splash.json"
-hash = "19217d8dd4fb96eb579160eec33d1bb5828f07499865c4c31d40649d1f6c581b"
+hash = "cbaa04f2bbb9bdbbbe3f56d83c61468367eb2c83169f911492a96d19c6f4a927"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/ray_of_frost.json"
-hash = "f25b3e0800ea5709d7fed35e2ee3bc392c477b79a98326a1c8a7570b2b88635e"
+hash = "850df4f5fde00fa6885aaa52d40ba7a8873b6d92b1e4d71f1564e3e038c42277"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/ray_of_siphoning.json"
-hash = "219dbb70109a4e6c6335af0d9e7d187512521a1b6f435feacd36318aa9a62480"
+hash = "a216f4f04073091e128e294c68b3073b9934b3c5734af3819283f551a0e314d4"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/sacrifice.json"
-hash = "f25b3e0800ea5709d7fed35e2ee3bc392c477b79a98326a1c8a7570b2b88635e"
+hash = "850df4f5fde00fa6885aaa52d40ba7a8873b6d92b1e4d71f1564e3e038c42277"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/scorch.json"
-hash = "abcb6bbdf7f738725109fb903fe1dbeccb8adff7405865083c52762cdfb20056"
+hash = "a4981e63ac023ce2a7c600a396acdc578b775c449d52d5ccc18409a892caf056"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/sculk_tentacles.json"
-hash = "174cf2297b6820e0d40014db8e535e02b18e090a5bd2a3c1505d9209b3ab95eb"
+hash = "4f1af2c438fd8d2e34a2601233096fe9c332c2a7027a7846f91187f047af84dc"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/shockwave.json"
-hash = "1364e17976a3f9b3ce932185be49c191ec24cb0e683deece7c6ad8c12e006221"
+hash = "7872a90b5d62e594b374f61969f4f91d0a6f94472dced5bb3182c94ceb198129"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/sonic_boom.json"
-hash = "977ab4c5da750415fc49e18596b4de943611b929a05e74a4c6fa79f6218ba7ce"
+hash = "20f193cc58a8e03779bf1ba875eff9170505b90e05340aabd22b2bde54044124"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/starfall.json"
-hash = "4eb3b7f526ff75b0959374bfc686e3a9302473b53b4857c5d98be26886d0f19a"
+hash = "edf6107f464559552e4108605901bda7127f4efc5a9b8a4afbdf0ab49641a33b"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/stomp.json"
-hash = "015206ef940caa365c489bc98bb69cd8003529856dac5b064f16ff3a87868942"
+hash = "61bcec7ffd939ceb892ca920885c5a3065154624e75bc3c86a62b1385de61542"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/sunbeam.json"
-hash = "f25b3e0800ea5709d7fed35e2ee3bc392c477b79a98326a1c8a7570b2b88635e"
+hash = "850df4f5fde00fa6885aaa52d40ba7a8873b6d92b1e4d71f1564e3e038c42277"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/thunderstorm.json"
-hash = "6a8f49a0dfcfcbede6ac182e07aca2c9aca448633c82e93301179b67b7c4f478"
+hash = "0bcd8e70394509de9c8296aa39380eb6ddacdef6ad26e32add7b3be77ce22224"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/volt_strike.json"
-hash = "19217d8dd4fb96eb579160eec33d1bb5828f07499865c4c31d40649d1f6c581b"
+hash = "cbaa04f2bbb9bdbbbe3f56d83c61468367eb2c83169f911492a96d19c6f4a927"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/wall_of_fire.json"
-hash = "4eb3b7f526ff75b0959374bfc686e3a9302473b53b4857c5d98be26886d0f19a"
+hash = "edf6107f464559552e4108605901bda7127f4efc5a9b8a4afbdf0ab49641a33b"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/wisp.json"
-hash = "174cf2297b6820e0d40014db8e535e02b18e090a5bd2a3c1505d9209b3ab95eb"
+hash = "4f1af2c438fd8d2e34a2601233096fe9c332c2a7027a7846f91187f047af84dc"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/irons_spellbooks_spell_config/wither_skull.json"
-hash = "2ab329c4b372a2c2a23954e887e9103dc47d64ced7c2213a6b9957270b570f6b"
+hash = "871116e9ba9d0aed498cc64dc441a2ea7a2a98f76eafa8c5bfba8d984c6738e9"
 
 [[files]]
 file = "kubejs/data/minecraft/tags/functions/load.json"
@@ -3055,7 +3065,7 @@ hash = "c579f27a23736ad4568ffb99b32c60a13137eb100138c93f78df3960ec48bb56"
 
 [[files]]
 file = "kubejs/server_scripts/ashen_boss_challenges.js"
-hash = "e805681f00de96987bd751406da76848ce4544d56231aab60315159a216ebbc1"
+hash = "88c812a7e7846a2febcd21dc59db9407180a08ba766a8d7a2cff7fec4ac49988"
 
 [[files]]
 file = "kubejs/server_scripts/ashen_core_spells.js"
@@ -3075,7 +3085,7 @@ hash = "684e41c79b789f8a5a8571def30028dd50873a1035ff8664214d5942cba8aa02"
 
 [[files]]
 file = "kubejs/server_scripts/ashen_passive_tree.js"
-hash = "95776c457021301da1677ecd7a0254ce5c6889ebab1db0be1452a4f3b1bef49c"
+hash = "cc223b7748c71b0f94b31ac9b740be558a3189e122b7505f39a0fef37bb986aa"
 
 [[files]]
 file = "kubejs/server_scripts/ashen_recipes.js"
@@ -3090,12 +3100,16 @@ file = "kubejs/server_scripts/ashen_story.js"
 hash = "8d9d5b97098f96c89638474a73f4f201f0381cc95a79faef1b0e091b56209947"
 
 [[files]]
+file = "kubejs/server_scripts/ashen_story_reward_recovery.js"
+hash = "ee5b8fe3eb1cfc4335f144bda562b19a6fbc0e37d6a63c3776e37acfcc6a4ecc"
+
+[[files]]
 file = "kubejs/server_scripts/ashen_subclass_effects.js"
 hash = "97a17f867c53b989fb7e1545058d971caac5da148f1059f46598081c66415bac"
 
 [[files]]
 file = "kubejs/startup_scripts/00_ashen_combat_data.js"
-hash = "09bb4daf3d13220484d6d63268c149486c7c01baa6cf9263c6c1e616df5e6df4"
+hash = "27448d35500163a6ad5f08b2e3eb12be566aa10fb79e7b0c9b2cd4edb39a1d46"
 
 [[files]]
 file = "kubejs/startup_scripts/ashen_ability_keybinds.js"
@@ -3244,7 +3258,7 @@ metafile = true
 
 [[files]]
 file = "mods/ashen-skill-bridge-1.0.0.jar"
-hash = "abe1a7760ba823b4679dbcd314a116a280d5fcc0159acb3a8840a4107428be38"
+hash = "dad96a7ae6b32a8ddd50f6315f2065df428f2dd9664470e4d9786253d93cbb52"
 
 [[files]]
 file = "mods/blueprint-1.20.1-7.1.5.jar.pw.toml"

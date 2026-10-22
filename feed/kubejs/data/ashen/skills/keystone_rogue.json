@@ -7,7 +7,7 @@
       "attribute": "minecraft:generic.attack_damage",
       "id": "c9a0da29-f720-5f90-bcc4-ddafc2e11b53",
       "name": "Ashen keystone_rogue",
-      "amount": 0.25,
+      "amount": 0.05,
       "operation": 1,
       "player_multiplier": {
         "type": "skilltree:none"

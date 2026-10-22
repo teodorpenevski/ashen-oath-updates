@@ -7,7 +7,7 @@
       "attribute": "attributeslib:arrow_damage",
       "id": "4d35db10-5075-54b3-85d3-90e795a70ce9",
       "name": "Ashen ranger_15",
-      "amount": 0.05,
+      "amount": 0.025,
       "operation": 1,
       "player_multiplier": {
         "type": "skilltree:none"

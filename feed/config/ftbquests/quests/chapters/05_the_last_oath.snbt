@@ -223,17 +223,17 @@
           "command": "function ashen:quest/defeat_ignis",
           "elevate_perms": true,
           "silent": true,
-          "autoclaim": "enabled",
           "team_reward": true,
           "title": "Boss victory recorded",
-          "icon": "minecraft:book"
+          "icon": "minecraft:book",
+          "auto": "enabled"
         },
         {
           "id": "1C034D8487776A5F",
           "type": "item",
           "item": "kubejs:memory_5",
           "count": 1,
-          "autoclaim": "enabled"
+          "auto": "enabled"
         }
       ],
       "dependencies": [
@@ -432,10 +432,10 @@
           "command": "function ashen:chapter/complete_5",
           "elevate_perms": true,
           "silent": true,
-          "autoclaim": "enabled",
           "team_reward": true,
           "title": "Chapter 5 completed",
-          "icon": "minecraft:book"
+          "icon": "minecraft:book",
+          "auto": "enabled"
         }
       ],
       "dependencies": [

@@ -7,7 +7,7 @@
       "attribute": "attributeslib:arrow_damage",
       "id": "3989a32c-4d9f-5ba0-8120-c0245278c455",
       "name": "Ashen ranger_4",
-      "amount": 0.05,
+      "amount": 0.025,
       "operation": 1,
       "player_multiplier": {
         "type": "skilltree:none"
@@ -21,7 +21,7 @@
       "attribute": "ashen_skill_bridge:bow_damage",
       "id": "1ed3d4fb-8179-53bf-bbb6-bff4d79a7139",
       "name": "Ashen ranger_4",
-      "amount": 1,
+      "amount": 0.8,
       "operation": 0,
       "player_multiplier": {
         "type": "skilltree:none"

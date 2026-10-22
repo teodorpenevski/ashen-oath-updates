@@ -381,8 +381,8 @@
       "title": "The Oathless",
       "description": [
         "Craft the reusable Oath Shard from iron, rotten flesh and amethyst (JEI shows its recipe). Stand outdoors, aim into open air and right-click it to summon The Oathless four blocks ahead.",
-        "This is a custom husk champion, not a randomly generated Apotheosis elite. It has 50 health, armor and a sword. It cannot despawn.",
-        "Only one can be summoned nearby at a time. The shard is reusable if you need to try again."
+        "This armored husk champion has 1,500 health, a sword and a boss health bar. Bring a prepared weapon and watch its approach; it cannot despawn.",
+        "Only one live trial can be summoned within 96 blocks. The shard remains reusable for another attempt or the optional boss contracts."
       ],
       "x": 23.0,
       "y": 0.0,
@@ -444,7 +444,7 @@
           "type": "item",
           "item": "kubejs:memory_1",
           "count": 1,
-          "autoclaim": "enabled"
+          "auto": "enabled"
         }
       ],
       "dependencies": [
@@ -474,10 +474,10 @@
           "command": "function ashen:chapter/complete_1",
           "elevate_perms": true,
           "silent": true,
-          "autoclaim": "enabled",
           "team_reward": true,
           "title": "Chapter 1 completed",
-          "icon": "minecraft:book"
+          "icon": "minecraft:book",
+          "auto": "enabled"
         }
       ],
       "dependencies": [

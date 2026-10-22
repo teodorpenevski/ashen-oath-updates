@@ -35,7 +35,7 @@
       "attribute": "minecraft:generic.attack_damage",
       "id": "404b009d-b2c5-5971-a5c9-3014e17d7df8",
       "name": "Ashen rogue_16",
-      "amount": 0.5,
+      "amount": 0.3,
       "operation": 0,
       "player_multiplier": {
         "type": "skilltree:none"

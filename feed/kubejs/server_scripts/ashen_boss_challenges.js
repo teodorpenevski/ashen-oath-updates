@@ -56,9 +56,9 @@ EntityEvents.death(event => {
   if (!kind) return;
   // Dedupe a death callback without treating an ordinary named mob as a boss.
   if (entity.persistentData.getBoolean('ashen_bounty_counted')) return;
-  entity.persistentData.putBoolean('ashen_bounty_counted', true);
   var file = AshenBossFile.INSTANCE;
-  var team = file.getOrCreateTeamData(player);
+  // Rhino otherwise considers both UUID and Entity overloads applicable to a player.
+  var team = file['getOrCreateTeamData(net.minecraft.world.entity.Entity)'](player);
   var tasks = file.getAllTasks();
   var eligible = [];
   for (var i = 0; i < tasks.size(); i++) {
@@ -68,4 +68,5 @@ EntityEvents.death(event => {
   }
   // Snapshot eligibility so a single death cannot complete two contract tiers.
   eligible.forEach(task => team.addProgress(task, 1));
+  entity.persistentData.putBoolean('ashen_bounty_counted', true);
 });

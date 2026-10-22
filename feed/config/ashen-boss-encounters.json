@@ -1,0 +1,172 @@
+{
+  "oathless": {
+    "health": 1500,
+    "armor": 20,
+    "toughness": 8,
+    "attack_damage": 8,
+    "movement_speed": 0.3,
+    "knockback_resistance": 0.6
+  },
+  "bosses": {
+    "cataclysm:amethyst_crab": {
+      "health": 650,
+      "armor": 8,
+      "toughness": 2
+    },
+    "cataclysm:ancient_remnant": {
+      "health": 3800,
+      "armor": 16,
+      "toughness": 6
+    },
+    "cataclysm:aptrgangr": {
+      "health": 800,
+      "armor": 8,
+      "toughness": 2
+    },
+    "cataclysm:clawdian": {
+      "health": 900,
+      "armor": 8,
+      "toughness": 2
+    },
+    "cataclysm:coral_golem": {
+      "health": 500,
+      "armor": 8,
+      "toughness": 2
+    },
+    "cataclysm:coralssus": {
+      "health": 700,
+      "armor": 8,
+      "toughness": 2
+    },
+    "cataclysm:ender_golem": {
+      "health": 900,
+      "armor": 8,
+      "toughness": 2
+    },
+    "cataclysm:ender_guardian": {
+      "health": 3600,
+      "armor": 16,
+      "toughness": 6
+    },
+    "cataclysm:ignis": {
+      "health": 4800,
+      "armor": 16,
+      "toughness": 6
+    },
+    "cataclysm:ignited_berserker": {
+      "health": 400,
+      "armor": 8,
+      "toughness": 2
+    },
+    "cataclysm:ignited_revenant": {
+      "health": 650,
+      "armor": 8,
+      "toughness": 2
+    },
+    "cataclysm:kobolediator": {
+      "health": 900,
+      "armor": 8,
+      "toughness": 2
+    },
+    "cataclysm:maledictus": {
+      "health": 4200,
+      "armor": 16,
+      "toughness": 6
+    },
+    "cataclysm:netherite_monstrosity": {
+      "health": 2400,
+      "armor": 16,
+      "toughness": 6
+    },
+    "cataclysm:scylla": {
+      "health": 4000,
+      "armor": 16,
+      "toughness": 6
+    },
+    "cataclysm:the_harbinger": {
+      "health": 3000,
+      "armor": 16,
+      "toughness": 6
+    },
+    "cataclysm:the_leviathan": {
+      "health": 4000,
+      "armor": 16,
+      "toughness": 6
+    },
+    "cataclysm:the_prowler": {
+      "health": 750,
+      "armor": 8,
+      "toughness": 2
+    },
+    "cataclysm:wadjet": {
+      "health": 650,
+      "armor": 8,
+      "toughness": 2
+    },
+    "irons_spellbooks:archevoker": {
+      "health": 450,
+      "armor": 8,
+      "toughness": 2
+    },
+    "irons_spellbooks:citadel_keeper": {
+      "health": 700,
+      "armor": 8,
+      "toughness": 2
+    },
+    "irons_spellbooks:dead_king": {
+      "health": 3000,
+      "armor": 16,
+      "toughness": 6
+    },
+    "irons_spellbooks:fire_boss": {
+      "health": 4000,
+      "armor": 16,
+      "toughness": 6
+    },
+    "irons_spellbooks:necromancer": {
+      "health": 300,
+      "armor": 8,
+      "toughness": 2
+    },
+    "minecraft:elder_guardian": {
+      "health": 650,
+      "armor": 8,
+      "toughness": 2
+    },
+    "minecraft:ender_dragon": {
+      "health": 3200,
+      "armor": 16,
+      "toughness": 6
+    },
+    "minecraft:evoker": {
+      "health": 250,
+      "armor": 8,
+      "toughness": 2
+    },
+    "minecraft:ravager": {
+      "health": 600,
+      "armor": 8,
+      "toughness": 2
+    },
+    "minecraft:warden": {
+      "health": 2000,
+      "armor": 16,
+      "toughness": 6
+    },
+    "minecraft:wither": {
+      "health": 2400,
+      "armor": 16,
+      "toughness": 6
+    },
+    "wom:lycanth": {
+      "health": 600,
+      "armor": 8,
+      "toughness": 2
+    },
+    "wom:saulomonk": {
+      "health": 750,
+      "armor": 8,
+      "toughness": 2
+    }
+  }
+}

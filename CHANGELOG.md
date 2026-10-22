@@ -4,6 +4,22 @@ Short player-facing notes for every published updater version. Earlier developme
 
 [GitHub Releases](https://github.com/teodorpenevski/ashen-oath-updates/releases)
 
+## 1.0.24
+
+- Boss damage now scales with your gear: lifted Cataclysm's restrictive hit/DPS limits and removed Tyros's large-hit damage penalty. Optimized builds can burst bosses down; health, armor, healing, shields and phase mechanics are retained.
+
+- Fixed story chapter and boss unlock rewards failing to auto-claim, which could leave the Netherite Monstrosity immune despite Chapter 2 being visible. Completed campaign rewards now repair their missing server unlocks without resetting quests or skipping unfinished chapters.
+
+- Reduced the largest raw damage bonuses across Warrior, Rogue and Ranger, and lowered wand bases and existing player spell-damage profiles. The saved four-class benchmark measured 19.5–23% lower sustained damage, while attack speed, utility and allocated passive progress are preserved.
+- Melee weapons equipped in the offhand now contribute their Apotheosis affix and socketed-gem attributes to character stats and gameplay, without adding a second weapon's base stats or double-counting offhand strike damage.
+
+- Project feature guides and validation reports are grouped under docs/features with a categorized index; documentation links and report generators follow the new locations.
+
+
+- Fixed the Oathless trophy/progression failure and boss kill counters. The first boss now has 1,500 HP, visible iron armor and a native boss bar; weak later bosses and elites receive non-stacking health/defense floors. Existing campaign progress is retained.
+
+[Release page](https://github.com/teodorpenevski/ashen-oath-updates/releases/tag/v1.0.24) | [Full changes](https://github.com/teodorpenevski/ashen-oath-updates/compare/v1.0.23...v1.0.24)
+
 ## 1.0.23
 
 - Wand attacks now flow through three distinct arm and body movements, followed by an 800 ms wind-up after the third shot. Individual shot damage and the stronger third hit remain unchanged.

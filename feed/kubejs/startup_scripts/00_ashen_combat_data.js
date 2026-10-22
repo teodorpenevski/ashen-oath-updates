@@ -105,7 +105,7 @@ global.ashenCombat = {
         "bonuses": [
           [
             "minecraft:generic.attack_damage",
-            0.4,
+            0.2,
             "multiply_base"
           ],
           [
@@ -119,14 +119,14 @@ global.ashenCombat = {
             "addition"
           ]
         ],
-        "description": "+40% attack damage, +25% knockback resistance and +3 armor toughness."
+        "description": "+20% attack damage, +25% knockback resistance and +3 armor toughness."
       },
       "rogue": {
         "title": "Executioner",
         "bonuses": [
           [
             "minecraft:generic.attack_damage",
-            0.25,
+            0.05,
             "multiply_base"
           ],
           [
@@ -135,7 +135,7 @@ global.ashenCombat = {
             "addition"
           ]
         ],
-        "description": "+25% attack damage and +75 percentage points of critical damage."
+        "description": "+5% attack damage and +75 percentage points of critical damage."
       }
     },
     "ascendancy": {
@@ -175,7 +175,7 @@ global.ashenCombat = {
       "ranger_20": [
         [
           "attributeslib:arrow_damage",
-          0.23,
+          0.12,
           "multiply_base"
         ],
         [
@@ -216,21 +216,21 @@ global.ashenCombat = {
         ],
         [
           "minecraft:generic.attack_damage",
-          0.1,
+          0.08,
           "multiply_base"
         ]
       ],
       "warrior_2": [
         [
           "minecraft:generic.attack_damage",
-          1.5,
+          1.3,
           "addition"
         ]
       ],
       "warrior_4": [
         [
           "minecraft:generic.attack_damage",
-          1.5,
+          1.3,
           "addition"
         ]
       ],
@@ -242,14 +242,14 @@ global.ashenCombat = {
         ],
         [
           "minecraft:generic.attack_damage",
-          0.12,
+          0.08,
           "multiply_base"
         ]
       ],
       "warrior_12": [
         [
           "minecraft:generic.attack_damage",
-          1.5,
+          1.3,
           "addition"
         ],
         [
@@ -261,14 +261,14 @@ global.ashenCombat = {
       "warrior_15": [
         [
           "minecraft:generic.attack_damage",
-          1.5,
+          1.3,
           "addition"
         ]
       ],
       "warrior_16": [
         [
           "minecraft:generic.attack_damage",
-          1.5,
+          1.3,
           "addition"
         ],
         [
@@ -290,7 +290,7 @@ global.ashenCombat = {
         ],
         [
           "minecraft:generic.attack_damage",
-          1.5,
+          1.3,
           "addition"
         ],
         [
@@ -302,7 +302,7 @@ global.ashenCombat = {
       "warrior_21": [
         [
           "minecraft:generic.attack_damage",
-          0.15,
+          0.1,
           "multiply_base"
         ],
         [
@@ -314,7 +314,7 @@ global.ashenCombat = {
       "keystone_warrior": [
         [
           "minecraft:generic.attack_damage",
-          0.4,
+          0.2,
           "multiply_base"
         ],
         [
@@ -431,7 +431,7 @@ global.ashenCombat = {
         ],
         [
           "ashen_skill_bridge:bow_damage",
-          1,
+          0.8,
           "addition"
         ]
       ],
@@ -445,7 +445,7 @@ global.ashenCombat = {
       "ranger_14": [
         [
           "attributeslib:arrow_damage",
-          0.1,
+          0.05,
           "multiply_base"
         ],
         [
@@ -464,24 +464,24 @@ global.ashenCombat = {
       "ranger_2": [
         [
           "attributeslib:arrow_damage",
-          0.05,
+          0.025,
           "multiply_base"
         ],
         [
           "ashen_skill_bridge:bow_damage",
-          1,
+          0.8,
           "addition"
         ]
       ],
       "ranger_4": [
         [
           "attributeslib:arrow_damage",
-          0.05,
+          0.025,
           "multiply_base"
         ],
         [
           "ashen_skill_bridge:bow_damage",
-          1,
+          0.8,
           "addition"
         ]
       ],
@@ -502,7 +502,7 @@ global.ashenCombat = {
       "ranger_9": [
         [
           "attributeslib:arrow_damage",
-          0.05,
+          0.025,
           "multiply_base"
         ],
         [
@@ -510,9 +510,129 @@ global.ashenCombat = {
           0.05,
           "multiply_base"
         ]
+      ],
+      "keystone_rogue": [
+        [
+          "minecraft:generic.attack_damage",
+          0.05,
+          "multiply_base"
+        ],
+        [
+          "attributeslib:crit_damage",
+          0.75,
+          "addition"
+        ]
+      ],
+      "rogue_5": [
+        [
+          "minecraft:generic.attack_damage",
+          0.3,
+          "addition"
+        ]
+      ],
+      "rogue_9": [
+        [
+          "attributeslib:crit_damage",
+          0.1,
+          "addition"
+        ],
+        [
+          "minecraft:generic.attack_damage",
+          0.3,
+          "addition"
+        ]
+      ],
+      "rogue_16": [
+        [
+          "minecraft:generic.movement_speed",
+          0.03,
+          "multiply_base"
+        ],
+        [
+          "epicfight:staminar",
+          2,
+          "addition"
+        ],
+        [
+          "minecraft:generic.attack_damage",
+          0.3,
+          "addition"
+        ]
+      ],
+      "rogue_18": [
+        [
+          "minecraft:generic.movement_speed",
+          0.02,
+          "multiply_base"
+        ],
+        [
+          "minecraft:generic.attack_damage",
+          0.3,
+          "addition"
+        ],
+        [
+          "epicfight:staminar",
+          2,
+          "addition"
+        ]
+      ],
+      "ranger_0": [
+        [
+          "attributeslib:arrow_damage",
+          0.025,
+          "multiply_base"
+        ]
+      ],
+      "ranger_15": [
+        [
+          "attributeslib:arrow_damage",
+          0.025,
+          "multiply_base"
+        ]
+      ],
+      "ranger_16": [
+        [
+          "minecraft:generic.movement_speed",
+          0.03,
+          "multiply_base"
+        ],
+        [
+          "epicfight:staminar",
+          2,
+          "addition"
+        ],
+        [
+          "attributeslib:arrow_damage",
+          0.025,
+          "multiply_base"
+        ]
+      ],
+      "ranger_18": [
+        [
+          "attributeslib:arrow_damage",
+          0.025,
+          "multiply_base"
+        ],
+        [
+          "minecraft:generic.max_health",
+          2,
+          "addition"
+        ],
+        [
+          "minecraft:generic.movement_speed",
+          0.02,
+          "multiply_base"
+        ]
+      ],
+      "ranger_7": [
+        [
+          "attributeslib:arrow_damage",
+          0.025,
+          "multiply_base"
+        ]
       ]
     },
-    "passive_revision": "ranged-mage-warrior-center3-2026-10-19-v3",
+    "passive_revision": "raw-class-damage-2026-10-22-v1",
     "passive_effects": {
       "warrior_20": "Gain 4 Fortify (absorption health). Consumed Fortify refills after 5 seconds without taking damage. Stacks with absorption from other sources.",
       "mage_21": "Gain 5% spell power per 10% total mana regeneration, including the base 100%. At 120% total regeneration, gain +60% spell power. Scales continuously with regeneration from your entire build.",

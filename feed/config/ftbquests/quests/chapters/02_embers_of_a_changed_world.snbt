@@ -449,7 +449,7 @@
           "type": "item",
           "item": "kubejs:memory_2",
           "count": 1,
-          "autoclaim": "enabled"
+          "auto": "enabled"
         }
       ],
       "dependencies": [
@@ -481,10 +481,10 @@
           "command": "function ashen:chapter/complete_2",
           "elevate_perms": true,
           "silent": true,
-          "autoclaim": "enabled",
           "team_reward": true,
           "title": "Chapter 2 completed",
-          "icon": "minecraft:book"
+          "icon": "minecraft:book",
+          "auto": "enabled"
         }
       ],
       "dependencies": [

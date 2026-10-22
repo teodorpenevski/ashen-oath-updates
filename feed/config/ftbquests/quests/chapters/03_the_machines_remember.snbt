@@ -227,10 +227,10 @@
           "command": "function ashen:quest/defeat_wither",
           "elevate_perms": true,
           "silent": true,
-          "autoclaim": "enabled",
           "team_reward": true,
           "title": "Boss victory recorded",
-          "icon": "minecraft:book"
+          "icon": "minecraft:book",
+          "auto": "enabled"
         }
       ],
       "dependencies": [
@@ -416,7 +416,7 @@
           "type": "item",
           "item": "kubejs:memory_3",
           "count": 1,
-          "autoclaim": "enabled"
+          "auto": "enabled"
         }
       ],
       "dependencies": [
@@ -448,10 +448,10 @@
           "command": "function ashen:chapter/complete_3",
           "elevate_perms": true,
           "silent": true,
-          "autoclaim": "enabled",
           "team_reward": true,
           "title": "Chapter 3 completed",
-          "icon": "minecraft:book"
+          "icon": "minecraft:book",
+          "auto": "enabled"
         }
       ],
       "dependencies": [

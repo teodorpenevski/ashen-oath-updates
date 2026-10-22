@@ -200,7 +200,7 @@ function ashenBuffState(player, now) {
   var blood=Math.min(10,d.getInt('ashen_blood_rage_stacks'));
   if (has('asc_berserker_big_2') && blood>0 && d.getLong('ashen_blood_rage_until')>now)
     add('blood_rage','Blood Rage','+'+(blood*10)+'% attack speed',blood,d.getLong('ashen_blood_rage_until')-now);
-  if (has('warrior_19') && nativeData.getBoolean('ashen_rage_active')) add('berserk','Berserk','+10% damage / +15% AS',0,0);
+  if (has('warrior_19') && nativeData.getBoolean('ashen_rage_active')) add('berserk','Berserk','+8% damage / +15% AS',0,0);
   var major=Java.loadClass('ashen.interop.AshenMajorPassives');
   var fortify=major.fortifyRemaining(player);
   if (has('warrior_20') && fortify>0) add('fortify','Fortify',(Math.round(fortify*10)/10)+' absorption health',0,0);
